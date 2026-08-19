@@ -1,0 +1,44 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./.venv/bin/python:*)",
+      "Bash(.venv/bin/python:*)",
+      "Bash(.venv/bin/pip:*)",
+      "Bash(curl:*)",
+      "Bash(wget:*)",
+      "Bash(unzip:*)",
+      "Bash(ls:*)",
+      "Bash(find:*)",
+      "Bash(cat:*)",
+      "Bash(head:*)",
+      "Bash(tail:*)",
+      "Bash(wc:*)",
+      "Bash(file:*)",
+      "Bash(grep:*)",
+      "Bash(rg:*)",
+      "Bash(mkdir:*)",
+      "Bash(cp:*)",
+      "Bash(iconv:*)",
+      "Bash(date:*)",
+      "Bash(du:*)",
+      "WebFetch(domain:data.busan.go.kr)",
+      "WebFetch(domain:busanbigdata.kr)",
+      "WebFetch(domain:www.busan.go.kr)",
+      "WebFetch(domain:www.data.go.kr)",
+      "WebFetch(domain:kosis.kr)",
+      "WebFetch(domain:sgis.kostat.go.kr)",
+      "WebFetch(domain:www.localdata.go.kr)",
+      "WebFetch(domain:sg.sbiz.or.kr)",
+      "WebFetch(domain:data.kma.go.kr)",
+      "WebFetch(domain:www.dxchallenge.co.kr)",
+      "WebFetch(domain:www.allforyoung.com)",
+      "WebFetch(domain:nsdi.go.kr)",
+      "WebFetch(domain:www.nsdi.go.kr)",
+      "WebSearch"
+    ],
+    "deny": [
+      "Bash(rm -rf:*)",
+      "Edit(./data/raw/**)"
+    ]
+  }
+}

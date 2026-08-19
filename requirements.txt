@@ -1,0 +1,16 @@
+# .venv/bin/python -m pip install -r requirements.txt
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+geopandas
+folium
+mapclassify
+scikit-learn
+openpyxl
+pyarrow
+requests
+beautifulsoup4
+lxml
+tabulate

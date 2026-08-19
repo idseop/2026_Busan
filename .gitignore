@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# 원본 데이터는 커밋하지 않는다 (용량·라이선스). 카탈로그의 URL로 재현한다.
+data/raw/
+data/interim/
+!data/**/.gitkeep
+
+# 머신별 개인 설정 (절대경로 등) — 공유하지 않는다
+.claude/settings.local.json
