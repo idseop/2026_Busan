@@ -11,6 +11,11 @@ tools: Bash, Read, Glob, Grep, WebSearch, WebFetch
 ## 반드시 지킬 것
 
 - **목록에서 제목을 찾은 것은 실사가 아니다.** 실제로 내려받아 행 수·기간·컬럼을 눈으로 확인해야 실사다.
+- ⛔ **부산 포털 카탈로그는 `curl`로 검색되지 않는다** (JS 렌더 · 검증 완료).
+  결과 0건을 "데이터 없음"으로 오판하지 마라. `busan-data` 스킬의 `1-2` 절을 읽고
+  브라우저 자동화 또는 사람 확인 경로로 우회하라. **정적 크롤링 실패는 판정 근거가 아니다.**
+- 셸에서 `curl`/`wc`가 "command not found" 면 PATH 유실이다:
+  `export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin:$PATH"`
 - 다운로드는 **`curl -o`(Bash)로만** `data/raw/<소스명>/` 아래에 원본 그대로 받는다.
   `data/raw/`는 파일 편집 도구 쓰기가 차단돼 있다(원본 불변 규칙). 받은 파일을 수정하지 않는다.
 - 한국 공공데이터는 CP949 인코딩이 흔하다. utf-8 실패 시 cp949, euc-kr을 순서대로 시도한다.
