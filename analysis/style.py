@@ -157,3 +157,56 @@ def save(fig, name: str, svg: bool = True) -> str:
     if svg:
         fig.savefig(os.path.join(FIG_DIR, f"{name}.svg"))
     return png
+
+
+def choropleth(gdf, column, *, ax=None, cmap=SEQ, k=5, scheme="quantiles",
+               label_col=None, legend_title=None, fmt="{:,.1f}", unit="",
+               figsize=(9, 7.5)):
+    """단계구분도 표준 그리기.
+
+    직접 gdf.plot(legend=True) 하면 세 가지가 깨진다 — 실측으로 확인한 문제들:
+      1) 범례가 지도 위를 덮어 지역 라벨을 가린다  → 범례를 축 바깥으로 뺀다
+      2) 범례가 "10.00, 21.10" 처럼 나온다        → "10.0 ~ 21.1" 구간 표기로 바꾼다
+      3) 어두운 폴리곤 위 검은 글씨가 안 읽힌다    → 밝기 계산해 흰/검정 자동 선택
+
+    label_col: 폴리곤 위에 표시할 지역명 컬럼 (없으면 라벨 생략)
+    반환: (ax, classifier)
+    """
+    import mapclassify
+    import numpy as np
+    from matplotlib import colormaps
+    from matplotlib.patches import Patch
+
+    if ax is None:
+        _, ax = plt.subplots(figsize=figsize)
+
+    vals = gdf[column].astype(float)
+    cls = mapclassify.classify(vals.values, scheme, k=k)
+    cmap_obj = colormaps[cmap] if isinstance(cmap, str) else cmap
+
+    gdf.plot(column=column, cmap=cmap, scheme=scheme, k=k, ax=ax,
+             edgecolor="white", linewidth=0.6, legend=False)
+
+    # ── 범례: 축 바깥 + 구간 표기 ──
+    edges = [vals.min()] + list(cls.bins)
+    handles = [
+        Patch(facecolor=cmap_obj((i + 0.5) / cls.k), edgecolor="white",
+              label=f"{fmt.format(edges[i])} ~ {fmt.format(edges[i+1])}{unit}")
+        for i in range(cls.k)
+    ]
+    ax.legend(handles=handles, title=legend_title or column,
+              loc="center left", bbox_to_anchor=(1.01, 0.5),
+              frameon=False, fontsize=9.5, title_fontsize=10.5,
+              labelspacing=0.7, handlelength=1.4)
+
+    # ── 지역 라벨: 배경 밝기에 따라 글자색 자동 ──
+    if label_col:
+        for _, r in gdf.iterrows():
+            rgba = cmap_obj((cls.yb[gdf.index.get_loc(_)] + 0.5) / cls.k)
+            lum = 0.299 * rgba[0] + 0.587 * rgba[1] + 0.114 * rgba[2]
+            c = r.geometry.representative_point()
+            ax.annotate(str(r[label_col]), (c.x, c.y), ha="center", va="center",
+                        fontsize=9, color="white" if lum < 0.55 else C["text"])
+
+    ax.set_axis_off()
+    return ax, cls

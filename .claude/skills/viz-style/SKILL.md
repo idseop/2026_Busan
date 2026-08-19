@@ -46,20 +46,33 @@ save(fig, "01_주제_내용")     # → figures/01_주제_내용.png + .svg
 
 ## 지도 (단계구분도)
 
+**`gdf.plot(legend=True)`를 직접 쓰지 마라.** 실측으로 확인한 문제 3개가 그대로 나온다:
+범례가 지도를 덮어 지역 라벨을 가리고, 범례가 `10.00, 21.10` 처럼 구간이 아닌 형태로 찍히고,
+어두운 폴리곤 위 검은 글씨가 안 읽힌다. `style.choropleth()`가 셋 다 처리한다.
+
 ```python
 import geopandas as gpd
+import sys; sys.path.insert(0, "analysis")
+from style import setup, save, source, choropleth
+setup()
+
 gdf = gpd.read_file("data/raw/경계/부산_행정동.shp", encoding="cp949")
-gdf = gdf.to_crs(4326)                       # 좌표계 확인 필수
-gdf = gdf.merge(df, on="행정동코드")          # 코드로 조인. 이름으로 조인하지 말 것
-ax = gdf.plot(column="값", cmap=SEQ, scheme="quantiles", k=5,
-              legend=True, edgecolor="white", linewidth=0.4)
-ax.set_axis_off()
+gdf = gdf.to_crs(4326)                      # 좌표계 확인 필수
+gdf = gdf.merge(df, on="행정동코드")         # 코드로 조인. 이름으로 조인하지 말 것
+print("결측 지역:", gdf["값"].isna().sum())  # ★ 조인 후 반드시 확인
+
+ax, cls = choropleth(gdf, "값", label_col="행정동명",
+                     legend_title="고령인구 비율", unit="%", k=5)
+ax.set_title("영도·중구, 고령인구 비율 30% 넘어")   # 제목은 결론을 말한다
+source(ax, "KOSIS, 2025, https://kosis.kr/...")
+save(ax.figure, "03_구별_고령인구비율")
 ```
 
 - 조인 키는 **행정동/법정동 코드**. 동 이름은 중복·개편으로 반드시 깨진다.
 - 조인 후 **결측 지역 수를 반드시 출력해 확인**한다. 조용히 빈 지도가 나오는 게 최악이다.
 - 원 데이터가 절대량이면 **인구·면적으로 정규화**한다. 인구 많은 구가 다 빨간 지도는 정보가 없다.
-- 계급 구분은 `quantiles` 기본, 분포가 치우치면 `fisher_jenks`.
+- 계급 구분은 `scheme="quantiles"` 기본, 분포가 치우치면 `"fisher_jenks"`.
+- 좌표계: EPSG:5179(중부원점) ↔ EPSG:4326(WGS84). `gdf.to_crs(4326)`
 
 ## 매 차트 자체 점검
 
