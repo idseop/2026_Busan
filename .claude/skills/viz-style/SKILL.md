@@ -11,7 +11,8 @@ description: 이 프로젝트의 차트·지도·시각화 제작 규약. 그래
 ## 필수 절차
 
 ```python
-import sys; sys.path.insert(0, "analysis")
+import sys, pathlib
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1]))   # analysis/ 를 잡는다
 from style import setup, save, grid_x_only, grid_y_only, source, C, CAT, SEQ, DIV
 setup()                       # ← 반드시 첫 줄. 한글 폰트 + 전역 스타일
 ...
@@ -21,6 +22,8 @@ save(fig, "01_주제_내용")     # → figures/01_주제_내용.png + .svg
 
 - 발표 슬라이드용으로 키우려면 `setup(scale=1.3)`
 - 실행은 항상 `.venv/bin/python`
+- **`sys.path.insert(0, "analysis")` 금지.** 하위 폴더 스크립트에서 깨진다.
+  위처럼 `__file__` 기준으로 잡아야 어디서 실행하든 동작한다 (`analysis/README.md` 참조)
 - 파일명은 `NN_주제_내용` 순번 접두사. 기획서·슬라이드에서 순서대로 참조한다.
 
 ## 차트 선택
@@ -52,7 +55,8 @@ save(fig, "01_주제_내용")     # → figures/01_주제_내용.png + .svg
 
 ```python
 import geopandas as gpd
-import sys; sys.path.insert(0, "analysis")
+import sys, pathlib
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1]))
 from style import setup, save, source, choropleth
 setup()
 
