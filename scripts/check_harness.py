@@ -128,7 +128,11 @@ def check_catalog_matches_data():
     files = [p for p in (ROOT / "data/raw").rglob("*") if p.is_file() and p.name != ".gitkeep"]
     if not files:
         return
-    cat = (ROOT / "docs/20-데이터카탈로그/INDEX.md").read_text(encoding="utf-8")
+    idx = ROOT / "docs/20-데이터카탈로그/INDEX.md"
+    if not idx.exists():
+        FAIL.append(f"데이터 {len(files)}건을 받았는데 카탈로그가 없다 (하드 룰 3)")
+        return
+    cat = idx.read_text(encoding="utf-8")
     for p in files:
         if p.stem not in cat and p.name not in cat:
             WARN.append(f"카탈로그 미등재 데이터: {p.relative_to(ROOT)} (하드 룰 3)")
