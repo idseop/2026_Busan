@@ -29,8 +29,12 @@ web/jaehong-leaflet-prototype
 harness/jaehong-add-datacheck-rule
 ```
 
-> `main` 은 **직접 push 가 차단돼 있다** (하드 룰 12). 시도하면 GitHub 이 거부한다.
-> 우회하지 말고 PR 을 쓴다.
+> `main` 은 **직접 push 가 두 겹으로 차단돼 있다** (하드 룰 12).
+> - **로컬 pre-push 훅** (`.githooks/pre-push`) — push 명령 자체가 거부된다.
+>   단 클론 후 `git config core.hooksPath .githooks` 를 한 번 쳐야 걸린다
+> - **GitHub 브랜치 보호** — 훅을 활성화하지 않았어도 원격이 거부한다
+>
+> 우회하지 말고 PR 을 쓴다. 훅이 막을 때 다음에 뭘 해야 하는지 메시지로 알려준다.
 
 ## 커밋 메시지 규칙
 
