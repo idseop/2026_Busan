@@ -118,6 +118,9 @@ def check_harness_files():
                 json.load(open(f, encoding="utf-8"))
             except Exception as e:
                 FAIL.append(f"JSON 오류 {f}: {e}")
+    for must in ["CONTRIBUTING.md", ".github/pull_request_template.md"]:
+        if not pathlib.Path(must).exists():
+            FAIL.append(f"{must} 가 없다 — 협업 규칙 안내가 끊긴다")
     if pathlib.Path(".claude/settings.json").exists():
         if "/Users/" in pathlib.Path(".claude/settings.json").read_text(encoding="utf-8"):
             FAIL.append("settings.json 에 홈 경로 노출 (settings.local.json 으로 옮길 것)")
