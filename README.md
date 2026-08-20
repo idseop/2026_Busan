@@ -36,6 +36,16 @@ claude
 | `/datacheck <아이디어>` | 데이터가 실재하는지 실사 → GO/NO 판정 |
 | `/review [파일]` | 심사위원 3인 관점으로 기획서 비평 |
 
+## 하네스 자가 점검
+
+커밋·PR 전에 돌린다. 구조가 깨졌는지 사람이 눈으로 찾지 않아도 된다.
+
+```bash
+.venv/bin/python scripts/check_harness.py
+```
+
+클론 재현성 · import 규약 · 꾸며낸 그림 · 출처 없는 수치 · 경로 참조 · 카탈로그 정합 검사.
+
 ## 규칙 3줄 요약
 
 1. Python은 `.venv/bin/python`으로 실행 (셸 상태가 유지되지 않음)
