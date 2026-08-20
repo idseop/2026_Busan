@@ -1,0 +1,21 @@
+#!/bin/sh
+# main 직접 push 차단 (CLAUDE.md 하드 룰 12)
+while read -r _local_ref _local_sha remote_ref _remote_sha; do
+  case "$remote_ref" in
+    refs/heads/main)
+      echo "" >&2
+      echo "  ⛔ main 직접 push 차단됨 (CLAUDE.md 하드 룰 12)" >&2
+      echo "" >&2
+      echo "     main 은 되돌아갈 수 있는 백업이다." >&2
+      echo "     작업은 develop 에서 하고 Pull Request 로만 main 에 넣는다." >&2
+      echo "" >&2
+      echo "     지금 할 일:" >&2
+      echo "       git switch develop" >&2
+      echo "       git push origin develop" >&2
+      echo "       gh pr create --base main --head develop" >&2
+      echo "" >&2
+      exit 1
+      ;;
+  esac
+done
+exit 0

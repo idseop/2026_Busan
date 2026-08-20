@@ -166,9 +166,16 @@ git push --force-with-lease origin <내브랜치>
 python3 -m venv .venv
 .venv/bin/python -m pip install -r requirements.txt
 
-# 2. 작업 브랜치
+# 2. git 훅 활성화 (최초 1회) — main 직접 push 를 로컬에서 막아준다
+git config core.hooksPath .githooks
+
+# 3. 작업 브랜치
 git switch develop
 ```
+
+> `.git/hooks/` 는 클론에 따라오지 않는다. 그래서 훅을 버전 관리되는 `.githooks/` 에 두고
+> `core.hooksPath` 로 연결한다. **클론 후 위 명령을 한 번 쳐야 로컬 차단이 걸린다.**
+> 안 쳐도 GitHub 쪽 브랜치 보호는 그대로 동작한다.
 
 ### ⚠️ Python 실행 규칙
 ```bash

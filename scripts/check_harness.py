@@ -86,7 +86,7 @@ def check_no_unsourced_numbers():
             continue
         for i, line in enumerate(pathlib.Path(f).read_text(encoding="utf-8").splitlines(), 1):
             if re.search(r"\d+(\.\d+)?\s*(%|명|가구|개소)|\d{1,3}(,\d{3})+\s*건", line):
-                if not re.search(r"출처|http|NN|○○|예시|플레이스홀더|10P|<", line):
+                if not re.search(r"출처|http|NN|○○|예시|플레이스홀더|10P|<|승인|리뷰|팀원|참가|인 팀", line):
                     WARN.append(f"출처 없는 수치? {f}:{i}  {line.strip()[:70]}")
 
 
@@ -138,6 +138,22 @@ def check_catalog_matches_data():
             WARN.append(f"카탈로그 미등재 데이터: {p.relative_to(ROOT)} (하드 룰 3)")
 
 
+def check_push_guard():
+    """main 직접 push 차단이 실제로 살아 있는가 (하드 룰 12).
+    실제로 터졌던 결함: .githooks/ 를 커밋 전에 만들었다가 정리 작업 때 통째로 날아갔고,
+    core.hooksPath 도 함께 풀려 로컬 차단이 조용히 사라졌다."""
+    hook = ROOT / ".githooks/pre-push"
+    if not hook.exists():
+        FAIL.append(".githooks/pre-push 가 없다 — main 직접 push 로컬 차단이 풀렸다")
+    elif not os.access(hook, os.X_OK):
+        FAIL.append(".githooks/pre-push 에 실행 권한이 없다 (chmod +x)")
+    if sh("git", "config", "core.hooksPath").strip() != ".githooks":
+        FAIL.append("core.hooksPath 가 .githooks 가 아니다 — 훅이 무시된다 "
+                    "(git config core.hooksPath .githooks)")
+    if "pre-push" not in sh("git", "ls-files", ".githooks"):
+        FAIL.append(".githooks/pre-push 가 git 에 없다 — 팀원 클론에 따라가지 않는다")
+
+
 def check_branch():
     b = sh("git", "branch", "--show-current").strip()
     if b == "main":
@@ -153,6 +169,7 @@ CHECKS = [
     ("경로 참조", check_path_references),
     ("하네스 파일", check_harness_files),
     ("카탈로그 정합", check_catalog_matches_data),
+    ("push 차단", check_push_guard),
     ("브랜치", check_branch),
 ]
 

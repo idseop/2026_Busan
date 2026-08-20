@@ -10,7 +10,10 @@
 python3 -m venv .venv
 .venv/bin/python -m pip install -r requirements.txt
 
-# 2. 작업 브랜치로 이동  (main 은 백업이라 직접 push 금지)
+# 2. git 훅 활성화 (최초 1회) — main 직접 push 차단
+git config core.hooksPath .githooks
+
+# 3. 작업 브랜치로 이동  (main 은 백업이라 직접 push 금지)
 git switch develop
 
 # 3. Claude Code 실행 — CLAUDE.md가 자동 로드된다
