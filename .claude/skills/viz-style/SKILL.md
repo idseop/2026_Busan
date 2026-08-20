@@ -11,7 +11,8 @@ description: 이 프로젝트의 차트·지도·시각화 제작 규약. 그래
 ## 필수 절차
 
 ```python
-import sys; sys.path.insert(0, "analysis")
+import sys, pathlib
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1]))   # analysis/ 를 잡는다
 from style import setup, save, grid_x_only, grid_y_only, source, C, CAT, SEQ, DIV
 setup()                       # ← 반드시 첫 줄. 한글 폰트 + 전역 스타일
 ...
@@ -21,6 +22,8 @@ save(fig, "01_주제_내용")     # → figures/01_주제_내용.png + .svg
 
 - 발표 슬라이드용으로 키우려면 `setup(scale=1.3)`
 - 실행은 항상 `.venv/bin/python`
+- **`sys.path.insert(0, "analysis")` 금지.** 하위 폴더 스크립트에서 깨진다.
+  위처럼 `__file__` 기준으로 잡아야 어디서 실행하든 동작한다 (`analysis/README.md` 참조)
 - 파일명은 `NN_주제_내용` 순번 접두사. 기획서·슬라이드에서 순서대로 참조한다.
 
 ## 차트 선택
@@ -52,7 +55,8 @@ save(fig, "01_주제_내용")     # → figures/01_주제_내용.png + .svg
 
 ```python
 import geopandas as gpd
-import sys; sys.path.insert(0, "analysis")
+import sys, pathlib
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1]))
 from style import setup, save, source, choropleth
 setup()
 
@@ -63,7 +67,8 @@ print("결측 지역:", gdf["값"].isna().sum())  # ★ 조인 후 반드시 확
 
 ax, cls = choropleth(gdf, "값", label_col="행정동명",
                      legend_title="고령인구 비율", unit="%", k=5)
-ax.set_title("영도·중구, 고령인구 비율 30% 넘어")   # 제목은 결론을 말한다
+ax.set_title("<○○구·△△구, 고령인구 비율 NN% 상회>")  # 제목은 결론을 말한다.
+                                                     # ← 실제 분석값으로 채울 것. 예시 숫자를 그대로 쓰지 마라
 source(ax, "KOSIS, 2025, https://kosis.kr/...")
 save(ax.figure, "03_구별_고령인구비율")
 ```
@@ -76,7 +81,8 @@ save(ax.figure, "03_구별_고령인구비율")
 
 ## 매 차트 자체 점검
 
-1. 제목이 **결론**을 말하는가? ("구별 인구" ✗ → "영도·중구, 5년새 인구 10% 이상 감소" ✓)
+1. 제목이 **결론**을 말하는가? ("구별 인구" ✗ → "<○○구, 5년새 인구 NN% 감소>" ✓)
+   **단 숫자는 실제 분석 결과여야 한다.** 그럴듯한 예시 숫자를 문서에 남기지 마라 (하드 룰 5)
 2. 축 단위와 출처가 있는가?
 3. 눈금 라벨이 겹치거나 잘리지 않는가? (구 이름은 가로 막대가 안전)
 4. 강조 대상이 한눈에 보이는가?

@@ -5,8 +5,12 @@ __pycache__/
 .DS_Store
 
 # 원본 데이터는 커밋하지 않는다 (용량·라이선스). 카탈로그의 URL로 재현한다.
-data/raw/
-data/interim/
+# 단 폴더 구조는 남긴다 — 디렉토리를 먼저 되살려야 .gitkeep 예외가 먹는다.
+# (git 은 부모 디렉토리가 제외되면 그 안의 파일을 다시 포함시킬 수 없다)
+data/raw/**
+data/interim/**
+!data/raw/**/
+!data/interim/**/
 !data/**/.gitkeep
 
 # 머신별 개인 설정 (절대경로 등) — 공유하지 않는다

@@ -14,3 +14,9 @@ requests
 beautifulsoup4
 lxml
 tabulate
+
+# 탐색용 노트북 (notebooks/)
+jupyterlab
+ipykernel
+nbformat
+nbconvert
