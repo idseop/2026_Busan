@@ -10,7 +10,10 @@
 python3 -m venv .venv
 .venv/bin/python -m pip install -r requirements.txt
 
-# 2. Claude Code 실행 — CLAUDE.md가 자동 로드된다
+# 2. 작업 브랜치로 이동  (main 은 백업이라 직접 push 금지)
+git switch develop
+
+# 3. Claude Code 실행 — CLAUDE.md가 자동 로드된다
 claude
 ```
 
@@ -30,7 +33,6 @@ claude
 | 명령 | 하는 일 |
 |---|---|
 | `/standup` | 지금 어디까지 왔고 D-day 며칠이고 뭘 해야 하는지 |
-| `/idea [영역]` | 아이디어 생성·채점 → 숏리스트 갱신 |
 | `/datacheck <아이디어>` | 데이터가 실재하는지 실사 → GO/NO 판정 |
 | `/review [파일]` | 심사위원 3인 관점으로 기획서 비평 |
 
@@ -39,3 +41,20 @@ claude
 1. Python은 `.venv/bin/python`으로 실행 (셸 상태가 유지되지 않음)
 2. 데이터 실사(`/datacheck`) 없이 아이디어를 확정하지 않는다
 3. 모든 수치에 `[출처: 기관, 연도, URL]`
+
+## 브랜치 전략
+
+- **`main`** — 백업. **직접 push 금지** (GitHub 브랜치 보호로 차단됨)
+- **`develop`** — 기본 작업 브랜치. 여기서 개발한다
+
+main 반영은 PR 로만:
+```bash
+gh pr create --base main --head develop
+gh pr merge <번호> --merge --delete-branch=false   # squash 아님 (develop 유지)
+```
+
+## 지금 상태
+
+- 주제: 의료·폭염·침수 취약지역 우선순위 시각화 (**데이터 실사 전 = 미확정**)
+- 제출물: **보고서 10P 이하** + 웹 산출물. 서식은 `refs/2026-공모-작성서식.hwpx`
+- 다음 할 일: `docs/01-작전계획.md` 참조
