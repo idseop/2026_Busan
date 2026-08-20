@@ -51,7 +51,14 @@ RAW = ROOT / "data/raw"
 
 ## 커밋 규칙
 
-- **출력을 남긴 채 커밋한다.** 팀원이 열지 않고도 결과를 볼 수 있어야 한다
-- 단 **지도·대용량 그림이 들어간 노트북은 용량을 확인**하고, 크면 출력을 지운다
-  (`--ClearOutputPreprocessor.enabled=True`)
+- **출력(output)을 clear 하고 커밋한다.**
+  노트북 출력은 거대한 JSON 덩어리라 충돌의 주범이고, 지도·이미지가 들어가면 용량도 커진다.
+  ```bash
+  .venv/bin/python -m nbconvert --clear-output --inplace notebooks/03_폭염/x.ipynb
+  ```
+- 결과를 공유해야 하면 **노트북 출력이 아니라 `figures/` 의 그림**으로 공유한다.
+  최종 산출물은 `analysis/` 스크립트가 만든다 (하드 룰 4)
+- **파일명에 본인 이름을 넣는다** — `01_폭염일수_재홍.ipynb` (동시 수정 충돌 방지)
 - `.ipynb_checkpoints/` 는 git 제외돼 있다
+
+자세한 협업 규칙은 `CONTRIBUTING.md` 참조.
