@@ -22,9 +22,9 @@ main                   ← 최종 제출용 (직접 push 금지 · GitHub 브랜
 <타입>/<이름>-<간단한설명>
 
 예시:
-data/jaehong-sgis-boundary-check
-feat/jaehong-heat-vulnerability-index
-viz/jaehong-choropleth-priority-map
+data/jaehong-foreign-consumption-check
+feat/jaehong-hhi-concentration
+viz/jaehong-choropleth-concentration
 web/jaehong-leaflet-prototype
 harness/jaehong-add-datacheck-rule
 ```
@@ -48,9 +48,9 @@ harness/jaehong-add-datacheck-rule
 ### 타입
 | 타입 | 설명 | 예시 |
 |------|------|------|
-| `data` | 데이터 수집·실사·전처리 | `data(03_폭염): 기상청 폭염일수 실사 및 카탈로그 등재` |
-| `feat` | 새 분석 추가 | `feat(05_종합): 취약성 지수 합성 로직 구현` |
-| `viz` | 시각화 추가·수정 | `viz(05_종합): 우선순위 단계구분도 추가` |
+| `data` | 데이터 수집·실사·전처리 | `data(02_소비): 카드 소비 데이터 실사 및 카탈로그 등재` |
+| `feat` | 새 분석 추가 | `feat(03_다음동네): 유사도 기반 추천 로직 구현` |
+| `viz` | 시각화 추가·수정 | `viz(01_쏠림진단): 구별 집중도 단계구분도 추가` |
 | `web` | 웹 산출물 | `web(data): 행정동 GeoJSON 사전계산 추가` |
 | `docs` | 문서·보고서 | `docs(기획서): 분석방법 절 초안 작성` |
 | `fix` | 버그 수정 | `fix(00_공통): 행정동 코드 조인 누락 수정` |
@@ -58,7 +58,7 @@ harness/jaehong-add-datacheck-rule
 | `harness` | 하네스 변경 | `harness(check): 카탈로그 정합 검사 추가` |
 | `chore` | 환경·기타 | `chore(deps): geopandas 추가` |
 
-**범위(scope)는 폴더 번호를 쓴다** — `00_공통` `02_의료` `03_폭염` `04_침수` `05_종합`.
+**범위(scope)는 폴더 번호를 쓴다** — `00_공통` `01_쏠림진단` `02_동네프로파일` `03_다음동네` `04_수용력` `05_시뮬레이션`.
 
 ### ⚠️ 커밋 전 체크리스트
 - [ ] **`.venv/bin/python scripts/check_harness.py` 가 통과하는가** ← 이것부터
@@ -110,7 +110,7 @@ gh pr merge <번호> --merge  --delete-branch=false    # develop → main
    ```
 
 2. **파일 담당 구역을 나눈다** — 폴더 번호로 나누면 겹치지 않는다
-   - `02_의료` `03_폭염` `04_침수` 를 사람별로 배정
+   - 분석 단계(`01_쏠림진단` `02_동네프로파일` `03_다음동네` …)를 사람별로 배정
    - **공용 파일은 수정 전 알린다**: `analysis/style.py`, `CLAUDE.md`,
      `.claude/**`, `scripts/check_harness.py`
 
@@ -143,7 +143,7 @@ git push --force-with-lease origin <내브랜치>
    ```
    결과를 공유해야 하면 **노트북 출력이 아니라 `figures/` 의 그림**으로 공유한다.
 
-2. **파일명에 본인 이름을 넣는다** — `notebooks/03_폭염/01_폭염일수_재홍.ipynb`
+2. **파일명에 본인 이름을 넣는다** — `notebooks/01_쏠림진단/01_HHI산출_재홍.ipynb`
 
 3. **하나의 노트북을 두 명이 동시에 고치지 않는다**
 
