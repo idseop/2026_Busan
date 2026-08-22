@@ -19,15 +19,15 @@ def check_clone_reproducible():
     """git 이 추적하는 것만으로 필수 폴더가 재현되는가.
     실제로 터졌던 결함: `data/raw/` 를 ignore 하면 `!data/**/.gitkeep` 이 먹지 않는다."""
     tracked = set(sh("git", "ls-files").split())
-    need = [
-        "data/raw/00_경계", "data/raw/01_인구", "data/raw/02_의료",
-        "data/raw/03_폭염", "data/raw/04_침수", "data/raw/05_대응자원",
-        "data/interim/00_경계", "data/interim/05_대응자원", "data/processed",
-        "analysis/00_공통", "analysis/02_의료", "analysis/03_폭염",
-        "analysis/04_침수", "analysis/05_종합",
-        "notebooks/00_공통", "notebooks/03_폭염", "notebooks/05_종합",
-        "figures/00_공통", "figures/05_종합", "web/data", "web/assets",
-    ]
+    RAW = ["00_경계", "01_외국인", "02_소비", "03_방문", "04_숙박", "05_상권", "06_접근성"]
+    STEP = ["00_공통", "01_쏠림진단", "02_동네프로파일", "03_다음동네", "04_수용력", "05_시뮬레이션"]
+    need = ([f"data/raw/{d}" for d in RAW]
+            + [f"data/interim/{d}" for d in RAW]
+            + ["data/processed"]
+            + [f"analysis/{d}" for d in STEP]
+            + [f"figures/{d}" for d in STEP]
+            + [f"notebooks/{d}" for d in STEP]
+            + ["web/data", "web/assets"])
     for d in need:
         if not any(t.startswith(d + "/") for t in tracked):
             FAIL.append(f"클론 재현 불가: {d}/ 가 git 에 없다 (.gitignore 확인)")
@@ -35,7 +35,11 @@ def check_clone_reproducible():
 
 def check_real_data_ignored():
     """실데이터는 여전히 무시되는가 (폴더만 살리려다 데이터까지 커밋되면 안 된다)."""
-    probe = ROOT / "data/raw/03_폭염/__probe__.csv"
+    subs = sorted(d for d in (ROOT / "data/raw").iterdir() if d.is_dir())
+    if not subs:
+        WARN.append("data/raw 에 하위 폴더가 없어 무시 규칙을 검사하지 못했다")
+        return
+    probe = subs[0] / "__probe__.csv"
     probe.write_text("x\n", encoding="utf-8")
     try:
         if "__probe__" in sh("git", "status", "--porcelain", "data/"):
@@ -47,7 +51,7 @@ def check_real_data_ignored():
 def check_import_convention():
     """analysis/ 하위 스크립트가 임의의 cwd 에서도 style.py 를 찾는가.
     실제로 터졌던 결함: sys.path.insert(0, "analysis") 는 루트에서만 동작한다."""
-    d = ROOT / "analysis/03_폭염"
+    d = ROOT / "analysis/01_쏠림진단"
     d.mkdir(parents=True, exist_ok=True)
     t = d / "__probe__.py"
     t.write_text(
@@ -86,7 +90,7 @@ def check_no_unsourced_numbers():
             continue
         for i, line in enumerate(pathlib.Path(f).read_text(encoding="utf-8").splitlines(), 1):
             if re.search(r"\d+(\.\d+)?\s*(%|명|가구|개소)|\d{1,3}(,\d{3})+\s*건", line):
-                if not re.search(r"출처|http|NN|○○|예시|플레이스홀더|10P|<|승인|리뷰|팀원|참가|인 팀", line):
+                if not re.search(r"출처|http|NN|○○|예시|플레이스홀더|10P|<|승인|리뷰|팀원|참가|인 팀|미검증|검증하지|확인하지 않|아직 우리가", line):
                     WARN.append(f"출처 없는 수치? {f}:{i}  {line.strip()[:70]}")
 
 

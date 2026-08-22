@@ -14,7 +14,7 @@
 노트북 출력에만 있는 그림은 산출물이 아니다 — 재현이 안 되기 때문이다.
 
 번호는 `analysis/`·`data/`·`figures/` 와 같은 체계를 쓴다
-(`00_공통` `02_의료` `03_폭염` `04_침수` `05_종합`).
+(`00_공통` `01_쏠림진단` `02_동네프로파일` `03_다음동네` `04_수용력` `05_시뮬레이션`).
 
 ## 실행
 
@@ -54,11 +54,11 @@ RAW = ROOT / "data/raw"
 - **출력(output)을 clear 하고 커밋한다.**
   노트북 출력은 거대한 JSON 덩어리라 충돌의 주범이고, 지도·이미지가 들어가면 용량도 커진다.
   ```bash
-  .venv/bin/python -m nbconvert --clear-output --inplace notebooks/03_폭염/x.ipynb
+  .venv/bin/python -m nbconvert --clear-output --inplace notebooks/01_쏠림진단/x.ipynb
   ```
 - 결과를 공유해야 하면 **노트북 출력이 아니라 `figures/` 의 그림**으로 공유한다.
   최종 산출물은 `analysis/` 스크립트가 만든다 (하드 룰 4)
-- **파일명에 본인 이름을 넣는다** — `01_폭염일수_재홍.ipynb` (동시 수정 충돌 방지)
+- **파일명에 본인 이름을 넣는다** — `01_HHI산출_재홍.ipynb` (동시 수정 충돌 방지)
 - `.ipynb_checkpoints/` 는 git 제외돼 있다
 
 자세한 협업 규칙은 `CONTRIBUTING.md` 참조.
