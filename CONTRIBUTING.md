@@ -29,7 +29,7 @@ web/jaehong-leaflet-prototype
 harness/jaehong-add-datacheck-rule
 ```
 
-> `main` 은 **직접 push 가 두 겹으로 차단돼 있다** (하드 룰 12).
+> `main` 은 **직접 push 가 두 겹으로 차단돼 있다** (CLAUDE.md 실행 기준).
 > - **로컬 pre-push 훅** (`.githooks/pre-push`) — push 명령 자체가 거부된다.
 >   단 클론 후 `git config core.hooksPath .githooks` 를 한 번 쳐야 걸린다
 > - **GitHub 브랜치 보호** — 훅을 활성화하지 않았어도 원격이 거부한다
@@ -48,9 +48,9 @@ harness/jaehong-add-datacheck-rule
 ### 타입
 | 타입 | 설명 | 예시 |
 |------|------|------|
-| `data` | 데이터 수집·실사·전처리 | `data(02_소비): 카드 소비 데이터 실사 및 카탈로그 등재` |
-| `feat` | 새 분석 추가 | `feat(03_다음동네): 유사도 기반 추천 로직 구현` |
-| `viz` | 시각화 추가·수정 | `viz(01_쏠림진단): 구별 집중도 단계구분도 추가` |
+| `data` | 데이터 수집·실사·전처리 | `data(01_신고): 신고 데이터 실사 및 카탈로그 등재` |
+| `feat` | 새 분석 추가 | `feat(03_상권연계): 상권별 신고 특성 비교 구현` |
+| `viz` | 시각화 추가·수정 | `viz(01_신고시공간): 동별 신고 단계구분도 추가` |
 | `web` | 웹 산출물 | `web(data): 행정동 GeoJSON 사전계산 추가` |
 | `docs` | 문서·보고서 | `docs(기획서): 분석방법 절 초안 작성` |
 | `fix` | 버그 수정 | `fix(00_공통): 행정동 코드 조인 누락 수정` |
@@ -58,7 +58,7 @@ harness/jaehong-add-datacheck-rule
 | `harness` | 하네스 변경 | `harness(check): 카탈로그 정합 검사 추가` |
 | `chore` | 환경·기타 | `chore(deps): geopandas 추가` |
 
-**범위(scope)는 폴더 번호를 쓴다** — `00_공통` `01_쏠림진단` `02_동네프로파일` `03_다음동네` `04_수용력` `05_시뮬레이션`.
+**범위(scope)는 폴더 번호를 쓴다** — `00_공통` `01_신고시공간` `02_연령연계` `03_상권연계` `04_정책제안` `05_검증`.
 
 ### ⚠️ 커밋 전 체크리스트
 - [ ] **`.venv/bin/python scripts/check_harness.py` 가 통과하는가** ← 이것부터
@@ -66,7 +66,7 @@ harness/jaehong-add-datacheck-rule
 - [ ] **노트북 출력을 clear** 했는지 (아래 "노트북 규칙" 참조)
 - [ ] API 키·개인정보가 포함되지 않았는지
 - [ ] 코드가 실제로 실행되는지 (돌려보고 커밋한다)
-- [ ] **수치에 출처가 붙어 있는지** (하드 룰 5). 꾸며낸 값이 없는지 (하드 룰 6)
+- [ ] **수치에 출처가 붙어 있는지** (CLAUDE.md 실행 기준). 꾸며낸 값이 없는지 (CLAUDE.md 실행 기준)
 
 ## Pull Request 규칙
 
@@ -110,7 +110,7 @@ gh pr merge <번호> --merge  --delete-branch=false    # develop → main
    ```
 
 2. **파일 담당 구역을 나눈다** — 폴더 번호로 나누면 겹치지 않는다
-   - 분석 단계(`01_쏠림진단` `02_동네프로파일` `03_다음동네` …)를 사람별로 배정
+   - 분석 단계(`01_신고시공간` `02_연령연계` `03_상권연계` …)를 사람별로 배정
    - **공용 파일은 수정 전 알린다**: `analysis/style.py`, `CLAUDE.md`,
      `.claude/**`, `scripts/check_harness.py`
 
@@ -134,7 +134,7 @@ git push --force-with-lease origin <내브랜치>
 
 ## 노트북 규칙
 
-`notebooks/` 는 **탐색용**이고, 최종 산출물은 `analysis/` 스크립트가 만든다 (하드 룰 4).
+`notebooks/` 는 **탐색용**이고, 최종 산출물은 `analysis/` 스크립트가 만든다 (CLAUDE.md 실행 기준 참조).
 
 1. **출력(output)을 clear 하고 커밋한다.**
    노트북 출력은 거대한 JSON 덩어리라 충돌의 주범이고, 지도·이미지가 들어가면 용량도 커진다.
@@ -143,7 +143,7 @@ git push --force-with-lease origin <내브랜치>
    ```
    결과를 공유해야 하면 **노트북 출력이 아니라 `figures/` 의 그림**으로 공유한다.
 
-2. **파일명에 본인 이름을 넣는다** — `notebooks/01_쏠림진단/01_HHI산출_재홍.ipynb`
+2. **파일명에 본인 이름을 넣는다** — `notebooks/01_신고시공간/01_동별시간집계_재홍.ipynb`
 
 3. **하나의 노트북을 두 명이 동시에 고치지 않는다**
 
@@ -155,9 +155,9 @@ git push --force-with-lease origin <내브랜치>
 
 2. **데이터는 파일이 아니라 `docs/20-데이터카탈로그/INDEX.md` 로 공유한다.**
    출처 URL·기간·입도·실사일이 적혀 있으므로 누구나 같은 데이터를 다시 받을 수 있다.
-   **받은 데이터는 반드시 등재한다** (하드 룰 3). 등재 안 된 데이터로 만든 분석은 무효다.
+   **받은 데이터는 반드시 등재한다** (CLAUDE.md 실행 기준). 등재 안 된 데이터로 만든 분석은 무효다.
 
-3. **`data/raw/` 안의 파일은 수정하지 않는다** (하드 룰 2).
+3. **`data/raw/` 안의 파일은 수정하지 않는다** (CLAUDE.md 실행 기준).
    가공은 `data/interim/` → `data/processed/` 로만 한다.
 
 4. 용량이 크거나 재배포가 안 되는 데이터는 팀 공유 드라이브에 두고,
@@ -183,12 +183,12 @@ git switch develop
 
 ### ⚠️ Python 실행 규칙
 ```bash
-.venv/bin/python analysis/03_폭염/01_폭염일수.py     # ✅
+.venv/bin/python analysis/01_신고시공간/01_동별시간집계.py     # ✅
 python analysis/...                                 # ❌ 시스템 파이썬이 잡힌다
 ```
 
 사람이 터미널에서 `source .venv/bin/activate` 를 쓰는 건 무방하다.
-다만 **Claude Code 로 작업할 때는 반드시 절대·상대 경로로 호출한다** (하드 룰 1) —
+다만 **Claude Code 로 작업할 때는 반드시 절대·상대 경로로 호출한다** (CLAUDE.md 실행 기준 참조) —
 Bash 도구는 셸 상태를 유지하지 않아 `activate` 가 다음 명령에서 사라진다.
 
 ### 패키지 추가
@@ -209,3 +209,6 @@ Bash 도구는 셸 상태를 유지하지 않아 `activate` 가 다음 명령에
 클론 재현성 · import 규약 · 꾸며낸 그림 · 출처 없는 수치 · 경로 참조 ·
 하네스 파일 무결성 · 카탈로그 정합 · 브랜치를 검사한다.
 **결함(✗)이 있으면 커밋하지 않는다.**
+
+
+Windows에서는 위 명령의 `.venv/bin/python` 대신 `.venv/Scripts/python.exe`를 사용한다. Windows Jupyter 실행은 `.venv/Scripts/python.exe -m jupyter lab`이다.

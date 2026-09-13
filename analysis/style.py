@@ -1,10 +1,11 @@
 """발표·기획서용 차트 공통 스타일.
 
 모든 시각화 스크립트는 그림을 그리기 전에 setup()을 호출한다.
-한글 폰트가 깨진 그림은 산출물이 아니다. (CLAUDE.md 하드 룰 4)
+한글 폰트가 깨진 그림은 산출물이 아니다. (CLAUDE.md 실행 기준)
 
 사용법:
-    import sys; sys.path.insert(0, "analysis")
+    import sys, pathlib
+    sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1]))
     from style import setup, save, C, SEQ
     setup()
     fig, ax = plt.subplots()
@@ -55,6 +56,7 @@ def _register_korean_font() -> str:
     """사용 가능한 한글 폰트를 등록하고 패밀리명을 반환."""
     candidates = [
         (os.path.expanduser("~/Library/Fonts/Pretendard-*.ttf"), "Pretendard"),
+        (os.path.join(os.environ.get("WINDIR", "C:/Windows"), "Fonts", "malgun.ttf"), "Malgun Gothic"),
         ("/System/Library/Fonts/Supplemental/NanumGothic.ttf", "NanumGothic"),
         ("/System/Library/Fonts/Supplemental/AppleGothic.ttf", "AppleGothic"),
     ]
@@ -141,7 +143,7 @@ def grid_y_only(ax) -> None:
 
 
 def source(ax, text: str) -> None:
-    """출처 표기. 모든 차트에 붙인다 (CLAUDE.md 하드 룰 5)."""
+    """출처 표기. 모든 차트에 붙인다 (CLAUDE.md 실행 기준)."""
     ax.figure.text(0.005, -0.02, f"출처: {text}",
                    ha="left", va="top", fontsize=8.5, color=C["subtext"])
 

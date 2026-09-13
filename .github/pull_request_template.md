@@ -14,7 +14,7 @@
 ## 체크리스트
 
 - [ ] **[CONTRIBUTING.md](../CONTRIBUTING.md) 를 읽었다**
-- [ ] `.venv/bin/python scripts/check_harness.py` 가 **통과**한다 (결함 ✗ 없음)
+- [ ] `scripts/check_harness.py` (플랫폼별 가상환경 Python 실행) 가 **통과**한다 (결함 ✗ 없음)
 - [ ] 데이터 파일이 포함되지 않았다 (`git status` 확인)
 - [ ] 노트북 **출력을 clear** 했다
 - [ ] 코드를 실제로 **실행해봤다**

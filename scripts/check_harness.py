@@ -12,15 +12,15 @@ FAIL, WARN = [], []
 
 
 def sh(*a) -> str:
-    return subprocess.run(a, capture_output=True, text=True).stdout
+    return subprocess.run(a, capture_output=True, text=True, encoding="utf-8", check=True).stdout
 
 
 def check_clone_reproducible():
     """git 이 추적하는 것만으로 필수 폴더가 재현되는가.
     실제로 터졌던 결함: `data/raw/` 를 ignore 하면 `!data/**/.gitkeep` 이 먹지 않는다."""
-    tracked = set(sh("git", "ls-files").split())
-    RAW = ["00_경계", "01_외국인", "02_소비", "03_방문", "04_숙박", "05_상권", "06_접근성"]
-    STEP = ["00_공통", "01_쏠림진단", "02_동네프로파일", "03_다음동네", "04_수용력", "05_시뮬레이션"]
+    tracked = set(sh("git", "ls-files", "-z").rstrip("\0").split("\0"))
+    RAW = ["00_경계", "01_신고", "02_연령인구", "03_상권", "04_정책자원"]
+    STEP = ["00_공통", "01_신고시공간", "02_연령연계", "03_상권연계", "04_정책제안", "05_검증"]
     need = ([f"data/raw/{d}" for d in RAW]
             + [f"data/interim/{d}" for d in RAW]
             + ["data/processed"]
@@ -39,19 +39,20 @@ def check_real_data_ignored():
     if not subs:
         WARN.append("data/raw 에 하위 폴더가 없어 무시 규칙을 검사하지 못했다")
         return
-    probe = subs[0] / "__probe__.csv"
-    probe.write_text("x\n", encoding="utf-8")
-    try:
-        if "__probe__" in sh("git", "status", "--porcelain", "data/"):
-            FAIL.append("실데이터가 git 에 추적된다 (.gitignore 가 너무 느슨하다)")
-    finally:
-        probe.unlink(missing_ok=True)
+    for base in ("data/raw", "data/interim"):
+        probe = f"{base}/00_경계/__probe__.csv"
+        result = subprocess.run(["git", "check-ignore", "-q", probe])
+        if result.returncode != 0:
+            FAIL.append(f"실데이터 무시 규칙 실패: {probe}")
+    for path in sh("git", "ls-files", "-z").rstrip("\0").split("\0"):
+        if path.startswith(("data/raw/", "data/interim/")) and not path.endswith("/.gitkeep"):
+            FAIL.append(f"원본·중간자료가 Git에 추적된다: {path}")
 
 
 def check_import_convention():
     """analysis/ 하위 스크립트가 임의의 cwd 에서도 style.py 를 찾는가.
     실제로 터졌던 결함: sys.path.insert(0, "analysis") 는 루트에서만 동작한다."""
-    d = ROOT / "analysis/01_쏠림진단"
+    d = ROOT / "analysis/01_신고시공간"
     d.mkdir(parents=True, exist_ok=True)
     t = d / "__probe__.py"
     t.write_text(
@@ -62,8 +63,8 @@ def check_import_convention():
         "print('OK', setup())\n", encoding="utf-8")
     try:
         with tempfile.TemporaryDirectory() as tmp:
-            r = subprocess.run([str(ROOT / ".venv/bin/python"), str(t)],
-                               cwd=tmp, capture_output=True, text=True)
+            r = subprocess.run([sys.executable, "-X", "utf8", str(t)],
+                               cwd=tmp, capture_output=True, text=True, encoding="utf-8")
         if r.returncode != 0:
             FAIL.append(f"import 규약 깨짐 (다른 cwd 에서 실패): {r.stderr.strip().splitlines()[-1:]}")
         elif "Pretendard" not in r.stdout and "Nanum" not in r.stdout and "Gothic" not in r.stdout:
@@ -85,7 +86,7 @@ def check_no_fabricated_figures():
 def check_no_unsourced_numbers():
     """문서의 통계 수치에 출처가 붙어 있는가 (하드 룰 5)."""
     skip = ("refs/", "scripts/")
-    for f in sh("git", "ls-files").split():
+    for f in sh("git", "ls-files", "-z").rstrip("\0").split("\0"):
         if not f.endswith(".md") or f.startswith(skip):
             continue
         for i, line in enumerate(pathlib.Path(f).read_text(encoding="utf-8").splitlines(), 1):
@@ -96,7 +97,7 @@ def check_no_unsourced_numbers():
 
 def check_path_references():
     """문서가 존재하지 않는 경로를 가리키는가."""
-    for f in sh("git", "ls-files").split():
+    for f in sh("git", "ls-files", "-z").rstrip("\0").split("\0"):
         if not f.endswith(".md"):
             continue
         s = pathlib.Path(f).read_text(encoding="utf-8")
@@ -114,7 +115,7 @@ def check_harness_files():
         if not head.startswith("---\n"):
             FAIL.append(f"프론트매터 없음: {f}")
         name = re.search(r"^name:\s*(\S+)", head, re.M)
-        if "/skills/" in f and name and name.group(1) != pathlib.Path(f).parent.name:
+        if "skills" in pathlib.Path(f).parts and name and name.group(1) != pathlib.Path(f).parent.name:
             FAIL.append(f"스킬 name 불일치: {f} ({name.group(1)})")
     for f in [".claude/settings.json", ".claude/settings.local.json"]:
         if pathlib.Path(f).exists():
@@ -181,6 +182,8 @@ CHECKS = [
 ]
 
 if __name__ == "__main__":
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")
     print(f"하네스 점검 — {ROOT.name}\n")
     for label, fn in CHECKS:
         before = len(FAIL), len(WARN)
