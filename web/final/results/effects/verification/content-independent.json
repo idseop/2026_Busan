@@ -1,0 +1,49 @@
+{
+  "status": "pass",
+  "reviewer": "response_evidence (author of neither temporal nor CPR artifacts)",
+  "method": "A/B/C catalogue membership independently reconstructed, separate CSV strata regrouping; original340-page PDF text independently extracted; PDF76 image visually checked; definitions6-8 and table42footnotes read",
+  "selectionStableStrata": [
+    {
+      "minimumAnnual": 1,
+      "combinations": 325,
+      "monthSameAllFiveLeaveOut": 33,
+      "seasonSameAllFiveLeaveOut": 121
+    },
+    {
+      "minimumAnnual": 5,
+      "combinations": 167,
+      "monthSameAllFiveLeaveOut": 17,
+      "seasonSameAllFiveLeaveOut": 62
+    },
+    {
+      "minimumAnnual": 10,
+      "combinations": 119,
+      "monthSameAllFiveLeaveOut": 12,
+      "seasonSameAllFiveLeaveOut": 46
+    },
+    {
+      "minimumAnnual": 20,
+      "combinations": 86,
+      "monthSameAllFiveLeaveOut": 12,
+      "seasonSameAllFiveLeaveOut": 35
+    }
+  ],
+  "cprRowsVerified": 10,
+  "csvRowsVerified": 10,
+  "populationCheck": "病院이송 급성심장정지 의무기록조사; 신고접수 집합과 별개, 부산은 발생장소 기준이며 전국에 포함",
+  "interpretationChecks": [
+    "33/325월·121/325계절은 C조건 일수당 최고시기 집합의1년제외5회 안정성; 전후결측 계절 안정성이나 미래예측 아님",
+    "부산2021이후20.8→20.0→16.4→13.8; 전국2024 30.3과16.5%p차",
+    "표42반올림비율로 분모를 역산하지 않고 null 유지",
+    "병원의무기록 과소기록 가능성을 유지; 교육부족 원인이나 웹 효과 미입증",
+    "2017변경기준이 이번2020~2024전기간에 적용; 구급대원/의료인 발견·목격 대상 제외와 일반인 정의 유지"
+  ],
+  "hashes": {
+    "temporal/selection_stable_temporal.json": "c9a8a9224084c82b662e06e92c28d48c799a291451bb682e8a305c54abdd144a",
+    "temporal/stability_profiles.csv": "827657e16db45ffede81094459424ad96ef0a9497b1ed7a7c0cebaf3c78f70f2",
+    "services/cpr-trend.json": "bf330ad9521be684bb74e3f7db5f4dba2d97e57844205e55efb07db80fac6e61",
+    "services/cpr-trend.csv": "fa43f4b2e722ad68e7179b400c81e4b251cd8cf194f3529ae81dff552265c2f6",
+    "services/kdca-2024-statistics.pdf": "8d65c4560d17f50716ba38444494a5fa96029e62dc1cb58c616dc75d06497804"
+  },
+  "scopeLimit": "Raw704689 temporal recomputation was separately completed by another verifier; this review independently reconstructs325membership/strata and checks factual meaning. CHS pending."
+}

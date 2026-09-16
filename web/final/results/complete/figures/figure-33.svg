@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1008pt" height="576pt" viewBox="0 0 1008 576" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-16T12:45:34.911950</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 576 
+L 1008 576 
+L 1008 0 
+L 0 0 
+z
+" style="fill: #f6fafb"/>
+  </g>
+  <g id="line2d_1">
+   <path d="M 60.48 247.68 
+L 947.52 247.68 
+" style="fill: none; stroke: #e0e9ed; stroke-linecap: square"/>
+  </g>
+  <g id="line2d_2">
+   <path d="M 60.48 365.76 
+L 947.52 365.76 
+" style="fill: none; stroke: #e0e9ed; stroke-linecap: square"/>
+  </g>
+  <g id="line2d_3">
+   <path d="M 60.48 483.84 
+L 947.52 483.84 
+" style="fill: none; stroke: #e0e9ed; stroke-linecap: square"/>
+  </g>
+  <g id="text_1">
+   <text style="font-weight: 700; font-size: 24px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #183c4c" x="60.48" y="46.08" transform="rotate(-0 60.48 46.08)">설치 수를 넘어, 운영 정보와 실제 관리가 중요합니다</text>
+  </g>
+  <g id="text_2">
+   <text style="font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #183c4c" x="60.48" y="86.4" transform="rotate(-0 60.48 86.4)">부산 AED·취약주택 지원의 공식 기록 대조 · 서로 다른 시점과 범위</text>
+  </g>
+  <g id="text_3">
+   <text style="font-weight: 700; font-size: 19px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #168b86" x="60.48" y="161.28" transform="rotate(-0 60.48 161.28)">부산 AED 4,431대</text>
+  </g>
+  <g id="text_4">
+   <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #183c4c" x="60.48" y="187.776" transform="rotate(-0 60.48 187.776)">2025년 6월 보유 현황</text>
+  </g>
+  <g id="text_5">
+   <text style="font-size: 15px; font-family: 'Malgun Gothic'; fill: #183c4c" transform="translate(352.8 179.064375)">의무시설 3,021대 + 비의무시설 1,410대.</text>
+   <text style="font-size: 15px; font-family: 'Malgun Gothic'; fill: #183c4c" transform="translate(352.8 204.202266)">시는 일부 설치정보의 행정시스템 불일치를 확인했습니다.</text>
+  </g>
+  <g id="text_6">
+   <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #6a7277" x="352.8" y="233.28" transform="rotate(-0 352.8 233.28)">불일치 건수·현재 고장대수는 공개자료에서 미확인</text>
+  </g>
+  <g id="text_7">
+   <text style="font-weight: 700; font-size: 19px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #168b86" x="60.48" y="279.36" transform="rotate(-0 60.48 279.36)">기존 관리·대여 운영</text>
+  </g>
+  <g id="text_8">
+   <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #183c4c" x="60.48" y="305.856" transform="rotate(-0 60.48 305.856)">연제 2024 회의 / 기장 공식 대여 안내</text>
+  </g>
+  <g id="text_9">
+   <text style="font-size: 15px; font-family: 'Malgun Gothic'; fill: #183c4c" transform="translate(352.8 297.473672)">연제는 연간 통상 4~5대 구매지원·소모품 교환을 설명했습니다.</text>
+   <text style="font-size: 15px; font-family: 'Malgun Gothic'; fill: #183c4c" transform="translate(352.8 322.329141)">기장은 실제 AED 대여 시 장비 확인·반납 점검을 안내합니다.</text>
+  </g>
+  <g id="text_10">
+   <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #6a7277" x="352.8" y="351.36" transform="rotate(-0 352.8 351.36)">운영 절차가 있다고 해서 모든 시설의 접근성·작동을 보증하지 않음</text>
+  </g>
+  <g id="text_11">
+   <text style="font-weight: 700; font-size: 19px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #168b86" x="60.48" y="397.44" transform="rotate(-0 60.48 397.44)">주택 지원도 진행 중</text>
+  </g>
+  <g id="text_12">
+   <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #183c4c" x="60.48" y="423.936" transform="rotate(-0 60.48 423.936)">기장읍 2026 계획 / 동래 2026 협업</text>
+  </g>
+  <g id="text_13">
+   <text style="font-size: 15px; font-family: 'Malgun Gothic'; fill: #183c4c" transform="translate(352.8 415.282969)">기장읍은 취약계층 1,000세대 멀티탭 지원을 계획했습니다.</text>
+   <text style="font-size: 15px; font-family: 'Malgun Gothic'; fill: #183c4c" transform="translate(352.8 440.34)">동래는 교육·가정방문 위험점검·소방용품 지원을 연계했습니다.</text>
+  </g>
+  <g id="text_14">
+   <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #6a7277" x="352.8" y="469.44" transform="rotate(-0 352.8 469.44)">계획·기관 전달을 최종 가정 설치완료 수로 바꾸지 않음</text>
+  </g>
+  <g id="text_15">
+   <text style="font-weight: 700; font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #183c4c" x="60.48" y="521.28" transform="rotate(-0 60.48 521.28)">프로젝트의 역할: 반복 신고를 출발점으로 현재 운영조건·점검결과·조치 상태를 연결합니다.</text>
+  </g>
+  <g id="text_16">
+   <text style="font-size: 10px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #183c4c" x="60.48" y="552.96" transform="rotate(-0 60.48 552.96)">출처: 부산시 2025.7.31 / 연제구의회 2024.6.14 / 기장군·읍 / 신라대 수탁 복지관 2026.5.27 · 확보 2026-09-16</text>
+  </g>
+ </g>
+</svg>

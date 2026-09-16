@@ -14,6 +14,9 @@ requests
 beautifulsoup4
 lxml
 tabulate
+pyshp
+shapely
+pyproj
 
 # 탐색용 노트북 (notebooks/)
 jupyterlab

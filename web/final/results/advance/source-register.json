@@ -1,0 +1,502 @@
+{
+  "selection": {
+    "inputs": [
+      {
+        "path": "data\\processed\\컬럼선별-결측제외-20260915\\all_selected_2020.csv.gz",
+        "sha256": "aadfbaf739aa514fe816f2f51fce3438f28b286bcadb3c1dba2605672f408364",
+        "priorHashMatch": true
+      },
+      {
+        "path": "data\\processed\\컬럼선별-결측제외-20260915\\all_selected_2021.csv.gz",
+        "sha256": "b38f736dac80956ffe060ea885608503020a978061d21a725a239e9ca45a1543",
+        "priorHashMatch": true
+      },
+      {
+        "path": "data\\processed\\컬럼선별-결측제외-20260915\\all_selected_2022.csv.gz",
+        "sha256": "bc16c76dc39bf5b6fd67c9f49e4f69794412444977d8b2fda9dff150b9d5055d",
+        "priorHashMatch": true
+      },
+      {
+        "path": "data\\processed\\컬럼선별-결측제외-20260915\\all_selected_2023.csv.gz",
+        "sha256": "58a85607e197baa13658ac4921130f450b504b61fac583f135b61f9c18b69a8f",
+        "priorHashMatch": true
+      },
+      {
+        "path": "data\\processed\\컬럼선별-결측제외-20260915\\all_selected_2024.csv.gz",
+        "sha256": "5014820ced73203dee97928f57e01c8ecaa644fcdb60e753900a3851f071a8fc",
+        "priorHashMatch": true
+      },
+      {
+        "path": "data\\processed\\동대응-전체결측제외-20260915\\completeness\\complete_17_2020.csv.gz",
+        "sha256": "ad7a1e0f45931dce9db9d7f839c012c909144634238f945ec0a0eb55d40f8c48",
+        "priorHashMatch": true
+      },
+      {
+        "path": "data\\processed\\동대응-전체결측제외-20260915\\completeness\\complete_17_2021.csv.gz",
+        "sha256": "d818d952a17a46e0accdcedb8b81cc93eb3c6b7c6c801304739b3f74d7c02582",
+        "priorHashMatch": true
+      },
+      {
+        "path": "data\\processed\\동대응-전체결측제외-20260915\\completeness\\complete_17_2022.csv.gz",
+        "sha256": "170b720532a29eeb5815b77331ea473603fb318815882944b4f1ce695dce4514",
+        "priorHashMatch": true
+      },
+      {
+        "path": "data\\processed\\동대응-전체결측제외-20260915\\completeness\\complete_17_2023.csv.gz",
+        "sha256": "273c8d778052a14e9f114a4755d7a9a7df216627ab8991ce8281381e985a692f",
+        "priorHashMatch": true
+      },
+      {
+        "path": "data\\processed\\동대응-전체결측제외-20260915\\completeness\\complete_17_2024.csv.gz",
+        "sha256": "f16392f42d01e2b472021116f2ae0fc0a753160d83bfd51710638762857df3fe",
+        "priorHashMatch": true
+      },
+      {
+        "path": "data/processed/후속입증-20260916/analysis/all-region-followup.json",
+        "sha256": "d9ebf6209083a545f00bb89f480a44568ee5e5cd3fc33212c2b4a65b8e654211"
+      }
+    ],
+    "scriptSHA256": "f125e1e2e45a0b78bbcdf91414180dd3a6df9ad7ee8f5f860176dba9378cf117",
+    "outputs": [
+      {
+        "file": "annual_direction_channel_decomposition.csv",
+        "sha256": "d87eafd59fec8aff3ea6bd7defef0e020d1a5043b4cd59b0a07fe24dc4754ff7"
+      },
+      {
+        "file": "channel_decomposition.png",
+        "sha256": "3d0bb044978e301a1b60fb915d42857115fa7650aad2684f68b2009b3964b6e9"
+      },
+      {
+        "file": "channel_decomposition.svg",
+        "sha256": "6e4905d6b949692bff1e63dc40e65ffd450ea95f773ffb74c40fd63276601b48"
+      },
+      {
+        "file": "focus_channel_decomposition.csv",
+        "sha256": "3f583a22b75bc1fcbbdd0b742609695a0bf9fac73ae9e84b2fcf399b91e97c8f"
+      },
+      {
+        "file": "README.md",
+        "sha256": "12f6f052cc16f672f45d4d74c90045b137aa3d5ce6c51b1ad7d9bd86537bf358"
+      },
+      {
+        "file": "region_type_year_weekday_hour.csv.gz",
+        "sha256": "413275bc4d91c4ef4dfe73487be8676a7c5e6d8706e2b27e002c39a5157237d7"
+      },
+      {
+        "file": "same_mobile_comparison.csv",
+        "sha256": "772638f8a7e87b44a5e16939a5e91c3453b0cc454b61e3c6da2dc4616bfbd86d"
+      },
+      {
+        "file": "same_mobile_weekend.png",
+        "sha256": "f5cbf7865eaa6e5b0adb6c2c027bf5a5eba7f15082846f0ac086275fdb45a768"
+      },
+      {
+        "file": "same_mobile_weekend.svg",
+        "sha256": "b1b1366c93618427270ac82c57e8c44a4074894006fd93e96b62f6449b7aca39"
+      },
+      {
+        "file": "selection-deepening.json",
+        "sha256": "6c4d19ca23b9db2d8070ff8635cb78f5bc1dab843cb55a3b0747b6d74867c8a7"
+      },
+      {
+        "file": "temporal_metrics.csv",
+        "sha256": "6480f38a3e5b96e9906305d7277e6850d1c2cb3c228ebcbfc554d49ff94c8097"
+      },
+      {
+        "file": "validation.json",
+        "sha256": "f17c4134f64a09176c4be05c9d975d0c6e53265b18869f7fb158a2c55eb53689"
+      }
+    ]
+  },
+  "traffic": [
+    {
+      "id": "bujeon-ceremony",
+      "url": "https://www.busan.go.kr/photobodo/1717850",
+      "referenceDate": "2026-02-05",
+      "sourceClass": "공식 제막식 기록",
+      "accessed": "2026-09-16",
+      "status": "saved",
+      "file": "data\\processed\\고도화검증-20260916\\traffic\\bujeon-ceremony.html",
+      "sha256": "f4356598d6d2892cd0b112fe30dffa69bd41d82970b95b67af383cc264094b68",
+      "bytes": 120088
+    },
+    {
+      "id": "bujeon-field-story",
+      "url": "https://www.busan.go.kr/news/storyreport/view?dataNo=72395",
+      "referenceDate": "2026-02-10",
+      "sourceClass": "부산시보 시민리포트; 정량 효과 근거 아님",
+      "accessed": "2026-09-16",
+      "status": "saved",
+      "file": "data\\processed\\고도화검증-20260916\\traffic\\bujeon-field-story.html",
+      "sha256": "47827189777d2a3c8d6d525e658890946c68e8826cdb0e44b3467fb202c04304",
+      "bytes": 34898
+    },
+    {
+      "id": "bujeon-finance",
+      "url": "https://www.busan.go.kr/ghclos202609",
+      "referenceDate": "2025 결산/2026공시",
+      "sourceClass": "특별조정교부금 교부 목록; 공사비 집행액 아님",
+      "accessed": "2026-09-16",
+      "status": "saved",
+      "file": "data\\processed\\고도화검증-20260916\\traffic\\bujeon-finance.html",
+      "sha256": "66724ed925fa495d27df5bf7c6774b5a3f83cd40fd86afe0bed3dbb04015396d",
+      "bytes": 291244
+    },
+    {
+      "id": "gwangan-procurement",
+      "url": "https://www.busan.go.kr/nbgosi/view?sno=74101",
+      "referenceDate": "2025-09-11",
+      "sourceClass": "포장 공사 견적공고",
+      "accessed": "2026-09-16",
+      "status": "error-page",
+      "file": "data\\processed\\고도화검증-20260916\\traffic\\gwangan-procurement.html",
+      "sha256": "83849e4f518c77efef8121cb53c55a923e2b4c11fbc5522bea5668bea8c05735",
+      "bytes": 2057
+    },
+    {
+      "id": "gwangan-contract-list",
+      "url": "https://www.busan.go.kr/depart/abcontract?curPage=56&schCtrtkindcd=1",
+      "referenceDate": "2025-09-22 계약 검색결과; 페이지 이동가능",
+      "sourceClass": "계약 목록",
+      "accessed": "2026-09-16",
+      "status": "saved",
+      "file": "data\\processed\\고도화검증-20260916\\traffic\\gwangan-contract-list.html",
+      "sha256": "9c2d7a94d6f24b0fa9a3075bf9a829b2df2c32aef0a96ac129e3fc8933fdcdf2",
+      "bytes": 390582
+    },
+    {
+      "id": "sinpyeong-design",
+      "url": "https://www.busan.go.kr/igosi/view?sno=70441",
+      "referenceDate": "2025-02-04",
+      "sourceClass": "공원 실시설계 용역 입찰공고",
+      "accessed": "2026-09-16",
+      "status": "error-page",
+      "file": "data\\processed\\고도화검증-20260916\\traffic\\sinpyeong-design.html",
+      "sha256": "83849e4f518c77efef8121cb53c55a923e2b4c11fbc5522bea5668bea8c05735",
+      "bytes": 2057
+    },
+    {
+      "id": "gwangan-public-proposal",
+      "url": "https://www.busan.go.kr/yesan/spiritOffer1/1715607",
+      "referenceDate": "2026-03-31",
+      "sourceClass": "주민제안; 기관 사실판정·채택·시행 아님",
+      "accessed": "2026-09-16",
+      "status": "saved",
+      "file": "data\\processed\\고도화검증-20260916\\traffic\\gwangan-public-proposal.html",
+      "sha256": "05de5328731eaabc80b326f83fdadc907888eeecc9fb41f231ad801a56a418a9",
+      "bytes": 25073
+    },
+    {
+      "id": "nampo-cctv",
+      "url": "https://www.bsjunggu.go.kr/board/view.junggu?boardId=BBS_0000018&dataSid=242900&menuCd=DOM_000000103002004000",
+      "referenceDate": "2025-03-10",
+      "sourceClass": "기존23대 운영표; 2026 갱신실적 아님",
+      "accessed": "2026-09-16",
+      "status": "saved",
+      "file": "data\\processed\\고도화검증-20260916\\traffic\\nampo-cctv.html",
+      "sha256": "1a6c7255267b74f7ca69cca0928a13513b07ff28631c7585153e88504808d68e",
+      "bytes": 41455
+    },
+    {
+      "id": "gwangan-procurement-full",
+      "url": "https://www.busan.go.kr/nbgosi/view?curPage=50&gosiGbn=A&sno=74101",
+      "referenceDate": "2025-09-11",
+      "sourceClass": "공고 전체 URL 재시도",
+      "accessed": "2026-09-16",
+      "status": "saved",
+      "file": "data\\processed\\고도화검증-20260916\\traffic\\gwangan-procurement-full.html",
+      "sha256": "e285e5feee26438bc6ecae79215cdbdfe8f8f6f823e64bedd8d8e9868f98c3ba",
+      "bytes": 107937
+    },
+    {
+      "id": "sinpyeong-design-full",
+      "url": "https://www.busan.go.kr/igosi/view?conGosiGbn=&curPage=173&gosiGbn=A&sno=70441",
+      "referenceDate": "2025-02-04",
+      "sourceClass": "공고 전체 URL 재시도",
+      "accessed": "2026-09-16",
+      "status": "saved",
+      "file": "data\\processed\\고도화검증-20260916\\traffic\\sinpyeong-design-full.html",
+      "sha256": "6bec871577a00ce623d1123fdbfbb06332cc366e7d2df3c04e1a3a755b58db4a",
+      "bytes": 108670
+    },
+    {
+      "id": "gwangan-contract-search",
+      "url": "https://www.busan.go.kr/depart/abcontract?schCtrtkindcd=1&schKeywordB=%EA%B4%91%EC%95%88%EC%97%AD",
+      "referenceDate": "2026-09-16 조회",
+      "sourceClass": "계약명 검색",
+      "accessed": "2026-09-16",
+      "status": "saved",
+      "file": "data\\processed\\고도화검증-20260916\\traffic\\gwangan-contract-search.html",
+      "sha256": "eb2094c5662c59943c3f29a70cdc496c6a3956c1b4439ffa316ad45893919d55",
+      "bytes": 384537
+    },
+    {
+      "id": "gwangan-contract-detail",
+      "url": "https://www.busan.go.kr/depart/abcontract/view?schCtrtacctbookmngno=202500115392",
+      "referenceDate": "2026-09-16 조회",
+      "sourceClass": "공식 계약 상세",
+      "accessed": "2026-09-16",
+      "status": "saved",
+      "file": "data\\processed\\고도화검증-20260916\\traffic\\gwangan-contract-detail.html",
+      "sha256": "3060f339e7c32a4291b89b9bd34b5882c7a4755beeebdcf339481484f2c8a9f8",
+      "bytes": 373129
+    }
+  ],
+  "response": [
+    {
+      "id": "gijang-current-board",
+      "url": "https://119.busan.go.kr/gijang/119gijaler01",
+      "accessed_at": "2026-09-16T02:30:31.300920+09:00",
+      "status": 200,
+      "bytes": 43719,
+      "sha256": "26ac9e27eab406182b71cf44c1c02363be6a18f150b06c7a8213304518be0c54",
+      "snapshot": "gijang-current-board.html"
+    },
+    {
+      "id": "geumjeong-current-board",
+      "url": "https://119.busan.go.kr/geumjeong/119gjaler01",
+      "accessed_at": "2026-09-16T02:30:31.737894+09:00",
+      "status": 200,
+      "bytes": 43555,
+      "sha256": "3bcd651e401c118865c928e00cc85aa99d03fe0586a80fbb063e84d019c329f8",
+      "snapshot": "geumjeong-current-board.html"
+    },
+    {
+      "id": "busanjin-current-board",
+      "url": "https://119.busan.go.kr/busanjin/119bsjaler01",
+      "accessed_at": "2026-09-16T02:30:32.138682+09:00",
+      "status": 200,
+      "bytes": 48887,
+      "sha256": "a706c8ec856435502b511337731bfdf6c9bf4de426bd6805a6aa3460f3cc15b5",
+      "snapshot": "busanjin-current-board.html"
+    },
+    {
+      "id": "market-aed-agreement",
+      "url": "https://www.busan.go.kr/nbtnewsBU/1708871",
+      "accessed_at": "2026-09-16T02:30:32.545778+09:00",
+      "status": 200,
+      "bytes": 109819,
+      "sha256": "f07e5ac678e25bad6f2a24e199b291881f01e8cd64c1dbddfa82d24d2bc77efd",
+      "snapshot": "market-aed-agreement.html"
+    },
+    {
+      "id": "sasang-aed-guidance",
+      "url": "https://www.sasang.go.kr/board/view.do?boardId=BBS_0000080&dataSid=546419&menuCd=DOM_000000406001000000&startPage=5",
+      "accessed_at": "2026-09-16T02:31:03.292681+09:00",
+      "status": 200,
+      "bytes": 40176,
+      "sha256": "0b388723ba65c62c7c7d357cda3e7704903305f3c1d336ea4169d8fcdab9844c",
+      "snapshot": "sasang-aed-guidance.html"
+    },
+    {
+      "id": "aed-v8-official-notice",
+      "url": "https://www.daedeok.go.kr/cmm/boardViewPopup.do?boardId=CHC_000005&ntatcSeq=1105181458&pageIndex=1",
+      "accessed_at": "2026-09-16T02:31:25.541488+09:00",
+      "status": 200,
+      "bytes": 6296,
+      "sha256": "b1c041783421ee8987969d5e47cfffe98aea0285c37a5bdc66e98069f8ed83a6",
+      "snapshot": "aed-v8-official-notice.html"
+    },
+    {
+      "id": "gijang-search-시정",
+      "url": "https://119.busan.go.kr/gijang/119gijaler01?srchBeginDt=2026-09-01&srchEndDt=2026-09-16&srchKey=cn&srchText=%EC%8B%9C%EC%A0%95",
+      "accessed_at": "2026-09-16T02:32:36.936308+09:00",
+      "status": 200,
+      "bytes": 33030,
+      "sha256": "e1f702b24bb7668bdc253a50efff03a29ca2198ac5928355caf36c84615c15eb",
+      "snapshot": "gijang-search-시정.html"
+    },
+    {
+      "id": "gijang-search-재점검",
+      "url": "https://119.busan.go.kr/gijang/119gijaler01?srchBeginDt=2026-09-01&srchEndDt=2026-09-16&srchKey=cn&srchText=%EC%9E%AC%EC%A0%90%EA%B2%80",
+      "accessed_at": "2026-09-16T02:32:37.430959+09:00",
+      "status": 200,
+      "bytes": 33036,
+      "sha256": "8184dace1e5991733774addb458d037eb8eb8165f057a4b42fa0ced806b2465d",
+      "snapshot": "gijang-search-재점검.html"
+    },
+    {
+      "id": "gijang-search-행정처분",
+      "url": "https://119.busan.go.kr/gijang/119gijaler01?srchBeginDt=2026-09-01&srchEndDt=2026-09-16&srchKey=cn&srchText=%ED%96%89%EC%A0%95%EC%B2%98%EB%B6%84",
+      "accessed_at": "2026-09-16T02:32:37.830300+09:00",
+      "status": 200,
+      "bytes": 33042,
+      "sha256": "640aa3b3da0a28d2dbd0999930b3953d667709e176b8d9e0ccc4f4dd229720da",
+      "snapshot": "gijang-search-행정처분.html"
+    },
+    {
+      "id": "gijang-search-조치결과",
+      "url": "https://119.busan.go.kr/gijang/119gijaler01?srchBeginDt=2026-09-01&srchEndDt=2026-09-16&srchKey=cn&srchText=%EC%A1%B0%EC%B9%98%EA%B2%B0%EA%B3%BC",
+      "accessed_at": "2026-09-16T02:32:38.200772+09:00",
+      "status": 200,
+      "bytes": 33042,
+      "sha256": "85ed1e13285be46c3e8a604bbd2692a4d9d120d8cc5a15d97d12f95a99ba189e",
+      "snapshot": "gijang-search-조치결과.html"
+    },
+    {
+      "id": "geumjeong-search-시정",
+      "url": "https://119.busan.go.kr/geumjeong/119gjaler01?srchBeginDt=2026-09-01&srchEndDt=2026-09-16&srchKey=cn&srchText=%EC%8B%9C%EC%A0%95",
+      "accessed_at": "2026-09-16T02:32:38.587723+09:00",
+      "status": 200,
+      "bytes": 33145,
+      "sha256": "15d070cc63773b926d94ea126d1618a266793a1e49ae15db0ea2122b529a7d4f",
+      "snapshot": "geumjeong-search-시정.html"
+    },
+    {
+      "id": "geumjeong-search-재점검",
+      "url": "https://119.busan.go.kr/geumjeong/119gjaler01?srchBeginDt=2026-09-01&srchEndDt=2026-09-16&srchKey=cn&srchText=%EC%9E%AC%EC%A0%90%EA%B2%80",
+      "accessed_at": "2026-09-16T02:32:38.984575+09:00",
+      "status": 200,
+      "bytes": 33151,
+      "sha256": "5987c6816b9e4b83f6c5a8550971b10e4d7baa117546c612f245c1dd9a842391",
+      "snapshot": "geumjeong-search-재점검.html"
+    },
+    {
+      "id": "geumjeong-search-행정처분",
+      "url": "https://119.busan.go.kr/geumjeong/119gjaler01?srchBeginDt=2026-09-01&srchEndDt=2026-09-16&srchKey=cn&srchText=%ED%96%89%EC%A0%95%EC%B2%98%EB%B6%84",
+      "accessed_at": "2026-09-16T02:32:39.360265+09:00",
+      "status": 200,
+      "bytes": 33157,
+      "sha256": "f4cbd56e831f0c6a4410480d8786c5b95a1dd81b2bd833b5091646b1a95d15c5",
+      "snapshot": "geumjeong-search-행정처분.html"
+    },
+    {
+      "id": "geumjeong-search-조치결과",
+      "url": "https://119.busan.go.kr/geumjeong/119gjaler01?srchBeginDt=2026-09-01&srchEndDt=2026-09-16&srchKey=cn&srchText=%EC%A1%B0%EC%B9%98%EA%B2%B0%EA%B3%BC",
+      "accessed_at": "2026-09-16T02:32:39.754094+09:00",
+      "status": 200,
+      "bytes": 33157,
+      "sha256": "8605ba4dbf58e6b6acf0fba67587c496128d5e9e9f4e40fd6989d98f3f3bfefb",
+      "snapshot": "geumjeong-search-조치결과.html"
+    },
+    {
+      "id": "busanjin-search-시정",
+      "url": "https://119.busan.go.kr/busanjin/119bsjaler01?srchBeginDt=2026-09-01&srchEndDt=2026-09-16&srchKey=cn&srchText=%EC%8B%9C%EC%A0%95",
+      "accessed_at": "2026-09-16T02:32:40.176114+09:00",
+      "status": 200,
+      "bytes": 35079,
+      "sha256": "ba1b4ca9e87d52b0f1c7a0f8fec4ee24962eb299e726084641c526817d77c9bc",
+      "snapshot": "busanjin-search-시정.html"
+    },
+    {
+      "id": "busanjin-search-재점검",
+      "url": "https://119.busan.go.kr/busanjin/119bsjaler01?srchBeginDt=2026-09-01&srchEndDt=2026-09-16&srchKey=cn&srchText=%EC%9E%AC%EC%A0%90%EA%B2%80",
+      "accessed_at": "2026-09-16T02:32:40.603306+09:00",
+      "status": 200,
+      "bytes": 34349,
+      "sha256": "7d1810b63d407a2aa933604dcd62cab5afccac3228c496715bbfa7ef015310f6",
+      "snapshot": "busanjin-search-재점검.html"
+    },
+    {
+      "id": "busanjin-search-행정처분",
+      "url": "https://119.busan.go.kr/busanjin/119bsjaler01?srchBeginDt=2026-09-01&srchEndDt=2026-09-16&srchKey=cn&srchText=%ED%96%89%EC%A0%95%EC%B2%98%EB%B6%84",
+      "accessed_at": "2026-09-16T02:32:40.993263+09:00",
+      "status": 200,
+      "bytes": 35091,
+      "sha256": "055d1a66af734c730c6a935b8ad9662fe19db8942422fe752f5e8d53c37325d4",
+      "snapshot": "busanjin-search-행정처분.html"
+    },
+    {
+      "id": "busanjin-search-조치결과",
+      "url": "https://119.busan.go.kr/busanjin/119bsjaler01?srchBeginDt=2026-09-01&srchEndDt=2026-09-16&srchKey=cn&srchText=%EC%A1%B0%EC%B9%98%EA%B2%B0%EA%B3%BC",
+      "accessed_at": "2026-09-16T02:32:41.374631+09:00",
+      "status": 200,
+      "bytes": 34355,
+      "sha256": "c04a4c15ea41ad21efe934198c38f2b4509bca155113a9cd2034b8caff50af40",
+      "snapshot": "busanjin-search-조치결과.html"
+    },
+    {
+      "id": "busanjin-datacenter-plan",
+      "url": "https://119.busan.go.kr/busanjin/119bsjaler01/1753487",
+      "accessed_at": "2026-09-16T02:32:56.950533+09:00",
+      "status": 200,
+      "bytes": 39002,
+      "sha256": "1532df53a018b9ea6d3b54da11fdc3a9a8483520005bdd19c816d37bb3c871bd",
+      "snapshot": "busanjin-datacenter-plan.html"
+    }
+  ],
+  "education": [
+    {
+      "file": "data\\processed\\고도화검증-20260916\\education\\web-extraction.json",
+      "sha256": "762a7306b69de1bf31a443a33e1fe8e458194fadcf1359d321ae40982e24a48a",
+      "retrieval": "웹 검색·열람 도구 추출본"
+    },
+    {
+      "file": "data\\processed\\고도화검증-20260916\\education\\web-extra-extraction.json",
+      "sha256": "5fbd46864bb733172b95783609cd1263332c4cf991d5af8022339d85555700e8",
+      "retrieval": "웹 검색·열람 도구 추출본"
+    }
+  ],
+  "residentSupplement": {
+    "input": {
+      "file": "data\\processed\\최종결과-20260915\\dashboard.json",
+      "sha256": "a4e5368176b714463347156f7d258f110db00d177706ff724c8c612adedfde80",
+      "priorManifestMatch": true
+    },
+    "scriptSHA256": "290a3e962df51b7417dc47a7e11134022be93c46306e79060bb398ea0843c721",
+    "validation": {
+      "candidates": 14,
+      "annualRows": 70,
+      "ageRows": 7070,
+      "all101AgeSumsMatch": true,
+      "sameCodeNameAcrossYears": true
+    },
+    "outputs": [
+      {
+        "file": "candidate_age_context.png",
+        "sha256": "4ae7c3f11775e331eaec655d463fb86f6568472f5e1e2d4f9123a28cc286abbd"
+      },
+      {
+        "file": "candidate_age_context.svg",
+        "sha256": "413e69722fcf59beedb1bfdf8b540c46dc6666ce113bec6d4e20f6f335bd869a"
+      },
+      {
+        "file": "candidate_all101ages.csv",
+        "sha256": "f93eecbf52cf0c3acd04d4a328c3d98e28f8eee449151399119d5a0039ce9031"
+      },
+      {
+        "file": "candidate_annual_age_bands.csv",
+        "sha256": "0c900589cbd1baf97d00940f8a1f52be913e9316474a40b1891d86f67a3c62c3"
+      },
+      {
+        "file": "candidate_change_2020_2024.csv",
+        "sha256": "f1eb752b8d65f55e6cd7b4bc71b297aacf380a97fec9647c610464882ef47980"
+      },
+      {
+        "file": "gap-audit.md",
+        "sha256": "0156e463d98769c9827596dcead2dfaf8b17bee4b489ee43037aaf9baf59c4d7"
+      },
+      {
+        "file": "prevention-population.json",
+        "sha256": "98f9dbade3c16eb1d11b7ac5670acdbfc2f8350203aa3157450c014a96ab713d"
+      }
+    ]
+  },
+  "inspectionReinterpretation": {
+    "asOf": "2026-09-16",
+    "status": "원본 보존·파생 지표 의미 교정",
+    "correctLabel": "불량 표기 중 비고 공란 13행",
+    "legacyKeys": [
+      "any_defect_without_correction_note",
+      "prior_no_correction_note_rows"
+    ],
+    "meaning": "일반 비고란에 현지시정 기재가 없는 13개 불량 조사행은 재추출 결과 모두 비고 공란이다. 조치완료 전용열 결측이나 조치불이행을 집계한 값이 아니다.",
+    "counterEvidence": "부산진 34행 전체와 금정의 연기 1행을 제외한 25행 전체의 비고가 공란이다. 불량행만의 정보 누락으로 해석하지 않는다.",
+    "verifiedCounts": {
+      "listedRows": 132,
+      "assessedRows": 131,
+      "defectRows": 19,
+      "defectWithOnsiteRemark": 6,
+      "defectWithBlankRemark": 13
+    },
+    "notMetrics": [
+      "관리공백률",
+      "공시의무 위반 건수",
+      "현재 미조치 시설 수",
+      "시정 미완료율"
+    ],
+    "unit": "조사표 행. 시설 고유번호를 확인하지 않아 13개 고유시설로 확정하지 않음.",
+    "method": "원 HWP LIST_HEADER 셀 좌표 재구성·판정 및 비고 대조. 원본과 과거 배포 ZIP은 변경하지 않음.",
+    "sourceReport": "13행-의미재검토.md"
+  }
+}

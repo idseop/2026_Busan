@@ -1,0 +1,914 @@
+{
+  "status": "pass",
+  "passed": 221,
+  "total": 221,
+  "checks": [
+    {
+      "name": "index no horizontal overflow 1920",
+      "pass": true
+    },
+    {
+      "name": "gallery no horizontal overflow 1920",
+      "pass": true
+    },
+    {
+      "name": "report no horizontal overflow 1920",
+      "pass": true
+    },
+    {
+      "name": "map 9 shortcuts 1920",
+      "pass": true
+    },
+    {
+      "name": "map no horizontal overflow 1920",
+      "pass": true
+    },
+    {
+      "name": "index no horizontal overflow 1600",
+      "pass": true
+    },
+    {
+      "name": "gallery no horizontal overflow 1600",
+      "pass": true
+    },
+    {
+      "name": "report no horizontal overflow 1600",
+      "pass": true
+    },
+    {
+      "name": "map 9 shortcuts 1600",
+      "pass": true
+    },
+    {
+      "name": "map no horizontal overflow 1600",
+      "pass": true
+    },
+    {
+      "name": "index no horizontal overflow 1366",
+      "pass": true
+    },
+    {
+      "name": "gallery no horizontal overflow 1366",
+      "pass": true
+    },
+    {
+      "name": "report no horizontal overflow 1366",
+      "pass": true
+    },
+    {
+      "name": "map 9 shortcuts 1366",
+      "pass": true
+    },
+    {
+      "name": "map no horizontal overflow 1366",
+      "pass": true
+    },
+    {
+      "name": "zoom button changes zoom",
+      "pass": true
+    },
+    {
+      "name": "whole Busan resets zoom",
+      "pass": true
+    },
+    {
+      "name": "map link 연산동",
+      "pass": true
+    },
+    {
+      "name": "exact query 0",
+      "pass": true
+    },
+    {
+      "name": "fixed period disclosed 0",
+      "pass": true
+    },
+    {
+      "name": "year immediate transition removed",
+      "pass": true
+    },
+    {
+      "name": "year changes local summary",
+      "pass": true
+    },
+    {
+      "name": "year pressed state",
+      "pass": true
+    },
+    {
+      "name": "year visual highlight follows pressed state",
+      "pass": true
+    },
+    {
+      "name": "year count matches loaded verified aggregate",
+      "pass": true
+    },
+    {
+      "name": "explorer landing 0",
+      "pass": true
+    },
+    {
+      "name": "population has 8 candidates",
+      "pass": true
+    },
+    {
+      "name": "population selection updates",
+      "pass": true
+    },
+    {
+      "name": "empty search",
+      "pass": true
+    },
+    {
+      "name": "map link 부전동",
+      "pass": true
+    },
+    {
+      "name": "exact query 1",
+      "pass": true
+    },
+    {
+      "name": "fixed period disclosed 1",
+      "pass": true
+    },
+    {
+      "name": "explorer landing 1",
+      "pass": true
+    },
+    {
+      "name": "map link 광안동",
+      "pass": true
+    },
+    {
+      "name": "exact query 2",
+      "pass": true
+    },
+    {
+      "name": "fixed period disclosed 2",
+      "pass": true
+    },
+    {
+      "name": "explorer landing 2",
+      "pass": true
+    },
+    {
+      "name": "map link 초읍동",
+      "pass": true
+    },
+    {
+      "name": "exact query 3",
+      "pass": true
+    },
+    {
+      "name": "fixed period disclosed 3",
+      "pass": true
+    },
+    {
+      "name": "explorer landing 3",
+      "pass": true
+    },
+    {
+      "name": "map link 금성동",
+      "pass": true
+    },
+    {
+      "name": "exact query 4",
+      "pass": true
+    },
+    {
+      "name": "fixed period disclosed 4",
+      "pass": true
+    },
+    {
+      "name": "explorer landing 4",
+      "pass": true
+    },
+    {
+      "name": "map link 다대동",
+      "pass": true
+    },
+    {
+      "name": "exact query 5",
+      "pass": true
+    },
+    {
+      "name": "fixed period disclosed 5",
+      "pass": true
+    },
+    {
+      "name": "explorer landing 5",
+      "pass": true
+    },
+    {
+      "name": "map link 우동",
+      "pass": true
+    },
+    {
+      "name": "exact query 6",
+      "pass": true
+    },
+    {
+      "name": "fixed period disclosed 6",
+      "pass": true
+    },
+    {
+      "name": "explorer landing 6",
+      "pass": true
+    },
+    {
+      "name": "map link 기장읍",
+      "pass": true
+    },
+    {
+      "name": "exact query 7",
+      "pass": true
+    },
+    {
+      "name": "fixed period disclosed 7",
+      "pass": true
+    },
+    {
+      "name": "explorer landing 7",
+      "pass": true
+    },
+    {
+      "name": "map link 온천동",
+      "pass": true
+    },
+    {
+      "name": "exact query 8",
+      "pass": true
+    },
+    {
+      "name": "fixed period disclosed 8",
+      "pass": true
+    },
+    {
+      "name": "explorer landing 8",
+      "pass": true
+    },
+    {
+      "name": "13 gallery cards",
+      "pass": true
+    },
+    {
+      "name": "figure dialog image 0",
+      "pass": true
+    },
+    {
+      "name": "Escape closes and returns focus 0",
+      "pass": true
+    },
+    {
+      "name": "figure dialog image 1",
+      "pass": true
+    },
+    {
+      "name": "Escape closes and returns focus 1",
+      "pass": true
+    },
+    {
+      "name": "figure dialog image 2",
+      "pass": true
+    },
+    {
+      "name": "Escape closes and returns focus 2",
+      "pass": true
+    },
+    {
+      "name": "figure dialog image 3",
+      "pass": true
+    },
+    {
+      "name": "Escape closes and returns focus 3",
+      "pass": true
+    },
+    {
+      "name": "figure dialog image 4",
+      "pass": true
+    },
+    {
+      "name": "Escape closes and returns focus 4",
+      "pass": true
+    },
+    {
+      "name": "figure dialog image 5",
+      "pass": true
+    },
+    {
+      "name": "Escape closes and returns focus 5",
+      "pass": true
+    },
+    {
+      "name": "figure dialog image 6",
+      "pass": true
+    },
+    {
+      "name": "Escape closes and returns focus 6",
+      "pass": true
+    },
+    {
+      "name": "figure dialog image 7",
+      "pass": true
+    },
+    {
+      "name": "Escape closes and returns focus 7",
+      "pass": true
+    },
+    {
+      "name": "figure dialog image 8",
+      "pass": true
+    },
+    {
+      "name": "Escape closes and returns focus 8",
+      "pass": true
+    },
+    {
+      "name": "figure dialog image 9",
+      "pass": true
+    },
+    {
+      "name": "Escape closes and returns focus 9",
+      "pass": true
+    },
+    {
+      "name": "figure dialog image 10",
+      "pass": true
+    },
+    {
+      "name": "Escape closes and returns focus 10",
+      "pass": true
+    },
+    {
+      "name": "figure dialog image 11",
+      "pass": true
+    },
+    {
+      "name": "Escape closes and returns focus 11",
+      "pass": true
+    },
+    {
+      "name": "figure dialog image 12",
+      "pass": true
+    },
+    {
+      "name": "Escape closes and returns focus 12",
+      "pass": true
+    },
+    {
+      "name": "gallery category filter",
+      "pass": true
+    },
+    {
+      "name": "file index h1",
+      "pass": true
+    },
+    {
+      "name": "local link index #main",
+      "pass": true
+    },
+    {
+      "name": "local link index index.html",
+      "pass": true
+    },
+    {
+      "name": "local link index index.html",
+      "pass": true
+    },
+    {
+      "name": "local link index ../../index.html",
+      "pass": true
+    },
+    {
+      "name": "local link index ../followup/explorer.html",
+      "pass": true
+    },
+    {
+      "name": "local link index gallery.html",
+      "pass": true
+    },
+    {
+      "name": "local link index report.html",
+      "pass": true
+    },
+    {
+      "name": "local link index ../../index.html",
+      "pass": true
+    },
+    {
+      "name": "local link index #cases",
+      "pass": true
+    },
+    {
+      "name": "local link index report.html",
+      "pass": true
+    },
+    {
+      "name": "local link index ../effects/index.html#cpr",
+      "pass": true
+    },
+    {
+      "name": "local link index ../effects/index.html#education",
+      "pass": true
+    },
+    {
+      "name": "local link index ../effects/index.html#temporal",
+      "pass": true
+    },
+    {
+      "name": "local link index ../effects/index.html#roads",
+      "pass": true
+    },
+    {
+      "name": "local link index ../followup/explorer.html?district=%EC%97%B0%EC%A0%9C%EA%B5%AC&dong=%EC%97%B0%EC%82%B0%EB%8F%99&type=%EC%8B%AC%EC%A0%95%EC%A7%80&scope=C",
+      "pass": true
+    },
+    {
+      "name": "local link index ../followup/explorer.html?district=%EC%97%B0%EC%A0%9C%EA%B5%AC&dong=%EC%97%B0%EC%82%B0%EB%8F%99&type=%EC%8B%AC%EC%A0%95%EC%A7%80&scope=C",
+      "pass": true
+    },
+    {
+      "name": "local link index ../followup/explorer.html?district=%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC&dong=%EB%B6%80%EC%A0%84%EB%8F%99&type=%EA%B5%90%ED%86%B5%EC%82%AC%EA%B3%A0&scope=C",
+      "pass": true
+    },
+    {
+      "name": "local link index ../followup/explorer.html?district=%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC&dong=%EB%B6%80%EC%A0%84%EB%8F%99&type=%EA%B5%90%ED%86%B5%EC%82%AC%EA%B3%A0&scope=C",
+      "pass": true
+    },
+    {
+      "name": "local link index ../followup/explorer.html?district=%EC%88%98%EC%98%81%EA%B5%AC&dong=%EA%B4%91%EC%95%88%EB%8F%99&type=%EA%B5%90%ED%86%B5%EC%82%AC%EA%B3%A0&scope=C",
+      "pass": true
+    },
+    {
+      "name": "local link index ../followup/explorer.html?district=%EC%88%98%EC%98%81%EA%B5%AC&dong=%EA%B4%91%EC%95%88%EB%8F%99&type=%EA%B5%90%ED%86%B5%EC%82%AC%EA%B3%A0&scope=C",
+      "pass": true
+    },
+    {
+      "name": "local link index ../followup/explorer.html?district=%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC&dong=%EC%B4%88%EC%9D%8D%EB%8F%99&type=%EC%82%B0%EC%95%85%EC%82%AC%EA%B3%A0&scope=C",
+      "pass": true
+    },
+    {
+      "name": "local link index ../followup/explorer.html?district=%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC&dong=%EC%B4%88%EC%9D%8D%EB%8F%99&type=%EC%82%B0%EC%95%85%EC%82%AC%EA%B3%A0&scope=C",
+      "pass": true
+    },
+    {
+      "name": "local link index ../followup/explorer.html?district=%EA%B8%88%EC%A0%95%EA%B5%AC&dong=%EA%B8%88%EC%84%B1%EB%8F%99&type=%EC%82%B0%EC%95%85%EC%82%AC%EA%B3%A0&scope=C",
+      "pass": true
+    },
+    {
+      "name": "local link index ../followup/explorer.html?district=%EA%B8%88%EC%A0%95%EA%B5%AC&dong=%EA%B8%88%EC%84%B1%EB%8F%99&type=%EC%82%B0%EC%95%85%EC%82%AC%EA%B3%A0&scope=C",
+      "pass": true
+    },
+    {
+      "name": "local link index ../followup/explorer.html?district=%EC%82%AC%ED%95%98%EA%B5%AC&dong=%EB%8B%A4%EB%8C%80%EB%8F%99&type=%EC%88%98%EB%82%9C%EC%82%AC%EA%B3%A0&scope=C",
+      "pass": true
+    },
+    {
+      "name": "local link index ../followup/explorer.html?district=%EC%82%AC%ED%95%98%EA%B5%AC&dong=%EB%8B%A4%EB%8C%80%EB%8F%99&type=%EC%88%98%EB%82%9C%EC%82%AC%EA%B3%A0&scope=C",
+      "pass": true
+    },
+    {
+      "name": "local link index ../followup/explorer.html?district=%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC&dong=%EC%9A%B0%EB%8F%99&type=%EC%88%98%EB%82%9C%EC%82%AC%EA%B3%A0&scope=C",
+      "pass": true
+    },
+    {
+      "name": "local link index ../followup/explorer.html?district=%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC&dong=%EC%9A%B0%EB%8F%99&type=%EC%88%98%EB%82%9C%EC%82%AC%EA%B3%A0&scope=C",
+      "pass": true
+    },
+    {
+      "name": "local link index ../followup/explorer.html?district=%EA%B8%B0%EC%9E%A5%EA%B5%B0&dong=%EA%B8%B0%EC%9E%A5%EC%9D%8D&type=%EC%9D%BC%EB%B0%98%ED%99%94%EC%9E%AC%28%EC%A3%BC%ED%83%9D%29&scope=C",
+      "pass": true
+    },
+    {
+      "name": "local link index ../followup/explorer.html?district=%EA%B8%B0%EC%9E%A5%EA%B5%B0&dong=%EA%B8%B0%EC%9E%A5%EC%9D%8D&type=%EC%9D%BC%EB%B0%98%ED%99%94%EC%9E%AC%28%EC%A3%BC%ED%83%9D%29&scope=C",
+      "pass": true
+    },
+    {
+      "name": "local link index ../followup/explorer.html?district=%EB%8F%99%EB%9E%98%EA%B5%AC&dong=%EC%98%A8%EC%B2%9C%EB%8F%99&type=%EC%9D%BC%EB%B0%98%ED%99%94%EC%9E%AC%28%EC%A3%BC%ED%83%9D%29&scope=C",
+      "pass": true
+    },
+    {
+      "name": "local link index ../followup/explorer.html?district=%EB%8F%99%EB%9E%98%EA%B5%AC&dong=%EC%98%A8%EC%B2%9C%EB%8F%99&type=%EC%9D%BC%EB%B0%98%ED%99%94%EC%9E%AC%28%EC%A3%BC%ED%83%9D%29&scope=C",
+      "pass": true
+    },
+    {
+      "name": "local link index ../../index.html",
+      "pass": true
+    },
+    {
+      "name": "local link index ../followup/explorer.html",
+      "pass": true
+    },
+    {
+      "name": "local link index gallery.html",
+      "pass": true
+    },
+    {
+      "name": "local link index gallery.html",
+      "pass": true
+    },
+    {
+      "name": "local link index gallery.html",
+      "pass": true
+    },
+    {
+      "name": "local link index gallery.html",
+      "pass": true
+    },
+    {
+      "name": "local link index ../effects/effect-measurement.json",
+      "pass": true
+    },
+    {
+      "name": "local link index report.html",
+      "pass": true
+    },
+    {
+      "name": "local link index verification.html",
+      "pass": true
+    },
+    {
+      "name": "file gallery h1",
+      "pass": true
+    },
+    {
+      "name": "local link gallery #main",
+      "pass": true
+    },
+    {
+      "name": "local link gallery index.html",
+      "pass": true
+    },
+    {
+      "name": "local link gallery index.html",
+      "pass": true
+    },
+    {
+      "name": "local link gallery ../../index.html",
+      "pass": true
+    },
+    {
+      "name": "local link gallery ../followup/explorer.html",
+      "pass": true
+    },
+    {
+      "name": "local link gallery gallery.html",
+      "pass": true
+    },
+    {
+      "name": "local link gallery report.html",
+      "pass": true
+    },
+    {
+      "name": "local link gallery figures/01-cpr-trend.png",
+      "pass": true
+    },
+    {
+      "name": "local link gallery figures/01-cpr-trend.svg",
+      "pass": true
+    },
+    {
+      "name": "local link gallery ../../results/effects/index.html",
+      "pass": true
+    },
+    {
+      "name": "local link gallery figures/02-education-practice.png",
+      "pass": true
+    },
+    {
+      "name": "local link gallery figures/02-education-practice.svg",
+      "pass": true
+    },
+    {
+      "name": "local link gallery ../../results/effects/index.html",
+      "pass": true
+    },
+    {
+      "name": "local link gallery figures/03-yeonje-education-age.png",
+      "pass": true
+    },
+    {
+      "name": "local link gallery figures/03-yeonje-education-age.svg",
+      "pass": true
+    },
+    {
+      "name": "local link gallery ../../results/effects/index.html",
+      "pass": true
+    },
+    {
+      "name": "local link gallery figures/04-candidate_age_context.png",
+      "pass": true
+    },
+    {
+      "name": "local link gallery figures/04-candidate_age_context.svg",
+      "pass": true
+    },
+    {
+      "name": "local link gallery ../../results/advance/index.html",
+      "pass": true
+    },
+    {
+      "name": "local link gallery figures/05-same_mobile_weekend.png",
+      "pass": true
+    },
+    {
+      "name": "local link gallery figures/05-same_mobile_weekend.svg",
+      "pass": true
+    },
+    {
+      "name": "local link gallery ../../results/advance/index.html",
+      "pass": true
+    },
+    {
+      "name": "local link gallery figures/06-channel_decomposition.png",
+      "pass": true
+    },
+    {
+      "name": "local link gallery figures/06-channel_decomposition.svg",
+      "pass": true
+    },
+    {
+      "name": "local link gallery ../../results/advance/index.html",
+      "pass": true
+    },
+    {
+      "name": "local link gallery figures/07-leave_one_season.png",
+      "pass": true
+    },
+    {
+      "name": "local link gallery figures/07-leave_one_season.svg",
+      "pass": true
+    },
+    {
+      "name": "local link gallery ../../results/effects/index.html",
+      "pass": true
+    },
+    {
+      "name": "local link gallery figures/08-monthly_year_comparison.png",
+      "pass": true
+    },
+    {
+      "name": "local link gallery figures/08-monthly_year_comparison.svg",
+      "pass": true
+    },
+    {
+      "name": "local link gallery ../../results/effects/index.html",
+      "pass": true
+    },
+    {
+      "name": "local link gallery figures/09-service_conditions_comparison.png",
+      "pass": true
+    },
+    {
+      "name": "local link gallery figures/09-service_conditions_comparison.svg",
+      "pass": true
+    },
+    {
+      "name": "local link gallery ../../results/advance/index.html",
+      "pass": true
+    },
+    {
+      "name": "local link gallery figures/10-field_study_road_conditions.png",
+      "pass": true
+    },
+    {
+      "name": "local link gallery figures/10-field_study_road_conditions.svg",
+      "pass": true
+    },
+    {
+      "name": "local link gallery ../../results/followup/index.html",
+      "pass": true
+    },
+    {
+      "name": "local link gallery figures/11-evidence_to_action.png",
+      "pass": true
+    },
+    {
+      "name": "local link gallery figures/11-evidence_to_action.svg",
+      "pass": true
+    },
+    {
+      "name": "local link gallery ../../results/advance/index.html",
+      "pass": true
+    },
+    {
+      "name": "local link gallery figures/12-selection-evidence-flow.png",
+      "pass": true
+    },
+    {
+      "name": "local link gallery figures/12-selection-evidence-flow.svg",
+      "pass": true
+    },
+    {
+      "name": "local link gallery ../../results/final/report.html#report-4",
+      "pass": true
+    },
+    {
+      "name": "local link gallery figures/13-population-count-and-share.png",
+      "pass": true
+    },
+    {
+      "name": "local link gallery figures/13-population-count-and-share.svg",
+      "pass": true
+    },
+    {
+      "name": "local link gallery ../../results/final/report.html#report-5",
+      "pass": true
+    },
+    {
+      "name": "local link gallery report.html",
+      "pass": true
+    },
+    {
+      "name": "local link gallery verification.html",
+      "pass": true
+    },
+    {
+      "name": "file report h1",
+      "pass": true
+    },
+    {
+      "name": "local link report #main",
+      "pass": true
+    },
+    {
+      "name": "local link report index.html",
+      "pass": true
+    },
+    {
+      "name": "local link report index.html",
+      "pass": true
+    },
+    {
+      "name": "local link report ../../index.html",
+      "pass": true
+    },
+    {
+      "name": "local link report ../followup/explorer.html",
+      "pass": true
+    },
+    {
+      "name": "local link report gallery.html",
+      "pass": true
+    },
+    {
+      "name": "local link report report.html",
+      "pass": true
+    },
+    {
+      "name": "local link report 최종통합보고서.md",
+      "pass": true
+    },
+    {
+      "name": "local link report #report-1",
+      "pass": true
+    },
+    {
+      "name": "local link report #report-2",
+      "pass": true
+    },
+    {
+      "name": "local link report #report-3",
+      "pass": true
+    },
+    {
+      "name": "local link report #report-4",
+      "pass": true
+    },
+    {
+      "name": "local link report #report-5",
+      "pass": true
+    },
+    {
+      "name": "local link report #report-6",
+      "pass": true
+    },
+    {
+      "name": "local link report #report-7",
+      "pass": true
+    },
+    {
+      "name": "local link report #report-8",
+      "pass": true
+    },
+    {
+      "name": "local link report #report-9",
+      "pass": true
+    },
+    {
+      "name": "local link report #report-10",
+      "pass": true
+    },
+    {
+      "name": "local link report #report-11",
+      "pass": true
+    },
+    {
+      "name": "local link report references/부산-119-보조자료선택판단-20260916.md",
+      "pass": true
+    },
+    {
+      "name": "local link report report.html",
+      "pass": true
+    },
+    {
+      "name": "local link report verification.html",
+      "pass": true
+    },
+    {
+      "name": "file verification h1",
+      "pass": true
+    },
+    {
+      "name": "local link verification #main",
+      "pass": true
+    },
+    {
+      "name": "local link verification index.html",
+      "pass": true
+    },
+    {
+      "name": "local link verification index.html",
+      "pass": true
+    },
+    {
+      "name": "local link verification ../../index.html",
+      "pass": true
+    },
+    {
+      "name": "local link verification ../followup/explorer.html",
+      "pass": true
+    },
+    {
+      "name": "local link verification gallery.html",
+      "pass": true
+    },
+    {
+      "name": "local link verification report.html",
+      "pass": true
+    },
+    {
+      "name": "local link verification ../effects/검증기록.md",
+      "pass": true
+    },
+    {
+      "name": "local link verification ../effects/data/input-manifest.json",
+      "pass": true
+    },
+    {
+      "name": "local link verification visual-catalogue.json",
+      "pass": true
+    },
+    {
+      "name": "local link verification verification/content-final.json",
+      "pass": true
+    },
+    {
+      "name": "local link verification verification/browser-final.json",
+      "pass": true
+    },
+    {
+      "name": "local link verification ../effects/effect-measurement.json",
+      "pass": true
+    },
+    {
+      "name": "local link verification report.html",
+      "pass": true
+    },
+    {
+      "name": "local link verification verification.html",
+      "pass": true
+    },
+    {
+      "name": "file gallery dialog",
+      "pass": true
+    },
+    {
+      "name": "no JavaScript exceptions",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "pending": [],
+  "hashes": {
+    "web/final/index.html": "6c8517403cf5bb755799a0d4d5d108f29d8990d43b891e61c426e09853c6770e",
+    "web/final/assets/detail-extension.js": "97114293cc3d54d1f67ecff7578866c4434689c1b11e749467aadce6bb3b697c",
+    "web/final/assets/detail-extension.css": "bef57c8cd62e76f923bf3ce6c3794a305b96638d8a93776a1dc923b89b3aaf3d",
+    "web/final/data/final-cases.js": "56e0b14075e58926bf44f013136b1fed35f6a816b8529a0d634089c8ffa7ed0f",
+    "web/final/results/final/index.html": "5771b12a99981bb5e40fb44179e9a093d9d68d1486a64d0e42d403b8c2ea3265",
+    "web/final/results/final/gallery.html": "caf75c860d52612e83aedac512eaf576db1f91dd7a1a752b80b9b91969d868cb",
+    "web/final/results/final/report.html": "310c0f2a648d4629a6ac90ae2ea799c6dabf49424bbf9c68deb5db11ece00139",
+    "web/final/results/final/verification.html": "39be96cf2ff2617693349e67b1df26c129e43027b6bcfd14d637e902190200f5",
+    "web/final/results/final/final.js": "dd19c793ad54a2c6eb424dee059ee76748c86e7bdae8c28b0cca16cb39ebb044",
+    "web/final/results/final/final.css": "8611422a5de10cc79da1b742853e65518182d3011a523984ff60daf98b221413",
+    "web/final/results/followup/explorer.html": "225af71165d020ab76bd27bcb0bb85d0cdb12e1052b80bbbb2d82fad3ea3cd74",
+    "web/final/results/followup/explorer-data.js": "6cd042344dd4304fa566142f9a9603e63c7ca66cea945b06744f885dd7ca61bc"
+  },
+  "scope": "Independent Chrome localhost/file navigation, loaded aggregate arithmetic, nine case URLs, population candidates, three PC widths, gallery keyboard. No source reaggregation or actual user effect measurement.",
+  "finalPageRecheck": {
+    "scope": "Existing verification-page checks repeated after status text changed; check count unchanged",
+    "display": "content 90 pass / browser 221 pass",
+    "localLinks": "all exist; both JSON records opened through file browser",
+    "homeScreenshot": "final-home-viewport-1600.png"
+  }
+}

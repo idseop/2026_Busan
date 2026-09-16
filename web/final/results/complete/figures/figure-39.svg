@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1008pt" height="756pt" viewBox="0 0 1008 756" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-16T02:03:23.145794</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 756 
+L 1008 756 
+L 1008 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="line2d_1">
+    <path d="M 55.44 180.495 
+L 952.56 180.495 
+" clip-path="url(#pb44c1323a0)" style="fill: none; stroke: #e6edef; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 55.44 212.436 
+L 952.56 212.436 
+" clip-path="url(#pb44c1323a0)" style="fill: none; stroke: #e6edef; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 55.44 244.377 
+L 952.56 244.377 
+" clip-path="url(#pb44c1323a0)" style="fill: none; stroke: #e6edef; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 55.44 276.318 
+L 952.56 276.318 
+" clip-path="url(#pb44c1323a0)" style="fill: none; stroke: #e6edef; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 55.44 308.259 
+L 952.56 308.259 
+" clip-path="url(#pb44c1323a0)" style="fill: none; stroke: #e6edef; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 55.44 340.2 
+L 952.56 340.2 
+" clip-path="url(#pb44c1323a0)" style="fill: none; stroke: #e6edef; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_7">
+    <path d="M 55.44 372.141 
+L 952.56 372.141 
+" clip-path="url(#pb44c1323a0)" style="fill: none; stroke: #e6edef; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_8">
+    <path d="M 55.44 404.082 
+L 952.56 404.082 
+" clip-path="url(#pb44c1323a0)" style="fill: none; stroke: #e6edef; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_9">
+    <path d="M 55.44 436.023 
+L 952.56 436.023 
+" clip-path="url(#pb44c1323a0)" style="fill: none; stroke: #e6edef; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_10">
+    <path d="M 55.44 467.964 
+L 952.56 467.964 
+" clip-path="url(#pb44c1323a0)" style="fill: none; stroke: #e6edef; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_11">
+    <path d="M 55.44 499.905 
+L 952.56 499.905 
+" clip-path="url(#pb44c1323a0)" style="fill: none; stroke: #e6edef; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_12">
+    <path d="M 55.44 531.846 
+L 952.56 531.846 
+" clip-path="url(#pb44c1323a0)" style="fill: none; stroke: #e6edef; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_13">
+    <path d="M 55.44 563.787 
+L 952.56 563.787 
+" clip-path="url(#pb44c1323a0)" style="fill: none; stroke: #e6edef; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_14">
+    <path d="M 55.44 595.728 
+L 952.56 595.728 
+" clip-path="url(#pb44c1323a0)" style="fill: none; stroke: #e6edef; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #243b4a" x="64.4112" y="143.64" transform="rotate(-0 64.4112 143.64)">구·군 / 점검 지점</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #243b4a" x="512.9712" y="143.64" transform="rotate(-0 512.9712 143.64)">당시 단기 / 중장기</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #243b4a" x="701.3664" y="143.64" transform="rotate(-0 701.3664 143.64)">확보한 후속 근거</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #243b4a" x="64.4112" y="173.28047" transform="rotate(-0 64.4112 173.28047)">남구 · 대연동못골시장</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #243b4a" x="512.9712" y="173.28047" transform="rotate(-0 512.9712 173.28047)">0 / 0개</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #087d72" x="701.3664" y="173.28047" transform="rotate(-0 701.3664 173.28047)">사업 준공·평가 계약 완료</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #243b4a" x="64.4112" y="205.22147" transform="rotate(-0 64.4112 205.22147)">남구 · 못골사거리</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #243b4a" x="512.9712" y="205.22147" transform="rotate(-0 512.9712 205.22147)">3 / 0개</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #5f727a" x="701.3664" y="205.264438" transform="rotate(-0 701.3664 205.264438)">점검항목 완료 미확인</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #243b4a" x="64.4112" y="237.234657" transform="rotate(-0 64.4112 237.234657)">남구 · 남구종합사회복지관</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #243b4a" x="512.9712" y="237.16247" transform="rotate(-0 512.9712 237.16247)">2 / 1개</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #5f727a" x="701.3664" y="237.205438" transform="rotate(-0 701.3664 237.205438)">공식 주소 후보 확보</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #243b4a" x="64.4112" y="269.175657" transform="rotate(-0 64.4112 269.175657)">남구 · 용호종합사회복지관</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #243b4a" x="512.9712" y="269.10347" transform="rotate(-0 512.9712 269.10347)">14 / 1개</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #5f727a" x="701.3664" y="269.146438" transform="rotate(-0 701.3664 269.146438)">공식 주소 후보 확보</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #243b4a" x="64.4112" y="301.04447" transform="rotate(-0 64.4112 301.04447)">동구 · 부산진시장앞교차로</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #243b4a" x="512.9712" y="301.04447" transform="rotate(-0 512.9712 301.04447)">5 / 5개</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #5f727a" x="701.3664" y="301.087438" transform="rotate(-0 701.3664 301.087438)">점검항목 완료 미확인</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #243b4a" x="64.4112" y="332.98547" transform="rotate(-0 64.4112 332.98547)">부산진구 · 굿모닝성모안과의원</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #243b4a" x="512.9712" y="332.98547" transform="rotate(-0 512.9712 332.98547)">13 / 2개</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #5f727a" x="701.3664" y="333.028438" transform="rotate(-0 701.3664 333.028438)">점검항목 완료 미확인</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #243b4a" x="64.4112" y="364.92647" transform="rotate(-0 64.4112 364.92647)">사하구 · 한비전교회</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #243b4a" x="512.9712" y="364.92647" transform="rotate(-0 512.9712 364.92647)">3 / 1개</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #5f727a" x="701.3664" y="364.969438" transform="rotate(-0 701.3664 364.969438)">점검항목 완료 미확인</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #243b4a" x="64.4112" y="396.86747" transform="rotate(-0 64.4112 396.86747)">수영구 · 장대골삼거리</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #243b4a" x="512.9712" y="396.86747" transform="rotate(-0 512.9712 396.86747)">19 / 0개</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #5f727a" x="701.3664" y="396.910438" transform="rotate(-0 701.3664 396.910438)">점검항목 완료 미확인</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #243b4a" x="64.4112" y="428.80847" transform="rotate(-0 64.4112 428.80847)">수영구 · 사도행전교회</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #243b4a" x="512.9712" y="428.80847" transform="rotate(-0 512.9712 428.80847)">4 / 0개</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #5f727a" x="701.3664" y="428.851438" transform="rotate(-0 701.3664 428.851438)">점검항목 완료 미확인</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #243b4a" x="64.4112" y="460.74947" transform="rotate(-0 64.4112 460.74947)">연제구 · 거제시장</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #243b4a" x="512.9712" y="460.74947" transform="rotate(-0 512.9712 460.74947)">17 / 3개</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #087d72" x="701.3664" y="460.802751" transform="rotate(-0 701.3664 460.802751)">생활가로 계획·예산심사</text>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #243b4a" x="64.4112" y="492.762657" transform="rotate(-0 64.4112 492.762657)">연제구 · 부산광역시노인종합복지관</text>
+   </g>
+   <g id="text_35">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #243b4a" x="512.9712" y="492.69047" transform="rotate(-0 512.9712 492.69047)">9 / 1개</text>
+   </g>
+   <g id="text_36">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #5f727a" x="701.3664" y="492.733438" transform="rotate(-0 701.3664 492.733438)">공식 주소 후보 확보</text>
+   </g>
+   <g id="text_37">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #243b4a" x="64.4112" y="524.65811" transform="rotate(-0 64.4112 524.65811)">영도구 · 남항시장사거리</text>
+   </g>
+   <g id="text_38">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #243b4a" x="512.9712" y="524.63147" transform="rotate(-0 512.9712 524.63147)">16 / 0개</text>
+   </g>
+   <g id="text_39">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #5f727a" x="701.3664" y="524.674438" transform="rotate(-0 701.3664 524.674438)">점검항목 완료 미확인</text>
+   </g>
+   <g id="text_40">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #243b4a" x="64.4112" y="556.57247" transform="rotate(-0 64.4112 556.57247)">중구 · 남포사거리</text>
+   </g>
+   <g id="text_41">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #243b4a" x="512.9712" y="556.57247" transform="rotate(-0 512.9712 556.57247)">6 / 4개</text>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #087d72" x="701.3664" y="556.615438" transform="rotate(-0 701.3664 556.615438)">주정차 CCTV 운영 확인</text>
+   </g>
+   <g id="text_43">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #243b4a" x="64.4112" y="588.51347" transform="rotate(-0 64.4112 588.51347)">해운대구 · 반송도서관교차로</text>
+   </g>
+   <g id="text_44">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #243b4a" x="512.9712" y="588.51347" transform="rotate(-0 512.9712 588.51347)">11 / 1개</text>
+   </g>
+   <g id="text_45">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #5f727a" x="701.3664" y="588.556438" transform="rotate(-0 701.3664 588.556438)">점검항목 완료 미확인</text>
+   </g>
+  </g>
+  <g id="text_46">
+   <text style="font-weight: 700; font-size: 21px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #243b4a" x="55.44" y="41.58" transform="rotate(-0 55.44 41.58)">14개 공식 점검지점의 후속 근거를 구분했다</text>
+  </g>
+  <g id="text_47">
+   <text style="font-size: 12px; font-family: 'Malgun Gothic'; fill: #243b4a" transform="translate(55.44 66.586875)">2023년 점검 당시 개선안 → 2026.9.16까지 이번에 확보한 공개자료</text>
+   <text style="font-size: 12px; font-family: 'Malgun Gothic'; fill: #243b4a" transform="translate(55.44 86.94)">당시 기개선 9개·단기안 122개·중장기안 19개. 현재 미완료 건수가 아니다.</text>
+  </g>
+  <g id="text_48">
+   <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #243b4a" transform="translate(55.44 663.4)">못골시장 사업·평가 완료는 개별 점검항목의 동일성을 뜻하지 않는다. 거제시장 계획과 예산심사는 시공 완료가 아니다.</text>
+   <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #243b4a" transform="translate(55.44 680.4)">주소 후보와 CCTV 운영 확인도 점검항목의 완료 여부를 대신하지 않는다. 미확인은 미개선·서비스 부재와 다르다.</text>
+  </g>
+  <g id="text_49">
+   <text style="font-size: 9px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #627580" x="55.44" y="729.54" transform="rotate(-0 55.44 729.54)">출처: 행정안전부 2023.11.29 점검표 + 부산시·구청·의회 공개자료 · 자세한 출처·시점·동일구간 판정은 traffic-followup-all14.csv</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pb44c1323a0">
+   <rect x="55.44" y="143.64" width="897.12" height="491.4"/>
+  </clipPath>
+ </defs>
+</svg>

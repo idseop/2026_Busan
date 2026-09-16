@@ -1,0 +1,1000 @@
+{
+  "reviewer": "policy_analysis; independent of traffic author",
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "bujeon-main-bill.xls:8 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:8 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:9 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:9 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:11 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:11 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:13 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:13 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:14 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:14 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:15 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:15 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:17 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:17 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:21 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:21 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:23 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:23 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:24 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:24 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:26 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:26 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:28 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:28 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:30 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:30 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:32 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:32 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:34 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:34 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:38 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:38 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:39 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:39 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:40 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:40 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:41 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:41 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:42 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:42 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:43 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:43 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:44 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:44 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:45 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:45 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:46 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:46 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:47 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:47 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:48 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:48 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:49 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:49 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:51 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:51 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:52 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:52 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:56 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:56 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:58 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:58 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:60 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:60 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:61 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:61 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:63 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:63 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:65 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:65 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:67 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:67 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:69 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:69 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:70 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:70 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:71 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:71 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:73 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:73 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:74 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:74 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:76 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:76 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:78 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:78 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:79 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:79 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:80 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:80 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:86 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:86 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:88 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:88 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:89 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:89 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:91 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:91 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:93 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:93 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:94 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:94 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:96 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:96 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:97 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:97 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:98 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:98 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:100 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:100 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:101 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:101 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:102 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:102 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:103 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:103 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:104 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:104 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:105 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:105 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:106 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:106 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:107 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:107 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:108 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:108 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:109 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:109 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:110 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:110 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:111 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:111 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:112 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:112 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:113 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:113 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:114 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:114 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:115 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:115 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:117 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:117 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:118 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:118 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:120 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:120 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:121 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:121 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:126 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:126 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:127 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:127 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:129 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:129 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:131 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:131 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:132 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:132 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:136 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:136 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:140 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-bill.xls:140 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-bill.xls:9 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-bill.xls:9 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-bill.xls:11 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-bill.xls:11 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-bill.xls:13 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-bill.xls:13 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-bill.xls:14 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-bill.xls:14 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-bill.xls:17 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-bill.xls:17 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-bill.xls:19 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-bill.xls:19 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-bill.xls:21 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-bill.xls:21 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-bill.xls:22 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-bill.xls:22 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-bill.xls:25 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-bill.xls:25 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-bill.xls:27 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-bill.xls:27 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-bill.xls:29 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-bill.xls:29 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-bill.xls:30 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-bill.xls:30 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-bill.xls:33 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-bill.xls:33 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-bill.xls:35 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-bill.xls:35 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-bill.xls:37 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-bill.xls:37 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-bill.xls:38 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-bill.xls:38 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-bill.xls:41 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-bill.xls:41 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-bill.xls:43 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-bill.xls:43 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-bill.xls:47 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-bill.xls:47 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-bill.xls:49 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-bill.xls:49 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-bill.xls:50 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-bill.xls:50 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-bill.xls:52 original cells",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-bill.xls:52 design qualifier",
+      "pass": true
+    },
+    {
+      "check": "no duplicate source-sheet-row",
+      "pass": true
+    },
+    {
+      "check": "투수블록포장:installation row counted once",
+      "pass": true
+    },
+    {
+      "check": "안전유도블록포장:installation row counted once",
+      "pass": true
+    },
+    {
+      "check": "안전유도블록포장:installation row counted once",
+      "pass": true
+    },
+    {
+      "check": "아스팔트포장:installation row counted once",
+      "pass": true
+    },
+    {
+      "check": "버스정류장 표지판 설치:installation row counted once",
+      "pass": true
+    },
+    {
+      "check": "카트보관소 설치:installation row counted once",
+      "pass": true
+    },
+    {
+      "check": "카트보관소(쉼터결합형) 설치:installation row counted once",
+      "pass": true
+    },
+    {
+      "check": "유도사인 설치:installation row counted once",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-notice.hwp:2025-1329",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-notice.hwp:중앙대로783번길",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-notice.hwp:3,222",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-notice.hwp:247",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-notice.hwp:설계금액",
+      "pass": true
+    },
+    {
+      "check": "bujeon-main-notice.hwp:saved extraction matches (line-ending whitespace normalized)",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-notice.hwp:2025-1552",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-notice.hwp:시설물 설치 공사",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-notice.hwp:212,674",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-notice.hwp:설계금액",
+      "pass": true
+    },
+    {
+      "check": "bujeon-facilities-notice.hwp:saved extraction matches (line-ending whitespace normalized)",
+      "pass": true
+    },
+    {
+      "check": "BDI page67:<표 3-9>",
+      "pass": true
+    },
+    {
+      "check": "BDI page67:1,034.4",
+      "pass": true
+    },
+    {
+      "check": "BDI page67:772.4",
+      "pass": true
+    },
+    {
+      "check": "BDI page67:262.0",
+      "pass": true
+    },
+    {
+      "check": "BDI page68 figure3-25",
+      "pass": true
+    },
+    {
+      "check": "visual popup sum1102.5",
+      "pass": true
+    },
+    {
+      "check": "visual-table difference68.1",
+      "pass": true
+    },
+    {
+      "check": "no effect falsely verified",
+      "pass": true
+    },
+    {
+      "check": "no call points falsely joined",
+      "pass": true
+    },
+    {
+      "check": "correct table label",
+      "pass": true
+    },
+    {
+      "check": "reused hash:data/processed/후속입증-20260916/traffic/bdi-elder-transport.pdf",
+      "pass": true
+    },
+    {
+      "check": "reused hash:data/processed/고도화검증-20260916/traffic/traffic-resolution.json",
+      "pass": true
+    },
+    {
+      "check": "reused hash:data/processed/동별보완-추가근거-20260916/followup/evaluation-detail.json",
+      "pass": true
+    },
+    {
+      "check": "download hash:bujeon-facilities-notice.hwp",
+      "pass": true
+    },
+    {
+      "check": "download hash:bujeon-facilities-bill.xls",
+      "pass": true
+    },
+    {
+      "check": "download hash:bujeon-main-notice.hwp",
+      "pass": true
+    },
+    {
+      "check": "download hash:bujeon-main-bill.xls",
+      "pass": true
+    }
+  ],
+  "count": 243,
+  "csvRows": 103,
+  "visualReview": {
+    "file": "traffic/bdi-map-image-3.jpeg",
+    "openedAndRead": true,
+    "visiblePopupMetres": [
+      419.5,
+      351.1,
+      331.9
+    ],
+    "interpretation": "팝업 거리와 조사 표 거리 불일치; 표의 내외부 구간에 임의 재배정하지 않음"
+  },
+  "scope": "신규 설계수량/공고/BDI 도표 및 기존 입력 해시. 과거 완료·평가 내용의 의미는 이전 검증 재사용; 신규 효과 추정 안 함.",
+  "inputHashes": {
+    "traffic-effects-extension.json": "5ee2786c199ac8d1b1387ae48496397f7df11dd13efe1776f80905b74f002631",
+    "bujeon-designed-quantities.csv": "2a26a712890fc162a2d61d0350fac5a77b76ad84b2a4497725338367db5f0bb3",
+    "bdi-elder-transport.pdf": "67a6ef18f900311b8292c34a7ee35eb5a374cb34c7d50776a917594799e38c46",
+    "bujeon-facilities-bill.xls": "3d1abfe523b9cf49a7ebcb5b55ab571b5134b6f5410b7616534d707a8e227a03",
+    "bujeon-main-bill.xls": "43d48d5b3b243415ba42951b3b261c188b3fa97e73acceb507ef65ec3888c05f",
+    "bujeon-facilities-notice.hwp": "6466d546401bb53049ba3996d4ff6ac72f6455cc3145d183f77cfa85a9ca1a26",
+    "bujeon-main-notice.hwp": "704e3f0d0c8f3688df582d498d09dbd9d5b7cdd737dc206580862d95f23aa133"
+  }
+}

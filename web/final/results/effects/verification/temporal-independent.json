@@ -1,0 +1,38 @@
+{
+  "status": "pass",
+  "method": "independent csv/gzip streaming and datetime month lengths; exact rational maxima",
+  "ledger": {
+    "complete": 704689,
+    "C": 574662,
+    "focus": 41720
+  },
+  "verifiedWindows": 10670,
+  "profiles": 970,
+  "newMonthlyInputSHA256": "7972218ba3186538422a6b5a1b62a47ae3e6d7601bacb62c8655c3aaad3ce629",
+  "selectionStableStrata": [
+    {
+      "minimumAnnual": 1,
+      "combinations": 325,
+      "monthSameAllFiveLeaveOut": 33,
+      "seasonSameAllFiveLeaveOut": 121
+    },
+    {
+      "minimumAnnual": 5,
+      "combinations": 167,
+      "monthSameAllFiveLeaveOut": 17,
+      "seasonSameAllFiveLeaveOut": 62
+    },
+    {
+      "minimumAnnual": 10,
+      "combinations": 119,
+      "monthSameAllFiveLeaveOut": 12,
+      "seasonSameAllFiveLeaveOut": 46
+    },
+    {
+      "minimumAnnual": 20,
+      "combinations": 86,
+      "monthSameAllFiveLeaveOut": 12,
+      "seasonSameAllFiveLeaveOut": 35
+    }
+  ]
+}

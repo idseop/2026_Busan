@@ -1,0 +1,9 @@
+# Keep reviewed artifact/source bytes stable across Windows and Unix checkouts.
+web/final/** -text
+output/** -text
+analysis/00_공통/** -text
+analysis/style.py -text
+scripts/** -text
+docs/10-작업계획/** -text
+docs/40-분석결과/** -text
+requirements-final-delivery.txt -text

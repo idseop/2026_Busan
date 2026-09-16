@@ -1,0 +1,30 @@
+[
+  {
+    "path": "data\\processed\\효과근거확장-20260916\\services\\cpr-trend.json",
+    "sha256": "bf330ad9521be684bb74e3f7db5f4dba2d97e57844205e55efb07db80fac6e61"
+  },
+  {
+    "path": "data\\processed\\효과근거확장-20260916\\services\\prevention-effects.json",
+    "sha256": "a1834d64dd230063fdf234d52d7963a59dee6ca578e333c7b907ddcad69cc88c"
+  },
+  {
+    "path": "data\\processed\\효과근거확장-20260916\\context\\chs-education-summary.json",
+    "sha256": "15627c686f2be202eb685ec6b3079cccb099223b46d78f3b361a9d5c7fc6d198"
+  },
+  {
+    "path": "data\\processed\\효과근거확장-20260916\\temporal\\focus-summary.json",
+    "sha256": "ea579970843962447e6864aef2027b6ce2fd7b596fc405c01e2fa05a34ee01dc"
+  },
+  {
+    "path": "data\\processed\\효과근거확장-20260916\\temporal\\selection_stable_temporal.json",
+    "sha256": "c9a8a9224084c82b662e06e92c28d48c799a291451bb682e8a305c54abdd144a"
+  },
+  {
+    "path": "data\\processed\\효과근거확장-20260916\\traffic\\traffic-effects-extension.json",
+    "sha256": "5ee2786c199ac8d1b1387ae48496397f7df11dd13efe1776f80905b74f002631"
+  },
+  {
+    "path": "data\\processed\\고도화검증-20260916\\education\\service-conditions.json",
+    "sha256": "d1d9630892bd71323c66be0ae95084185df8ee764227cd37ab29852cbf9367ec"
+  }
+]

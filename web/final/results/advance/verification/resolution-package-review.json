@@ -1,0 +1,32 @@
+{
+  "pass": true,
+  "checks": {
+    "syntax": true,
+    "explicitTrackCommand": true,
+    "explicitAnalyzeCommand": true,
+    "baseCollectorAcknowledged": true,
+    "savedHwpxPrerequisite": true,
+    "savedEducationPrerequisite": true,
+    "standaloneRawReproductionNotClaimed": true,
+    "zipCrcCheck": true,
+    "noRemovalCalls": true,
+    "부산119-쟁점해결-20260916.zipCrc": true,
+    "부산119-쟁점해결-20260916.zipNoRawSensitiveFormats": true,
+    "부산119-지도와쟁점분석-20260916.zipCrc": true,
+    "부산119-지도와쟁점분석-20260916.zipNoRawSensitiveFormats": true
+  },
+  "scriptSHA256": "a30bbf256ddc4119d51c7f910b7a3608197db8f87e6d594b740726bc7738081f",
+  "packages": [
+    {
+      "name": "부산119-쟁점해결-20260916.zip",
+      "entries": 51,
+      "sha256": "1d005de84434ce1ed468fbb2a85e129dca875a1bf2ea0f6ab74b73407136f166"
+    },
+    {
+      "name": "부산119-지도와쟁점분석-20260916.zip",
+      "entries": 236,
+      "sha256": "823611d1fc90d170725d56e531def01c04ea98dbffbb5cb20fd2e8e8e7213d90"
+    }
+  ],
+  "scope": "Code, actual CLI dispatch, input preservation and archive boundary. ZIP checks only apply to archives listed above. Full raw analysis requires retained project inputs."
+}

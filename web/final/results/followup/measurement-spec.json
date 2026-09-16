@@ -1,0 +1,125 @@
+{
+  "version": 1,
+  "asOf": "2026-09-16",
+  "measurementUnit": "12 artifact-level regression tasks, not participants or prevented accidents",
+  "comparison": "Frozen baseline versus revised current files using identical checks. Count passed tasks; do not relabel as accuracy, user effectiveness, reduced accident risk, or resolved service gaps.",
+  "limitations": [
+    "Static text checks may reject semantically equivalent wording: reviewer must inspect rather than edit thresholds to pass.",
+    "Q09/Q10 detect alternative numeric table hooks only; real keyboard/browser operation is a separate required observation.",
+    "Q11 checks official URL identity only. HTTP 200 may be an error page; live official-link reachability is not measured here.",
+    "Expected source facts and accessibility design requirements are separate evidence classes.",
+    "Before/after is software revision comparison, not controlled user study."
+  ],
+  "sources": {
+    "education": {
+      "path": "data/processed/고도화검증-20260916/education/web-extraction.json",
+      "sha256": "762a7306b69de1bf31a443a33e1fe8e458194fadcf1359d321ae40982e24a48a"
+    },
+    "education_extra": {
+      "path": "data/processed/고도화검증-20260916/education/web-extra-extraction.json",
+      "sha256": "5fbd46864bb733172b95783609cd1263332c4cf991d5af8022339d85555700e8"
+    },
+    "inspection": {
+      "path": "data/processed/최종논리검증-20260916/inspection/form-summary.json",
+      "sha256": "1d620c6dc85ff1d52e9c6d0cae76de6a87a2a76bc173f5b3b8d75f1bdc2e24f1"
+    },
+    "headers": {
+      "path": "data/processed/최종논리검증-20260916/inspection/form-header-cells.json",
+      "sha256": "ecc6f9e18068e159d80c2cb0e24e0a528f0a22cad34873679fa61c540fcd5e9f"
+    },
+    "cases": {
+      "path": "web/final/results/advance/case-selection.json",
+      "sha256": "7bf5b54b6bf65e9a8f31ab583627379d205a2bafb08a782f18cc26df91f6f58a"
+    },
+    "baseline": {
+      "path": "data/processed/최종논리검증-20260916/evaluation/baseline-manifest.json",
+      "sha256": "0f6f07893de4e1400a95031226e4d8f16a49b813c1aa8c364c578aa38cd65515"
+    }
+  },
+  "tasks": [
+    {
+      "id": "Q01",
+      "question": "연산 심정지 / 부전·광안 교통 사례의 C조건 건수",
+      "expected": "511 / 723 / 611; 각 연도 합계와 일치",
+      "source": "cases",
+      "evidenceClass": "data_or_document_fact"
+    },
+    {
+      "id": "Q02",
+      "question": "불량 조사행 13개의 공란 의미",
+      "expected": "후속조치 의무란이 아닌 일반 비고란; 현재 미조치·공시 누락 추론 불가",
+      "source": "headers",
+      "evidenceClass": "data_or_document_fact"
+    },
+    {
+      "id": "Q03",
+      "question": "기본 응급처치와 수료증 과정",
+      "expected": "50–80분 기본교육 수료증 없음 / 240분 평가 80점 이상",
+      "source": "education",
+      "evidenceClass": "data_or_document_fact"
+    },
+    {
+      "id": "Q04",
+      "question": "동래소방서 기자재 대여",
+      "expected": "7일 교육용 AED, 응급환자용 장비 대여 아님",
+      "source": "education_extra",
+      "evidenceClass": "data_or_document_fact"
+    },
+    {
+      "id": "Q05",
+      "question": "사하 교육 현재 신청 판단",
+      "expected": "운영 종료 2026-07-31과 신청 종료 2026-12-31 상충, 확정 불가",
+      "source": "education",
+      "evidenceClass": "data_or_document_fact"
+    },
+    {
+      "id": "Q06",
+      "question": "교육 연령 조건의 범위",
+      "expected": "기본 응급처치 12세 이상; 미취학 교육 별도 존재",
+      "source": "education",
+      "evidenceClass": "data_or_document_fact"
+    },
+    {
+      "id": "Q07",
+      "question": "시간 차트의 단위",
+      "expected": "접수 시각의 건수; 주말/평일만 달력 일수로 나눈 비율",
+      "source": "baseline",
+      "evidenceClass": "data_or_document_fact"
+    },
+    {
+      "id": "Q08",
+      "question": "인구 후보의 해석",
+      "expected": "후보 동 개별 표시, 합산과 신고자 연령 추정 없음",
+      "source": "baseline",
+      "evidenceClass": "data_or_document_fact"
+    },
+    {
+      "id": "Q09",
+      "question": "시간별 수치 키보드 접근",
+      "expected": "24시간 수치 대체 표 또는 동등한 접근 필요",
+      "source": "baseline",
+      "evidenceClass": "design_requirement"
+    },
+    {
+      "id": "Q10",
+      "question": "연령별 수치 키보드 접근",
+      "expected": "101연령 인원·비중 대체 표 또는 동등한 접근 필요",
+      "source": "baseline",
+      "evidenceClass": "design_requirement"
+    },
+    {
+      "id": "Q11",
+      "question": "교육 필수항목과 공식 연결",
+      "expected": "대상·소요·수료·이용조건·상태·장비·공식URL 7항목",
+      "source": "education",
+      "evidenceClass": "data_or_document_fact"
+    },
+    {
+      "id": "Q12",
+      "question": "효과와 공간 확정 여부",
+      "expected": "측정된 사용자/피해 감소 효과 없음; 실제 사건 행정동 미확정",
+      "source": "cases",
+      "evidenceClass": "data_or_document_fact"
+    }
+  ]
+}

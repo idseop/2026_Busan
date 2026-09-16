@@ -1,0 +1,42 @@
+{
+  "checks": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "images": 6,
+      "sections": 9,
+      "overflow": false
+    },
+    {
+      "viewport": [
+        1600,
+        900
+      ],
+      "images": 6,
+      "sections": 9,
+      "overflow": false
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "images": 6,
+      "sections": 9,
+      "overflow": false
+    },
+    {
+      "fileDirect": true,
+      "localLinks": true
+    },
+    {
+      "mapNavigation": true
+    },
+    {
+      "publicIndividualCallFieldsAbsent": true
+    }
+  ],
+  "errors": []
+}

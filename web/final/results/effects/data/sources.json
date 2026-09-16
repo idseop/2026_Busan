@@ -1,0 +1,50 @@
+[
+  {
+    "title": "급성심장정지조사2024 표42",
+    "url": "https://is.kdca.go.kr/cscdfile2/biz/ip/filecmmn/ipFileDown.do?fileId=19cf94826232",
+    "landing": "https://www.kdca.go.kr/injury/biz/injury/recsroom/statsSmMain.do",
+    "referenceYear": "2020–2024",
+    "acquired": "2026-09-16"
+  },
+  {
+    "title": "지역사회건강조사2024 지역 통계집",
+    "url": "https://chs.kdca.go.kr/chs/recsRoom/healthStatsMain.do",
+    "districts": [
+      "연제구",
+      "부산진구",
+      "수영구"
+    ],
+    "referenceYear": "2024",
+    "acquired": "2026-09-16"
+  },
+  {
+    "title": "부산연구원 보행환경 조사",
+    "url": "https://data.bdi.re.kr/PDF/View.do?dir=report&path=RPT_00000000001&savename=20250715172207_54971",
+    "referenceYear": "2024 조사",
+    "acquired": "이전 검증 자료 재사용"
+  },
+  {
+    "title": "부전 맞이길 공사 공고·설계",
+    "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R25BK01083291&bidPbancOrd=000&fileSeq=2&fileType=&prcmBsneSeCd=07",
+    "referenceYear": "2025 설계",
+    "acquired": "2026-09-16"
+  },
+  {
+    "title": "부전 맞이길 시설물 설계",
+    "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R25BK01193201&bidPbancOrd=000&fileSeq=2&fileType=&prcmBsneSeCd=07",
+    "referenceYear": "2025 설계",
+    "acquired": "2026-09-16"
+  },
+  {
+    "title": "부산소방 교육·기자재",
+    "url": "https://119edu.busan.go.kr/main/25",
+    "referenceYear": "2026 확인",
+    "acquired": "2026-09-16"
+  },
+  {
+    "title": "부산 AED정보 확인과 관리대책",
+    "url": "https://www.busan.go.kr/nbtnewsBU/1691436",
+    "referenceYear": "2025",
+    "acquired": "2026-09-16"
+  }
+]

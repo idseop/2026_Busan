@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1137.6pt" height="518.4pt" viewBox="0 0 1137.6 518.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-16T12:48:28.700179</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 518.4 
+L 1137.6 518.4 
+L 1137.6 0 
+L 0 0 
+z
+" style="fill: #f3f7f6"/>
+  </g>
+  <g id="axes_1">
+   <g id="line2d_1">
+    <path d="M 39.2472 132.01056 
+L 1115.1324 132.01056 
+" clip-path="url(#p90eaa3961f)" style="fill: none; stroke: #bdd6cd; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 39.2472 242.81856 
+L 1115.1324 242.81856 
+" clip-path="url(#p90eaa3961f)" style="fill: none; stroke: #bdd6cd; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 39.2472 353.62656 
+L 1115.1324 353.62656 
+" clip-path="url(#p90eaa3961f)" style="fill: none; stroke: #bdd6cd; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 22px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #153e48" x="39.2472" y="39.006975" transform="rotate(-0 39.2472 39.006975)">반복 신고를 지역별 예방·지원 안내로 연결</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 12px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #47655d" x="39.2472" y="62.0784" transform="rotate(-0 39.2472 62.0784)">신고 2020–2024 · 정상 처리·운영성 제외 · 후속 근거 확인 2026-09-16</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #146d62" x="39.2472" y="111.3264" transform="rotate(-0 39.2472 111.3264)">확인한 신고</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #146d62" x="288.8082" y="111.3264" transform="rotate(-0 288.8082 111.3264)">주민·현장 배경</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #146d62" x="563.87988" y="111.3264" transform="rotate(-0 563.87988 111.3264)">이미 있는 대응</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #146d62" x="843.3882" y="111.3264" transform="rotate(-0 843.3882 111.3264)">이번에 만든 결과</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #183d46" x="39.2472" y="163.0368" transform="rotate(-0 39.2472 163.0368)">연산동 · 심정지  511건</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 11.8px; font-family: 'Malgun Gothic'; fill: #345951" transform="translate(39.2472 205.658113)">5년 접수 기록 유지</text>
+    <text style="font-size: 11.8px; font-family: 'Malgun Gothic'; fill: #345951" transform="translate(39.2472 225.562316)">주말/평일 비율 방향 유지</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 12.5px; font-family: 'Malgun Gothic'; fill: #183d46" transform="translate(288.8082 179.074886)">주민 후보 8곳 개별 비교</text>
+    <text style="font-size: 12.5px; font-family: 'Malgun Gothic'; fill: #183d46" transform="translate(288.8082 201.574886)">신고자 연령으로 해석하지 않음</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 12.5px; font-family: 'Malgun Gothic'; fill: #183d46" transform="translate(563.87988 179.074886)">기본·수료증 과정</text>
+    <text style="font-size: 12.5px; font-family: 'Malgun Gothic'; fill: #183d46" transform="translate(563.87988 201.574886)">실습 기자재 7일 대여</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 12.5px; font-family: 'Malgun Gothic'; fill: #183d46" transform="translate(843.3882 179.074886)">목적·연령별 공식 안내</text>
+    <text style="font-size: 12.5px; font-family: 'Malgun Gothic'; fill: #183d46" transform="translate(843.3882 201.379573)">교육용/실제 AED 구분</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #183d46" x="39.2472" y="273.8448" transform="rotate(-0 39.2472 273.8448)">부전동 · 교통사고  723건</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 11.8px; font-family: 'Malgun Gothic'; fill: #345951" transform="translate(39.2472 316.466113)">5년 접수 기록 유지</text>
+    <text style="font-size: 11.8px; font-family: 'Malgun Gothic'; fill: #345951" transform="translate(39.2472 336.370316)">주말/평일 비율 방향 유지</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 12.5px; font-family: 'Malgun Gothic'; fill: #183d46" transform="translate(288.8082 289.882886)">2024 보행환경 현장조사</text>
+    <text style="font-size: 12.5px; font-family: 'Malgun Gothic'; fill: #183d46" transform="translate(288.8082 312.443433)">주민·생활인구 후보별 비교</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 12.5px; font-family: 'Malgun Gothic'; fill: #183d46" transform="translate(563.87988 289.882886)">2026 맞이길 제막식</text>
+    <text style="font-size: 12.5px; font-family: 'Malgun Gothic'; fill: #183d46" transform="translate(563.87988 312.431714)">과거 조사와 동일 구간 미확정</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 12.5px; font-family: 'Malgun Gothic'; fill: #183d46" transform="translate(843.3882 289.882886)">과거 문제와 이후 사업 병기</text>
+    <text style="font-size: 12.5px; font-family: 'Malgun Gothic'; fill: #183d46" transform="translate(843.3882 312.382886)">현재 미개선이라는 단정 제거</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #183d46" x="39.2472" y="384.6528" transform="rotate(-0 39.2472 384.6528)">광안동 · 교통사고  611건</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 11.8px; font-family: 'Malgun Gothic'; fill: #345951" transform="translate(39.2472 427.320207)">5년 접수 기록 확인</text>
+    <text style="font-size: 11.8px; font-family: 'Malgun Gothic'; fill: #345951" transform="translate(39.2472 447.362691)">처리조건별 증감 방향 민감</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 12.5px; font-family: 'Malgun Gothic'; fill: #183d46" transform="translate(288.8082 400.690886)">2024 내부도로 조사</text>
+    <text style="font-size: 12.5px; font-family: 'Malgun Gothic'; fill: #183d46" transform="translate(288.8082 423.190886)">주민 후보 4곳 개별 비교</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 12.5px; font-family: 'Malgun Gothic'; fill: #183d46" transform="translate(563.87988 400.690886)">2025 수영로 포장사업</text>
+    <text style="font-size: 12.5px; font-family: 'Malgun Gothic'; fill: #183d46" transform="translate(563.87988 423.239714)">검사·준공금 지급 확인</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 12.5px; font-family: 'Malgun Gothic'; fill: #183d46" transform="translate(843.3882 400.690886)">포장과 보차분리 구분</text>
+    <text style="font-size: 12.5px; font-family: 'Malgun Gothic'; fill: #183d46" transform="translate(843.3882 423.239714)">새 시설안은 근거 미확정</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 12px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #47655d" x="39.2472" y="485.6112" transform="rotate(-0 39.2472 485.6112)">완료: 근거·이용조건·사업 이력 연결     |     아직 측정하지 않은 효과: 이용 개선·사고 및 피해 감소</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p90eaa3961f">
+   <rect x="17.064" y="10.368" width="1109.16" height="492.48"/>
+  </clipPath>
+ </defs>
+</svg>
