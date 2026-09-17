@@ -27,7 +27,7 @@ window.BUSAN_CREATE_MAP=({element,features,onSelect})=>{
  let map;try{map=new maplibregl.Map({container:element,style,center:[129.06,35.18],zoom:10,minZoom:9,maxZoom:18,maxPitch:60,maxBounds:allowedBounds,attributionControl:false,renderWorldCopies:false,pitch:0,bearing:0,antialias:true});}catch(error){element.replaceChildren();return window.BUSAN_CREATE_MAP_LEGACY({element,features,onSelect});}
  map.addControl(new maplibregl.AttributionControl({compact:false,customAttribution:'<a href="https://www.data.go.kr/data/15129688/fileData.do">SGIS</a>'}),'bottom-right');
  map.invalidateSize=()=>map.resize();
- const controls=document.createElement('div');controls.className='map-scene-control';controls.innerHTML='<div class="scene-row" role="group" aria-label="지도 시점"><button data-mode="2d" aria-pressed="true">2D</button><button data-mode="3d" aria-pressed="false">3D</button><button data-rotate="-30" aria-label="왼쪽으로 30도 회전">↶</button><button data-rotate="30" aria-label="오른쪽으로 30도 회전">↷</button><button data-north aria-label="북쪽 위 시점으로 복원">북쪽 ↑</button></div><div class="scene-row" role="group" aria-label="지도 주제"><button data-theme="base" aria-pressed="true">지형</button><button data-theme="share" aria-pressed="false">접수 비중</button><button data-theme="cases" aria-pressed="false">분석 사례</button></div><p class="scene-note">부산 전체 · 지형과 지역 경계</p>';
+ const controls=document.createElement('div');controls.className='map-scene-control';controls.innerHTML='<div class="scene-row" role="group" aria-label="지도 표시"><button data-theme="base" aria-pressed="true">일반지도</button><button data-theme="share" aria-pressed="false">접수 비중</button></div>';
  document.getElementById('map-viewport').append(controls);
  const tip=document.getElementById('map-tooltip');
  const markers=[];
@@ -75,11 +75,9 @@ window.BUSAN_CREATE_MAP=({element,features,onSelect})=>{
   }
   controls.querySelectorAll('[data-theme]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.theme===theme)));labels();note();
  }
- function note(){controls.querySelector('.scene-note').textContent=mode==='3d'?'3D · 확대 시 OSM에 높이가 기재된 건물만 입체 표시':theme==='share'?'선택 조건의 구·군 접수 비중 · 위험도 아님':theme==='cases'?'검토한 9개 지역·유형 사례':'부산 전체 · 지형과 지역 경계';}
+ function note(){}
  function setMode(value){mode=value;controls.querySelectorAll('[data-mode]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.mode===mode)));if(ready)map.setLayoutProperty('explicit-height-buildings','visibility',mode==='3d'?'visible':'none');map.easeTo({pitch:mode==='3d'?52:0,bearing:mode==='2d'?0:map.getBearing(),duration:500});note();}
  controls.querySelectorAll('[data-mode]').forEach(b=>b.onclick=()=>setMode(b.dataset.mode));
- controls.querySelectorAll('[data-rotate]').forEach(b=>b.onclick=()=>map.easeTo({bearing:map.getBearing()+Number(b.dataset.rotate),duration:350}));
- controls.querySelector('[data-north]').onclick=()=>map.easeTo({bearing:0,pitch:mode==='3d'?52:0,duration:350});
  controls.querySelectorAll('[data-theme]').forEach(b=>b.onclick=()=>{theme=b.dataset.theme;themeUpdate();});
  function fit(which='all'){map.resize();const f=which==='selected'&&districts.has(selected)?districts.get(selected):which==='main'?main:features;map.fitBounds(bounds(f),{padding:{top:65,right:35,bottom:55,left:35},maxZoom:which==='selected'?14:12,duration:450,pitch:mode==='3d'?52:0,bearing:0});}
  map.on('style.load',()=>{ready=true;themeUpdate();setMode(mode);fit(selected?'selected':'main');});

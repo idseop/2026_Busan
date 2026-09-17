@@ -57,7 +57,7 @@
   }
   function drawDetail(){
     if(!S.selection)return;const rows=selectedRows(),total=sum(rows,count),base=sum(rows,baseCount),isDistrict=S.selection.kind==='district';
-    $('detail-unit').textContent=isDistrict?'구·군 전체':`${S.selection.district} · 신고 지역명`;$('detail-title').textContent=isDistrict?S.selection.district:S.selection.rawDong;$('detail-period').textContent=`${period()} · ${scopeName()} · ${typeName()}`;
+    $('detail-unit').textContent='';$('detail-title').textContent=isDistrict?S.selection.district:S.selection.rawDong;$('detail-period').textContent=period();
     Object.assign($('detail-content').dataset,{kind:S.selection.kind,district:S.selection.district,rawDong:S.selection.rawDong||'',total,year:S.year,scope:S.scope,type:S.type});
     document.querySelectorAll('[data-tab]').forEach(b=>{b.classList.toggle('active',b.dataset.tab===S.tab);b.setAttribute('aria-selected',String(b.dataset.tab===S.tab));});
     if(S.tab==='overview')overview(rows,total,base);else if(S.tab==='time')timeDetail(rows,total);else if(S.tab==='population')populationDetail();else serviceDetail();
@@ -109,7 +109,7 @@
   let mapView=null;
   function drawMap(){
     syncYears();const t=totals();
-    $('map-context-text').textContent=`${period()} · ${scopeName()} · ${typeName()}`;
+    $('map-context-text').textContent=period();
     $('map-total').innerHTML=`<span>부산 전체 신고</span><strong>${n(sum([...t.values()]))}<small>건</small></strong>`;
     if(!$('map-total').closest('.left-footer'))$('left-panel').querySelector('.left-footer').prepend($('map-total'));
     if(!mapView)mapView=window.BUSAN_CREATE_MAP({element:$('district-map'),features:M,onSelect:selectRegion});
