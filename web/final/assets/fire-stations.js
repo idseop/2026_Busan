@@ -10,6 +10,12 @@
     const markers=[];
     const popups=[];
     const closePopups=except=>{popups.forEach(p=>{if(p===except)return;if(typeof p.remove==='function')p.remove();if(typeof p.close==='function')p.close();});if(view.map.closePopup)view.map.closePopup();};
+    // Consume the first map-background click before district handlers see it.
+    document.getElementById('district-map').addEventListener('click',e=>{
+      if(e.target.closest('.fire-station-popup-shell,.leaflet-popup,.fire-station-marker,.fire-station-leaflet,.maplibregl-ctrl,.leaflet-control'))return;
+      if(!popups.some(p=>p.isOpen?.()))return;
+      closePopups();e.preventDefault();e.stopImmediatePropagation();
+    },true);
     try {
       const response=await fetch('data/fire-stations.json');
       if(!response.ok)throw Error('HTTP '+response.status);

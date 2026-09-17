@@ -50,7 +50,7 @@ window.BUSAN_CREATE_MAP=({element,features,onSelect})=>{
   map.flyTo({center:[x.lng,x.lat],zoom:14,pitch:mode==='3d'?52:0,duration:650});return true;
  }
  function label(name,position,kind,district){
-  const e=document.createElement('button');e.type='button';e.className='scene-label '+kind;e.textContent=name;e.setAttribute('aria-label',name);e.onclick=()=>onSelect({kind:'district',district});
+  const e=document.createElement('button');e.type='button';e.className='scene-label '+kind;e.textContent=name;e.setAttribute('aria-label',name);e.onclick=event=>{event.stopPropagation();onSelect({kind:'district',district});};
   const marker=new maplibregl.Marker({element:e,anchor:'center',pitchAlignment:'viewport',rotationAlignment:'viewport'}).setLngLat(position).addTo(map);
   markers.push({marker,e,name,kind,district,position});
  }
