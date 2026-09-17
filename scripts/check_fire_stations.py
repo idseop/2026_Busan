@@ -16,6 +16,8 @@ with sync_playwright() as p:
     page.locator('.fire-station-marker').first.click()
     page.wait_for_selector('.fire-station-popup')
     assert '부산소방재난본부' in page.locator('.fire-station-popup').inner_text()
+    assert '출동가능 인원' in page.locator('.fire-station-popup').inner_text()
+    assert '출동가능 차량' in page.locator('.fire-station-popup').inner_text()
     assert page.locator('#right-panel').is_hidden()
     page.screenshot(path='outputs/fire-stations.png')
     page.locator('.fire-station-toggle').click()
