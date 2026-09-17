@@ -3,6 +3,7 @@
  const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  const n=v=>Number(v).toLocaleString('ko-KR'),sum=a=>a.reduce((s,v)=>s+Number(v||0),0),pct=(a,b)=>b?`${(a/b*100).toFixed(1)}%`:'—';
  const scopeNames={A:'전체 처리결과',B:'정상 처리',C:'정상 처리 · 운영성 신고 제외'};
+ const typeColors={구급:'#19868c',구조:'#709eaf',화재:'#ca9a58',기타:'#506b7e'};
  const finalCases=()=>window.BUSAN_FINAL_CASES?.cases||[];
  const caseUrl=item=>'results/followup/explorer.html?'+new URLSearchParams({district:item.district,dong:item.rawDong,type:item.subtype,scope:'C'}).toString();
  function finalCaseLinks(c){
@@ -11,7 +12,7 @@
   if(c.selection.kind!=='district'&&c.selection.rawDong)query.set('dong',c.selection.rawDong);
   const section=document.createElement('section');section.className='final-case-links';section.dataset.extension='final-cases';
   section.innerHTML='<h3>지역 분석</h3><p>2020–2024 전체 · 정상 처리·운영성 제외 · 예방 관련 5개 유형의 별도 분석</p><a data-all-region-analysis href="results/followup/explorer.html?'+esc(query.toString())+'">지역 분석 전체 보기 →</a><div>'+matches.map(x=>`<a data-final-case="${esc(x.id)}" href="${esc(caseUrl(x))}"><strong>${esc(x.rawDong)} · ${esc(x.subtype)}</strong><span>신고 패턴부터 기존 대응·보완 결과까지 →</span></a>`).join('')+'</div>';
-  c.content.prepend(section);
+  c.content.append(section);
  }
  const peaks=a=>{const max=Math.max(...a,0);return max?a.flatMap((v,i)=>v===max?[i]:[]):[];};
  const resultText={
@@ -40,15 +41,25 @@
   return `<article class="case-conclusion"><p class="case-eyebrow">심층 결과 · ${esc(item.rawDong)} / ${esc(item.subtype)}</p><h4>${esc(item.subtype)} 신고, 5년 연속 확인</h4><p>${esc(maybePeriod(c))} <strong>${n(value)}건</strong>. ${stable?'처리조건을 바꾸고 결측 제외 전후를 비교해도 5년 반복과 2020→2024 변화 방향이 유지됩니다.':'포함 조건에 따라 양상이 달라지는 사례입니다.'}</p><p class="case-evidence">5년 전체 비교 · ${esc(comparison)}</p>${!pairedCounts?`<p class="source-date">현재 처리조건에서 비교 기록의 ${pct(counts.selected17Total,counts.core8Total)}가 남았습니다. 전체 신고의 대표성은 검증되지 않았습니다.</p>`:''}${service?`<div class="service-brief"><strong>${esc(service.title)}</strong><p>${esc(service.target)} · ${esc(service.hours)}</p><a href="${esc(service.url)}" target="_blank" rel="noopener">공식 서비스 안내 ↗</a><span>${esc(service.referenceDate)} 기준</span></div>`:''}<p class="case-outcome"><b>제공 결과</b> ${esc(text.output)}</p><p class="case-decision">${esc(text.status)}</p></article>`;
  }
  const maybePeriod=c=>c.year==='all'?'2020–2024년':`${c.year}년`;
+ function compositionSummary(c,m){
+  const byName=new Map(m.mix.map(x=>[x.name,x.count])),items=c.data.meta.types.map(name=>({name,count:byName.get(name)||0,color:typeColors[name]||'#80919a'})),total=sum(items.map(x=>x.count));
+  let cursor=0;const stops=items.filter(x=>x.count>0).map(x=>{const start=cursor,end=cursor+(x.count/total*100);cursor=end;return `${x.color} ${start.toFixed(3)}% ${end.toFixed(3)}%`;});
+  const gradient=total?`conic-gradient(${stops.join(',')})`:'#e5ecef',top=[...items].sort((a,b)=>b.count-a.count)[0];
+  const label=items.map(x=>`${x.name} ${n(x.count)}건 ${pct(x.count,total)}`).join(', ');
+  const section=document.createElement('section');section.dataset.extension='result';section.className='region-summary';
+  section.innerHTML=`<div class="region-summary-heading"><div><span class="summary-eyebrow">공통 기초통계</span><h3>신고 대분류 구성</h3></div><strong>${n(total)}<small>건</small></strong></div><p class="summary-context">${esc(m.period)} · ${esc(scopeNames[c.scope])} · 모든 신고 유형</p><div class="type-donut-layout"><div class="type-donut" role="img" aria-label="${esc(label||'신고 기록 없음')}" style="--donut:${gradient}"><span><b>${n(total)}</b><small>전체</small></span></div><div class="type-donut-legend">${items.map(x=>`<div><i style="background:${x.color}"></i><span>${esc(x.name)}</span><b>${pct(x.count,total)}</b><small>${n(x.count)}건</small></div>`).join('')}</div></div><p class="summary-takeaway">${total?`가장 큰 비중은 <b>${esc(top.name)} ${pct(top.count,total)}</b>입니다.`:'선택 조건에서 확인된 신고 기록이 없습니다.'}</p><p class="source-date">같은 기간·처리조건에서 대분류가 확인된 분석용 기록의 구성입니다. 실제 사건·출동·환자 수나 주민당 발생률이 아닙니다.</p>`;
+  return section;
+ }
  function overview(c,m){
   const top=m.mix[0],hours=m.timing?peaks(m.timing.hours).map(i=>c.deep.meta.hourBands[i]+'시').join(' · '):'',repeat=m.years.filter(y=>y.count>0).length;
   const comp=comparisons(c,m),mix=comp.composition,peak=m.timing?peaks(m.timing.hours)[0]:undefined;
   const comparable=m.total&&mix?.difference!==null&&mix?.restTotal;
   const lead=comparable?`${mix.name} 비중, 부산 나머지 지역보다 ${Math.abs(mix.difference).toFixed(1)}%p ${mix.difference>0?'높음':mix.difference<0?'낮음':'차이 없음'}`:m.total?`${top.name} 신고가 가장 많이 접수됨`:'선택 조건의 신고 없음';
   const s=document.createElement('section');s.dataset.extension='result';s.className='region-result';
-  s.innerHTML=`<h3>지역 핵심 결과</h3><p class="result-lead result-insight">${esc(lead)}</p><p class="result-countline">${esc(m.period)} · ${esc(scopeNames[c.scope])} · ${n(m.total)}건</p>${comparable?`<div class="composition-contrast" data-local-share="${mix.count/mix.localTotal}" data-rest-share="${mix.other/mix.restTotal}"><div><span>선택 지역 ${esc(mix.name)}</span><b>${pct(mix.count,mix.localTotal)}</b><i style="width:${100*mix.count/mix.localTotal}%"></i></div><div><span>부산 나머지 지역 ${esc(mix.name)}</span><b>${pct(mix.other,mix.restTotal)}</b><i style="width:${100*mix.other/mix.restTotal}%"></i></div></div><p class="source-date">같은 기간·처리조건의 전체 종별 신고 중 구성비. 선택 지역을 비교 대상에서 제외했습니다. 위험도나 주민당 발생률이 아닙니다.</p>`:''}<ul class="result-facts">${m.total&&hours?`<li><b>${esc(hours)}</b> 접수 최다<span>${esc(m.period)} · 4시간 구간별 건수 비교${peak!==undefined?`<br>첫 표시 구간 비중: 선택 지역 ${pct(m.timing.hours[peak],m.total)} · 부산 나머지 지역 ${pct(comp.hours[peak],sum(comp.hours))}`:''}</span></li>`:''}<li><b>${repeat}개 연도</b>에서 신고 확인<span>2020–2024년 · 같은 신고 조건</span></li><li>${esc(population(c))}</li></ul>${m.cases.map(item=>caseSummary(c,item)).join('')}${!m.cases.length?'<p class="case-decision">이 지역의 서비스 확대나 신규 예방안은 현재 분석에서 확정하지 않았습니다.</p>':''}<div class="result-links"><button data-result-tab="time">시간 분포</button><button data-result-tab="population">주민 구성</button><button data-result-tab="services">서비스·보완 결과</button></div>`;
+  s.innerHTML=`<span class="summary-eyebrow">지역별 해석</span><h3>이 지역의 특징</h3><p class="result-lead result-insight">${esc(lead)}</p><p class="result-countline">${esc(m.period)} · ${esc(scopeNames[c.scope])} · 현재 신고 유형 ${n(m.total)}건</p>${comparable?`<div class="composition-contrast" data-local-share="${mix.count/mix.localTotal}" data-rest-share="${mix.other/mix.restTotal}"><div><span>선택 지역 ${esc(mix.name)}</span><b>${pct(mix.count,mix.localTotal)}</b><i style="width:${100*mix.count/mix.localTotal}%"></i></div><div><span>부산 나머지 지역 ${esc(mix.name)}</span><b>${pct(mix.other,mix.restTotal)}</b><i style="width:${100*mix.other/mix.restTotal}%"></i></div></div><p class="source-date">같은 기간·처리조건의 전체 종별 신고 중 구성비. 선택 지역을 비교 대상에서 제외했습니다. 위험도나 주민당 발생률이 아닙니다.</p>`:''}<ul class="result-facts">${m.total&&hours?`<li><b>${esc(hours)}</b> 접수 최다<span>${esc(m.period)} · 4시간 구간별 건수 비교${peak!==undefined?`<br>첫 표시 구간 비중: 선택 지역 ${pct(m.timing.hours[peak],m.total)} · 부산 나머지 지역 ${pct(comp.hours[peak],sum(comp.hours))}`:''}</span></li>`:''}<li><b>${repeat}개 연도</b>에서 신고 확인<span>2020–2024년 · 같은 신고 조건</span></li><li>${esc(population(c))}</li></ul>${m.cases.map(item=>caseSummary(c,item)).join('')}${!m.cases.length?'<p class="case-decision">이 지역의 서비스 확대나 신규 예방안은 현재 분석에서 확정하지 않았습니다.</p>':''}<div class="result-links"><button data-result-tab="time">시간 분포</button><button data-result-tab="population">주민 구성</button><button data-result-tab="services">서비스·보완 결과</button></div>`;
   const old=c.content.querySelector('.detail-block');if(old?.querySelector('.hero-count'))old.remove();
-  c.content.prepend(s);s.querySelectorAll('[data-result-tab]').forEach(b=>b.onclick=()=>c.onTab(b.dataset.resultTab));
+  c.content.querySelector('.type-row')?.closest('.detail-block')?.remove();
+  c.content.prepend(s);c.content.prepend(compositionSummary(c,m));s.querySelectorAll('[data-result-tab]').forEach(b=>b.onclick=()=>c.onTab(b.dataset.resultTab));
  }
  function sourceCard(s){return `<article class="response-service"><h4>${esc(s.title)}</h4>${s.facts.map(x=>`<p>${esc(x)}</p>`).join('')}<dl><dt>대상</dt><dd>${esc(s.target)}</dd><dt>시간</dt><dd>${esc(s.hours)}</dd><dt>이용 조건</dt><dd>${esc(s.conditions)}</dd><dt>지역</dt><dd>${esc(s.coverage)}</dd></dl><a href="${esc(s.url)}" target="_blank" rel="noopener">공식 안내 ↗</a><span class="source-date">${esc(s.referenceDate)} 기준</span></article>`;}
  function services(c,m,id){
