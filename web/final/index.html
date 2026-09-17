@@ -3,6 +3,7 @@
 <div id="load-error" hidden role="alert">분석 데이터를 불러오지 못했습니다. HTML과 data 폴더를 함께 열어 주세요.</div><div id="app" hidden>
 <header class="topbar"><button id="left-toggle" class="icon-button mobile-only" aria-label="지역 검색 열기" aria-expanded="false">☰</button><a class="brand" href="./index.html"><strong>부산 신고 지도</strong></a><div id="year-buttons" class="year-buttons" role="group" aria-label="분석 연도"></div><a id="analysis-open" class="text-button" href="results/complete/index.html">최종 결과</a><a class="text-button" href="results/complete/gallery.html">그림 모음</a><button id="about-open" class="text-button">출처</button></header>
 <div class="map-app">
+<link rel="stylesheet" href="assets/fire-stations.css"><script defer src="assets/fire-stations.js"></script>
 <aside id="left-panel" class="left-panel" aria-label="지역 검색과 필터"><div class="left-heading"><div><h1>지역 검색</h1></div><button id="left-close" class="icon-button mobile-only" aria-label="지역 검색 닫기">×</button></div>
 <div class="search-wrap"><span>⌕</span><input id="region-search" type="search" placeholder="구·군이나 동·읍·면 검색" aria-label="지역 검색"><button id="search-clear" aria-label="검색어 지우기">×</button></div>
 <div class="filter-grid"><label hidden>신고 연도<select id="year" tabindex="-1" aria-hidden="true"></select></label><label class="full">신고 종별<select id="type"></select></label><label class="full">처리 조건<select id="scope"></select></label><label class="full">구·군 범위<select id="district"></select></label></div>

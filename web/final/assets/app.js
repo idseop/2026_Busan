@@ -6,6 +6,22 @@
   $('app').hidden=false;
   const leftFooter=$('left-panel').querySelector('.left-footer'),resetButton=$('filters-reset');leftFooter.replaceChildren($('map-total'),resetButton);$('map-source-open').hidden=true;$('map-viewport').querySelector('.map-legend').hidden=true;
   const S={year:'all',scope:'A',type:'all',district:'all',list:'district',sort:'count',query:'',selection:null,tab:'overview',populationCode:'',caseId:''};
+  const detailHistory=[];
+  const backButton=document.createElement('button');
+  backButton.id='detail-back';backButton.type='button';backButton.className='detail-back';backButton.hidden=true;
+  $('right-panel').prepend(backButton);
+  function syncBack(){const last=detailHistory.at(-1);backButton.hidden=!last;backButton.textContent=last?'← '+(last.state.selection.rawDong||last.state.selection.district)+'로 돌아가기':'← 이전 화면';}
+  backButton.onclick=()=>{
+    const previous=detailHistory.pop();if(!previous)return;
+    Object.assign(S,previous.state);
+    ['year','scope','type','district','sort'].forEach(id=>$(id).value=S[id]);$('region-search').value=S.query;
+    drawList();drawMap();drawDetail();syncBack();
+    requestAnimationFrame(()=>{
+      const link=[...$('detail-content').querySelectorAll('[data-raw]')].find(b=>b.dataset.raw===previous.focusRaw);
+      (link||$('detail-title')).focus({preventScroll:true});
+      $('detail-content').scrollTop=previous.scroll;$('region-list').scrollTop=previous.listScroll;
+    });
+  };
   const camera={zoom:1,x:0,y:0,fit:'main'}, districts=[...new Set(D.rawRegions.map(r=>r.district))].sort((a,b)=>a.localeCompare(b,'ko')),key=r=>`${r.district}|${r.rawDong}`,popYear=()=>S.year==='all'?2024:+S.year,period=()=>S.year==='all'?'2020–2024년':`${S.year}년`,typeName=()=>S.type==='all'?'모든 신고 유형':S.type;
   const scopeName=()=>({A:'모든 처리결과',B:'정상 처리',C:'업무성 기록 제외'}[S.scope]);
   const colors={구급:'#19868c',구조:'#709eaf',화재:'#ca9a58',기타:'#506b7e'},option=(v,t)=>`<option value="${esc(v)}">${esc(t)}</option>`;
@@ -29,8 +45,8 @@
     $('region-list').querySelectorAll('button').forEach(b=>b.onclick=()=>selectRegion({kind:S.list,district:b.dataset.district,...(S.list==='raw'?{rawDong:b.dataset.rawDong}:{})}));
     document.querySelectorAll('[data-list]').forEach(b=>{b.classList.toggle('active',b.dataset.list===S.list);b.setAttribute('aria-pressed',String(b.dataset.list===S.list));});
   }
-  function selectRegion(selection){S.selection=selection;S.populationCode='';S.caseId='';S.tab='overview';S.district=selection.district;$('district').value=S.district;closeLeft();$('right-panel').hidden=false;document.querySelector('.map-app').classList.add('detail-open');drawList();drawMap();drawDetail();}
-  function closeDetail(){S.selection=null;S.populationCode='';S.caseId='';$('right-panel').hidden=true;$('right-panel').classList.remove('expanded');document.querySelector('.map-app').classList.remove('detail-open','sheet-expanded');drawList();drawMap();}
+  function selectRegion(selection){if(S.selection&&JSON.stringify(S.selection)!==JSON.stringify(selection))detailHistory.push({state:{...S,selection:{...S.selection}},scroll:$('detail-content').scrollTop,listScroll:$('region-list').scrollTop,focusRaw:document.activeElement?.dataset.raw});S.selection=selection;S.populationCode='';S.caseId='';S.tab='overview';S.district=selection.district;$('district').value=S.district;closeLeft();$('right-panel').hidden=false;document.querySelector('.map-app').classList.add('detail-open');drawList();drawMap();drawDetail();$('detail-content').scrollTop=0;syncBack();}
+  function closeDetail(){detailHistory.length=0;syncBack();S.selection=null;S.populationCode='';S.caseId='';$('right-panel').hidden=true;$('right-panel').classList.remove('expanded');document.querySelector('.map-app').classList.remove('detail-open','sheet-expanded');drawList();drawMap();}
   function svg(title,body,w=320,h=170){return `<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="${esc(title)}"><title>${esc(title)}</title>${body}</svg>`;}
   function chart(id,items,{line=false,unit='건'}={}){
     const w=320,h=170,l=33,r=12,t=24,b=29,peak=Math.max(...items.map(x=>x.value||0),1),order=10**Math.floor(Math.log10(peak/3)),max=Math.ceil(peak/3/order)*order*3,plot=h-t-b,step=(w-l-r)/Math.max(items.length-Number(line),1);let body='';
