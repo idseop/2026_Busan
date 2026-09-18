@@ -1,0 +1,345 @@
+{
+  "status": "PASS",
+  "date": "2026-09-18",
+  "input_files_unchanged": 16,
+  "original_files_unchanged": {
+    "2026년 Big Data 활용 대회 작성 서식 (2).hwp": "54aaf652073b07e7b88198466c372f3267af3339f48644612c8fee3ae27f22b6",
+    "output/report-visual-edit-20260918/deliverables/2026-BigData-보고서-시각화편집본.hwpx": "0ae54c12f233dd68bbf308e421b3f2b6aca48e579c8bb17dbd778e7fcb18dba4",
+    "output/report-visual-edit-20260918/deliverables/2026-BigData-보고서-시각화편집본.pdf": "3d1eb2cba914d430bfff4ec2a73a6eb490e9589d4c9a621951b61396edc6b996"
+  },
+  "png_count": 26,
+  "svg_count": 26,
+  "pdf_count": 2,
+  "pdf_pages": [
+    10,
+    16
+  ],
+  "images": [
+    {
+      "file": "01-clean-original/01-inclusion-flow.png",
+      "pixels": [
+        3188,
+        2374
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "sha256": "1f90c0d74943d4caecede216de3011cd9a9400778a731b15f18d1eafa1d22baf"
+    },
+    {
+      "file": "01-clean-original/02-busan-type-composition.png",
+      "pixels": [
+        3188,
+        2037
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "sha256": "ff08821655da0834a633c5de75281e64db50298073a3d23e758d866fc1cbaef3"
+    },
+    {
+      "file": "01-clean-original/03-district-counts-types.png",
+      "pixels": [
+        3188,
+        3437
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "sha256": "f44d5a5eba5a03b674a29e6f8e9a712b0ac027a53dc9d8e337120a598c7b8391"
+    },
+    {
+      "file": "01-clean-original/04-district-dong-disease.png",
+      "pixels": [
+        3188,
+        3082
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "sha256": "574d3a546f5c952e6b5e2860a39d6a9a796976d5c44841dd4e68cc7f61791d6e"
+    },
+    {
+      "file": "01-clean-original/05-annual-disease-counts.png",
+      "pixels": [
+        3188,
+        2267
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "sha256": "1b524d880f8a700253135c11372da5fd524ca9af9585f0df07317acf2a39f189"
+    },
+    {
+      "file": "01-clean-original/06-dong-time-patterns.png",
+      "pixels": [
+        3188,
+        2675
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "sha256": "082f58094d986d599fd66bd248cf0bcc1daed34cfb5ffd8107d7057d0ff86096"
+    },
+    {
+      "file": "01-clean-original/07-resident-age-composition.png",
+      "pixels": [
+        3188,
+        2781
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "sha256": "5b41f54fd9c900cff797a866a3b89863be82a59803f7c7668163aa3fdc3ff596"
+    },
+    {
+      "file": "01-clean-original/08-health-treatment-education.png",
+      "pixels": [
+        3188,
+        2356
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "sha256": "7d1a2073c9448a6b6ba8060491ba5928fdd70321ea2737394ddb0e26c50c1af1"
+    },
+    {
+      "file": "01-clean-original/09-proposal-counselling-education-evaluation.png",
+      "pixels": [
+        3188,
+        974
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "sha256": "00c86c5aa246d542e06c4abf97a7920c6dca48f02557445d9515b90c434784f4"
+    },
+    {
+      "file": "01-clean-original/10-web-exploration-cycle.png",
+      "pixels": [
+        3188,
+        1736
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "sha256": "dec464d202c7f9e75115d7c61ab716a78c4ff6dff3b27bf9cf5e6dc7e9e7b8cd"
+    },
+    {
+      "file": "02-paper-style/01-inclusion-flow.png",
+      "pixels": [
+        3188,
+        2374
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "sha256": "ce1414bcdec71d6b9d8117aff0bc77ce85f0f96448e69843267cf44c8e8d4593"
+    },
+    {
+      "file": "02-paper-style/02-busan-type-composition.png",
+      "pixels": [
+        3188,
+        2037
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "sha256": "f7f8632aaef926d581a772d5ec57e0dcc532f957f846a6253f904773a66ca54a"
+    },
+    {
+      "file": "02-paper-style/03-district-counts-types.png",
+      "pixels": [
+        3188,
+        3437
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "sha256": "e3a11c7d55251d26478d1ae8d07bcbc4cd2584e6d8792e679236a42e04ba3cec"
+    },
+    {
+      "file": "02-paper-style/04-district-dong-disease.png",
+      "pixels": [
+        3188,
+        3082
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "sha256": "a855ea5dde146143a58301014fcdadb64065b43ff491d8d76d490f554b9d095c"
+    },
+    {
+      "file": "02-paper-style/05-annual-disease-counts.png",
+      "pixels": [
+        3188,
+        2267
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "sha256": "c7228dd9d7bc1dac640671005588357c6f55982de64ac785a129a6cacea6c584"
+    },
+    {
+      "file": "02-paper-style/06-dong-time-patterns.png",
+      "pixels": [
+        3188,
+        2675
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "sha256": "5b97b01c3aa471f72fd6d031cd861b81c07e3c89c1f1b0c9dc45744174a88099"
+    },
+    {
+      "file": "02-paper-style/07-resident-age-composition.png",
+      "pixels": [
+        3188,
+        2781
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "sha256": "b7d483a9433f8b31d38b6098ca297a02e5f7198b2fa44336ed77c9b054f31029"
+    },
+    {
+      "file": "02-paper-style/08-health-treatment-education.png",
+      "pixels": [
+        3188,
+        2356
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "sha256": "39f1255575d1d0f20e92c34ae44225004bf114509d221be8e7b26079c63a95c1"
+    },
+    {
+      "file": "02-paper-style/09-proposal-counselling-education-evaluation.png",
+      "pixels": [
+        3188,
+        974
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "sha256": "26b629acd84c8730b8ed82eb0940a9df866a1916fd986430259014790d331d8a"
+    },
+    {
+      "file": "02-paper-style/10-web-exploration-cycle.png",
+      "pixels": [
+        3188,
+        1736
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "sha256": "39261987f002506ae6114d0fb716a229505212f9a8b652fd0e7406a041d7dbd6"
+    },
+    {
+      "file": "02-paper-style/11-district-type-proportions.png",
+      "pixels": [
+        3205,
+        3311
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "sha256": "ba52fc40620855b6f51ec4f94e425857c2d3674cdf1b5865d169c6970a25e268"
+    },
+    {
+      "file": "02-paper-style/12-annual-receipts-by-type.png",
+      "pixels": [
+        3205,
+        2213
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "sha256": "963c4a4b5d95632bd55e3c9e1144c77f2f50f5fc382ae88cdfce73dff610a7c0"
+    },
+    {
+      "file": "02-paper-style/13-weekday-hour-disease.png",
+      "pixels": [
+        3203,
+        3152
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "sha256": "7ab5c09853cd7b149588c105feaa11ff273b7ba7b4b8ec10d1a40ee5f615aa09"
+    },
+    {
+      "file": "02-paper-style/14-bujeon-commerce-quarterly.png",
+      "pixels": [
+        3205,
+        2195
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "sha256": "3e16a01d683f685450e92f0d23e7ca2be7ebd75ddb778b0efce877d77d030414"
+    },
+    {
+      "file": "02-paper-style/15-bujeon-hourly-visiting-population.png",
+      "pixels": [
+        3205,
+        2231
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "sha256": "2bc1ae56b1004fccc4db2533d5903aeaaf587e78f48c3e98d9a96336241f810c"
+    },
+    {
+      "file": "02-paper-style/16-unmet-healthcare-2024.png",
+      "pixels": [
+        3188,
+        1824
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "sha256": "9fa3d7d69d70887222de31ab33123138a9aa4e1e1f5d176fa776f0690ecf9b2d"
+    }
+  ],
+  "pdfs": [
+    {
+      "file": "pdf/01-기존도표-글자확대-그림만.pdf",
+      "sha256": "085371f407fd857ae6129822a6e0c828da7962da3d1f97cffd412ba5fb58ab23"
+    },
+    {
+      "file": "pdf/02-논문형도표-추가포함-그림만.pdf",
+      "sha256": "f98b5b52b2d103782abbdf0879507a507a4b0cfdcd1b72c51c0c96a740db3658"
+    }
+  ],
+  "independent_reviews": [
+    "metadata/final-visual-review.md",
+    "metadata/final-data-review.md"
+  ]
+}

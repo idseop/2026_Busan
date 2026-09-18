@@ -1,0 +1,46 @@
+{
+  "created": "2026-09-18",
+  "width_mm": 165,
+  "png_dpi": 300,
+  "font": "C:\\Windows\\Fonts\\malgun.ttf",
+  "palette": {
+    "navy": "#17324D",
+    "teal": "#168B8A",
+    "orange": "#E89335"
+  },
+  "sources": [
+    {
+      "path": "data\\processed\\신고보건심화-20260917\\health-district-summary-2024.csv",
+      "sha256": "598ef82a5df75efb16e57d5b41a61dd1ef85ba8301bcd5046dea835be439893f"
+    },
+    {
+      "path": "data\\processed\\신고보건심화-20260917\\regional-improvement-and-evaluation.csv",
+      "sha256": "7f2d29c6d83787c02efc26b6019269c43b4ad3e642dc3f3e3da5c22dabe5bc9f"
+    },
+    {
+      "path": "web\\final\\index.html",
+      "sha256": "29fb921a9b030be5890eb9128b6bbb3cd48d2be2196a8b333707a06cc91142a8"
+    },
+    {
+      "path": "web\\final\\analysis\\index.html",
+      "sha256": "d013c71f0ed1beddbb631045edc94e073a84433773b33c40f51d99a9e3c29fa5"
+    }
+  ],
+  "charts": [
+    {
+      "stem": "08-보건지표-치료와관리교육",
+      "png": "08-보건지표-치료와관리교육.png",
+      "svg": "08-보건지표-치료와관리교육.svg"
+    },
+    {
+      "stem": "09-기존대응-보완후보-평가",
+      "png": "09-기존대응-보완후보-평가.png",
+      "svg": "09-기존대응-보완후보-평가.svg"
+    },
+    {
+      "stem": "10-웹-반복활용흐름",
+      "png": "10-웹-반복활용흐름.png",
+      "svg": "10-웹-반복활용흐름.svg"
+    }
+  ]
+}

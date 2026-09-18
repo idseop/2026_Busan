@@ -1,0 +1,1197 @@
+{
+  "status": "PASS",
+  "scope": "independent existing-aggregate checks; no raw119 reanalysis",
+  "checks": [
+    {
+      "check": "hash data/processed/5개년통합-지역유형-제안연결-20260917/01-16구군-5년합계와-한해제외순위.csv",
+      "pass": true
+    },
+    {
+      "check": "hash data/processed/5개년통합-지역유형-제안연결-20260917/02-전체70유형-5년합계와-한해제외순위.csv",
+      "pass": true
+    },
+    {
+      "check": "hash data/processed/5개년통합-지역유형-제안연결-20260917/03-구군별70유형-동일유형연결.csv",
+      "pass": true
+    },
+    {
+      "check": "hash data/processed/5개년통합-지역유형-제안연결-20260917/11-상위5구군45조합-5년시간교차집계.csv",
+      "pass": true
+    },
+    {
+      "check": "hash data/processed/신고주민연결심화-20260917/direction-connections/major-burden-commerce-20quarters.csv",
+      "pass": true
+    },
+    {
+      "check": "hash data/processed/통합완성-20260916/context/living-hour-annual-equal-month-means.csv",
+      "pass": true
+    },
+    {
+      "check": "hash data/processed/신고주민연결심화-20260917/direction-connections/major-burden-living-candidates-2023-2024.csv",
+      "pass": true
+    },
+    {
+      "check": "B11 all16same denominators",
+      "pass": true
+    },
+    {
+      "check": "B11 same3types",
+      "pass": true
+    },
+    {
+      "check": "B11 residual",
+      "pass": true
+    },
+    {
+      "check": "B12 all15annual values",
+      "pass": true
+    },
+    {
+      "check": "B13 selected336rows",
+      "pass": true
+    },
+    {
+      "check": "B13 values preserve source",
+      "pass": true
+    },
+    {
+      "check": "B13 다대동168 and total",
+      "pass": true
+    },
+    {
+      "check": "B13 다대동 denominator shares",
+      "pass": true
+    },
+    {
+      "check": "B13 금곡동168 and total",
+      "pass": true
+    },
+    {
+      "check": "B13 금곡동 denominator shares",
+      "pass": true
+    },
+    {
+      "check": "B14 source40rows",
+      "pass": true
+    },
+    {
+      "check": "B14 share denominator",
+      "pass": true
+    },
+    {
+      "check": "B14 timeline",
+      "pass": true
+    },
+    {
+      "check": "B14 음식20 quarters",
+      "pass": true
+    },
+    {
+      "check": "B14 소매20 quarters",
+      "pass": true
+    },
+    {
+      "check": "B15 96groups/96rows",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2023, '00시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2023, '00시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2023, '01시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2023, '01시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2023, '02시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2023, '02시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2023, '03시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2023, '03시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2023, '04시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2023, '04시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2023, '05시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2023, '05시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2023, '06시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2023, '06시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2023, '07시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2023, '07시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2023, '08시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2023, '08시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2023, '09시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2023, '09시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2023, '10시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2023, '10시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2023, '11시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2023, '11시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2023, '12시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2023, '12시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2023, '13시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2023, '13시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2023, '14시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2023, '14시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2023, '15시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2023, '15시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2023, '16시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2023, '16시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2023, '17시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2023, '17시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2023, '18시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2023, '18시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2023, '19시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2023, '19시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2023, '20시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2023, '20시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2023, '21시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2023, '21시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2023, '22시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2023, '22시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2023, '23시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2023, '23시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2024, '00시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2024, '00시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2024, '01시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2024, '01시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2024, '02시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2024, '02시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2024, '03시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2024, '03시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2024, '04시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2024, '04시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2024, '05시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2024, '05시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2024, '06시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2024, '06시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2024, '07시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2024, '07시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2024, '08시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2024, '08시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2024, '09시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2024, '09시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2024, '10시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2024, '10시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2024, '11시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2024, '11시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2024, '12시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2024, '12시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2024, '13시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2024, '13시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2024, '14시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2024, '14시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2024, '15시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2024, '15시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2024, '16시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2024, '16시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2024, '17시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2024, '17시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2024, '18시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2024, '18시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2024, '19시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2024, '19시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2024, '20시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2024, '20시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2024, '21시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2024, '21시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2024, '22시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2024, '22시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623051000, 2024, '23시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623051000, 2024, '23시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2023, '00시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2023, '00시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2023, '01시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2023, '01시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2023, '02시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2023, '02시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2023, '03시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2023, '03시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2023, '04시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2023, '04시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2023, '05시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2023, '05시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2023, '06시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2023, '06시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2023, '07시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2023, '07시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2023, '08시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2023, '08시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2023, '09시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2023, '09시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2023, '10시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2023, '10시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2023, '11시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2023, '11시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2023, '12시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2023, '12시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2023, '13시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2023, '13시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2023, '14시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2023, '14시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2023, '15시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2023, '15시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2023, '16시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2023, '16시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2023, '17시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2023, '17시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2023, '18시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2023, '18시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2023, '19시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2023, '19시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2023, '20시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2023, '20시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2023, '21시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2023, '21시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2023, '22시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2023, '22시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2023, '23시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2023, '23시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2024, '00시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2024, '00시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2024, '01시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2024, '01시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2024, '02시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2024, '02시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2024, '03시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2024, '03시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2024, '04시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2024, '04시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2024, '05시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2024, '05시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2024, '06시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2024, '06시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2024, '07시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2024, '07시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2024, '08시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2024, '08시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2024, '09시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2024, '09시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2024, '10시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2024, '10시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2024, '11시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2024, '11시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2024, '12시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2024, '12시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2024, '13시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2024, '13시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2024, '14시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2024, '14시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2024, '15시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2024, '15시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2024, '16시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2024, '16시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2024, '17시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2024, '17시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2024, '18시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2024, '18시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2024, '19시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2024, '19시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2024, '20시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2024, '20시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2024, '21시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2024, '21시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2024, '22시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2024, '22시')",
+      "pass": true
+    },
+    {
+      "check": "B15 months (2623052000, 2024, '23시')",
+      "pass": true
+    },
+    {
+      "check": "B15 mean (2623052000, 2024, '23시')",
+      "pass": true
+    },
+    {
+      "check": "B16 all3source rows",
+      "pass": true
+    },
+    {
+      "check": "B16 approx95 formula",
+      "pass": true
+    },
+    {
+      "check": "final B11 부산진구 3types and renamed residual",
+      "pass": true
+    },
+    {
+      "check": "final B11 해운대구 3types and renamed residual",
+      "pass": true
+    },
+    {
+      "check": "final B11 사하구 3types and renamed residual",
+      "pass": true
+    },
+    {
+      "check": "final B11 사상구 3types and renamed residual",
+      "pass": true
+    },
+    {
+      "check": "final B11 북구 3types and renamed residual",
+      "pass": true
+    },
+    {
+      "check": "final B11 동래구 3types and renamed residual",
+      "pass": true
+    },
+    {
+      "check": "final B11 금정구 3types and renamed residual",
+      "pass": true
+    },
+    {
+      "check": "final B11 남구 3types and renamed residual",
+      "pass": true
+    },
+    {
+      "check": "final B11 수영구 3types and renamed residual",
+      "pass": true
+    },
+    {
+      "check": "final B11 연제구 3types and renamed residual",
+      "pass": true
+    },
+    {
+      "check": "final B11 기장군 3types and renamed residual",
+      "pass": true
+    },
+    {
+      "check": "final B11 강서구 3types and renamed residual",
+      "pass": true
+    },
+    {
+      "check": "final B11 영도구 3types and renamed residual",
+      "pass": true
+    },
+    {
+      "check": "final B11 서구 3types and renamed residual",
+      "pass": true
+    },
+    {
+      "check": "final B11 동구 3types and renamed residual",
+      "pass": true
+    },
+    {
+      "check": "final B11 중구 3types and renamed residual",
+      "pass": true
+    },
+    {
+      "check": "final B11 legend explicit residual",
+      "pass": true
+    },
+    {
+      "check": "final B14 external caption states yaxis29to36",
+      "pass": true
+    },
+    {
+      "check": "final B15 x endpoints margins",
+      "pass": true
+    },
+    {
+      "check": "B16 originalXLSX2023북구 denominator footnote",
+      "pass": true
+    },
+    {
+      "check": "B16 originalXLSX2023사하구 denominator footnote",
+      "pass": true
+    },
+    {
+      "check": "B16 originalXLSX2023부산진구 denominator footnote",
+      "pass": true
+    },
+    {
+      "check": "B16 originalXLSX2024북구 denominator footnote",
+      "pass": true
+    },
+    {
+      "check": "B16 originalXLSX2024북구 n estimate SE RSE",
+      "pass": true
+    },
+    {
+      "check": "B16 originalXLSX2024사하구 denominator footnote",
+      "pass": true
+    },
+    {
+      "check": "B16 originalXLSX2024사하구 n estimate SE RSE",
+      "pass": true
+    },
+    {
+      "check": "B16 originalXLSX2024부산진구 denominator footnote",
+      "pass": true
+    },
+    {
+      "check": "B16 originalXLSX2024부산진구 n estimate SE RSE",
+      "pass": true
+    },
+    {
+      "check": "B16 sourcehash current",
+      "pass": true
+    }
+  ],
+  "stats": {
+    "B11_total": 555786,
+    "B11_residual_total": 133719,
+    "B12_annual": {
+      "질병": [
+        39212,
+        40378,
+        42717,
+        39013,
+        29362
+      ],
+      "질병외": [
+        25499,
+        32761,
+        42626,
+        41496,
+        46481
+      ],
+      "부상": [
+        7435,
+        8325,
+        9157,
+        9233,
+        8372
+      ]
+    },
+    "다대동_share_sum": 100.0,
+    "금곡동_share_sum": 100.0,
+    "B14_음식_minmax": [
+      32.65765765765766,
+      34.51691557451996
+    ],
+    "B14_소매_minmax": [
+      30.605889014722536,
+      32.682193839218634
+    ],
+    "B15_max_abs_diff": 3.637978807091713e-12,
+    "B15_monthly_rows_used": 1152,
+    "B15_monthly_sha256": "798f0598cb8a9bc28b00769864ff1f0e3b0950724853dd3f472ddb94b1d88155"
+  },
+  "reviewed_at": "2026-09-18T16:17:42",
+  "original_xlsx_checks": [
+    {
+      "year": 2023,
+      "district": "북구",
+      "path": "data/processed/신고보건심화-20260917/sources/chs2023-북구.xlsx",
+      "sha256": "d2148b1d75ab3209c18337d4c3ad469a99ff755cbacb1a2bd6af89bb846e8d66",
+      "sheet": "<표>연간 미충족의료율(병의원)",
+      "row": 36,
+      "denominator_note": "주 1) 연간 미충족의료율(병의원) : (본인이 병의원(치과 제외)에 가고 싶을 때 가지 못한 사람의 수 / 조사대상 응답자 수) × 100",
+      "row5": [
+        "전체",
+        845,
+        "12.5(1.3)",
+        10.4,
+        349,
+        "10.9(2.0)",
+        18.7,
+        496,
+        "13.9(1.6)",
+        11.3
+      ]
+    },
+    {
+      "year": 2023,
+      "district": "사하구",
+      "path": "data/processed/신고보건심화-20260917/sources/chs2023-사하구.xlsx",
+      "sha256": "f364021ffc094252b93cfea8243e7a9ab72133c3d10c32e631a89e5c3e092cb0",
+      "sheet": "<표>연간 미충족의료율(병의원)",
+      "row": 36,
+      "denominator_note": "주 1) 연간 미충족의료율(병의원) : (본인이 병의원(치과 제외)에 가고 싶을 때 가지 못한 사람의 수 / 조사대상 응답자 수) × 100",
+      "row5": [
+        "전체",
+        763,
+        "8.5(1.0)",
+        12.2,
+        328,
+        "5.9(1.1)",
+        18,
+        435,
+        "10.8(1.6)",
+        14.8
+      ]
+    },
+    {
+      "year": 2023,
+      "district": "부산진구",
+      "path": "data/processed/신고보건심화-20260917/sources/chs2023-부산진구.xlsx",
+      "sha256": "a5f3dec1dbb14da5c4f7ddb43f050379311dffa367e85b828e1b62e8d2e1bcb8",
+      "sheet": "<표>연간미충족의료율(병의원)",
+      "row": 36,
+      "denominator_note": "주 1) 연간 미충족의료율(병의원) : (본인이 병의원(치과 제외)에 가고 싶을 때 가지 못한 사람의 수 / 조사대상 응답자 수) × 100",
+      "row5": [
+        "전체",
+        "885",
+        "7.1(0.7)",
+        "9.3",
+        "357",
+        "6.8(1.0)",
+        "15.3",
+        "528",
+        "7.3(1.1)",
+        "14.7"
+      ]
+    },
+    {
+      "year": 2024,
+      "district": "북구",
+      "path": "data/processed/신고보건심화-20260917/sources/chs2024-북구.xlsx",
+      "sha256": "19090e34ea3a7ff2397807719f112a0ecb5ca6b5444cacffc1f02c2c991f05c7",
+      "sheet": "<표>연간 미충족의료율(병의원)",
+      "row": 36,
+      "denominator_note": "주 1) 연간 미충족의료율(병의원) : (본인이 병의원(치과 제외)에 가고 싶을 때 가지 못한 사람의 수 / 병의원 진료가 필요했던 응답자 수) × 100",
+      "row5": [
+        "전체",
+        "전체",
+        "873",
+        "13.7(1.3)",
+        "9.3",
+        "363",
+        "15.4(2.0)",
+        "12.9",
+        "510",
+        "12.2(1.4)",
+        "11.1"
+      ]
+    },
+    {
+      "year": 2024,
+      "district": "사하구",
+      "path": "data/processed/신고보건심화-20260917/sources/chs2024-사하구.xlsx",
+      "sha256": "d61bbf43dce4e12869319bb497b80e55517555179687c9011f9e16625ffc869c",
+      "sheet": "<표>연간 미충족의료율(병의원)",
+      "row": 36,
+      "denominator_note": "주 1) 연간 미충족의료율(병의원) : (본인이 병의원(치과 제외)에 가고 싶을 때 가지 못한 사람의 수 / 병의원 진료가 필요했던 응답자 수) × 100",
+      "row5": [
+        "전체",
+        "전체",
+        "822",
+        "4.9(0.7)",
+        "14.3",
+        "376",
+        "4.4(1.2)",
+        "27.0",
+        "446",
+        "5.4(1.2)",
+        "21.9"
+      ]
+    },
+    {
+      "year": 2024,
+      "district": "부산진구",
+      "path": "data/processed/효과근거확장-20260916/context/chs-부산진구-tables.xlsx",
+      "sha256": "9688929c67b06c4a2bba190a4744f86af0a44eabfd6b04335646f973f58463a2",
+      "sheet": "<표>연간미충족의료율(병의원)",
+      "row": 36,
+      "denominator_note": "주 1) 연간 미충족의료율(병의원) : (본인이 병의원(치과 제외)에 가고 싶을 때 가지 못한 사람의 수 / 병의원 진료가 필요했던 응답자 수) × 100",
+      "row5": [
+        "전체",
+        "전체",
+        "898",
+        "9.8(1.2)",
+        "12.3",
+        "374",
+        "8.9(1.5)",
+        "16.9",
+        "524",
+        "10.5(1.6)",
+        "14.9"
+      ]
+    }
+  ],
+  "current_artifact_hashes": {
+    "output/paper-figures-20260918/02-paper-style/11-district-type-proportions.png": "ba52fc40620855b6f51ec4f94e425857c2d3674cdf1b5865d169c6970a25e268",
+    "output/paper-figures-20260918/02-paper-style/11-district-type-proportions.svg": "f38092732a575b63a5c53a4b39e2a810aa27090294539b6c757b60025a87dfbe",
+    "output/paper-figures-20260918/02-paper-style/12-annual-receipts-by-type.png": "963c4a4b5d95632bd55e3c9e1144c77f2f50f5fc382ae88cdfce73dff610a7c0",
+    "output/paper-figures-20260918/02-paper-style/12-annual-receipts-by-type.svg": "72f514015deb0781bea99145bda592d982b663ff10ed71a5a157202cc8b645c1",
+    "output/paper-figures-20260918/02-paper-style/13-weekday-hour-disease.png": "7ab5c09853cd7b149588c105feaa11ff273b7ba7b4b8ec10d1a40ee5f615aa09",
+    "output/paper-figures-20260918/02-paper-style/13-weekday-hour-disease.svg": "bdcb326c3f7502c8ae8a12e8c4c8210e9cc0f6f8fed381cc6b37d78d4f61bcb3",
+    "output/paper-figures-20260918/02-paper-style/14-bujeon-commerce-quarterly.png": "3e16a01d683f685450e92f0d23e7ca2be7ebd75ddb778b0efce877d77d030414",
+    "output/paper-figures-20260918/02-paper-style/14-bujeon-commerce-quarterly.svg": "1280815f31f1f994832a18f82f47850e623515e94d8fe5a5e72af0527e2a0f61",
+    "output/paper-figures-20260918/02-paper-style/15-bujeon-hourly-visiting-population.png": "2bc1ae56b1004fccc4db2533d5903aeaaf587e78f48c3e98d9a96336241f810c",
+    "output/paper-figures-20260918/02-paper-style/15-bujeon-hourly-visiting-population.svg": "ffed820e89ee4066bdce3cda09a17be8ae9886b4c5a8b09f23925cbb429fd3e5",
+    "output/paper-figures-20260918/02-paper-style/16-unmet-healthcare-2024.png": "9fa3d7d69d70887222de31ab33123138a9aa4e1e1f5d176fa776f0690ecf9b2d",
+    "output/paper-figures-20260918/02-paper-style/16-unmet-healthcare-2024.svg": "4859d890beac0401ea850d148ba1e7bed99b1b6f913499e8d041a15d63c035cd",
+    "output/paper-figures-20260918/code/build_additional_figures.py": "3b0551eb568fff29c95ff835c4a0add4aff535091d7eaf3c8b9e0842f5ed0b95",
+    "output/paper-figures-20260918/display-data/11-district-type-proportions.csv": "6f57a88d6b0721eee09a3745d9742a8466ccb3cc061f6f1fdac32b434dead9db",
+    "output/paper-figures-20260918/display-data/12-annual-receipts-by-type.csv": "11247d45184ef3c845203372763e318918a11124c1be8622246f1f8046374617",
+    "output/paper-figures-20260918/display-data/13-weekday-hour-disease.csv": "225bd38616c1c4c023353b144ab62f83aa92dc33f4b74da5ef4769142a0d1b85",
+    "output/paper-figures-20260918/display-data/14-bujeon-commerce-quarterly.csv": "9329d2426059d01a08cfcb83803be9540f1828e7abe5b7ed5f1ee4ec32862730",
+    "output/paper-figures-20260918/display-data/15-bujeon-hourly-visiting-population.csv": "7e4c3125ed196ebef720f62bf05870bb4812b14503b0f3de143e147342b74320",
+    "output/paper-figures-20260918/metadata/additional-figures.json": "ef682b18c397003bc22723ef150abb189fb55991c0b4f4509caa062a0a7200f1",
+    "output/paper-figures-20260918/metadata/support-new-finding.md": "0b758317279d190b2ac610f6e1b58d5a2c2353777ee929b9bd658f25f6f93b7b",
+    "output/paper-figures-20260918/support-metadata/16-unmet-healthcare-2024-source.csv": "af7306652f9cc5853817b1bdb40515be08c28c94d412de1485799fa89beec3d0"
+  },
+  "visual_review": {
+    "reviewer": "core_evidence (independent of B11-B16 authors)",
+    "pngs_opened": [
+      "output\\paper-figures-20260918\\02-paper-style\\11-district-type-proportions.png",
+      "output\\paper-figures-20260918\\02-paper-style\\12-annual-receipts-by-type.png",
+      "output\\paper-figures-20260918\\02-paper-style\\13-weekday-hour-disease.png",
+      "output\\paper-figures-20260918\\02-paper-style\\14-bujeon-commerce-quarterly.png",
+      "output\\paper-figures-20260918\\02-paper-style\\15-bujeon-hourly-visiting-population.png",
+      "output\\paper-figures-20260918\\02-paper-style\\16-unmet-healthcare-2024.png"
+    ],
+    "result": "PASS: visible axes legends values; no title/prose/source in image, clipping or overlaps found; B15 endpoints visible."
+  }
+}

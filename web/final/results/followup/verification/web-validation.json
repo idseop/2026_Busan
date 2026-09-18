@@ -1,0 +1,66 @@
+{
+  "checks": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "reportImages": 11,
+      "regions": 194,
+      "overflow": false
+    },
+    {
+      "viewport": [
+        1600,
+        900
+      ],
+      "reportImages": 11,
+      "regions": 194,
+      "overflow": false
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "reportImages": 11,
+      "regions": 194,
+      "overflow": false
+    },
+    {
+      "scope": "A",
+      "selectedCount": 1076,
+      "populationUnchanged": true
+    },
+    {
+      "scope": "B",
+      "selectedCount": 723,
+      "populationUnchanged": true
+    },
+    {
+      "scope": "C",
+      "selectedCount": 723,
+      "populationUnchanged": true
+    },
+    {
+      "populationYears": 5,
+      "allAges": 101,
+      "multipleCandidatesNotSummed": true
+    },
+    {
+      "emptyResult": true,
+      "typeEvidenceNotMixed": true,
+      "outdoorAndTrafficLinked": true
+    },
+    {
+      "fileDirectAndLocalLinks": true
+    },
+    {
+      "mainMapLatestResultLink": true
+    },
+    {
+      "individualCallFieldsAbsent": true
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,306 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "effects 1920 no overflow",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "effects 1920 five loaded figures",
+      "pass": true,
+      "detail": [
+        {
+          "src": "figures/cpr-trend.png",
+          "ok": true
+        },
+        {
+          "src": "figures/education-practice.png",
+          "ok": true
+        },
+        {
+          "src": "figures/yeonje-education-age.png",
+          "ok": true
+        },
+        {
+          "src": "figures/leave_one_season.png",
+          "ok": true
+        },
+        {
+          "src": "figures/monthly_year_comparison.png",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "check": "explorer 1920 no overflow",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Yeonsan 1920 511",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "effects 1600 no overflow",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "effects 1600 five loaded figures",
+      "pass": true,
+      "detail": [
+        {
+          "src": "figures/cpr-trend.png",
+          "ok": true
+        },
+        {
+          "src": "figures/education-practice.png",
+          "ok": true
+        },
+        {
+          "src": "figures/yeonje-education-age.png",
+          "ok": true
+        },
+        {
+          "src": "figures/leave_one_season.png",
+          "ok": true
+        },
+        {
+          "src": "figures/monthly_year_comparison.png",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "check": "explorer 1600 no overflow",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Yeonsan 1600 511",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "effects 1366 no overflow",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "effects 1366 five loaded figures",
+      "pass": true,
+      "detail": [
+        {
+          "src": "figures/cpr-trend.png",
+          "ok": true
+        },
+        {
+          "src": "figures/education-practice.png",
+          "ok": true
+        },
+        {
+          "src": "figures/yeonje-education-age.png",
+          "ok": true
+        },
+        {
+          "src": "figures/leave_one_season.png",
+          "ok": true
+        },
+        {
+          "src": "figures/monthly_year_comparison.png",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "check": "explorer 1366 no overflow",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Yeonsan 1366 511",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "연산동 count",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "연산동 embedded temporal matches original JSON",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "연산동 season row0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "연산동 season row1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "연산동 season row2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "연산동 season row3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "연산동A C-only notice",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "연산동B C-only notice",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "다대동 count",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "다대동 embedded temporal matches original JSON",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "다대동 season row0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "다대동 season row1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "다대동 season row2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "다대동 season row3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Dadae leave one season5/5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "다대동A C-only notice",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "다대동B C-only notice",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "CHS embedded records match original JSON",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "CHS sampleN",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "CHS 심폐소생술 교육 경험률",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "CHS 마네킹 실습 경험률",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "CHS AED 실습 경험률",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "CPR distinct registry",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "population 2647065000",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "population 2647066000",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "CHS remains 2024",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "traffic clears CHS",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "empty clears stale",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "file:// results/effects/index.html",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "local links results/effects/index.html",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "file:// results/followup/explorer.html",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "local links results/followup/explorer.html",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "map effects link",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "no JS errors",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "count": 46,
+  "errors": [],
+  "visualReview": "직접 열어 확인: effects-1366-full.png, yeonsan-1366.png, yeonsan-education-context.png, CPR 추세 및 월별 9패널 원 그림. 화면 겹침·숫자 잘림 없음. 긴 교육 섹션은 패널 내부 스크롤로 읽음.",
+  "hashes": {
+    "web\\final\\results\\effects\\index.html": "84f620a73837de3590ceac56eda0993d6c0bd60523c20cf40e7057fa90a7a61f",
+    "web\\final\\results\\followup\\explorer.html": "eb2bacf24b855c498785b9f7768b4f871326b191d5a21b08874188b76cc1b66a",
+    "web\\final\\results\\followup\\explorer-data.js": "6cd042344dd4304fa566142f9a9603e63c7ca66cea945b06744f885dd7ca61bc"
+  }
+}

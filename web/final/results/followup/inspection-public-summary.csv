@@ -1,0 +1,5 @@
+﻿station,period,listed_rows,assessed_rows,fire_defect_rows,escape_defect_rows,any_defect_rows,any_defect_with_onsite_correction,any_defect_without_correction_note,all_rows_with_onsite_correction,deferred_rows,source_url
+기장소방서,2026-08,33,33,6,0,6,6,0,13,0,https://119.busan.go.kr/119total/1753023
+동래소방서,2026-08,39,39,0,0,0,0,0,0,0,https://119.busan.go.kr/119total/1753101
+금정소방서,2026-08,26,25,1,2,3,0,3,0,1,https://119.busan.go.kr/119total/1752701
+부산진소방서,2026-08,34,34,9,1,10,0,10,0,0,https://119.busan.go.kr/119total/1753494

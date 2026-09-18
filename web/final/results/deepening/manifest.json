@@ -1,0 +1,143 @@
+{
+  "generated": "2026-09-16",
+  "inputs": [
+    {
+      "path": "data\\processed\\동별보완-추가근거-20260916\\place\\coverage_all_busan.json",
+      "sha256": "004a22d26078f848c793ec7f466bd9681cbcea197d62de1e43b60a3e6572fa0d"
+    },
+    {
+      "path": "data\\processed\\동별보완-추가근거-20260916\\time\\time-robustness.json",
+      "sha256": "2026d426939136249d70285a8201a8388804cd1d36d71b94c61ec20f83f44ef0"
+    },
+    {
+      "path": "data\\processed\\동별보완-추가근거-20260916\\followup\\followup-evidence.json",
+      "sha256": "3401d113770d6d86f0547cacd934fde1b0790aca49a6436ee52e33eb89fba278"
+    },
+    {
+      "path": "data\\processed\\동별보완-추가근거-20260916\\services\\apartment-summary.json",
+      "sha256": "64b181886c99b40d19a31e3ab0ffb4a760617a63aef26cac9144e500c3162ba4"
+    },
+    {
+      "path": "data\\processed\\동별보완-추가근거-20260916\\services\\aed-summary.json",
+      "sha256": "95e64b0b0375688c6a83b462950d0c4d9c4e56e955bc970e83db4f6ee9018877"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "aed-operating-hours.png",
+      "sha256": "0fb68febd25fcc730efa91731a11e2b85d2424c9c2300dd749e73dfffc31bb5e"
+    },
+    {
+      "file": "aed-operating-hours.svg",
+      "sha256": "5f0b5b1baeecc125a1f31f952af8f93348abf613e693b3f941305200ed1c2f06"
+    },
+    {
+      "file": "apartment-sprinkler-conditions.png",
+      "sha256": "f51913781d75b0c710791eefb9448aa83f46ba176ddfe933bae294ab29c1bf4a"
+    },
+    {
+      "file": "apartment-sprinkler-conditions.svg",
+      "sha256": "cd202d53d326cf9000f6c1c7a211727b5386807a693edcb6a017fe863f2b05a7"
+    },
+    {
+      "file": "busan_all16_coverage.png",
+      "sha256": "babc38487a71dc92104339ea2e7467cf20c5f4067b379959d76d07f5b9a9a9ec"
+    },
+    {
+      "file": "busan_all16_coverage.svg",
+      "sha256": "ad1a068a36204a822fbed5febeefd5ccd9edcbf121d8fcf1aa73a4ddaaee0886"
+    },
+    {
+      "file": "coverage_all16_districts_2020_2025.csv",
+      "sha256": "693dd290ff9f48a489926847c5c4ec78c8aad546f45e0f3ab4e85023708dabfa"
+    },
+    {
+      "file": "coverage_latest2025_districts.csv",
+      "sha256": "0b36f3355c63a2046240b2f7008e3198dbee712d44e7fb34a15494d93a277f6f"
+    },
+    {
+      "file": "coverage_latest2025_law_dongs.csv",
+      "sha256": "5f6b093ea31c5c6fcb78fea9898a9c65d4d61847e3ad2ef9719c034067f9c06e"
+    },
+    {
+      "file": "coverage_law_dong_receipt_names.csv",
+      "sha256": "ec405c5c73078c5f430eb46329648d1206a6d7cefe7ae075bc7b5d28d1bbb8c0"
+    },
+    {
+      "file": "coverage_mois_all14_inspection_sites.csv",
+      "sha256": "84f72d250888bda680ff082718dfef4f90d698fa263141ceac407ff2955f0492"
+    },
+    {
+      "file": "coverage_mois_district_item_sums.csv",
+      "sha256": "09659992229d783c9352cdc2c2460ec45362b475b62a17ac1aeb63a3c22c62f9"
+    },
+    {
+      "file": "daeyeon_specific_place_evidence.png",
+      "sha256": "293b95d1a528436d6d2b3f6ca215e879551e48a058ab3b58422dfef85f1cc9d3"
+    },
+    {
+      "file": "daeyeon_specific_place_evidence.svg",
+      "sha256": "8595c7f20c657301a9f9a72c1338d0c74f22cc2e477b770ddece9a2ad27b3a60"
+    },
+    {
+      "file": "deepening-1600.png",
+      "sha256": "c5680233113b6c6b9f44442ceda1f78cf97968e15ab9dc5f33f6a00c2cd30dfe"
+    },
+    {
+      "file": "deepening-browser.json",
+      "sha256": "fca74b92517f7842cbef76e7c99272856b64084d998e8fcb63558c4dbab33785"
+    },
+    {
+      "file": "deepening-s3.png",
+      "sha256": "c4c886fa82a91580d30ff5545e94a69180190dbb4f8af81d7f197d4b2381054b"
+    },
+    {
+      "file": "deepening-s4.png",
+      "sha256": "3607c737d20ad2198321a3ac9f740f8e1482ca7fbff612c93c15aa7c09eba1fe"
+    },
+    {
+      "file": "deepening-s5.png",
+      "sha256": "13c308a3f26af53cbf4a3f170e28d019675fa49ef366a57fdf5779d1f92b7c3e"
+    },
+    {
+      "file": "index.html",
+      "sha256": "a1d463163df6df750f889a5a0164a28e410f8f76af606c20faecee5734d01ae7"
+    },
+    {
+      "file": "motgol_followup_timeline.png",
+      "sha256": "978e5e9a9260d6f8b8bee9e9776620daad198ad0e57e4356935161a01cc91a6d"
+    },
+    {
+      "file": "motgol_followup_timeline.svg",
+      "sha256": "e8603004c5faac816d4ed34356148228fcd5120d65a474c600263e5f07701b17"
+    },
+    {
+      "file": "period_weekend_comparison.png",
+      "sha256": "c5aee614525fddd4e0d03c470b576afe3a8e12342d4ce3bffed93b2c154f9be7"
+    },
+    {
+      "file": "period_weekend_comparison.svg",
+      "sha256": "8b7be99d80ba41dec9f384a8377641ece38e932f50fbfc869740da5b3c1a086b"
+    },
+    {
+      "file": "time-robustness.csv",
+      "sha256": "dedf66ddf6e5f3b7110a1bd38617362fd44041ded95b99c34f56a721cdaa22c2"
+    },
+    {
+      "file": "검증요약.md",
+      "sha256": "9d343dba8abc6751b4088a4d44fdc44f1290c9ff3ec38c25217328d5b794131a"
+    },
+    {
+      "file": "보고서.md",
+      "sha256": "62883c618411074d0db4db6a24759e115f9c22558c4e40954cf12eedd6206bdb"
+    },
+    {
+      "file": "실행방법.txt",
+      "sha256": "63eda54b34bd6c5fb676967636c07ac4198cec78dd06be4ab8b5c94beebfb35a"
+    },
+    {
+      "file": "추가근거-독립검토.md",
+      "sha256": "1a5e3c38bf2b1cbac6cf89220fe654a65f24372fda01446a33cced7bc067673e"
+    }
+  ]
+}

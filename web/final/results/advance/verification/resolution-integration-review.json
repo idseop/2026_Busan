@@ -1,0 +1,184 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "independent evidence passed selection-independent.json",
+      "pass": true
+    },
+    {
+      "name": "independent evidence passed selection-tvd-independent.json",
+      "pass": true
+    },
+    {
+      "name": "independent evidence passed response-independent.json",
+      "pass": true
+    },
+    {
+      "name": "independent evidence passed resolution-source-verification.json",
+      "pass": true
+    },
+    {
+      "name": "report interpretation 아직 참여자를 대상으로 실행하지 않았",
+      "pass": true
+    },
+    {
+      "name": "report interpretation 현재 미조치",
+      "pass": true
+    },
+    {
+      "name": "report interpretation 확보하지 못했습니다",
+      "pass": true
+    },
+    {
+      "name": "report interpretation 실제 시설의 보수나 기관 대장 수정까지 우리가 시행한 것은 아닙니다",
+      "pass": true
+    },
+    {
+      "name": "report interpretation 별도 비교 사례",
+      "pass": true
+    },
+    {
+      "name": "report interpretation 다른 서비스입니다",
+      "pass": true
+    },
+    {
+      "name": "three distinct cases",
+      "pass": true
+    },
+    {
+      "name": "no patient/real dong or efficacy assertion",
+      "pass": true
+    },
+    {
+      "name": "연산동A current catalogue vs complete all",
+      "pass": true
+    },
+    {
+      "name": "연산동A all three denominator labels",
+      "pass": true
+    },
+    {
+      "name": "연산동A service appropriate type",
+      "pass": true
+    },
+    {
+      "name": "연산동B current catalogue vs complete all",
+      "pass": true
+    },
+    {
+      "name": "연산동B all three denominator labels",
+      "pass": true
+    },
+    {
+      "name": "연산동B service appropriate type",
+      "pass": true
+    },
+    {
+      "name": "연산동C current catalogue vs complete all",
+      "pass": true
+    },
+    {
+      "name": "연산동C all three denominator labels",
+      "pass": true
+    },
+    {
+      "name": "연산동C service appropriate type",
+      "pass": true
+    },
+    {
+      "name": "부전동A current catalogue vs complete all",
+      "pass": true
+    },
+    {
+      "name": "부전동A all three denominator labels",
+      "pass": true
+    },
+    {
+      "name": "부전동A service appropriate type",
+      "pass": true
+    },
+    {
+      "name": "부전동B current catalogue vs complete all",
+      "pass": true
+    },
+    {
+      "name": "부전동B all three denominator labels",
+      "pass": true
+    },
+    {
+      "name": "부전동B service appropriate type",
+      "pass": true
+    },
+    {
+      "name": "부전동C current catalogue vs complete all",
+      "pass": true
+    },
+    {
+      "name": "부전동C all three denominator labels",
+      "pass": true
+    },
+    {
+      "name": "부전동C service appropriate type",
+      "pass": true
+    },
+    {
+      "name": "광안동A current catalogue vs complete all",
+      "pass": true
+    },
+    {
+      "name": "광안동A all three denominator labels",
+      "pass": true
+    },
+    {
+      "name": "광안동A service appropriate type",
+      "pass": true
+    },
+    {
+      "name": "광안동B current catalogue vs complete all",
+      "pass": true
+    },
+    {
+      "name": "광안동B all three denominator labels",
+      "pass": true
+    },
+    {
+      "name": "광안동B service appropriate type",
+      "pass": true
+    },
+    {
+      "name": "광안동C current catalogue vs complete all",
+      "pass": true
+    },
+    {
+      "name": "광안동C all three denominator labels",
+      "pass": true
+    },
+    {
+      "name": "광안동C service appropriate type",
+      "pass": true
+    },
+    {
+      "name": "empty state clears selection and services",
+      "pass": true
+    },
+    {
+      "name": "report renders ten sections",
+      "pass": true
+    },
+    {
+      "name": "all report images load",
+      "pass": true
+    },
+    {
+      "name": "no browser JavaScript errors",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "reviewedFiles": {
+    "output\\부산119-쟁점해결-20260916\\index.html": "b4bd81491d575b5cfe49535c3375af00a67f095358ceec74c005b6d8293c5430",
+    "scripts\\build_resolution_report_20260916.py": "9c2c38a6240bb3386eeb6b5abb9639df998edea4513c194a68dfba9d70a27d46",
+    "scripts\\build_followup_explorer_20260916.py": "bc358404259c373c5acf1f6856da95eb646093125245bd5f6474f7f66976203f"
+  },
+  "scope": "3 cases × A/B/C; service subtype isolation; empty state; report figures. Packaging link copy pending separately. No user outcome experiment conducted."
+}

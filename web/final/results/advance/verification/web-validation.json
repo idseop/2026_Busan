@@ -1,0 +1,76 @@
+{
+  "checks": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "reportSections": 10,
+      "figures": 3,
+      "overflow": false
+    },
+    {
+      "viewport": [
+        1600,
+        900
+      ],
+      "reportSections": 10,
+      "figures": 3,
+      "overflow": false
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "reportSections": 10,
+      "figures": 3,
+      "overflow": false
+    },
+    {
+      "scope": "A",
+      "count": 1076,
+      "beforeMobile": 1589
+    },
+    {
+      "scope": "B",
+      "count": 723,
+      "beforeMobile": 1048
+    },
+    {
+      "scope": "C",
+      "count": 723,
+      "beforeMobile": 1048
+    },
+    {
+      "regionalAndTypeEvidenceNotMixed": true,
+      "dongnaeProgrammeLinked": true,
+      "publicationConflictNotOpenNow": true,
+      "emptyStateNoStaleFacts": true
+    },
+    {
+      "fileDirectAndLocalLinks": true
+    },
+    {
+      "mapLatestLink": true
+    },
+    {
+      "privateIncidentFieldsAbsent": true
+    }
+  ],
+  "errors": [],
+  "testedFiles": [
+    {
+      "path": "output\\부산119-쟁점해결-20260916\\index.html",
+      "sha256": "b4bd81491d575b5cfe49535c3375af00a67f095358ceec74c005b6d8293c5430"
+    },
+    {
+      "path": "output\\부산119-전지역후속검증-20260916\\explorer.html",
+      "sha256": "b0e7f1bece5270b71dd4790f97600cbffbf22ed911fa8d897926228b06ef54f8"
+    },
+    {
+      "path": "output\\부산119-전지역후속검증-20260916\\explorer-data.js",
+      "sha256": "d47ff492b5cfdadda4c666251390d1c7a1939143024f30bab7e6b852d4b63e7a"
+    }
+  ]
+}

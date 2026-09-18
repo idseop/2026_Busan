@@ -12,13 +12,13 @@ FAIL, WARN = [], []
 
 
 def sh(*a) -> str:
-    return subprocess.run(a, capture_output=True, text=True).stdout
+    return subprocess.run(a, capture_output=True, text=True, encoding="utf-8").stdout
 
 
 def check_clone_reproducible():
     """git 이 추적하는 것만으로 필수 폴더가 재현되는가.
     실제로 터졌던 결함: `data/raw/` 를 ignore 하면 `!data/**/.gitkeep` 이 먹지 않는다."""
-    tracked = set(sh("git", "ls-files").split())
+    tracked = set(sh("git", "ls-files", "-z").split("\0"))
     RAW = ["00_경계", "01_외국인", "02_소비", "03_방문", "04_숙박", "05_상권", "06_접근성"]
     STEP = ["00_공통", "01_쏠림진단", "02_동네프로파일", "03_다음동네", "04_수용력", "05_시뮬레이션"]
     need = ([f"data/raw/{d}" for d in RAW]
@@ -62,8 +62,8 @@ def check_import_convention():
         "print('OK', setup())\n", encoding="utf-8")
     try:
         with tempfile.TemporaryDirectory() as tmp:
-            r = subprocess.run([str(ROOT / ".venv/bin/python"), str(t)],
-                               cwd=tmp, capture_output=True, text=True)
+            r = subprocess.run([sys.executable, "-X", "utf8", str(t)],
+                               cwd=tmp, capture_output=True, text=True, encoding="utf-8")
         if r.returncode != 0:
             FAIL.append(f"import 규약 깨짐 (다른 cwd 에서 실패): {r.stderr.strip().splitlines()[-1:]}")
         elif "Pretendard" not in r.stdout and "Nanum" not in r.stdout and "Gothic" not in r.stdout:

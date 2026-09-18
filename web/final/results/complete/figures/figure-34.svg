@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="852.543049pt" height="608.996641pt" viewBox="0 0 852.543049 608.996641" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-16T01:55:14.964345</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 608.996641 
+L 852.543049 608.996641 
+L 852.543049 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 58.2 553.152539 
+L 762.789013 553.152539 
+L 762.789013 84.554688 
+L 58.2 84.554688 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g clip-path="url(#pbf7a82e375)">
+    <image xlink:href="data:image/png;base64,
+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" id="image4d23307be7" transform="scale(1 -1) translate(0 -468.45)" x="58.05" y="-84.746641" width="704.7" height="468.45"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="mbf6e799a89" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mbf6e799a89" x="128.658901" y="553.152539" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: middle" x="128.658901" y="569.547227" transform="rotate(-0 128.658901 569.547227)">심정지</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#mbf6e799a89" x="269.576704" y="553.152539" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: middle" x="269.576704" y="569.547227" transform="rotate(-0 269.576704 569.547227)">일반화재(주택)</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#mbf6e799a89" x="410.494506" y="553.152539" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: middle" x="410.494506" y="569.547227" transform="rotate(-0 410.494506 569.547227)">산악사고</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#mbf6e799a89" x="551.412309" y="553.152539" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: middle" x="551.412309" y="569.547227" transform="rotate(-0 551.412309 569.547227)">수난사고</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#mbf6e799a89" x="692.330111" y="553.152539" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: middle" x="692.330111" y="569.547227" transform="rotate(-0 692.330111 569.547227)">교통사고</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_6">
+      <defs>
+       <path id="m9c556dd68c" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m9c556dd68c" x="58.2" y="99.19837" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: end" x="51.2" y="103.895714" transform="rotate(-0 51.2 103.895714)">강서구</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m9c556dd68c" x="58.2" y="128.485736" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: end" x="51.2" y="133.18308" transform="rotate(-0 51.2 133.18308)">금정구</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m9c556dd68c" x="58.2" y="157.773102" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: end" x="51.2" y="162.470446" transform="rotate(-0 51.2 162.470446)">기장군</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m9c556dd68c" x="58.2" y="187.060468" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: end" x="51.2" y="191.757811" transform="rotate(-0 51.2 191.757811)">남구</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m9c556dd68c" x="58.2" y="216.347833" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: end" x="51.2" y="220.924005" transform="rotate(-0 51.2 220.924005)">동구</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#m9c556dd68c" x="58.2" y="245.635199" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: end" x="51.2" y="250.332543" transform="rotate(-0 51.2 250.332543)">동래구</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m9c556dd68c" x="58.2" y="274.922565" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: end" x="51.2" y="279.619908" transform="rotate(-0 51.2 279.619908)">부산진구</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#m9c556dd68c" x="58.2" y="304.20993" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: end" x="51.2" y="308.823915" transform="rotate(-0 51.2 308.823915)">북구</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m9c556dd68c" x="58.2" y="333.497296" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: end" x="51.2" y="338.19464" transform="rotate(-0 51.2 338.19464)">사상구</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#m9c556dd68c" x="58.2" y="362.784662" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: end" x="51.2" y="367.482006" transform="rotate(-0 51.2 367.482006)">사하구</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#m9c556dd68c" x="58.2" y="392.072028" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: end" x="51.2" y="396.769371" transform="rotate(-0 51.2 396.769371)">서구</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#m9c556dd68c" x="58.2" y="421.359393" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_17">
+      <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: end" x="51.2" y="426.056737" transform="rotate(-0 51.2 426.056737)">수영구</text>
+     </g>
+    </g>
+    <g id="ytick_13">
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#m9c556dd68c" x="58.2" y="450.646759" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_18">
+      <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: end" x="51.2" y="455.344103" transform="rotate(-0 51.2 455.344103)">연제구</text>
+     </g>
+    </g>
+    <g id="ytick_14">
+     <g id="line2d_19">
+      <g>
+       <use xlink:href="#m9c556dd68c" x="58.2" y="479.934125" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_19">
+      <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: end" x="51.2" y="484.631469" transform="rotate(-0 51.2 484.631469)">영도구</text>
+     </g>
+    </g>
+    <g id="ytick_15">
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#m9c556dd68c" x="58.2" y="509.22149" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_20">
+      <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: end" x="51.2" y="513.776178" transform="rotate(-0 51.2 513.776178)">중구</text>
+     </g>
+    </g>
+    <g id="ytick_16">
+     <g id="line2d_21">
+      <g>
+       <use xlink:href="#m9c556dd68c" x="58.2" y="538.508856" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_21">
+      <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: end" x="51.2" y="543.2062" transform="rotate(-0 51.2 543.2062)">해운대구</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 58.2 553.152539 
+L 58.2 84.554688 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 762.789013 553.152539 
+L 762.789013 84.554688 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 58.2 553.152539 
+L 762.789013 553.152539 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 58.2 84.554688 
+L 762.789013 84.554688 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(115.121401 96.925128)">1.39%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(115.397183 107.467706)">366건</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(256.039204 96.925128)">0.79%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(256.314985 107.467706)">206건</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(396.957006 96.925128)">0.10%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(399.986694 107.467706)">27건</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(537.874809 96.925128)">0.17%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(540.904496 107.467706)">44건</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #ffffff" transform="translate(678.792611 96.925128)">6.39%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #ffffff" transform="translate(675.220736 107.467706)">1,676건</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(115.121401 126.212494)">2.18%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(115.397183 136.755072)">837건</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(256.039204 126.212494)">0.48%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(256.314985 136.755072)">186건</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(396.957006 126.212494)">0.60%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(397.232788 136.755072)">231건</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(537.874809 126.212494)">0.03%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(540.904496 136.755072)">12건</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #ffffff" transform="translate(678.792611 126.212494)">3.93%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #ffffff" transform="translate(675.220736 136.755072)">1,512건</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(115.121401 155.49986)">2.03%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(115.397183 166.042438)">658건</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(256.039204 155.49986)">0.54%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(256.314985 166.042438)">175건</text>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(396.957006 155.49986)">0.29%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(399.986694 166.042438)">93건</text>
+   </g>
+   <g id="text_35">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(537.874809 155.49986)">0.24%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(540.904496 166.042438)">77건</text>
+   </g>
+   <g id="text_36">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #ffffff" transform="translate(678.792611 155.49986)">4.17%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #ffffff" transform="translate(675.220736 166.042438)">1,352건</text>
+   </g>
+   <g id="text_37">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(115.121401 184.787225)">2.35%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(115.397183 195.329803)">885건</text>
+   </g>
+   <g id="text_38">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(256.039204 184.787225)">0.36%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(256.314985 195.329803)">137건</text>
+   </g>
+   <g id="text_39">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(396.957006 184.787225)">0.19%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(399.986694 195.329803)">73건</text>
+   </g>
+   <g id="text_40">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(537.874809 184.787225)">0.08%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(540.904496 195.329803)">31건</text>
+   </g>
+   <g id="text_41">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #ffffff" transform="translate(678.792611 184.787225)">4.31%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #ffffff" transform="translate(675.220736 195.329803)">1,621건</text>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(115.121401 214.074591)">2.29%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(115.397183 224.617169)">476건</text>
+   </g>
+   <g id="text_43">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(256.039204 214.074591)">0.51%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(256.314985 224.617169)">107건</text>
+   </g>
+   <g id="text_44">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(396.957006 214.074591)">0.08%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(399.986694 224.617169)">16건</text>
+   </g>
+   <g id="text_45">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(537.874809 214.074591)">0.03%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(543.658403 224.617169)">6건</text>
+   </g>
+   <g id="text_46">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #ffffff" transform="translate(678.792611 214.074591)">3.95%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #ffffff" transform="translate(679.068393 224.617169)">822건</text>
+   </g>
+   <g id="text_47">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(115.121401 243.361957)">2.31%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(115.397183 253.904535)">879건</text>
+   </g>
+   <g id="text_48">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(256.039204 243.361957)">0.42%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(256.314985 253.904535)">160건</text>
+   </g>
+   <g id="text_49">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(396.957006 243.361957)">0.11%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(399.986694 253.904535)">43건</text>
+   </g>
+   <g id="text_50">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(537.874809 243.361957)">0.01%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(543.658403 253.904535)">5건</text>
+   </g>
+   <g id="text_51">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #ffffff" transform="translate(678.792611 243.361957)">4.16%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #ffffff" transform="translate(675.220736 253.904535)">1,586건</text>
+   </g>
+   <g id="text_52">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(115.121401 272.649323)">2.01%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(111.549526 283.191901)">1,312건</text>
+   </g>
+   <g id="text_53">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(256.039204 272.649323)">0.36%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(256.314985 283.191901)">235건</text>
+   </g>
+   <g id="text_54">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(396.957006 272.649323)">0.17%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(397.232788 283.191901)">113건</text>
+   </g>
+   <g id="text_55">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(537.874809 272.649323)">0.00%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(543.658403 283.191901)">3건</text>
+   </g>
+   <g id="text_56">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #ffffff" transform="translate(678.792611 272.649323)">4.85%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #ffffff" transform="translate(675.220736 283.191901)">3,164건</text>
+   </g>
+   <g id="text_57">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(115.121401 301.936688)">2.18%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(115.397183 312.479266)">932건</text>
+   </g>
+   <g id="text_58">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(256.039204 301.936688)">0.27%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(256.314985 312.479266)">117건</text>
+   </g>
+   <g id="text_59">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(396.957006 301.936688)">0.26%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(397.232788 312.479266)">109건</text>
+   </g>
+   <g id="text_60">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(537.874809 301.936688)">0.07%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(540.904496 312.479266)">30건</text>
+   </g>
+   <g id="text_61">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(678.792611 301.936688)">3.69%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(675.220736 312.479266)">1,573건</text>
+   </g>
+   <g id="text_62">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(115.121401 331.224054)">2.05%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(115.397183 341.766632)">876건</text>
+   </g>
+   <g id="text_63">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(256.039204 331.224054)">0.42%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(256.314985 341.766632)">181건</text>
+   </g>
+   <g id="text_64">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(396.957006 331.224054)">0.15%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(399.986694 341.766632)">65건</text>
+   </g>
+   <g id="text_65">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(537.874809 331.224054)">0.04%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(540.904496 341.766632)">17건</text>
+   </g>
+   <g id="text_66">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #ffffff" transform="translate(678.792611 331.224054)">5.18%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #ffffff" transform="translate(675.220736 341.766632)">2,214건</text>
+   </g>
+   <g id="text_67">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(115.121401 360.51142)">2.30%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(111.549526 371.053998)">1,147건</text>
+   </g>
+   <g id="text_68">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(256.039204 360.51142)">0.39%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(256.314985 371.053998)">193건</text>
+   </g>
+   <g id="text_69">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(396.957006 360.51142)">0.20%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(399.986694 371.053998)">98건</text>
+   </g>
+   <g id="text_70">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(537.874809 360.51142)">0.20%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(540.904496 371.053998)">99건</text>
+   </g>
+   <g id="text_71">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #ffffff" transform="translate(678.792611 360.51142)">4.12%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #ffffff" transform="translate(675.220736 371.053998)">2,051건</text>
+   </g>
+   <g id="text_72">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(115.121401 389.798785)">2.41%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(115.397183 400.341364)">532건</text>
+   </g>
+   <g id="text_73">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(256.039204 389.798785)">0.58%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(256.314985 400.341364)">127건</text>
+   </g>
+   <g id="text_74">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(396.957006 389.798785)">0.22%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(399.986694 400.341364)">48건</text>
+   </g>
+   <g id="text_75">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(537.874809 389.798785)">0.29%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(540.904496 400.341364)">65건</text>
+   </g>
+   <g id="text_76">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(678.792611 389.798785)">3.59%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(679.068393 400.341364)">793건</text>
+   </g>
+   <g id="text_77">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(115.121401 419.086151)">2.01%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(115.397183 429.628729)">639건</text>
+   </g>
+   <g id="text_78">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(256.039204 419.086151)">0.44%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(256.314985 429.628729)">139건</text>
+   </g>
+   <g id="text_79">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(396.957006 419.086151)">0.07%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(399.986694 429.628729)">22건</text>
+   </g>
+   <g id="text_80">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(537.874809 419.086151)">0.32%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(538.15059 429.628729)">101건</text>
+   </g>
+   <g id="text_81">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #ffffff" transform="translate(678.792611 419.086151)">4.80%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #ffffff" transform="translate(675.220736 429.628729)">1,525건</text>
+   </g>
+   <g id="text_82">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(115.121401 448.373517)">2.33%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(115.397183 458.916095)">708건</text>
+   </g>
+   <g id="text_83">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(256.039204 448.373517)">0.31%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(259.068891 458.916095)">95건</text>
+   </g>
+   <g id="text_84">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(396.957006 448.373517)">0.09%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(399.986694 458.916095)">28건</text>
+   </g>
+   <g id="text_85">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(537.874809 448.373517)">0.01%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(543.658403 458.916095)">2건</text>
+   </g>
+   <g id="text_86">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #ffffff" transform="translate(678.792611 448.373517)">4.63%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #ffffff" transform="translate(675.220736 458.916095)">1,404건</text>
+   </g>
+   <g id="text_87">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(115.121401 477.660883)">2.64%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(115.397183 488.203461)">604건</text>
+   </g>
+   <g id="text_88">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(256.039204 477.660883)">0.38%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(259.068891 488.203461)">87건</text>
+   </g>
+   <g id="text_89">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(396.957006 477.660883)">0.12%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(399.986694 488.203461)">28건</text>
+   </g>
+   <g id="text_90">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(537.874809 477.660883)">0.38%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(540.904496 488.203461)">88건</text>
+   </g>
+   <g id="text_91">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(678.792611 477.660883)">3.31%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(679.068393 488.203461)">757건</text>
+   </g>
+   <g id="text_92">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(115.121401 506.948248)">1.85%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(115.397183 517.490826)">271건</text>
+   </g>
+   <g id="text_93">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(256.039204 506.948248)">0.57%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(259.068891 517.490826)">83건</text>
+   </g>
+   <g id="text_94">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(396.957006 506.948248)">0.00%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(402.7406 517.490826)">0건</text>
+   </g>
+   <g id="text_95">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(537.874809 506.948248)">0.18%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(540.904496 517.490826)">27건</text>
+   </g>
+   <g id="text_96">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #ffffff" transform="translate(678.792611 506.948248)">5.09%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #ffffff" transform="translate(679.068393 517.490826)">746건</text>
+   </g>
+   <g id="text_97">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(115.121401 536.235614)">2.15%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(111.549526 546.778192)">1,265건</text>
+   </g>
+   <g id="text_98">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(256.039204 536.235614)">0.31%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(256.314985 546.778192)">182건</text>
+   </g>
+   <g id="text_99">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(396.957006 536.235614)">0.28%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(397.232788 546.778192)">163건</text>
+   </g>
+   <g id="text_100">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(537.874809 536.235614)">0.27%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(538.15059 546.778192)">158건</text>
+   </g>
+   <g id="text_101">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(678.792611 536.235614)">3.75%</text>
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; fill: #15383f" transform="translate(675.220736 546.778192)">2,205건</text>
+   </g>
+   <g id="text_102">
+    <text style="font-weight: 700; font-size: 19px; font-family: 'Malgun Gothic'; text-anchor: start" x="58.2" y="47.554688" transform="rotate(-0 58.2 47.554688)">같은 부산 안에서도 신고 유형의 구성은 다릅니다</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_7">
+    <path d="M 793.257727 553.152539 
+L 816.687619 553.152539 
+L 816.687619 84.554688 
+L 793.257727 84.554688 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <image xlink:href="data:image/png;base64,
+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" id="image4a90d8a750" transform="scale(1 -1) translate(0 -468.45)" x="793.35" y="-84.6" width="23.4" height="468.45"/>
+   <g id="matplotlib.axis_3"/>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_17">
+     <g id="line2d_22">
+      <defs>
+       <path id="m672507fb87" d="M 0 0 
+L 3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m672507fb87" x="816.687619" y="553.152539" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_103">
+      <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start" x="823.687619" y="557.551465" transform="rotate(-0 823.687619 557.551465)">0</text>
+     </g>
+    </g>
+    <g id="ytick_18">
+     <g id="line2d_23">
+      <g>
+       <use xlink:href="#m672507fb87" x="816.687619" y="479.790134" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_104">
+      <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start" x="823.687619" y="484.18906" transform="rotate(-0 823.687619 484.18906)">1</text>
+     </g>
+    </g>
+    <g id="ytick_19">
+     <g id="line2d_24">
+      <g>
+       <use xlink:href="#m672507fb87" x="816.687619" y="406.42773" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_105">
+      <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start" x="823.687619" y="410.826655" transform="rotate(-0 823.687619 410.826655)">2</text>
+     </g>
+    </g>
+    <g id="ytick_20">
+     <g id="line2d_25">
+      <g>
+       <use xlink:href="#m672507fb87" x="816.687619" y="333.065325" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_106">
+      <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start" x="823.687619" y="337.464251" transform="rotate(-0 823.687619 337.464251)">3</text>
+     </g>
+    </g>
+    <g id="ytick_21">
+     <g id="line2d_26">
+      <g>
+       <use xlink:href="#m672507fb87" x="816.687619" y="259.70292" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_107">
+      <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start" x="823.687619" y="264.101846" transform="rotate(-0 823.687619 264.101846)">4</text>
+     </g>
+    </g>
+    <g id="ytick_22">
+     <g id="line2d_27">
+      <g>
+       <use xlink:href="#m672507fb87" x="816.687619" y="186.340516" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_108">
+      <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start" x="823.687619" y="190.739441" transform="rotate(-0 823.687619 190.739441)">5</text>
+     </g>
+    </g>
+    <g id="ytick_23">
+     <g id="line2d_28">
+      <g>
+       <use xlink:href="#m672507fb87" x="816.687619" y="112.978111" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_109">
+      <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start" x="823.687619" y="117.377037" transform="rotate(-0 823.687619 117.377037)">6</text>
+     </g>
+    </g>
+    <g id="text_110">
+     <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: middle" x="843.140901" y="318.853613" transform="rotate(-90 843.140901 318.853613)">각 구·군 선택 신고 중 구성비 (%)</text>
+    </g>
+   </g>
+   <g id="LineCollection_1"/>
+   <g id="patch_8">
+    <path d="M 793.257727 553.152539 
+L 804.972673 553.152539 
+L 816.687619 553.152539 
+L 816.687619 84.554688 
+L 804.972673 84.554688 
+L 793.257727 84.554688 
+L 793.257727 553.152539 
+z
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+  </g>
+  <g id="text_111">
+   <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start" x="104.12" y="16.594688" transform="rotate(-0 104.12 16.594688)">2020–2024 · 정상 처리·운영성 분류 제외 · 각 구·군의 전체 선택 신고 대비 비중</text>
+  </g>
+  <g id="text_112">
+   <text style="font-size: 10px; font-family: 'Malgun Gothic'; text-anchor: start" x="104.12" y="599.794688" transform="rotate(-0 104.12 599.794688)">예방 관련 5개 유형만 표시. 나머지 유형을 제외한 비중으로 재정규화하지 않았습니다. 위험도·주민당 사고율이 아닙니다.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pbf7a82e375">
+   <rect x="58.2" y="84.554688" width="704.589013" height="468.597852"/>
+  </clipPath>
+ </defs>
+</svg>

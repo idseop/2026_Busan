@@ -14,9 +14,17 @@ requests
 beautifulsoup4
 lxml
 tabulate
+pyshp
+shapely
+pyproj
 
 # 탐색용 노트북 (notebooks/)
 jupyterlab
 ipykernel
 nbformat
 nbconvert
+
+# 분석 통합 PDF 제작 및 렌더 검증
+reportlab
+pymupdf
+Pillow

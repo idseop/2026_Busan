@@ -54,6 +54,7 @@ DIV = "RdBu_r"      # 증감·편차 (0 중심)
 def _register_korean_font() -> str:
     """사용 가능한 한글 폰트를 등록하고 패밀리명을 반환."""
     candidates = [
+        (os.path.join(os.environ.get("WINDIR", "C:/Windows"), "Fonts", "malgun.ttf"), "Malgun Gothic"),
         (os.path.expanduser("~/Library/Fonts/Pretendard-*.ttf"), "Pretendard"),
         ("/System/Library/Fonts/Supplemental/NanumGothic.ttf", "NanumGothic"),
         ("/System/Library/Fonts/Supplemental/AppleGothic.ttf", "AppleGothic"),

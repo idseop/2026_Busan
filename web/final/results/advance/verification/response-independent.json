@@ -1,0 +1,235 @@
+{
+  "passed": 57,
+  "failed": [],
+  "checks": [
+    {
+      "name": "source hash gijang-current-board",
+      "passed": true
+    },
+    {
+      "name": "source hash geumjeong-current-board",
+      "passed": true
+    },
+    {
+      "name": "source hash busanjin-current-board",
+      "passed": true
+    },
+    {
+      "name": "source hash market-aed-agreement",
+      "passed": true
+    },
+    {
+      "name": "source hash sasang-aed-guidance",
+      "passed": true
+    },
+    {
+      "name": "source hash aed-v8-official-notice",
+      "passed": true
+    },
+    {
+      "name": "source hash gijang-search-시정",
+      "passed": true
+    },
+    {
+      "name": "source hash gijang-search-재점검",
+      "passed": true
+    },
+    {
+      "name": "source hash gijang-search-행정처분",
+      "passed": true
+    },
+    {
+      "name": "source hash gijang-search-조치결과",
+      "passed": true
+    },
+    {
+      "name": "source hash geumjeong-search-시정",
+      "passed": true
+    },
+    {
+      "name": "source hash geumjeong-search-재점검",
+      "passed": true
+    },
+    {
+      "name": "source hash geumjeong-search-행정처분",
+      "passed": true
+    },
+    {
+      "name": "source hash geumjeong-search-조치결과",
+      "passed": true
+    },
+    {
+      "name": "source hash busanjin-search-시정",
+      "passed": true
+    },
+    {
+      "name": "source hash busanjin-search-재점검",
+      "passed": true
+    },
+    {
+      "name": "source hash busanjin-search-행정처분",
+      "passed": true
+    },
+    {
+      "name": "source hash busanjin-search-조치결과",
+      "passed": true
+    },
+    {
+      "name": "source hash busanjin-datacenter-plan",
+      "passed": true
+    },
+    {
+      "name": "guideline raw hash",
+      "passed": true
+    },
+    {
+      "name": "raw guideline clause 배터리(패치) 유효기간 초과",
+      "passed": true
+    },
+    {
+      "name": "raw guideline clause 위치 정보(좌표)가 없을 경우",
+      "passed": true
+    },
+    {
+      "name": "raw guideline clause 장비 접근 및 사용이 가능한 시간",
+      "passed": true
+    },
+    {
+      "name": "raw guideline clause 설치 기관에서 장비 교체 후 월 점검 시 정보 수정",
+      "passed": true
+    },
+    {
+      "name": "raw guideline clause 외부표출 하시겠습니까?",
+      "passed": true
+    },
+    {
+      "name": "raw guideline clause 2026. 3.",
+      "passed": true
+    },
+    {
+      "name": "raw guideline clause 보건복지부",
+      "passed": true
+    },
+    {
+      "name": "prior inspection hash",
+      "passed": true
+    },
+    {
+      "name": "19 defect and 6 onsite",
+      "passed": true
+    },
+    {
+      "name": "3 stations by4terms",
+      "passed": true
+    },
+    {
+      "name": "search count gijang-search-시정",
+      "passed": true
+    },
+    {
+      "name": "search date gijang-search-시정",
+      "passed": true
+    },
+    {
+      "name": "search count gijang-search-재점검",
+      "passed": true
+    },
+    {
+      "name": "search date gijang-search-재점검",
+      "passed": true
+    },
+    {
+      "name": "search count gijang-search-행정처분",
+      "passed": true
+    },
+    {
+      "name": "search date gijang-search-행정처분",
+      "passed": true
+    },
+    {
+      "name": "search count gijang-search-조치결과",
+      "passed": true
+    },
+    {
+      "name": "search date gijang-search-조치결과",
+      "passed": true
+    },
+    {
+      "name": "search count geumjeong-search-시정",
+      "passed": true
+    },
+    {
+      "name": "search date geumjeong-search-시정",
+      "passed": true
+    },
+    {
+      "name": "search count geumjeong-search-재점검",
+      "passed": true
+    },
+    {
+      "name": "search date geumjeong-search-재점검",
+      "passed": true
+    },
+    {
+      "name": "search count geumjeong-search-행정처분",
+      "passed": true
+    },
+    {
+      "name": "search date geumjeong-search-행정처분",
+      "passed": true
+    },
+    {
+      "name": "search count geumjeong-search-조치결과",
+      "passed": true
+    },
+    {
+      "name": "search date geumjeong-search-조치결과",
+      "passed": true
+    },
+    {
+      "name": "search count busanjin-search-시정",
+      "passed": true
+    },
+    {
+      "name": "search date busanjin-search-시정",
+      "passed": true
+    },
+    {
+      "name": "search count busanjin-search-재점검",
+      "passed": true
+    },
+    {
+      "name": "search date busanjin-search-재점검",
+      "passed": true
+    },
+    {
+      "name": "search count busanjin-search-행정처분",
+      "passed": true
+    },
+    {
+      "name": "search date busanjin-search-행정처분",
+      "passed": true
+    },
+    {
+      "name": "search count busanjin-search-조치결과",
+      "passed": true
+    },
+    {
+      "name": "search date busanjin-search-조치결과",
+      "passed": true
+    },
+    {
+      "name": "no unsupported current-defect conclusion",
+      "passed": true
+    },
+    {
+      "name": "official existing service sasang-aed-guidance.txt",
+      "passed": true
+    },
+    {
+      "name": "official existing service market-aed-agreement.txt",
+      "passed": true
+    }
+  ],
+  "scope": "독립HWPX원XML의전국지침·공식게시12검색 결과수·이전조사19행 검증. 부산현재장비상태·첨부전수·시정실적을확인한검사아님."
+}

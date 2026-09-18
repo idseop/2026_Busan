@@ -1,0 +1,42 @@
+{
+  "status": "pass",
+  "reviewer": "response_evidence",
+  "reviewed": [
+    "scripts/build_effect_evidence_20260916.py",
+    "web/final/results/effects/index.html",
+    "docs/40-분석결과/부산-119-효과근거확장-20260916.md",
+    "web/final/results/effects/figures/cpr-trend.png",
+    "web/final/results/effects/figures/education-practice.png",
+    "web/final/results/effects/figures/leave_one_season.png",
+    "web/final/results/effects/figures/monthly_year_comparison.png",
+    "web/final/results/effects/figures/yeonje-education-age.png"
+  ],
+  "hashes": {
+    "scripts/build_effect_evidence_20260916.py": "19dcb858eaeb4da9d54874f07b318b1b28efeb77d631b18fa71890d731470b22",
+    "web/final/results/effects/index.html": "84f620a73837de3590ceac56eda0993d6c0bd60523c20cf40e7057fa90a7a61f",
+    "docs/40-분석결과/부산-119-효과근거확장-20260916.md": "5d538172ba1c4e2074671eae999635ccfb527a08a78b3307da1ad3639f8b31be",
+    "web/final/results/effects/figures/cpr-trend.png": "6f248b604806f90e5e813755550678a92e59809a79200747ad56b4c045bc17d5",
+    "web/final/results/effects/figures/education-practice.png": "34fd2007114f7be4d34b2d90436e18b1923c85f578f8fe61eb0e2141792e0a39",
+    "web/final/results/effects/figures/leave_one_season.png": "5521511b1b484de634858e0c983ea2248635e563eb45c5be9706a522e5922029",
+    "web/final/results/effects/figures/monthly_year_comparison.png": "1d08e900b3549d3a130394a1f21684a8dff703c8d8cf94fefe2b00d58ca82a9f",
+    "web/final/results/effects/figures/yeonje-education-age.png": "330b4b2b8cca32275983588bfb02af56d244c646484a581409314dc0645ff498"
+  },
+  "dataReviewScope": "Previously independent source checks reused; final prose/table/figure interpretation reviewed anew",
+  "checks": [
+    "CPR5year values and16.5percentagepoints align with independent source check",
+    "CHS9whole-district estimates and6Yeonje age estimates correspond to validated2024weightedcrude data; SEnotCI",
+    "Graphs show all6disjoint adult agebands and no highRSE>=30 selected age rows",
+    "Temporal33/325,121/325 and35/86 scope accuratelyqualified; 1yearleaveout notprediction",
+    "Yeonsan511calls,710comparison,8populationcandidates and2020/2024populationexample keptseparate fromCHSdistrict andnationalpatientstatistics",
+    "Existinggovernment programsandMotgolevaluation acknowledged; unclearconstructionmatching notserviceabsence",
+    "Proposal informational matching and usertest outcomes explicitly unmeasured",
+    "No newly disclosed private calls or precise incidentpoints in reviewedhtml"
+  ],
+  "visualReview": {
+    "method": "view_image individually opened all5PNG files",
+    "status": "pass",
+    "findings": "Titles, axes, labels, footnotes and age plot populated; no clipping or overlap observed; whitespace serves axes/legend. Monthly small multiples use differing vertical scales explicitly identified, grey individualyears vs greenaggregate explained."
+  },
+  "wordingNote": "권장 문구2건 반영 후재검토 완료: 부산 CPR을 받은 환자 및99개집계행",
+  "limits": "No browser interaction run in this review; parent browser verification separate. Traffic content is my own earlier authored research, independently reviewed by policy_analysis ratherthan selfapprovedhere."
+}

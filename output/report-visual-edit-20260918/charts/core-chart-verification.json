@@ -1,0 +1,251 @@
+{
+  "status": "PASS",
+  "scope": "verified aggregates re-expression only; no raw-call analysis",
+  "sources": {
+    "data\\processed\\5개년통합-지역유형-제안연결-20260917\\01-16구군-5년합계와-한해제외순위.csv": "39461b078607d5f4b60579c5ba4d01cd287e81be2d9247a19045dc0db86449ef",
+    "data\\processed\\5개년통합-지역유형-제안연결-20260917\\02-전체70유형-5년합계와-한해제외순위.csv": "c787cc43f5d1654bafc2cea387af07d9564372e49fffb7fcd664fb853980ee72",
+    "data\\processed\\5개년통합-지역유형-제안연결-20260917\\03-구군별70유형-동일유형연결.csv": "931ebe0ca8d0fd698eef8c4eb2f59c6dcc2d30a41030ceca617571e32841c54b",
+    "data\\processed\\5개년통합-지역유형-제안연결-20260917\\07-상위5구군-유형별동비교.csv": "5e976b3966bbc4786c33a64e9f399de742ee40a4ec14190c36c7e184174eade5",
+    "data\\processed\\5개년통합-지역유형-제안연결-20260917\\08-상위5구군-동후보-5개연말전체연령.csv": "8b22e6e01a88b3e1616198779290843f40428a72baffa59513125ad843a4c5c6",
+    "data\\processed\\5개년통합-지역유형-제안연결-20260917\\11-상위5구군45조합-5년시간교차집계.csv": "17eb7fe58dfac5c196002bd145e07188beabf620b62ee4a9d61fb3545be14668",
+    "data\\processed\\신고인구특성재정립-20260917\\calls\\manifest.json": "efa072d01b24808ea782baea66c94c19d307e5f8c518e60c3f772f6f2907b960"
+  },
+  "checks": [
+    {
+      "check": "16 districts = 555786",
+      "pass": true
+    },
+    {
+      "check": "70 types = P",
+      "pass": true
+    },
+    {
+      "check": "A B C P verified stages",
+      "pass": true
+    },
+    {
+      "check": "type chart composition 100%",
+      "pass": true
+    },
+    {
+      "check": "district type segments reconcile",
+      "pass": true
+    },
+    {
+      "check": "dong proportions recomputed",
+      "pass": true
+    },
+    {
+      "check": "case annual sums match totals",
+      "pass": true
+    },
+    {
+      "check": "다대동 질병 hourly sum",
+      "pass": true
+    },
+    {
+      "check": "다대동 질병 peak matches",
+      "pass": true
+    },
+    {
+      "check": "금곡동 질병 hourly sum",
+      "pass": true
+    },
+    {
+      "check": "금곡동 질병 peak matches",
+      "pass": true
+    },
+    {
+      "check": "부전동 질병외 hourly sum",
+      "pass": true
+    },
+    {
+      "check": "부전동 질병외 peak matches",
+      "pass": true
+    },
+    {
+      "check": "부전동 부상 hourly sum",
+      "pass": true
+    },
+    {
+      "check": "부전동 부상 peak matches",
+      "pass": true
+    },
+    {
+      "check": "resident shares sum100",
+      "pass": true
+    },
+    {
+      "check": "resident whole-age counts match",
+      "pass": true
+    }
+  ],
+  "charts": [
+    {
+      "id": "01-inclusion-flow",
+      "title": "분석 포함·제외 조건",
+      "caption": "17항목 완전 기재 A에서 처리·업무성·벌집제거 조건을 순차 적용해 P 555,786건을 확보했다. 단계마다 분모가 다르다.",
+      "sources": [
+        "data\\processed\\신고인구특성재정립-20260917\\calls\\manifest.json"
+      ],
+      "denominator": "각 단계는 직전 단계의 부분집합; 전체 모집단 대비 비율 미산출",
+      "width_mm": 165,
+      "png_dpi": 300,
+      "png_pixels": [
+        1948,
+        1228
+      ],
+      "png_recorded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "png_sha256": "f016a561c88c7e44827eb861e507fb1a16c002d9b5740f2338e1d502a5acd83e",
+      "svg_sha256": "a85eaf015acd5ec644b96a64e5668842207d3df6021784e88aaa4c06fd2ec312"
+    },
+    {
+      "id": "02-busan-type-composition",
+      "title": "부산 전체 주요 유형",
+      "caption": "질병 190,682건(34.31%), 질병외 188,863건(33.98%), 부상 42,522건(7.65%)이다. 나머지는 종별·세부유형 키 67개의 합계다.",
+      "sources": [
+        "data/processed/5개년통합-지역유형-제안연결-20260917/02-전체70유형-5년합계와-한해제외순위.csv"
+      ],
+      "denominator": "P 전체 555786건",
+      "width_mm": 165,
+      "png_dpi": 300,
+      "png_pixels": [
+        1948,
+        1098
+      ],
+      "png_recorded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "png_sha256": "22027c51f35150671241f3579af5b2f774498f55c00ff7fc35efb8a503caf96e",
+      "svg_sha256": "cb877e6af6df71fc6f72e3b0353ef9e14dd8cc5e370fa969dac2dcc7af482aae"
+    },
+    {
+      "id": "03-district-counts-types",
+      "title": "16개 구·군 비교",
+      "caption": "동일한 P 조건에서 총 접수 건수순으로 정렬했다. 질병·질병외·부상과 나머지 유형을 구분하며, 막대의 길이를 지역 위험이나 대응 부족으로 해석하지 않는다.",
+      "sources": [
+        "data/processed/5개년통합-지역유형-제안연결-20260917/01-16구군-5년합계와-한해제외순위.csv",
+        "data/processed/5개년통합-지역유형-제안연결-20260917/03-구군별70유형-동일유형연결.csv"
+      ],
+      "denominator": "건수 막대; 유형별 합계=해당 구군 P 전체",
+      "width_mm": 165,
+      "png_dpi": 300,
+      "png_pixels": [
+        1948,
+        1783
+      ],
+      "png_recorded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "png_sha256": "bce9c3f50f386993167fea37d441329b27effc77a706eaf2dcf3ffa3d35fd1cb",
+      "svg_sha256": "bbb6eefd94caf85501523924cdce889bce9cbbaf7c7c310564b5392595fa400a"
+    },
+    {
+      "id": "04-district-dong-disease",
+      "title": "구에서 동으로 이어지는 동일 유형 비교",
+      "caption": "구에서 질병을 선택한 뒤 동에서도 질병을 유지했다. 다대 4,054건/10,952건(37.0%), 금곡 3,615건/9,293건(38.9%)이며 주민·보건·기존 대응과 연결해 심화한다.",
+      "sources": [
+        "data/processed/5개년통합-지역유형-제안연결-20260917/03-구군별70유형-동일유형연결.csv",
+        "data/processed/5개년통합-지역유형-제안연결-20260917/07-상위5구군-유형별동비교.csv"
+      ],
+      "denominator": "각 원문 동의 P 전체. 구 질병 건수는 비교 경로를 나타내는 별도 규모",
+      "width_mm": 165,
+      "png_dpi": 300,
+      "png_pixels": [
+        1948,
+        1452
+      ],
+      "png_recorded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "png_sha256": "004fd368a16c2c22e45c3bdee971d797fec05c46326a3bd9a26b40581d5740c7",
+      "svg_sha256": "137d8495822d875405c535a95ad4c336b7ee205f4d4d4442f749f9158fd0dd66"
+    },
+    {
+      "id": "05-recurrence-sensitivity",
+      "title": "다대·금곡의 연도별 접수와 민감도",
+      "caption": "다대·금곡은 모든 연도에 질병 접수가 관측되고 한 해를 제외해도 구내 질병 접수 1위를 유지한다. 구성비의 방향은 두 비교집단에서 각각 30조건 모두 유지된다. 이는 독립 검정이나 미래 예측이 아니다.",
+      "sources": [
+        "data/processed/5개년통합-지역유형-제안연결-20260917/07-상위5구군-유형별동비교.csv"
+      ],
+      "denominator": "연도별 P 질병 건수; 30조건=core8/complete17 × A/B/C ×5년 (각 조건 벌집제거 제외)",
+      "width_mm": 165,
+      "png_dpi": 300,
+      "png_pixels": [
+        1948,
+        1464
+      ],
+      "png_recorded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "png_sha256": "dbe7a7db7a8569732795aa24555ab78f2c573f02f4ad5c2c627b8c7fabf14903",
+      "svg_sha256": "e00d60d21dac70fb4a0c4ff38bf3fe30964d8fc53da2fc767f30c908765d5455"
+    },
+    {
+      "id": "06-dong-time-patterns",
+      "title": "동·유형별 4시간대 접수 구성",
+      "caption": "다대·금곡 질병은 08~12시, 부전 질병외·부상은 20~24시에 통합 접수가 가장 많다. 부전 야간 비중은 질병외 47.76%, 부상 55.09%로 구별된다.",
+      "sources": [
+        "data/processed/5개년통합-지역유형-제안연결-20260917/07-상위5구군-유형별동비교.csv",
+        "data/processed/5개년통합-지역유형-제안연결-20260917/11-상위5구군45조합-5년시간교차집계.csv"
+      ],
+      "denominator": "각 원문 동×유형의 5년 P 접수 합계; 동일 길이 4시간 구간",
+      "width_mm": 165,
+      "png_dpi": 300,
+      "png_pixels": [
+        1948,
+        1275
+      ],
+      "png_recorded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "png_sha256": "e21e88faa711c9dfefc0bd8ab4006707b4a61b738552c1c40455430cda99eedf",
+      "svg_sha256": "2fb04251a55ca7be5367b86cfd50fbad826572a819b01ac8acc0995094118fbc"
+    },
+    {
+      "id": "07-resident-age-composition",
+      "title": "주 사례와 대조 사례의 주민 구성",
+      "caption": "다대1·2와 금곡은 주민 연령 배경을, 부전1·2는 다른 연령 구성의 대조를 보여준다. 101개 연령을 네 구간으로 표시한 것으로 신고 당사자의 연령을 뜻하지 않는다.",
+      "sources": [
+        "data/processed/5개년통합-지역유형-제안연결-20260917/08-상위5구군-동후보-5개연말전체연령.csv"
+      ],
+      "denominator": "2024-12-31 각 후보 주민 수; 101연령 집계; 시구 합계 중복 제외",
+      "width_mm": 165,
+      "png_dpi": 300,
+      "png_pixels": [
+        1948,
+        1228
+      ],
+      "png_recorded_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "png_sha256": "6e2f2045b7cf54542b2ac4c6b815e47b0cf0c39017e31a9021b040dae19b83e9",
+      "svg_sha256": "7202420406140dc0001d1e92ba5ff96cf31dab9731a748a9e9efe0edb64896ac"
+    }
+  ],
+  "render_review": {
+    "reviewer": "chart author",
+    "scope": "all seven final PNGs inspected using view_image",
+    "result": "no visible clipping, missing Korean glyphs, or obscured labels",
+    "adjustment": "05 number labels offset from markers; legend moved above plot; all figure footnotes shortened to one line",
+    "independent_review": "to be performed in document integration",
+    "document_layout": "not checked; no HWP/PDF edited or generated by this chart task"
+  },
+  "script_sha256": "9248a51e2ee84fcd336731451ea80c13c2b260b0aa7e56e5a7ebc288c75830af",
+  "retention_check": {
+    "numerator": 704689,
+    "denominator": 1334514,
+    "percentage": 52.80491624666358,
+    "rounded_2dp": "52.80%",
+    "used_in_charts": false
+  }
+}

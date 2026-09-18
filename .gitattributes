@@ -1,0 +1,28 @@
+# Keep reviewed artifact/source bytes stable across Windows and Unix checkouts.
+web/final/** -text
+output/** -text whitespace=cr-at-eol
+output/pdf/*.pdf binary
+figures/부산진구-중구-1차분석/** -text whitespace=cr-at-eol
+# Matplotlib SVG 경로의 생성 공백을 보존해 출력 해시를 유지한다.
+figures/부산진구-중구-1차분석/*.svg -whitespace
+analysis/00_공통/** -text
+analysis/style.py -text
+scripts/** -text
+docs/10-작업계획/** -text
+docs/40-분석결과/** -text
+requirements-final-delivery.txt -text
+
+web/submission/** -text
+*.hwp binary
+*.hwpx binary
+*.pptx binary
+
+# 기존 생성물의 줄바꿈과 바이너리를 보존한다
+docs/10-작업계획/** whitespace=cr-at-eol
+docs/40-분석결과/** whitespace=cr-at-eol
+analysis/00_공통/** whitespace=cr-at-eol
+scripts/** whitespace=cr-at-eol
+web/submission/** whitespace=cr-at-eol
+figures/** -text whitespace=cr-at-eol
+*.svg -whitespace
+*.pdf binary

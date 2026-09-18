@@ -1,0 +1,88 @@
+{
+  "accessedAt": "2026-09-16T12:44:14.889610+00:00",
+  "scope": "공식 설계·준공·평가 단계와 조사구간 연결을 분리",
+  "cases": [
+    {
+      "id": "bujeon",
+      "place": "부전역 맞이길",
+      "confirmed": [
+        "2025-1329호 본공사 위치: 중앙대로783번길 일원",
+        "설계: 보도블록3222㎡, 아스팔트247㎡, 안전유도 점형88㎡·선형138㎡",
+        "별도 시설물 설계: 버스표지판4개소, 카트보관소1개소·쉼터결합형1개소, 유도사인2개소",
+        "2026-02-05 부산시 제막식 기록은 기존 수집자료 재사용"
+      ],
+      "unknown": [
+        "BDI 9개 조사선 각각과 준공 도면의 일치",
+        "설계수량과 최종 검수수량 차이",
+        "실제 통행시간·보행 안전 효과"
+      ],
+      "sources": [
+        "bujeon-main-notice.hwp",
+        "bujeon-main-bill.xls",
+        "bujeon-facilities-notice.hwp",
+        "bujeon-facilities-bill.xls"
+      ],
+      "conclusion": "사업의 구체적 접근환경 보완 내용이 확인되어 무대응·신규 동일시설 설치 필요 주장은 부적절하다. 정확한 조사선별 완료 판정은 불가."
+    },
+    {
+      "id": "gwangan",
+      "place": "광안역 일원",
+      "confirmed": [
+        "BDI PDF68 그림3-25에 내·외부 조사선 지도 존재",
+        "지도 거리표시419.5+351.1+331.9=1102.5m",
+        "표3-9 총조사거리1034.4m와68.1m 차이",
+        "2025 수영로 포장 검사·준공금 지급은 기존 자료 확인"
+      ],
+      "unknown": [
+        "지도 각선과 표의 내부772.4/외부262m 일대일 대응",
+        "2025 포장사업의 정확한 시작·종료점 및 BDI 조사선 중복범위",
+        "포장 후 사고·신고·보행시간 변화"
+      ],
+      "sources": [
+        "bdi-page68-original.png",
+        "bdi-map-image-3.jpeg"
+      ],
+      "conclusion": "거리팝업을 실제 조사 원자료로 취급하지 않는다. 외부 수영로 포장 완료를 내부도로 보차분리 문제 해결로 넓히지 않는다."
+    },
+    {
+      "id": "motgol",
+      "place": "못골시장",
+      "confirmed": [
+        "2025년 완료 발표, 2026년 효과평가 용역 계약·준공 기록은 기존 입력 재사용",
+        "BDI PDF68에 못골시장 조사선 지도 있음"
+      ],
+      "unknown": [
+        "효과평가 최종보고서 본문·전후 지표",
+        "BDI 4개 조사선과 사업 구간의 정확한 대응"
+      ],
+      "sources": [
+        "bdi-page68-original.png"
+      ],
+      "conclusion": "정부가 평가하지 않았다는 주장은 반증된다. 평가 결과 수치가 확보되지 않았으므로 효과크기를 기재하지 않는다."
+    },
+    {
+      "id": "geoje",
+      "place": "거제천로101~121",
+      "confirmed": [
+        "2024-12-12 상임위원회 회의록에서 주민참여예산 펜스3740만원 삭감과 해당 구간 언급"
+      ],
+      "unknown": [
+        "최종 본회의 예산 의결 및 후속추경",
+        "해당 구간 실제 설치·집행 결과",
+        "다른 연제구 펜스사업과 같은 사업인지 여부"
+      ],
+      "sources": [
+        "https://clik.nanet.go.kr/minutes/viewer.do?DOCID=CLIKC2230713265058844&collection=minutes"
+      ],
+      "conclusion": "위원회 삭감을 현재 미설치 또는 안전공백 확정으로 사용하지 않는다."
+    }
+  ],
+  "geoCoordinatesCreated": false,
+  "callLocationsJoined": false,
+  "quantitativeEffectVerified": false,
+  "thirdPartyDiscoveryNotEvidence": [
+    "sujubut.com 입찰 검색은 나라장터 첨부 위치 탐색에만 사용",
+    "jodaln.com 생성 요약은 공식공고와 날짜·설명 불일치하여 채택하지 않음",
+    "국제신문31곳 펜스 보도는 같은 거제사업 공식 입증이 없어 채택하지 않음"
+  ]
+}

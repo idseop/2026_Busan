@@ -1,0 +1,1370 @@
+{
+  "scope": "Verified aggregates re-expression; no raw call analysis; PNG/SVG only",
+  "font": "Malgun Gothic",
+  "width_mm": 180,
+  "requested_dpi": 450,
+  "fonts_pt": {
+    "tick": 13,
+    "axis": 14,
+    "legend": 12.5,
+    "value_min": 12
+  },
+  "sources": {
+    "data/processed/5개년통합-지역유형-제안연결-20260917/01-16구군-5년합계와-한해제외순위.csv": "39461b078607d5f4b60579c5ba4d01cd287e81be2d9247a19045dc0db86449ef",
+    "data/processed/5개년통합-지역유형-제안연결-20260917/02-전체70유형-5년합계와-한해제외순위.csv": "c787cc43f5d1654bafc2cea387af07d9564372e49fffb7fcd664fb853980ee72",
+    "data/processed/5개년통합-지역유형-제안연결-20260917/03-구군별70유형-동일유형연결.csv": "931ebe0ca8d0fd698eef8c4eb2f59c6dcc2d30a41030ceca617571e32841c54b",
+    "data/processed/5개년통합-지역유형-제안연결-20260917/07-상위5구군-유형별동비교.csv": "5e976b3966bbc4786c33a64e9f399de742ee40a4ec14190c36c7e184174eade5",
+    "data/processed/5개년통합-지역유형-제안연결-20260917/08-상위5구군-동후보-5개연말전체연령.csv": "8b22e6e01a88b3e1616198779290843f40428a72baffa59513125ad843a4c5c6",
+    "data/processed/5개년통합-지역유형-제안연결-20260917/11-상위5구군45조합-5년시간교차집계.csv": "17eb7fe58dfac5c196002bd145e07188beabf620b62ee4a9d61fb3545be14668",
+    "data/processed/신고인구특성재정립-20260917/calls/manifest.json": "efa072d01b24808ea782baea66c94c19d307e5f8c518e60c3f772f6f2907b960"
+  },
+  "checks": [
+    {
+      "check": "P district total",
+      "pass": true
+    },
+    {
+      "check": "P subtype total",
+      "pass": true
+    },
+    {
+      "check": "A/B/C/P stages",
+      "pass": true
+    },
+    {
+      "check": "01-clean-original/01-inclusion-flow no text clipping",
+      "pass": true
+    },
+    {
+      "check": "01-clean-original/01-inclusion-flow font minimum 12",
+      "pass": true
+    },
+    {
+      "check": "01-clean-original/02-busan-type-composition no text clipping",
+      "pass": true
+    },
+    {
+      "check": "01-clean-original/02-busan-type-composition font minimum 12",
+      "pass": true
+    },
+    {
+      "check": "01-clean-original/03-district-counts-types no text clipping",
+      "pass": true
+    },
+    {
+      "check": "01-clean-original/03-district-counts-types font minimum 12",
+      "pass": true
+    },
+    {
+      "check": "01-clean-original/04-district-dong-disease no text clipping",
+      "pass": true
+    },
+    {
+      "check": "01-clean-original/04-district-dong-disease font minimum 12",
+      "pass": true
+    },
+    {
+      "check": "다대동 annual sum original",
+      "pass": true
+    },
+    {
+      "check": "금곡동 annual sum original",
+      "pass": true
+    },
+    {
+      "check": "01-clean-original/05-annual-disease-counts no text clipping",
+      "pass": true
+    },
+    {
+      "check": "01-clean-original/05-annual-disease-counts font minimum 12",
+      "pass": true
+    },
+    {
+      "check": "다대동질병 hourly count original",
+      "pass": true
+    },
+    {
+      "check": "금곡동질병 hourly count original",
+      "pass": true
+    },
+    {
+      "check": "부전동질병외 hourly count original",
+      "pass": true
+    },
+    {
+      "check": "부전동부상 hourly count original",
+      "pass": true
+    },
+    {
+      "check": "01-clean-original/06-dong-time-patterns no text clipping",
+      "pass": true
+    },
+    {
+      "check": "01-clean-original/06-dong-time-patterns font minimum 12",
+      "pass": true
+    },
+    {
+      "check": "다대제1동 age sum original",
+      "pass": true
+    },
+    {
+      "check": "다대제2동 age sum original",
+      "pass": true
+    },
+    {
+      "check": "금곡동 age sum original",
+      "pass": true
+    },
+    {
+      "check": "부전제1동 age sum original",
+      "pass": true
+    },
+    {
+      "check": "부전제2동 age sum original",
+      "pass": true
+    },
+    {
+      "check": "01-clean-original/07-resident-age-composition no text clipping",
+      "pass": true
+    },
+    {
+      "check": "01-clean-original/07-resident-age-composition font minimum 12",
+      "pass": true
+    },
+    {
+      "check": "02-paper-style/01-inclusion-flow no text clipping",
+      "pass": true
+    },
+    {
+      "check": "02-paper-style/01-inclusion-flow font minimum 12",
+      "pass": true
+    },
+    {
+      "check": "02-paper-style/02-busan-type-composition no text clipping",
+      "pass": true
+    },
+    {
+      "check": "02-paper-style/02-busan-type-composition font minimum 12",
+      "pass": true
+    },
+    {
+      "check": "02-paper-style/03-district-counts-types no text clipping",
+      "pass": true
+    },
+    {
+      "check": "02-paper-style/03-district-counts-types font minimum 12",
+      "pass": true
+    },
+    {
+      "check": "02-paper-style/04-district-dong-disease no text clipping",
+      "pass": true
+    },
+    {
+      "check": "02-paper-style/04-district-dong-disease font minimum 12",
+      "pass": true
+    },
+    {
+      "check": "다대동 annual sum paper",
+      "pass": true
+    },
+    {
+      "check": "금곡동 annual sum paper",
+      "pass": true
+    },
+    {
+      "check": "02-paper-style/05-annual-disease-counts no text clipping",
+      "pass": true
+    },
+    {
+      "check": "02-paper-style/05-annual-disease-counts font minimum 12",
+      "pass": true
+    },
+    {
+      "check": "다대동질병 hourly count paper",
+      "pass": true
+    },
+    {
+      "check": "금곡동질병 hourly count paper",
+      "pass": true
+    },
+    {
+      "check": "부전동질병외 hourly count paper",
+      "pass": true
+    },
+    {
+      "check": "부전동부상 hourly count paper",
+      "pass": true
+    },
+    {
+      "check": "02-paper-style/06-dong-time-patterns no text clipping",
+      "pass": true
+    },
+    {
+      "check": "02-paper-style/06-dong-time-patterns font minimum 12",
+      "pass": true
+    },
+    {
+      "check": "다대제1동 age sum paper",
+      "pass": true
+    },
+    {
+      "check": "다대제2동 age sum paper",
+      "pass": true
+    },
+    {
+      "check": "금곡동 age sum paper",
+      "pass": true
+    },
+    {
+      "check": "부전제1동 age sum paper",
+      "pass": true
+    },
+    {
+      "check": "부전제2동 age sum paper",
+      "pass": true
+    },
+    {
+      "check": "02-paper-style/07-resident-age-composition no text clipping",
+      "pass": true
+    },
+    {
+      "check": "02-paper-style/07-resident-age-composition font minimum 12",
+      "pass": true
+    }
+  ],
+  "outputs": [
+    {
+      "set": "01-clean-original",
+      "file": "01-inclusion-flow",
+      "width_mm": 180,
+      "height_mm": 133.86,
+      "minimum_font_pt": 12.5,
+      "png_pixels": [
+        3188,
+        2374
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "png_sha256": "1f90c0d74943d4caecede216de3011cd9a9400778a731b15f18d1eafa1d22baf",
+      "svg_sha256": "79188de405b5247f0aec7480367578e43c4ded45188e0b710afcbd5947373af1",
+      "text_bounds_pass": true,
+      "sources": [
+        "data/processed/신고인구특성재정립-20260917/calls/manifest.json"
+      ],
+      "data": [
+        {
+          "stage": "A",
+          "count": 704689
+        },
+        {
+          "stage": "B",
+          "count": 579412
+        },
+        {
+          "stage": "C",
+          "count": 574662
+        },
+        {
+          "stage": "P",
+          "count": 555786
+        }
+      ],
+      "unit": "접수 기록 건",
+      "period": "2020~2024",
+      "definition": "A 선택17항목 완전기재·부산, B 정상처리, C 업무운행·훈련출동·구급차소독 제외, P 벌집제거 제외. 각 단계는 직전 단계의 부분집합.",
+      "caution": "독립 사건·환자 수 아님. 전체 신고 대표성 미입증. 2025년 미포함."
+    },
+    {
+      "set": "01-clean-original",
+      "file": "02-busan-type-composition",
+      "width_mm": 180,
+      "height_mm": 114.81,
+      "minimum_font_pt": 12.0,
+      "png_pixels": [
+        3188,
+        2037
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "png_sha256": "ff08821655da0834a633c5de75281e64db50298073a3d23e758d866fc1cbaef3",
+      "svg_sha256": "211d9004db324c8a1428ce70f101f0fa3e45f0f54e2798e93c62b6bc2a7c472c",
+      "text_bounds_pass": true,
+      "sources": [
+        "data/processed/5개년통합-지역유형-제안연결-20260917/02-전체70유형-5년합계와-한해제외순위.csv"
+      ],
+      "data": [
+        {
+          "subtype": "질병",
+          "count": 190682,
+          "share_pct": 34.30852882224453
+        },
+        {
+          "subtype": "질병외",
+          "count": 188863,
+          "share_pct": 33.98124457974832
+        },
+        {
+          "subtype": "부상",
+          "count": 42522,
+          "share_pct": 7.650786453778973
+        },
+        {
+          "subtype": "그 밖의 67유형",
+          "count": 133719,
+          "share_pct": 24.059440144228176
+        }
+      ],
+      "period": "2020~2024",
+      "denominator": 555786,
+      "unit": "P 접수 기록 건 및 구성비 %",
+      "caution": "질병·질병외·부상은 구급 세부유형. 나머지67개 종별×세부유형 합산. 신고 분류는 환자 진단·사고 원인과 다름."
+    },
+    {
+      "set": "01-clean-original",
+      "file": "03-district-counts-types",
+      "width_mm": 180,
+      "height_mm": 193.8,
+      "minimum_font_pt": 12.0,
+      "png_pixels": [
+        3188,
+        3437
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "png_sha256": "f44d5a5eba5a03b674a29e6f8e9a712b0ac027a53dc9d8e337120a598c7b8391",
+      "svg_sha256": "5e5c0c166c01bfaa8b77727c8ba90037d510f646cfe2ab364aa4ead4eb84b809",
+      "text_bounds_pass": true,
+      "sources": [
+        "data/processed/5개년통합-지역유형-제안연결-20260917/01-16구군-5년합계와-한해제외순위.csv",
+        "data/processed/5개년통합-지역유형-제안연결-20260917/03-구군별70유형-동일유형연결.csv"
+      ],
+      "data": [
+        {
+          "district": "부산진구",
+          "total": 64059,
+          "질병": 21439,
+          "질병외": 22421,
+          "부상": 4894,
+          "나머지 유형": 15305
+        },
+        {
+          "district": "해운대구",
+          "total": 56927,
+          "질병": 19987,
+          "질병외": 19468,
+          "부상": 4270,
+          "나머지 유형": 13202
+        },
+        {
+          "district": "사하구",
+          "total": 48076,
+          "질병": 16544,
+          "질병외": 16277,
+          "부상": 3632,
+          "나머지 유형": 11623
+        },
+        {
+          "district": "사상구",
+          "total": 41747,
+          "질병": 14336,
+          "질병외": 14284,
+          "부상": 3102,
+          "나머지 유형": 10025
+        },
+        {
+          "district": "북구",
+          "total": 41205,
+          "질병": 14937,
+          "질병외": 14540,
+          "부상": 3056,
+          "나머지 유형": 8672
+        },
+        {
+          "district": "동래구",
+          "total": 37226,
+          "질병": 13143,
+          "질병외": 12792,
+          "부상": 2836,
+          "나머지 유형": 8455
+        },
+        {
+          "district": "금정구",
+          "total": 36852,
+          "질병": 12911,
+          "질병외": 12302,
+          "부상": 2734,
+          "나머지 유형": 8905
+        },
+        {
+          "district": "남구",
+          "total": 36320,
+          "질병": 12876,
+          "질병외": 12245,
+          "부상": 2852,
+          "나머지 유형": 8347
+        },
+        {
+          "district": "수영구",
+          "total": 31015,
+          "질병": 10449,
+          "질병외": 10473,
+          "부상": 2450,
+          "나머지 유형": 7643
+        },
+        {
+          "district": "연제구",
+          "total": 29648,
+          "질병": 10432,
+          "질병외": 10324,
+          "부상": 2249,
+          "나머지 유형": 6643
+        },
+        {
+          "district": "기장군",
+          "total": 29393,
+          "질병": 9490,
+          "질병외": 9211,
+          "부상": 2237,
+          "나머지 유형": 8455
+        },
+        {
+          "district": "강서구",
+          "total": 24603,
+          "질병": 7210,
+          "질병외": 7096,
+          "부상": 2017,
+          "나머지 유형": 8280
+        },
+        {
+          "district": "영도구",
+          "total": 22532,
+          "질병": 8169,
+          "질병외": 7829,
+          "부상": 1747,
+          "나머지 유형": 4787
+        },
+        {
+          "district": "서구",
+          "total": 21391,
+          "질병": 7466,
+          "질병외": 7364,
+          "부상": 1677,
+          "나머지 유형": 4884
+        },
+        {
+          "district": "동구",
+          "total": 20332,
+          "질병": 6892,
+          "질병외": 7241,
+          "부상": 1570,
+          "나머지 유형": 4629
+        },
+        {
+          "district": "중구",
+          "total": 14460,
+          "질병": 4401,
+          "질병외": 4996,
+          "부상": 1199,
+          "나머지 유형": 3864
+        }
+      ],
+      "period": "2020~2024",
+      "denominator": 555786,
+      "unit": "P 접수 기록 건",
+      "caution": "총접수 내림차순이며 위험 순위 아님. 각 세부유형은 구급. 나머지유형은 모든 기타 종별×유형."
+    },
+    {
+      "set": "01-clean-original",
+      "file": "04-district-dong-disease",
+      "width_mm": 180,
+      "height_mm": 173.99,
+      "minimum_font_pt": 12.0,
+      "png_pixels": [
+        3188,
+        3082
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "png_sha256": "574d3a546f5c952e6b5e2860a39d6a9a796976d5c44841dd4e68cc7f61791d6e",
+      "svg_sha256": "c7903d51efc8bf33c241276d39c9ced08958853f6acd06be4238093305eecdde",
+      "text_bounds_pass": true,
+      "sources": [
+        "data/processed/5개년통합-지역유형-제안연결-20260917/03-구군별70유형-동일유형연결.csv",
+        "data/processed/5개년통합-지역유형-제안연결-20260917/07-상위5구군-유형별동비교.csv"
+      ],
+      "data": [
+        {
+          "district": "부산진구",
+          "gu_disease": 21439,
+          "dong": "부전동",
+          "dong_disease": 3420,
+          "dong_total": 12045,
+          "dong_share_pct": 28.39352428393525
+        },
+        {
+          "district": "해운대구",
+          "gu_disease": 19987,
+          "dong": "우동",
+          "dong_disease": 3985,
+          "dong_total": 12115,
+          "dong_share_pct": 32.89310771770532
+        },
+        {
+          "district": "해운대구",
+          "gu_disease": 19987,
+          "dong": "좌동",
+          "dong_disease": 3593,
+          "dong_total": 9820,
+          "dong_share_pct": 36.58859470468432
+        },
+        {
+          "district": "사하구",
+          "gu_disease": 16544,
+          "dong": "다대동",
+          "dong_disease": 4054,
+          "dong_total": 10952,
+          "dong_share_pct": 37.01607012417823
+        },
+        {
+          "district": "사상구",
+          "gu_disease": 14336,
+          "dong": "모라동",
+          "dong_disease": 2839,
+          "dong_total": 7517,
+          "dong_share_pct": 37.7677264866303
+        },
+        {
+          "district": "사상구",
+          "gu_disease": 14336,
+          "dong": "주례동",
+          "dong_disease": 2463,
+          "dong_total": 6853,
+          "dong_share_pct": 35.94046403035167
+        },
+        {
+          "district": "북구",
+          "gu_disease": 14937,
+          "dong": "금곡동",
+          "dong_disease": 3615,
+          "dong_total": 9293,
+          "dong_share_pct": 38.90024749811686
+        }
+      ],
+      "period": "2020~2024",
+      "denominator": "각 접수 원문 동의 P 전체",
+      "unit": "구 질병건수/동 질병건수/동내 질병비중",
+      "caution": "구·동 모두 구급 질병. 원문동명은 행정동 확정 배정 아님. 청록/파랑은 다대·금곡 주 사례 표시. 건수·비중은 정책 우선순위가 아님."
+    },
+    {
+      "set": "01-clean-original",
+      "file": "05-annual-disease-counts",
+      "width_mm": 180,
+      "height_mm": 127.76,
+      "minimum_font_pt": 12.0,
+      "png_pixels": [
+        3188,
+        2267
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "png_sha256": "1b524d880f8a700253135c11372da5fd524ca9af9585f0df07317acf2a39f189",
+      "svg_sha256": "a7a70f3cb2d75061a785e412781beee3a016938855cdcafac65c7d1ac397bc35",
+      "text_bounds_pass": true,
+      "sources": [
+        "data/processed/5개년통합-지역유형-제안연결-20260917/07-상위5구군-유형별동비교.csv"
+      ],
+      "data": [
+        {
+          "dong": "다대동",
+          "2020": 880,
+          "2021": 835,
+          "2022": 875,
+          "2023": 846,
+          "2024": 618
+        },
+        {
+          "dong": "금곡동",
+          "2020": 797,
+          "2021": 807,
+          "2022": 761,
+          "2023": 707,
+          "2024": 543
+        }
+      ],
+      "period": "2020~2024",
+      "denominator": "P 조건의 각 연도 질병 접수 건수",
+      "unit": "접수 기록 건",
+      "removed": "종전 그림의 한 해 제외 순위·30조건 텍스트 블록 삭제; 연도별 선그림만 유지",
+      "caution": "동일인 재신고율·미래예측·인과효과 아님. 기간에 따른 원래 집계값을 표시."
+    },
+    {
+      "set": "01-clean-original",
+      "file": "06-dong-time-patterns",
+      "width_mm": 180,
+      "height_mm": 150.88,
+      "minimum_font_pt": 12.0,
+      "png_pixels": [
+        3188,
+        2675
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "png_sha256": "082f58094d986d599fd66bd248cf0bcc1daed34cfb5ffd8107d7057d0ff86096",
+      "svg_sha256": "db891cd5c9988258f7717e6c07cbbef8ddc332a8fc014d397819bdd2fdb4499c",
+      "text_bounds_pass": true,
+      "sources": [
+        "data/processed/5개년통합-지역유형-제안연결-20260917/07-상위5구군-유형별동비교.csv",
+        "data/processed/5개년통합-지역유형-제안연결-20260917/11-상위5구군45조합-5년시간교차집계.csv"
+      ],
+      "data": [
+        {
+          "dong": "다대동",
+          "subtype": "질병",
+          "denominator": 4054,
+          "hour4_counts": [
+            447,
+            500,
+            910,
+            774,
+            712,
+            711
+          ],
+          "hour4_share_pct": [
+            11.026147015293537,
+            12.333497779970399,
+            22.446965959546127,
+            19.092254563394178,
+            17.56290083867785,
+            17.538233843117908
+          ],
+          "night_share_pct": 40.89787863838185
+        },
+        {
+          "dong": "금곡동",
+          "subtype": "질병",
+          "denominator": 3615,
+          "hour4_counts": [
+            366,
+            421,
+            912,
+            702,
+            638,
+            576
+          ],
+          "hour4_share_pct": [
+            10.12448132780083,
+            11.645919778699861,
+            25.228215767634854,
+            19.419087136929463,
+            17.64868603042877,
+            15.933609958506223
+          ],
+          "night_share_pct": 37.70401106500692
+        },
+        {
+          "dong": "부전동",
+          "subtype": "질병외",
+          "denominator": 4625,
+          "hour4_counts": [
+            750,
+            503,
+            624,
+            919,
+            873,
+            956
+          ],
+          "hour4_share_pct": [
+            16.216216216216218,
+            10.875675675675675,
+            13.49189189189189,
+            19.87027027027027,
+            18.875675675675677,
+            20.67027027027027
+          ],
+          "night_share_pct": 47.76216216216216
+        },
+        {
+          "dong": "부전동",
+          "subtype": "부상",
+          "denominator": 1178,
+          "hour4_counts": [
+            249,
+            144,
+            123,
+            175,
+            231,
+            256
+          ],
+          "hour4_share_pct": [
+            21.137521222410864,
+            12.224108658743633,
+            10.441426146010187,
+            14.855687606112053,
+            19.60950764006791,
+            21.731748726655347
+          ],
+          "night_share_pct": 55.093378607809846
+        }
+      ],
+      "period": "2020~2024",
+      "denominator": "각 원문동×구급세부유형 P 전체",
+      "unit": "접수 구성비 %",
+      "definition": "4시간대 비율과 별도 야간20:00~익일08:00직전 12시간 비율. 주황테두리는 통합 최다4시간대.",
+      "caution": "사고 원인·매년동일정점·교육 적정시간의 증거 아님. 검증 시간별 집계를 4시간으로 합산."
+    },
+    {
+      "set": "01-clean-original",
+      "file": "07-resident-age-composition",
+      "width_mm": 180,
+      "height_mm": 156.97,
+      "minimum_font_pt": 12.0,
+      "png_pixels": [
+        3188,
+        2781
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "png_sha256": "5b41f54fd9c900cff797a866a3b89863be82a59803f7c7668163aa3fdc3ff596",
+      "svg_sha256": "f9e81d06f0839bb1f3e0635decf3a0fee29b70f2e5f5c81cd686a6ad3dd102e9",
+      "text_bounds_pass": true,
+      "sources": [
+        "data/processed/5개년통합-지역유형-제안연결-20260917/08-상위5구군-동후보-5개연말전체연령.csv"
+      ],
+      "data": [
+        {
+          "candidate": "다대제1동",
+          "resident_total": 35576,
+          "pct_0_14": 9.942095794917922,
+          "pct_15_39": 23.456824825725207,
+          "pct_40_64": 43.33539464807736,
+          "pct_65plus": 23.265684731279517
+        },
+        {
+          "candidate": "다대제2동",
+          "resident_total": 25091,
+          "pct_0_14": 8.166274759874058,
+          "pct_15_39": 21.928181419632537,
+          "pct_40_64": 42.887888087362,
+          "pct_65plus": 27.0176557331314
+        },
+        {
+          "candidate": "금곡동",
+          "resident_total": 34752,
+          "pct_0_14": 7.363604972375691,
+          "pct_15_39": 21.984346224677715,
+          "pct_40_64": 41.275322283609576,
+          "pct_65plus": 29.376726519337016
+        },
+        {
+          "candidate": "부전제1동",
+          "resident_total": 14234,
+          "pct_0_14": 4.531403681326402,
+          "pct_15_39": 45.89714767458199,
+          "pct_40_64": 30.76436700857103,
+          "pct_65plus": 18.807081635520586
+        },
+        {
+          "candidate": "부전제2동",
+          "resident_total": 12202,
+          "pct_0_14": 7.87575807244714,
+          "pct_15_39": 46.32027536469431,
+          "pct_40_64": 32.69955744959843,
+          "pct_65plus": 13.104409113260122
+        }
+      ],
+      "period": "2024-12-31",
+      "denominator": "각 행정동 후보의 연말 주민등록인구",
+      "unit": "주민 명 및 연령 구성비 %",
+      "definition": "전체101연령을0~14/15~39/40~64/65세이상 네 구간으로 집계. 첫 구간 비율은 막대 위에 표시.",
+      "caution": "환자·신고자 연령·생활인구·연평균 인구 아님. 다대·부전 원문동 접수를 행정동에 배분하지 않음. 역사적 경계 일치 미확정."
+    },
+    {
+      "set": "02-paper-style",
+      "file": "01-inclusion-flow",
+      "width_mm": 180,
+      "height_mm": 133.86,
+      "minimum_font_pt": 12.5,
+      "png_pixels": [
+        3188,
+        2374
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "png_sha256": "ce1414bcdec71d6b9d8117aff0bc77ce85f0f96448e69843267cf44c8e8d4593",
+      "svg_sha256": "03ea069aa65822f4a18946da276584fb1a6310d06c922ee2725830eefb12da21",
+      "text_bounds_pass": true,
+      "sources": [
+        "data/processed/신고인구특성재정립-20260917/calls/manifest.json"
+      ],
+      "data": [
+        {
+          "stage": "A",
+          "count": 704689
+        },
+        {
+          "stage": "B",
+          "count": 579412
+        },
+        {
+          "stage": "C",
+          "count": 574662
+        },
+        {
+          "stage": "P",
+          "count": 555786
+        }
+      ],
+      "unit": "접수 기록 건",
+      "period": "2020~2024",
+      "definition": "A 선택17항목 완전기재·부산, B 정상처리, C 업무운행·훈련출동·구급차소독 제외, P 벌집제거 제외. 각 단계는 직전 단계의 부분집합.",
+      "caution": "독립 사건·환자 수 아님. 전체 신고 대표성 미입증. 2025년 미포함."
+    },
+    {
+      "set": "02-paper-style",
+      "file": "02-busan-type-composition",
+      "width_mm": 180,
+      "height_mm": 114.81,
+      "minimum_font_pt": 12.0,
+      "png_pixels": [
+        3188,
+        2037
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "png_sha256": "f7f8632aaef926d581a772d5ec57e0dcc532f957f846a6253f904773a66ca54a",
+      "svg_sha256": "844fd30d85f5dee865fd810f7610305d6ab8f9004149ebd2187d962213cbf241",
+      "text_bounds_pass": true,
+      "sources": [
+        "data/processed/5개년통합-지역유형-제안연결-20260917/02-전체70유형-5년합계와-한해제외순위.csv"
+      ],
+      "data": [
+        {
+          "subtype": "질병",
+          "count": 190682,
+          "share_pct": 34.30852882224453
+        },
+        {
+          "subtype": "질병외",
+          "count": 188863,
+          "share_pct": 33.98124457974832
+        },
+        {
+          "subtype": "부상",
+          "count": 42522,
+          "share_pct": 7.650786453778973
+        },
+        {
+          "subtype": "그 밖의 67유형",
+          "count": 133719,
+          "share_pct": 24.059440144228176
+        }
+      ],
+      "period": "2020~2024",
+      "denominator": 555786,
+      "unit": "P 접수 기록 건 및 구성비 %",
+      "caution": "질병·질병외·부상은 구급 세부유형. 나머지67개 종별×세부유형 합산. 신고 분류는 환자 진단·사고 원인과 다름."
+    },
+    {
+      "set": "02-paper-style",
+      "file": "03-district-counts-types",
+      "width_mm": 180,
+      "height_mm": 193.8,
+      "minimum_font_pt": 12.0,
+      "png_pixels": [
+        3188,
+        3437
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "png_sha256": "e3a11c7d55251d26478d1ae8d07bcbc4cd2584e6d8792e679236a42e04ba3cec",
+      "svg_sha256": "959c549ebe128bcbd45f68ae2619a4342db0fcf3eeb3d96f4590ff9f40a25f0c",
+      "text_bounds_pass": true,
+      "sources": [
+        "data/processed/5개년통합-지역유형-제안연결-20260917/01-16구군-5년합계와-한해제외순위.csv",
+        "data/processed/5개년통합-지역유형-제안연결-20260917/03-구군별70유형-동일유형연결.csv"
+      ],
+      "data": [
+        {
+          "district": "부산진구",
+          "total": 64059,
+          "질병": 21439,
+          "질병외": 22421,
+          "부상": 4894,
+          "나머지 유형": 15305
+        },
+        {
+          "district": "해운대구",
+          "total": 56927,
+          "질병": 19987,
+          "질병외": 19468,
+          "부상": 4270,
+          "나머지 유형": 13202
+        },
+        {
+          "district": "사하구",
+          "total": 48076,
+          "질병": 16544,
+          "질병외": 16277,
+          "부상": 3632,
+          "나머지 유형": 11623
+        },
+        {
+          "district": "사상구",
+          "total": 41747,
+          "질병": 14336,
+          "질병외": 14284,
+          "부상": 3102,
+          "나머지 유형": 10025
+        },
+        {
+          "district": "북구",
+          "total": 41205,
+          "질병": 14937,
+          "질병외": 14540,
+          "부상": 3056,
+          "나머지 유형": 8672
+        },
+        {
+          "district": "동래구",
+          "total": 37226,
+          "질병": 13143,
+          "질병외": 12792,
+          "부상": 2836,
+          "나머지 유형": 8455
+        },
+        {
+          "district": "금정구",
+          "total": 36852,
+          "질병": 12911,
+          "질병외": 12302,
+          "부상": 2734,
+          "나머지 유형": 8905
+        },
+        {
+          "district": "남구",
+          "total": 36320,
+          "질병": 12876,
+          "질병외": 12245,
+          "부상": 2852,
+          "나머지 유형": 8347
+        },
+        {
+          "district": "수영구",
+          "total": 31015,
+          "질병": 10449,
+          "질병외": 10473,
+          "부상": 2450,
+          "나머지 유형": 7643
+        },
+        {
+          "district": "연제구",
+          "total": 29648,
+          "질병": 10432,
+          "질병외": 10324,
+          "부상": 2249,
+          "나머지 유형": 6643
+        },
+        {
+          "district": "기장군",
+          "total": 29393,
+          "질병": 9490,
+          "질병외": 9211,
+          "부상": 2237,
+          "나머지 유형": 8455
+        },
+        {
+          "district": "강서구",
+          "total": 24603,
+          "질병": 7210,
+          "질병외": 7096,
+          "부상": 2017,
+          "나머지 유형": 8280
+        },
+        {
+          "district": "영도구",
+          "total": 22532,
+          "질병": 8169,
+          "질병외": 7829,
+          "부상": 1747,
+          "나머지 유형": 4787
+        },
+        {
+          "district": "서구",
+          "total": 21391,
+          "질병": 7466,
+          "질병외": 7364,
+          "부상": 1677,
+          "나머지 유형": 4884
+        },
+        {
+          "district": "동구",
+          "total": 20332,
+          "질병": 6892,
+          "질병외": 7241,
+          "부상": 1570,
+          "나머지 유형": 4629
+        },
+        {
+          "district": "중구",
+          "total": 14460,
+          "질병": 4401,
+          "질병외": 4996,
+          "부상": 1199,
+          "나머지 유형": 3864
+        }
+      ],
+      "period": "2020~2024",
+      "denominator": 555786,
+      "unit": "P 접수 기록 건",
+      "caution": "총접수 내림차순이며 위험 순위 아님. 각 세부유형은 구급. 나머지유형은 모든 기타 종별×유형."
+    },
+    {
+      "set": "02-paper-style",
+      "file": "04-district-dong-disease",
+      "width_mm": 180,
+      "height_mm": 173.99,
+      "minimum_font_pt": 12.0,
+      "png_pixels": [
+        3188,
+        3082
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "png_sha256": "a855ea5dde146143a58301014fcdadb64065b43ff491d8d76d490f554b9d095c",
+      "svg_sha256": "fde539ba32cbe812aa4df6e5aad23a1b9a45de557824bed31f198809a121c447",
+      "text_bounds_pass": true,
+      "sources": [
+        "data/processed/5개년통합-지역유형-제안연결-20260917/03-구군별70유형-동일유형연결.csv",
+        "data/processed/5개년통합-지역유형-제안연결-20260917/07-상위5구군-유형별동비교.csv"
+      ],
+      "data": [
+        {
+          "district": "부산진구",
+          "gu_disease": 21439,
+          "dong": "부전동",
+          "dong_disease": 3420,
+          "dong_total": 12045,
+          "dong_share_pct": 28.39352428393525
+        },
+        {
+          "district": "해운대구",
+          "gu_disease": 19987,
+          "dong": "우동",
+          "dong_disease": 3985,
+          "dong_total": 12115,
+          "dong_share_pct": 32.89310771770532
+        },
+        {
+          "district": "해운대구",
+          "gu_disease": 19987,
+          "dong": "좌동",
+          "dong_disease": 3593,
+          "dong_total": 9820,
+          "dong_share_pct": 36.58859470468432
+        },
+        {
+          "district": "사하구",
+          "gu_disease": 16544,
+          "dong": "다대동",
+          "dong_disease": 4054,
+          "dong_total": 10952,
+          "dong_share_pct": 37.01607012417823
+        },
+        {
+          "district": "사상구",
+          "gu_disease": 14336,
+          "dong": "모라동",
+          "dong_disease": 2839,
+          "dong_total": 7517,
+          "dong_share_pct": 37.7677264866303
+        },
+        {
+          "district": "사상구",
+          "gu_disease": 14336,
+          "dong": "주례동",
+          "dong_disease": 2463,
+          "dong_total": 6853,
+          "dong_share_pct": 35.94046403035167
+        },
+        {
+          "district": "북구",
+          "gu_disease": 14937,
+          "dong": "금곡동",
+          "dong_disease": 3615,
+          "dong_total": 9293,
+          "dong_share_pct": 38.90024749811686
+        }
+      ],
+      "period": "2020~2024",
+      "denominator": "각 접수 원문 동의 P 전체",
+      "unit": "구 질병건수/동 질병건수/동내 질병비중",
+      "caution": "구·동 모두 구급 질병. 원문동명은 행정동 확정 배정 아님. 청록/파랑은 다대·금곡 주 사례 표시. 건수·비중은 정책 우선순위가 아님."
+    },
+    {
+      "set": "02-paper-style",
+      "file": "05-annual-disease-counts",
+      "width_mm": 180,
+      "height_mm": 127.76,
+      "minimum_font_pt": 12.0,
+      "png_pixels": [
+        3188,
+        2267
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "png_sha256": "c7228dd9d7bc1dac640671005588357c6f55982de64ac785a129a6cacea6c584",
+      "svg_sha256": "4590ac5d288460696091947f043645a8dcb50b73e9dc495b315f68714ad0fc96",
+      "text_bounds_pass": true,
+      "sources": [
+        "data/processed/5개년통합-지역유형-제안연결-20260917/07-상위5구군-유형별동비교.csv"
+      ],
+      "data": [
+        {
+          "dong": "다대동",
+          "2020": 880,
+          "2021": 835,
+          "2022": 875,
+          "2023": 846,
+          "2024": 618
+        },
+        {
+          "dong": "금곡동",
+          "2020": 797,
+          "2021": 807,
+          "2022": 761,
+          "2023": 707,
+          "2024": 543
+        }
+      ],
+      "period": "2020~2024",
+      "denominator": "P 조건의 각 연도 질병 접수 건수",
+      "unit": "접수 기록 건",
+      "removed": "종전 그림의 한 해 제외 순위·30조건 텍스트 블록 삭제; 연도별 선그림만 유지",
+      "caution": "동일인 재신고율·미래예측·인과효과 아님. 기간에 따른 원래 집계값을 표시."
+    },
+    {
+      "set": "02-paper-style",
+      "file": "06-dong-time-patterns",
+      "width_mm": 180,
+      "height_mm": 150.88,
+      "minimum_font_pt": 12.0,
+      "png_pixels": [
+        3188,
+        2675
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "png_sha256": "5b97b01c3aa471f72fd6d031cd861b81c07e3c89c1f1b0c9dc45744174a88099",
+      "svg_sha256": "5984f276e3fb888e2787a41608d397cf59c1a2a27986f453fe35c72fa86bad6c",
+      "text_bounds_pass": true,
+      "sources": [
+        "data/processed/5개년통합-지역유형-제안연결-20260917/07-상위5구군-유형별동비교.csv",
+        "data/processed/5개년통합-지역유형-제안연결-20260917/11-상위5구군45조합-5년시간교차집계.csv"
+      ],
+      "data": [
+        {
+          "dong": "다대동",
+          "subtype": "질병",
+          "denominator": 4054,
+          "hour4_counts": [
+            447,
+            500,
+            910,
+            774,
+            712,
+            711
+          ],
+          "hour4_share_pct": [
+            11.026147015293537,
+            12.333497779970399,
+            22.446965959546127,
+            19.092254563394178,
+            17.56290083867785,
+            17.538233843117908
+          ],
+          "night_share_pct": 40.89787863838185
+        },
+        {
+          "dong": "금곡동",
+          "subtype": "질병",
+          "denominator": 3615,
+          "hour4_counts": [
+            366,
+            421,
+            912,
+            702,
+            638,
+            576
+          ],
+          "hour4_share_pct": [
+            10.12448132780083,
+            11.645919778699861,
+            25.228215767634854,
+            19.419087136929463,
+            17.64868603042877,
+            15.933609958506223
+          ],
+          "night_share_pct": 37.70401106500692
+        },
+        {
+          "dong": "부전동",
+          "subtype": "질병외",
+          "denominator": 4625,
+          "hour4_counts": [
+            750,
+            503,
+            624,
+            919,
+            873,
+            956
+          ],
+          "hour4_share_pct": [
+            16.216216216216218,
+            10.875675675675675,
+            13.49189189189189,
+            19.87027027027027,
+            18.875675675675677,
+            20.67027027027027
+          ],
+          "night_share_pct": 47.76216216216216
+        },
+        {
+          "dong": "부전동",
+          "subtype": "부상",
+          "denominator": 1178,
+          "hour4_counts": [
+            249,
+            144,
+            123,
+            175,
+            231,
+            256
+          ],
+          "hour4_share_pct": [
+            21.137521222410864,
+            12.224108658743633,
+            10.441426146010187,
+            14.855687606112053,
+            19.60950764006791,
+            21.731748726655347
+          ],
+          "night_share_pct": 55.093378607809846
+        }
+      ],
+      "period": "2020~2024",
+      "denominator": "각 원문동×구급세부유형 P 전체",
+      "unit": "접수 구성비 %",
+      "definition": "4시간대 비율과 별도 야간20:00~익일08:00직전 12시간 비율. 주황테두리는 통합 최다4시간대.",
+      "caution": "사고 원인·매년동일정점·교육 적정시간의 증거 아님. 검증 시간별 집계를 4시간으로 합산."
+    },
+    {
+      "set": "02-paper-style",
+      "file": "07-resident-age-composition",
+      "width_mm": 180,
+      "height_mm": 156.97,
+      "minimum_font_pt": 12.0,
+      "png_pixels": [
+        3188,
+        2781
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "png_sha256": "b7d483a9433f8b31d38b6098ca297a02e5f7198b2fa44336ed77c9b054f31029",
+      "svg_sha256": "32c7d5a19ed15e2c29ca45d0c232d1a011237b4730c39b61f8c333259ab1b59b",
+      "text_bounds_pass": true,
+      "sources": [
+        "data/processed/5개년통합-지역유형-제안연결-20260917/08-상위5구군-동후보-5개연말전체연령.csv"
+      ],
+      "data": [
+        {
+          "candidate": "다대제1동",
+          "resident_total": 35576,
+          "pct_0_14": 9.942095794917922,
+          "pct_15_39": 23.456824825725207,
+          "pct_40_64": 43.33539464807736,
+          "pct_65plus": 23.265684731279517
+        },
+        {
+          "candidate": "다대제2동",
+          "resident_total": 25091,
+          "pct_0_14": 8.166274759874058,
+          "pct_15_39": 21.928181419632537,
+          "pct_40_64": 42.887888087362,
+          "pct_65plus": 27.0176557331314
+        },
+        {
+          "candidate": "금곡동",
+          "resident_total": 34752,
+          "pct_0_14": 7.363604972375691,
+          "pct_15_39": 21.984346224677715,
+          "pct_40_64": 41.275322283609576,
+          "pct_65plus": 29.376726519337016
+        },
+        {
+          "candidate": "부전제1동",
+          "resident_total": 14234,
+          "pct_0_14": 4.531403681326402,
+          "pct_15_39": 45.89714767458199,
+          "pct_40_64": 30.76436700857103,
+          "pct_65plus": 18.807081635520586
+        },
+        {
+          "candidate": "부전제2동",
+          "resident_total": 12202,
+          "pct_0_14": 7.87575807244714,
+          "pct_15_39": 46.32027536469431,
+          "pct_40_64": 32.69955744959843,
+          "pct_65plus": 13.104409113260122
+        }
+      ],
+      "period": "2024-12-31",
+      "denominator": "각 행정동 후보의 연말 주민등록인구",
+      "unit": "주민 명 및 연령 구성비 %",
+      "definition": "전체101연령을0~14/15~39/40~64/65세이상 네 구간으로 집계. 첫 구간 비율은 막대 위에 표시.",
+      "caution": "환자·신고자 연령·생활인구·연평균 인구 아님. 다대·부전 원문동 접수를 행정동에 배분하지 않음. 역사적 경계 일치 미확정."
+    }
+  ],
+  "script_sha256": "87a58482f1c988238116cadf755bb157b5e78a918326f41517a03b1143924ab7",
+  "visual_review": {
+    "reviewer": "core chart author",
+    "scope": "all 14 PNGs directly opened via view_image; changed A06/A07 reviewed again",
+    "result": "no visible clipping, overlap, missing glyphs or hidden values",
+    "fixes": [
+      "ASCII minus replaces unsupported Unicode minus",
+      "narrow age segment numbers moved above bars instead of shrinking font",
+      "age legend given additional top margin",
+      "heatmap percent colorbar added as legend axis"
+    ],
+    "independent_review": "parent or separate reviewer pending",
+    "unchanged_sources": true,
+    "individual_pdf_created": false
+  }
+}

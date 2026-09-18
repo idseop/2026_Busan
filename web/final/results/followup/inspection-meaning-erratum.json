@@ -1,0 +1,13 @@
+{
+  "asOf": "2026-09-16",
+  "status": "원본 보존·파생 지표 의미 교정",
+  "correctLabel": "불량 표기 중 비고 공란 13행",
+  "legacyKeys": ["any_defect_without_correction_note", "prior_no_correction_note_rows"],
+  "meaning": "일반 비고란에 현지시정 기재가 없는 13개 불량 조사행은 재추출 결과 모두 비고 공란이다. 조치완료 전용열 결측이나 조치불이행을 집계한 값이 아니다.",
+  "counterEvidence": "부산진 34행 전체와 금정의 연기 1행을 제외한 25행 전체의 비고가 공란이다. 불량행만의 정보 누락으로 해석하지 않는다.",
+  "verifiedCounts": {"listedRows":132,"assessedRows":131,"defectRows":19,"defectWithOnsiteRemark":6,"defectWithBlankRemark":13},
+  "notMetrics": ["관리공백률", "공시의무 위반 건수", "현재 미조치 시설 수", "시정 미완료율"],
+  "unit": "조사표 행. 시설 고유번호를 확인하지 않아 13개 고유시설로 확정하지 않음.",
+  "method": "원 HWP LIST_HEADER 셀 좌표 재구성·판정 및 비고 대조. 원본과 과거 배포 ZIP은 변경하지 않음.",
+  "sourceReport": "13행-의미재검토.md"
+}

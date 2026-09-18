@@ -1,0 +1,138 @@
+{
+  "packages": [
+    {
+      "path": "output/부산119-전체분석-시각화-20260917.zip",
+      "bytes": 24532581,
+      "entries": 525,
+      "sha256": "142abca8a42896f85710cb3ade0456766c5c5d6de21762bd12135f996aee2b76",
+      "crcPassed": true
+    },
+    {
+      "path": "output/부산119-2D3D지도웹-20260917.zip",
+      "bytes": 46470131,
+      "entries": 873,
+      "sha256": "bedd8529be3031b454aece18d2bea0a96c7fbfca6d8f168558645ca7e7ab982d",
+      "crcPassed": true
+    }
+  ],
+  "report": {
+    "path": "output/부산119-전체결과보고서-20260917.md",
+    "sha256": "38e30176f89e6ceaee0f9c8f924f35901d6c8d007ec99493ce677f17db802e75"
+  },
+  "reviewRecords": [
+    {
+      "file": "data/processed/지도입증확장-20260916/verification/profiles-independent.json",
+      "sha256": "72ea20ae4e32594638db2ffe22f69d284877e673c6d4e22bd601b3284b8085e8"
+    },
+    {
+      "file": "data/processed/지도입증확장-20260916/verification/effect-protocol-independent.json",
+      "sha256": "c954e9874c90d9c28747d938dd5ae50bf37f8b4966b259ecd7e7041b31ed06f4"
+    },
+    {
+      "file": "data/processed/지도입증확장-20260916/verification/map-independent.json",
+      "sha256": "324878ad217982dc5a7e0e7b6e5df5ca4202680a3ca12a4d925b1a16ad5c9298"
+    },
+    {
+      "file": "data/processed/지도입증확장-20260916/verification/regional-ui-independent.json",
+      "sha256": "0e1041eb22545f1ace07e627d6f69e33d7ee7ca6ab8c37a8935170455c60f821"
+    },
+    {
+      "file": "data/processed/지도입증확장-20260916/verification/report-browser-independent.json",
+      "sha256": "aafc00c8cd591ff5580c8c9755fa58510d87f41bc5dd55dadb5ae562bd2ec23f"
+    },
+    {
+      "file": "data/processed/지도입증확장-20260916/verification/report-independent.json",
+      "sha256": "9e17b5e5dfd15462ec308966b64432b5a716ff460ccd33924bba0879f317811a"
+    },
+    {
+      "file": "data/processed/지도입증확장-20260916/verification/navigation-independent.json",
+      "sha256": "2e3893bde130fffbbad391035ccd6929ff367c19d76a87d6272348a1ff969a8c"
+    },
+    {
+      "file": "data/processed/지도입증확장-20260916/verification/final-delta-independent.json",
+      "sha256": "94140d3562df377e18b93bb82d3150b563db211090da13ad515b0d6e7e9e155e"
+    },
+    {
+      "file": "data/processed/지도입증확장-20260916/verification/drilldown-independent.json",
+      "sha256": "469e93591be89782acaa053f2205b79bee20f877f3632e0e1dd3aaa56be66577"
+    }
+  ],
+  "supersededFileReviews": [
+    {
+      "path": "web/final/assets/regional-evidence.js",
+      "previousReview": "regional-ui-independent",
+      "currentReview": "navigation-independent"
+    },
+    {
+      "path": "web/final/assets/regional-evidence.css",
+      "previousReview": "regional-ui-independent",
+      "currentReview": "navigation-independent"
+    },
+    {
+      "path": "web/final/assets/map-engine-3d.js",
+      "previousReview": "map-independent",
+      "currentReview": "navigation-independent"
+    },
+    {
+      "path": "web/final/assets/map-engine-3d.css",
+      "previousReview": "map-independent",
+      "currentReview": "navigation-independent"
+    },
+    {
+      "path": "docs/40-분석결과/부산-119-지도와입증-통합보고서-20260917.md",
+      "previousReview": "report-independent",
+      "currentReview": "final-delta-independent"
+    },
+    {
+      "path": "docs/10-작업계획/부산 분석 작업 계획.md",
+      "previousReview": "report-independent",
+      "currentReview": "final-delta-independent"
+    },
+    {
+      "path": "web/final/results/complete/report.html",
+      "previousReview": "report-independent",
+      "currentReview": "final-delta-independent"
+    },
+    {
+      "path": "docs/10-작업계획/지도와효과-확장검증계획-20260916.md",
+      "previousReview": "effect-protocol-independent",
+      "currentReview": "final-delta-independent"
+    },
+    {
+      "path": "data/processed/지도입증확장-20260916/benchmark/results.json",
+      "previousReview": "report-independent",
+      "currentReview": "final-delta-independent"
+    },
+    {
+      "path": "web/final/assets/regional-evidence.js",
+      "previousReview": "final-delta-independent",
+      "currentReview": "drilldown-independent"
+    },
+    {
+      "path": "data/processed/지도입증확장-20260916/benchmark/results.json",
+      "previousReview": "final-delta-independent",
+      "currentReview": "drilldown-independent"
+    },
+    {
+      "path": "docs/40-분석결과/부산-119-지도와입증-통합보고서-20260917.md",
+      "previousReview": "final-delta-independent",
+      "currentReview": "drilldown-independent"
+    },
+    {
+      "path": "docs/10-작업계획/부산 분석 작업 계획.md",
+      "previousReview": "final-delta-independent",
+      "currentReview": "drilldown-independent"
+    },
+    {
+      "path": "web/final/results/complete/report.html",
+      "previousReview": "final-delta-independent",
+      "currentReview": "drilldown-independent"
+    }
+  ],
+  "figures": 48,
+  "tables": 73,
+  "regions": 194,
+  "knownHeightBuildings": 1081,
+  "implemented3D": true,
+  "measuredHumanOrSafetyEffect": false
+}

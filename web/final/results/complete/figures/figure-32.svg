@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1008pt" height="576pt" viewBox="0 0 1008 576" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-16T12:45:34.813335</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 576 
+L 1008 576 
+L 1008 0 
+L 0 0 
+z
+" style="fill: #f6fafb"/>
+  </g>
+  <g id="axes_1">
+   <g id="table_1">
+    <g id="patch_2">
+     <path d="M 60.48 186.624 
+L 220.1472 186.624 
+L 220.1472 132.48 
+L 60.48 132.48 
+z
+" style="fill: #183c4c; stroke: #f6fafb; stroke-width: 3; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_1">
+     <text style="font-weight: 700; font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #ffffff" x="140.3136" y="164.456004" transform="rotate(-0 140.3136 164.456004)">소방서</text>
+    </g>
+    <g id="patch_3">
+     <path d="M 220.1472 186.624 
+L 326.592 186.624 
+L 326.592 132.48 
+L 220.1472 132.48 
+z
+" style="fill: #183c4c; stroke: #f6fafb; stroke-width: 3; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_2">
+     <text style="font-weight: 700; font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #ffffff" x="273.3696" y="164.492332" transform="rotate(-0 273.3696 164.492332)">조사표 행</text>
+    </g>
+    <g id="patch_4">
+     <path d="M 326.592 186.624 
+L 441.9072 186.624 
+L 441.9072 132.48 
+L 326.592 132.48 
+z
+" style="fill: #183c4c; stroke: #f6fafb; stroke-width: 3; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_3">
+     <text style="font-weight: 700; font-size: 15px; font-family: 'Malgun Gothic'; fill: #ffffff" transform="translate(354.2496 156.54907)">소방시설</text>
+     <text style="font-weight: 700; font-size: 15px; font-family: 'Malgun Gothic'; fill: #ffffff" transform="translate(369.2496 172.362937)">불량</text>
+    </g>
+    <g id="patch_5">
+     <path d="M 441.9072 186.624 
+L 557.2224 186.624 
+L 557.2224 132.48 
+L 441.9072 132.48 
+z
+" style="fill: #183c4c; stroke: #f6fafb; stroke-width: 3; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_4">
+     <text style="font-weight: 700; font-size: 15px; font-family: 'Malgun Gothic'; fill: #ffffff" transform="translate(467.601909 156.599461)">피난·방화</text>
+     <text style="font-weight: 700; font-size: 15px; font-family: 'Malgun Gothic'; fill: #ffffff" transform="translate(484.5648 172.413328)">불량</text>
+    </g>
+    <g id="patch_6">
+     <path d="M 557.2224 186.624 
+L 708.0192 186.624 
+L 708.0192 132.48 
+L 557.2224 132.48 
+z
+" style="fill: #183c4c; stroke: #f6fafb; stroke-width: 3; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_5">
+     <text style="font-weight: 700; font-size: 15px; font-family: 'Malgun Gothic'; fill: #ffffff" transform="translate(607.484081 156.450633)">불량 중</text>
+     <text style="font-weight: 700; font-size: 15px; font-family: 'Malgun Gothic'; fill: #ffffff" transform="translate(584.984081 172.461375)">현지시정 표기</text>
+    </g>
+    <g id="patch_7">
+     <path d="M 708.0192 186.624 
+L 858.816 186.624 
+L 858.816 132.48 
+L 708.0192 132.48 
+z
+" style="fill: #183c4c; stroke: #f6fafb; stroke-width: 3; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_6">
+     <text style="font-weight: 700; font-size: 15px; font-family: 'Malgun Gothic'; fill: #ffffff" transform="translate(758.280881 156.54907)">불량 중</text>
+     <text style="font-weight: 700; font-size: 15px; font-family: 'Malgun Gothic'; fill: #ffffff" transform="translate(750.780881 172.362937)">비고 공란</text>
+    </g>
+    <g id="patch_8">
+     <path d="M 858.816 186.624 
+L 947.52 186.624 
+L 947.52 132.48 
+L 858.816 132.48 
+z
+" style="fill: #183c4c; stroke: #f6fafb; stroke-width: 3; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_7">
+     <text style="font-weight: 700; font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #ffffff" x="903.168" y="164.456004" transform="rotate(-0 903.168 164.456004)">조사 연기</text>
+    </g>
+    <g id="patch_9">
+     <path d="M 60.48 240.768 
+L 220.1472 240.768 
+L 220.1472 186.624 
+L 60.48 186.624 
+z
+" style="fill: #ffffff; stroke: #f6fafb; stroke-width: 3; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_8">
+     <text style="font-weight: 700; font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #183c4c" x="140.3136" y="218.600004" transform="rotate(-0 140.3136 218.600004)">기장소방서</text>
+    </g>
+    <g id="patch_10">
+     <path d="M 220.1472 240.768 
+L 326.592 240.768 
+L 326.592 186.624 
+L 220.1472 186.624 
+z
+" style="fill: #ffffff; stroke: #f6fafb; stroke-width: 3; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_9">
+     <text style="font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #183c4c" x="273.3696" y="218.19307" transform="rotate(-0 273.3696 218.19307)">33</text>
+    </g>
+    <g id="patch_11">
+     <path d="M 326.592 240.768 
+L 441.9072 240.768 
+L 441.9072 186.624 
+L 326.592 186.624 
+z
+" style="fill: #ffffff; stroke: #f6fafb; stroke-width: 3; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_10">
+     <text style="font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #183c4c" x="384.2496" y="218.19307" transform="rotate(-0 384.2496 218.19307)">6</text>
+    </g>
+    <g id="patch_12">
+     <path d="M 441.9072 240.768 
+L 557.2224 240.768 
+L 557.2224 186.624 
+L 441.9072 186.624 
+z
+" style="fill: #ffffff; stroke: #f6fafb; stroke-width: 3; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_11">
+     <text style="font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #183c4c" x="499.5648" y="218.19307" transform="rotate(-0 499.5648 218.19307)">0</text>
+    </g>
+    <g id="patch_13">
+     <path d="M 557.2224 240.768 
+L 708.0192 240.768 
+L 708.0192 186.624 
+L 557.2224 186.624 
+z
+" style="fill: #e6f2f0; stroke: #f6fafb; stroke-width: 3; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_12">
+     <text style="font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #183c4c" x="632.6208" y="218.19307" transform="rotate(-0 632.6208 218.19307)">6</text>
+    </g>
+    <g id="patch_14">
+     <path d="M 708.0192 240.768 
+L 858.816 240.768 
+L 858.816 186.624 
+L 708.0192 186.624 
+z
+" style="fill: #f4e9d8; stroke: #f6fafb; stroke-width: 3; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_13">
+     <text style="font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #183c4c" x="783.4176" y="218.19307" transform="rotate(-0 783.4176 218.19307)">0</text>
+    </g>
+    <g id="patch_15">
+     <path d="M 858.816 240.768 
+L 947.52 240.768 
+L 947.52 186.624 
+L 858.816 186.624 
+z
+" style="fill: #ffffff; stroke: #f6fafb; stroke-width: 3; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_14">
+     <text style="font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #183c4c" x="903.168" y="218.19307" transform="rotate(-0 903.168 218.19307)">0</text>
+    </g>
+    <g id="patch_16">
+     <path d="M 60.48 294.912 
+L 220.1472 294.912 
+L 220.1472 240.768 
+L 60.48 240.768 
+z
+" style="fill: #ffffff; stroke: #f6fafb; stroke-width: 3; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_15">
+     <text style="font-weight: 700; font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #183c4c" x="140.3136" y="272.744004" transform="rotate(-0 140.3136 272.744004)">동래소방서</text>
+    </g>
+    <g id="patch_17">
+     <path d="M 220.1472 294.912 
+L 326.592 294.912 
+L 326.592 240.768 
+L 220.1472 240.768 
+z
+" style="fill: #ffffff; stroke: #f6fafb; stroke-width: 3; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_16">
+     <text style="font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #183c4c" x="273.3696" y="272.33707" transform="rotate(-0 273.3696 272.33707)">39</text>
+    </g>
+    <g id="patch_18">
+     <path d="M 326.592 294.912 
+L 441.9072 294.912 
+L 441.9072 240.768 
+L 326.592 240.768 
+z
+" style="fill: #ffffff; stroke: #f6fafb; stroke-width: 3; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_17">
+     <text style="font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #183c4c" x="384.2496" y="272.33707" transform="rotate(-0 384.2496 272.33707)">0</text>
+    </g>
+    <g id="patch_19">
+     <path d="M 441.9072 294.912 
+L 557.2224 294.912 
+L 557.2224 240.768 
+L 441.9072 240.768 
+z
+" style="fill: #ffffff; stroke: #f6fafb; stroke-width: 3; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_18">
+     <text style="font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #183c4c" x="499.5648" y="272.33707" transform="rotate(-0 499.5648 272.33707)">0</text>
+    </g>
+    <g id="patch_20">
+     <path d="M 557.2224 294.912 
+L 708.0192 294.912 
+L 708.0192 240.768 
+L 557.2224 240.768 
+z
+" style="fill: #e6f2f0; stroke: #f6fafb; stroke-width: 3; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_19">
+     <text style="font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #183c4c" x="632.6208" y="272.33707" transform="rotate(-0 632.6208 272.33707)">0</text>
+    </g>
+    <g id="patch_21">
+     <path d="M 708.0192 294.912 
+L 858.816 294.912 
+L 858.816 240.768 
+L 708.0192 240.768 
+z
+" style="fill: #f4e9d8; stroke: #f6fafb; stroke-width: 3; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_20">
+     <text style="font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #183c4c" x="783.4176" y="272.33707" transform="rotate(-0 783.4176 272.33707)">0</text>
+    </g>
+    <g id="patch_22">
+     <path d="M 858.816 294.912 
+L 947.52 294.912 
+L 947.52 240.768 
+L 858.816 240.768 
+z
+" style="fill: #ffffff; stroke: #f6fafb; stroke-width: 3; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_21">
+     <text style="font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #183c4c" x="903.168" y="272.33707" transform="rotate(-0 903.168 272.33707)">0</text>
+    </g>
+    <g id="patch_23">
+     <path d="M 60.48 349.056 
+L 220.1472 349.056 
+L 220.1472 294.912 
+L 60.48 294.912 
+z
+" style="fill: #ffffff; stroke: #f6fafb; stroke-width: 3; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_22">
+     <text style="font-weight: 700; font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #183c4c" x="140.3136" y="326.888004" transform="rotate(-0 140.3136 326.888004)">금정소방서</text>
+    </g>
+    <g id="patch_24">
+     <path d="M 220.1472 349.056 
+L 326.592 349.056 
+L 326.592 294.912 
+L 220.1472 294.912 
+z
+" style="fill: #ffffff; stroke: #f6fafb; stroke-width: 3; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_23">
+     <text style="font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #183c4c" x="273.3696" y="326.48107" transform="rotate(-0 273.3696 326.48107)">26</text>
+    </g>
+    <g id="patch_25">
+     <path d="M 326.592 349.056 
+L 441.9072 349.056 
+L 441.9072 294.912 
+L 326.592 294.912 
+z
+" style="fill: #ffffff; stroke: #f6fafb; stroke-width: 3; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_24">
+     <text style="font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #183c4c" x="384.2496" y="326.48107" transform="rotate(-0 384.2496 326.48107)">1</text>
+    </g>
+    <g id="patch_26">
+     <path d="M 441.9072 349.056 
+L 557.2224 349.056 
+L 557.2224 294.912 
+L 441.9072 294.912 
+z
+" style="fill: #ffffff; stroke: #f6fafb; stroke-width: 3; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_25">
+     <text style="font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #183c4c" x="499.5648" y="326.48107" transform="rotate(-0 499.5648 326.48107)">2</text>
+    </g>
+    <g id="patch_27">
+     <path d="M 557.2224 349.056 
+L 708.0192 349.056 
+L 708.0192 294.912 
+L 557.2224 294.912 
+z
+" style="fill: #e6f2f0; stroke: #f6fafb; stroke-width: 3; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_26">
+     <text style="font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #183c4c" x="632.6208" y="326.48107" transform="rotate(-0 632.6208 326.48107)">0</text>
+    </g>
+    <g id="patch_28">
+     <path d="M 708.0192 349.056 
+L 858.816 349.056 
+L 858.816 294.912 
+L 708.0192 294.912 
+z
+" style="fill: #f4e9d8; stroke: #f6fafb; stroke-width: 3; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_27">
+     <text style="font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #183c4c" x="783.4176" y="326.48107" transform="rotate(-0 783.4176 326.48107)">3</text>
+    </g>
+    <g id="patch_29">
+     <path d="M 858.816 349.056 
+L 947.52 349.056 
+L 947.52 294.912 
+L 858.816 294.912 
+z
+" style="fill: #ffffff; stroke: #f6fafb; stroke-width: 3; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_28">
+     <text style="font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #183c4c" x="903.168" y="326.48107" transform="rotate(-0 903.168 326.48107)">1</text>
+    </g>
+    <g id="patch_30">
+     <path d="M 60.48 403.2 
+L 220.1472 403.2 
+L 220.1472 349.056 
+L 60.48 349.056 
+z
+" style="fill: #ffffff; stroke: #f6fafb; stroke-width: 3; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_29">
+     <text style="font-weight: 700; font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #183c4c" x="140.3136" y="381.032004" transform="rotate(-0 140.3136 381.032004)">부산진소방서</text>
+    </g>
+    <g id="patch_31">
+     <path d="M 220.1472 403.2 
+L 326.592 403.2 
+L 326.592 349.056 
+L 220.1472 349.056 
+z
+" style="fill: #ffffff; stroke: #f6fafb; stroke-width: 3; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_30">
+     <text style="font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #183c4c" x="273.3696" y="380.62507" transform="rotate(-0 273.3696 380.62507)">34</text>
+    </g>
+    <g id="patch_32">
+     <path d="M 326.592 403.2 
+L 441.9072 403.2 
+L 441.9072 349.056 
+L 326.592 349.056 
+z
+" style="fill: #ffffff; stroke: #f6fafb; stroke-width: 3; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_31">
+     <text style="font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #183c4c" x="384.2496" y="380.62507" transform="rotate(-0 384.2496 380.62507)">9</text>
+    </g>
+    <g id="patch_33">
+     <path d="M 441.9072 403.2 
+L 557.2224 403.2 
+L 557.2224 349.056 
+L 441.9072 349.056 
+z
+" style="fill: #ffffff; stroke: #f6fafb; stroke-width: 3; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_32">
+     <text style="font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #183c4c" x="499.5648" y="380.62507" transform="rotate(-0 499.5648 380.62507)">1</text>
+    </g>
+    <g id="patch_34">
+     <path d="M 557.2224 403.2 
+L 708.0192 403.2 
+L 708.0192 349.056 
+L 557.2224 349.056 
+z
+" style="fill: #e6f2f0; stroke: #f6fafb; stroke-width: 3; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_33">
+     <text style="font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #183c4c" x="632.6208" y="380.62507" transform="rotate(-0 632.6208 380.62507)">0</text>
+    </g>
+    <g id="patch_35">
+     <path d="M 708.0192 403.2 
+L 858.816 403.2 
+L 858.816 349.056 
+L 708.0192 349.056 
+z
+" style="fill: #f4e9d8; stroke: #f6fafb; stroke-width: 3; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_34">
+     <text style="font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #183c4c" x="783.4176" y="380.62507" transform="rotate(-0 783.4176 380.62507)">10</text>
+    </g>
+    <g id="patch_36">
+     <path d="M 858.816 403.2 
+L 947.52 403.2 
+L 947.52 349.056 
+L 858.816 349.056 
+z
+" style="fill: #ffffff; stroke: #f6fafb; stroke-width: 3; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_35">
+     <text style="font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #183c4c" x="903.168" y="380.62507" transform="rotate(-0 903.168 380.62507)">0</text>
+    </g>
+   </g>
+  </g>
+  <g id="text_36">
+   <text style="font-weight: 700; font-size: 24px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #183c4c" x="60.48" y="46.08" transform="rotate(-0 60.48 46.08)">공개 조사표의 불량 판정과 비고를 구분했습니다</text>
+  </g>
+  <g id="text_37">
+   <text style="font-size: 15px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #183c4c" x="60.48" y="86.4" transform="rotate(-0 60.48 86.4)">2026년 8월 · 4개 소방서 공개 조사표 132행 / 판정 131행 / 조사 연기 1행</text>
+  </g>
+  <g id="text_38">
+   <text style="font-weight: 700; font-size: 16px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #168b86" x="60.48" y="443.52" transform="rotate(-0 60.48 443.52)">불량이 하나라도 기록된 19행 중 6행에 현지시정이 함께 기재되어 있습니다.</text>
+  </g>
+  <g id="text_39">
+   <text style="font-size: 12px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #183c4c" x="60.48" y="472.32" transform="rotate(-0 60.48 472.32)">13행은 일반 비고란의 공란입니다. 조치완료 전용 열이 아니므로 관리공백이나 현재 미조치의 증거가 아닙니다.</text>
+  </g>
+  <g id="text_40">
+   <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #183c4c" x="60.48" y="506.88" transform="rotate(-0 60.48 506.88)">소방서 관할은 구 경계와 다릅니다. 조사대상·방법이 달라 불량률 순위를 만들 수 없으며, 같은 이름·도로번호의 복수 행은 병합하지 않았습니다.</text>
+  </g>
+  <g id="text_41">
+   <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #183c4c" x="60.48" y="529.92" transform="rotate(-0 60.48 529.92)">동래 첨부 표지 8/7 ↔ 조사 종료 8/31·게시 9/7 날짜 불일치. 표의 39행은 원문 그대로 보존했습니다.</text>
+  </g>
+  <g id="text_42">
+   <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #183c4c" x="60.48" y="555.84" transform="rotate(-0 60.48 555.84)">출처: 부산소방 4개 소방서 2026년 8월 화재안전조사 결과 HWP · 확보 2026-09-16</text>
+  </g>
+ </g>
+</svg>

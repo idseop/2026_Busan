@@ -1,0 +1,50 @@
+[
+  {
+    "file": "08-보건지표-치료와관리교육.png",
+    "size_px": [
+      1948,
+      1417
+    ],
+    "dpi": [
+      299.9994,
+      299.9994
+    ],
+    "png_ok": true,
+    "svg_exists": true
+  },
+  {
+    "file": "09-기존대응-보완후보-평가.png",
+    "size_px": [
+      1948,
+      1405
+    ],
+    "dpi": [
+      299.9994,
+      299.9994
+    ],
+    "png_ok": true,
+    "svg_exists": true
+  },
+  {
+    "file": "10-웹-반복활용흐름.png",
+    "size_px": [
+      1948,
+      1405
+    ],
+    "dpi": [
+      299.9994,
+      299.9994
+    ],
+    "png_ok": true,
+    "svg_exists": true
+  },
+  {
+    "health_rows": 8,
+    "all_exact_source_rows": true,
+    "education_rse_all_gte25": true
+  },
+  {
+    "web_source_exists": true,
+    "scope": "PNG metadata and copied source values; no new policy-effect claim"
+  }
+]

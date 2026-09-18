@@ -1,0 +1,385 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "연산동 MD count",
+      "pass": true
+    },
+    {
+      "check": "연산동 MD month",
+      "pass": true
+    },
+    {
+      "check": "연산동 MD season",
+      "pass": true
+    },
+    {
+      "check": "연산동 MD leave-one",
+      "pass": true
+    },
+    {
+      "check": "연산동 HTML count",
+      "pass": true
+    },
+    {
+      "check": "연산동 C deep link",
+      "pass": true
+    },
+    {
+      "check": "부전동 MD count",
+      "pass": true
+    },
+    {
+      "check": "부전동 MD month",
+      "pass": true
+    },
+    {
+      "check": "부전동 MD season",
+      "pass": true
+    },
+    {
+      "check": "부전동 MD leave-one",
+      "pass": true
+    },
+    {
+      "check": "부전동 HTML count",
+      "pass": true
+    },
+    {
+      "check": "부전동 C deep link",
+      "pass": true
+    },
+    {
+      "check": "부전동 emergency medical traffic labelled",
+      "pass": true
+    },
+    {
+      "check": "광안동 MD count",
+      "pass": true
+    },
+    {
+      "check": "광안동 MD month",
+      "pass": true
+    },
+    {
+      "check": "광안동 MD season",
+      "pass": true
+    },
+    {
+      "check": "광안동 MD leave-one",
+      "pass": true
+    },
+    {
+      "check": "광안동 HTML count",
+      "pass": true
+    },
+    {
+      "check": "광안동 C deep link",
+      "pass": true
+    },
+    {
+      "check": "광안동 emergency medical traffic labelled",
+      "pass": true
+    },
+    {
+      "check": "초읍동 MD count",
+      "pass": true
+    },
+    {
+      "check": "초읍동 MD month",
+      "pass": true
+    },
+    {
+      "check": "초읍동 MD season",
+      "pass": true
+    },
+    {
+      "check": "초읍동 MD leave-one",
+      "pass": true
+    },
+    {
+      "check": "초읍동 HTML count",
+      "pass": true
+    },
+    {
+      "check": "초읍동 C deep link",
+      "pass": true
+    },
+    {
+      "check": "금성동 MD count",
+      "pass": true
+    },
+    {
+      "check": "금성동 MD month",
+      "pass": true
+    },
+    {
+      "check": "금성동 MD season",
+      "pass": true
+    },
+    {
+      "check": "금성동 MD leave-one",
+      "pass": true
+    },
+    {
+      "check": "금성동 HTML count",
+      "pass": true
+    },
+    {
+      "check": "금성동 C deep link",
+      "pass": true
+    },
+    {
+      "check": "다대동 MD count",
+      "pass": true
+    },
+    {
+      "check": "다대동 MD month",
+      "pass": true
+    },
+    {
+      "check": "다대동 MD season",
+      "pass": true
+    },
+    {
+      "check": "다대동 MD leave-one",
+      "pass": true
+    },
+    {
+      "check": "다대동 HTML count",
+      "pass": true
+    },
+    {
+      "check": "다대동 C deep link",
+      "pass": true
+    },
+    {
+      "check": "우동 MD count",
+      "pass": true
+    },
+    {
+      "check": "우동 MD month",
+      "pass": true
+    },
+    {
+      "check": "우동 MD season",
+      "pass": true
+    },
+    {
+      "check": "우동 MD leave-one",
+      "pass": true
+    },
+    {
+      "check": "우동 HTML count",
+      "pass": true
+    },
+    {
+      "check": "우동 C deep link",
+      "pass": true
+    },
+    {
+      "check": "기장읍 MD count",
+      "pass": true
+    },
+    {
+      "check": "기장읍 MD month",
+      "pass": true
+    },
+    {
+      "check": "기장읍 MD season",
+      "pass": true
+    },
+    {
+      "check": "기장읍 MD leave-one",
+      "pass": true
+    },
+    {
+      "check": "기장읍 HTML count",
+      "pass": true
+    },
+    {
+      "check": "기장읍 C deep link",
+      "pass": true
+    },
+    {
+      "check": "온천동 MD count",
+      "pass": true
+    },
+    {
+      "check": "온천동 MD month",
+      "pass": true
+    },
+    {
+      "check": "온천동 MD season",
+      "pass": true
+    },
+    {
+      "check": "온천동 MD leave-one",
+      "pass": true
+    },
+    {
+      "check": "온천동 HTML count",
+      "pass": true
+    },
+    {
+      "check": "온천동 C deep link",
+      "pass": true
+    },
+    {
+      "check": "325 stable combos source",
+      "pass": true
+    },
+    {
+      "check": "86 >=20 source",
+      "pass": true
+    },
+    {
+      "check": "MD selection 325",
+      "pass": true
+    },
+    {
+      "check": "MD selection 33개",
+      "pass": true
+    },
+    {
+      "check": "MD selection 121개",
+      "pass": true
+    },
+    {
+      "check": "MD selection 86개",
+      "pass": true
+    },
+    {
+      "check": "MD selection 35개",
+      "pass": true
+    },
+    {
+      "check": "MD established total 704,689",
+      "pass": true
+    },
+    {
+      "check": "MD established total 579,412",
+      "pass": true
+    },
+    {
+      "check": "MD established total 574,662",
+      "pass": true
+    },
+    {
+      "check": "MD established total 41,720",
+      "pass": true
+    },
+    {
+      "check": "MD established total 970",
+      "pass": true
+    },
+    {
+      "check": "MD established total 2,910",
+      "pass": true
+    },
+    {
+      "check": "CPR2024 source",
+      "pass": true
+    },
+    {
+      "check": "MD CPR 13.8%",
+      "pass": true
+    },
+    {
+      "check": "MD CPR 30.3%",
+      "pass": true
+    },
+    {
+      "check": "MD CPR 16.5%p",
+      "pass": true
+    },
+    {
+      "check": "MD CPR 20.8%",
+      "pass": true
+    },
+    {
+      "check": "MD CHS 심폐소생술 교육 경험률",
+      "pass": true
+    },
+    {
+      "check": "MD CHS 마네킹 실습 경험률",
+      "pass": true
+    },
+    {
+      "check": "MD CHS AED 실습 경험률",
+      "pass": true
+    },
+    {
+      "check": "interpretation 교육 부족이 시행률 하락을 일으켰다거나",
+      "pass": true
+    },
+    {
+      "check": "interpretation 교육 신청 수요가 아니다",
+      "pass": true
+    },
+    {
+      "check": "interpretation 실습률의 분모도 교육경험자만이 아니라",
+      "pass": true
+    },
+    {
+      "check": "interpretation 최종 검수수량은 아니다",
+      "pass": true
+    },
+    {
+      "check": "interpretation 실제 폐강·이용자 피해는 미확인",
+      "pass": true
+    },
+    {
+      "check": "interpretation 현재 미조치",
+      "pass": true
+    },
+    {
+      "check": "interpretation 사용자 실험 미실시",
+      "pass": true
+    },
+    {
+      "check": "case time normalization in final HTML",
+      "pass": true
+    },
+    {
+      "check": "spatial candidates not allocated",
+      "pass": true
+    },
+    {
+      "check": "Gwangan sensitivity separated",
+      "pass": true
+    },
+    {
+      "check": "no current fire13assertion",
+      "pass": true
+    },
+    {
+      "check": "web expected effect not measured",
+      "pass": true
+    },
+    {
+      "check": "web no agency physical work claim",
+      "pass": true
+    }
+  ],
+  "count": 90,
+  "reviewer": "policy_analysis; MD=response_evidence, final page=root; map code not reviewed here",
+  "reviewBasis": "새 보고서와 최종 페이지의 표현·집계는 기존 독립 검증된 결과와 대조. 원신고 5년을 재처리하지 않음.",
+  "manualFindings": [
+    "9사례는 같은 기준을 통과한 위험순위가 아님을 구분",
+    "환자CPR/주민교육/119접수/후보주민의 모집단 분리",
+    "새시설·인력 부족과 공개정보 조건상충/자료 미확보 구분",
+    "과거 공식 조사와 현재 사업의 정확한 구간동일성 미확정 유지",
+    "계절 유지횟수는 미래예측 정확도나 통계유의성 아님",
+    "최종효과는 정보제공 구현; 이용자·현장 효과실험은 미실시"
+  ],
+  "hashes": {
+    "docs\\40-분석결과\\부산-119-최종통합보고서-20260916.md": "e63c89d14e125ec2afd3d5773b4f714f51daa2d9627e9905acf0e02d95ca4215",
+    "web\\final\\results\\final\\index.html": "5771b12a99981bb5e40fb44179e9a093d9d68d1486a64d0e42d403b8c2ea3265",
+    "data\\processed\\효과근거확장-20260916\\temporal\\focus-summary.json": "ea579970843962447e6864aef2027b6ce2fd7b596fc405c01e2fa05a34ee01dc",
+    "data\\processed\\효과근거확장-20260916\\temporal\\selection_stable_temporal.json": "c9a8a9224084c82b662e06e92c28d48c799a291451bb682e8a305c54abdd144a",
+    "data\\processed\\효과근거확장-20260916\\services\\cpr-trend.json": "bf330ad9521be684bb74e3f7db5f4dba2d97e57844205e55efb07db80fac6e61",
+    "data\\processed\\효과근거확장-20260916\\context\\chs-education-summary.json": "15627c686f2be202eb685ec6b3079cccb099223b46d78f3b361a9d5c7fc6d198",
+    "data\\processed\\효과근거확장-20260916\\traffic\\traffic-effects-extension.json": "5ee2786c199ac8d1b1387ae48496397f7df11dd13efe1776f80905b74f002631"
+  }
+}

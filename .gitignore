@@ -1,8 +1,12 @@
 .venv/
+.venv-check/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
 .DS_Store
+
+# 사용자 제공 압축 원본은 카탈로그로 공유한다.
+data/*.zip
 
 # 원본 데이터는 커밋하지 않는다 (용량·라이선스). 카탈로그의 URL로 재현한다.
 # 단 폴더 구조는 남긴다 — 디렉토리를 먼저 되살려야 .gitkeep 예외가 먹는다.
@@ -15,3 +19,17 @@ data/interim/**
 
 # 머신별 개인 설정 (절대경로 등) — 공유하지 않는다
 .claude/settings.local.json
+
+# 행 단위 전처리·루트 중복 원본도 공개하지 않는다. 공개 집계는 web/final에 둔다.
+data/**
+!data/**/
+!data/**/.gitkeep
+
+# 에이전트 실행 상태는 로컬 보존. 명시적인 공유 스킬만 예외로 둔다.
+.omc/*
+!.omc/skills/
+
+# 제출 자료 중 원자료·개인정보는 공개하지 않는다
+/분야 1.빅데이터 분석 및 시각화_GOAIM/활용데이터/
+/분야 1.빅데이터 분석 및 시각화_GOAIM.zip
+**/개인정보*동의서*.pdf

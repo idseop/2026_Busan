@@ -1,0 +1,24 @@
+PC 결과 열기: index.html. 지역 탐색: explorer.html. 인터넷 없이도 표·그래프·검색 가능.
+공식 출처 링크에는 인터넷이 필요합니다.
+
+프로젝트 루트 .venv-check/Scripts/python.exe 로 실행:
+analysis/00_공통/analyze_busan_followup_20260916.py
+analysis/00_공통/analyze_housing_context_20260916.py
+scripts/collect_followup_traffic_20260916.py
+scripts/collect_followup_services_20260916.py
+scripts/collect_followup_services_20260916.py analyze
+scripts/collect_followup_services_20260916.py report
+scripts/collect_followup_outdoor_20260916.py
+analysis/00_공통/analyze_commerce_context_20260916.py
+analysis/00_공통/analyze_living_context_20260916.py
+scripts/plot_busan_followup_20260916.py
+scripts/plot_housing_context_20260916.py
+scripts/plot_followup_traffic_20260916.py
+scripts/plot_followup_services_20260916.py
+scripts/build_followup_explorer_20260916.py
+scripts/build_followup_report_20260916.py
+
+원문은 프로젝트 data/raw 및 data/processed에 보존합니다. 수집은 원문 변경·네트워크에 영향을 받습니다.
+Python pandas, matplotlib, openpyxl, pyshp, PyMuPDF, HWP 추출에 사용하는 olefile/pyhwp 환경과 curl을 사용합니다.
+웹을 서버로 열려면 python web/final/serve.py --no-browser 실행 후
+http://127.0.0.1:8765/results/followup/ 접속.

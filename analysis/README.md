@@ -1,56 +1,19 @@
-# analysis/ — 분석 스크립트
+# 분석 코드
 
-## 번호 규칙
+현재 분석은 2020~2024년 부산 119 신고와 주민 배경에서 시작해 상권·생활인구·주택·현장·기존 대응 자료로 이어진다. 최신 전체 판단과 출력 목록은 [통합 보고서](../docs/40-분석결과/부산-119-지도와입증-통합보고서-20260917.md)에 있다.
 
-`data/` · `analysis/` · `figures/` 가 같은 번호를 공유한다.
+| 단계 | 주요 코드 |
+|---|---|
+| 원본·결측·식별자 점검 | `00_공통/audit_119_receipts.cjs`, `profile_119.py` |
+| 선택 필드·행 제외·동 대응 | `00_공통/complete_all_selected_20260915.py`, `validate_dong_crosswalk_20260915.py` |
+| 선택 영향·처리조건 | `00_공통/assess_complete17_missingness_20260915.py`, `assess_complete17_stability_20260915.py` |
+| 인구·지역 분석 | `00_공통/analyze_population_2020_2024.py`, `synthesize_prevention_2020_2024.py` |
+| 상권·생활인구 확장 | `00_공통/extend_context_20260916.py` |
+| 지역 프로파일·이후 기간 비교 | `00_공통/build_regional_profiles_20260916.py` |
+| 지도·전체 결과·보고서 | `../scripts/build_map_3d_20260916.py`, `build_map_evidence_20260916.py`, `build_complete_results_20260916.py`, `write_map_proof_report_20260917.py` |
 
-`data/` 는 **수집 대상**으로, `analysis/`·`figures/`·`notebooks/` 는 **분석 단계**로 나눈다.
+작성 코드와 `verify_*`·`review_*`·`check_*` 검증 코드를 구분한다. 날짜가 있는 코드는 단계별 이력이며 모든 파일을 순서 없이 일괄 실행하는 진입점이 아니다. 해당 코드의 입력 명세와 보고서의 재현 순서를 따른다.
 
-| 번호 | `data/raw` (수집 대상) | `analysis`·`figures`·`notebooks` (분석 단계) |
-|---|---|---|
-| 00 | 경계 | **공통** — 경계 로드 · 행정동 기준 테이블 |
-| 01 | 외국인 | **쏠림진단** — 집중도·시계열 |
-| 02 | 소비 | **동네프로파일** — 동별 특성 벡터 |
-| 03 | 방문 | **다음동네** — 유사도 추천 ★ |
-| 04 | 숙박 | **수용력** — 혼잡·숙박 한계 |
-| 05 | 상권 | **시뮬레이션** — 소비 재분배 |
-| 06 | 접근성 | — |
+웹과 시각화 열람에는 원자료가 필요하지 않다. 분석을 처음부터 재생성할 때는 원본·중간 산출물과 폴더 구조가 필요하며 이 자료는 원본 보호를 위해 Git에 포함하지 않는다. 공개 집계·입력 명세·출처·해시·검증 기록은 최종 ZIP에 함께 제공한다.
 
-> **두 축은 1:1 대응이 아니다.** 여러 원본이 한 분석 단계에 들어간다.
-> 예: `01_쏠림진단` 은 `01_외국인` + `02_소비` + `03_방문` 을 함께 쓴다.
-> 번호는 "몇 번째 단계인가"를 나타내는 순번이지 폴더 짝이 아니다.
-
-## 스크립트 작성 규약
-
-파일명은 폴더 안에서 `01_`, `02_` 순번을 붙인다. 예: `analysis/01_쏠림진단/01_HHI산출.py`
-
-### style.py import — 이 3줄로 시작한다
-
-```python
-import sys, pathlib
-sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1]))
-from style import setup, save, source, choropleth, C, SEQ
-```
-
-**`sys.path.insert(0, "analysis")` 는 쓰지 마라.** 그건 현재 작업 디렉토리가
-프로젝트 루트일 때만 동작한다. 하위 폴더 스크립트를 다른 위치에서 실행하면
-`ModuleNotFoundError: No module named 'style'` 로 죽는다. (실측 확인됨)
-
-위 방식은 `__file__` 기준이라 **어디서 실행하든 동작한다.**
-
-### 실행
-
-```bash
-.venv/bin/python analysis/01_쏠림진단/01_HHI산출.py
-```
-
-Python 은 항상 `.venv/bin/python` 으로 호출한다 (하드 룰 1).
-
-## 데이터 경로
-
-스크립트 안에서 경로를 쓸 때도 `__file__` 기준으로 잡는다:
-
-```python
-ROOT = pathlib.Path(__file__).resolve().parents[2]
-df = pd.read_csv(ROOT / "data/raw/02_소비/카드소비.csv", encoding="cp949")
-```
+분석 환경에는 루트의 `requirements.txt`와 `requirements-final-delivery.txt`를 함께 설치한다. Windows에서 검증한 Python은 `.venv-check/Scripts/python.exe`다. 공통 그림 스타일은 `style.py`이며 한글 폰트를 확인한다.

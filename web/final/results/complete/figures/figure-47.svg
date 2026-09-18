@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="719.112344pt" height="467.115578pt" viewBox="0 0 719.112344 467.115578" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-16T23:59:19.842098</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 467.115578 
+L 719.112344 467.115578 
+L 719.112344 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 42.312344 341.993625 
+L 711.912344 341.993625 
+L 711.912344 24.473625 
+L 42.312344 24.473625 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 72.748707 341.993625 
+L 104.786985 341.993625 
+L 104.786985 177.172128 
+L 72.748707 177.172128 
+z
+" clip-path="url(#pf4b3d5d7bd)" style="fill: #157a80"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 200.901817 341.993625 
+L 232.940095 341.993625 
+L 232.940095 39.593625 
+L 200.901817 39.593625 
+z
+" clip-path="url(#pf4b3d5d7bd)" style="fill: #157a80"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 329.054927 341.993625 
+L 361.093205 341.993625 
+L 361.093205 103.635291 
+L 329.054927 103.635291 
+z
+" clip-path="url(#pf4b3d5d7bd)" style="fill: #157a80"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 457.208038 341.993625 
+L 489.246315 341.993625 
+L 489.246315 183.649165 
+L 457.208038 183.649165 
+z
+" clip-path="url(#pf4b3d5d7bd)" style="fill: #157a80"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 585.361148 341.993625 
+L 617.399425 341.993625 
+L 617.399425 104.590209 
+L 585.361148 104.590209 
+z
+" clip-path="url(#pf4b3d5d7bd)" style="fill: #157a80"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 104.786985 341.993625 
+L 136.825262 341.993625 
+L 136.825262 182.293833 
+L 104.786985 182.293833 
+z
+" clip-path="url(#pf4b3d5d7bd)" style="fill: #a8b5b8"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 232.940095 341.993625 
+L 264.978372 341.993625 
+L 264.978372 53.063042 
+L 232.940095 53.063042 
+z
+" clip-path="url(#pf4b3d5d7bd)" style="fill: #a8b5b8"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 361.093205 341.993625 
+L 393.131483 341.993625 
+L 393.131483 116.923686 
+L 361.093205 116.923686 
+z
+" clip-path="url(#pf4b3d5d7bd)" style="fill: #a8b5b8"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 489.246315 341.993625 
+L 521.284593 341.993625 
+L 521.284593 200.304045 
+L 489.246315 200.304045 
+z
+" clip-path="url(#pf4b3d5d7bd)" style="fill: #a8b5b8"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 617.399425 341.993625 
+L 649.437703 341.993625 
+L 649.437703 129.614938 
+L 617.399425 129.614938 
+z
+" clip-path="url(#pf4b3d5d7bd)" style="fill: #a8b5b8"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 136.825262 341.993625 
+L 168.86354 341.993625 
+L 168.86354 182.662546 
+L 136.825262 182.662546 
+z
+" clip-path="url(#pf4b3d5d7bd)" style="fill: #b77935"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 264.978372 341.993625 
+L 297.01665 341.993625 
+L 297.01665 59.212093 
+L 264.978372 59.212093 
+z
+" clip-path="url(#pf4b3d5d7bd)" style="fill: #b77935"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 393.131483 341.993625 
+L 425.16976 341.993625 
+L 425.16976 104.543099 
+L 393.131483 104.543099 
+z
+" clip-path="url(#pf4b3d5d7bd)" style="fill: #b77935"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 521.284593 341.993625 
+L 553.32287 341.993625 
+L 553.32287 202.162902 
+L 521.284593 202.162902 
+z
+" clip-path="url(#pf4b3d5d7bd)" style="fill: #b77935"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 649.437703 341.993625 
+L 681.47598 341.993625 
+L 681.47598 129.52179 
+L 649.437703 129.52179 
+z
+" clip-path="url(#pf4b3d5d7bd)" style="fill: #b77935"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m4a9bfa1cab" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m4a9bfa1cab" x="120.806124" y="341.993625" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 11px; font-family: 'Malgun Gothic'" transform="translate(98.806124 358.388312)">교통사고</text>
+      <text style="font-size: 11px; font-family: 'Malgun Gothic'" transform="translate(87.784639 370.129523)">비교 151조합</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m4a9bfa1cab" x="248.959234" y="341.993625" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 11px; font-family: 'Malgun Gothic'" transform="translate(226.959234 358.388312)">산악사고</text>
+      <text style="font-size: 11px; font-family: 'Malgun Gothic'" transform="translate(218.967046 370.129523)">비교 38조합</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m4a9bfa1cab" x="377.112344" y="341.993625" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 11px; font-family: 'Malgun Gothic'" transform="translate(355.112344 358.388312)">수난사고</text>
+      <text style="font-size: 11px; font-family: 'Malgun Gothic'" transform="translate(347.120156 370.129523)">비교 17조합</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m4a9bfa1cab" x="505.265454" y="341.993625" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 11px; font-family: 'Malgun Gothic'" transform="translate(488.765454 358.388312)">심정지</text>
+      <text style="font-size: 11px; font-family: 'Malgun Gothic'" transform="translate(472.243969 370.129523)">비교 123조합</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#m4a9bfa1cab" x="633.418564" y="341.993625" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 11px; font-family: 'Malgun Gothic'" transform="translate(597.067001 358.388312)">일반화재(주택)</text>
+      <text style="font-size: 11px; font-family: 'Malgun Gothic'" transform="translate(603.426376 370.129523)">비교 78조합</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_6">
+      <defs>
+       <path id="m14212a7f1e" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m14212a7f1e" x="42.312344" y="341.993625" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: end" x="35.312344" y="346.392551" transform="rotate(-0 35.312344 346.392551)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m14212a7f1e" x="42.312344" y="282.396422" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: end" x="35.312344" y="286.795347" transform="rotate(-0 35.312344 286.795347)">5</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m14212a7f1e" x="42.312344" y="222.799218" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: end" x="35.312344" y="227.198144" transform="rotate(-0 35.312344 227.198144)">10</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m14212a7f1e" x="42.312344" y="163.202015" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: end" x="35.312344" y="167.60094" transform="rotate(-0 35.312344 167.60094)">15</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m14212a7f1e" x="42.312344" y="103.604811" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: end" x="35.312344" y="108.003737" transform="rotate(-0 35.312344 108.003737)">20</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#m14212a7f1e" x="42.312344" y="44.007608" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: end" x="35.312344" y="48.406533" transform="rotate(-0 35.312344 48.406533)">25</text>
+     </g>
+    </g>
+    <g id="text_12">
+     <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: middle" x="16.594688" y="183.233625" transform="rotate(-90 16.594688 183.233625)">2024 계절 구성비 평균절대오차 (%p) · 낮을수록 일치</text>
+    </g>
+   </g>
+   <g id="patch_18">
+    <path d="M 42.312344 341.993625 
+L 42.312344 24.473625 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 711.912344 341.993625 
+L 711.912344 24.473625 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 42.312344 341.993625 
+L 711.912344 341.993625 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 42.312344 24.473625 
+L 711.912344 24.473625 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 13.2px; font-family: 'Malgun Gothic'; text-anchor: middle" x="377.112344" y="18.473625" transform="rotate(-0 377.112344 18.473625)">지역별 과거 계절 구성은 2024년에 기준선보다 더 잘 유지되지 않았다</text>
+   </g>
+   <g id="legend_1">
+    <g id="patch_22">
+     <path d="M 169.612813 415.571742 
+L 584.611875 415.571742 
+Q 586.811875 415.571742 586.811875 413.371742 
+L 586.811875 397.321625 
+Q 586.811875 395.121625 584.611875 395.121625 
+L 169.612813 395.121625 
+Q 167.412813 395.121625 167.412813 397.321625 
+L 167.412813 413.371742 
+Q 167.412813 415.571742 169.612813 415.571742 
+z
+" style="fill: #ffffff; opacity: 0.8; stroke: #cccccc; stroke-linejoin: miter"/>
+    </g>
+    <g id="patch_23">
+     <path d="M 171.812813 408.969594 
+L 193.812813 408.969594 
+L 193.812813 401.269594 
+L 171.812813 401.269594 
+z
+" style="fill: #157a80"/>
+    </g>
+    <g id="text_14">
+     <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start" x="202.612813" y="408.969594" transform="rotate(-0 202.612813 408.969594)">해당 지역 2020–23</text>
+    </g>
+    <g id="patch_24">
+     <path d="M 318.343125 408.969594 
+L 340.343125 408.969594 
+L 340.343125 401.269594 
+L 318.343125 401.269594 
+z
+" style="fill: #a8b5b8"/>
+    </g>
+    <g id="text_15">
+     <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start" x="349.143125" y="408.969594" transform="rotate(-0 349.143125 408.969594)">달력일수 비례</text>
+    </g>
+    <g id="patch_25">
+     <path d="M 441.010313 408.969594 
+L 463.010313 408.969594 
+L 463.010313 401.269594 
+L 441.010313 401.269594 
+z
+" style="fill: #b77935"/>
+    </g>
+    <g id="text_16">
+     <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start" x="471.810313" y="408.969594" transform="rotate(-0 471.810313 408.969594)">부산 나머지 동일 유형</text>
+    </g>
+   </g>
+  </g>
+  <g id="text_17">
+   <text style="font-size: 10px; font-family: 'Malgun Gothic'; text-anchor: start" x="20.712344" y="457.913625" transform="rotate(-0 20.712344 457.913625)">학습4년 매년 1건 이상·2024 양수 조합의 동일가중 평균. 사후 시점분리 검증이며 위험 예측·정책 효과가 아니다.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pf4b3d5d7bd">
+   <rect x="42.312344" y="24.473625" width="669.6" height="317.52"/>
+  </clipPath>
+ </defs>
+</svg>

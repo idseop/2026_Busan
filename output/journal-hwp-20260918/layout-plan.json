@@ -1,0 +1,98 @@
+[
+  {
+    "page": 1,
+    "figure": "01-city-spatial-specialization.png",
+    "source_sha256": "9d275a19d5c2ca3423ed93be910b1f2ada1e7ca7149e6e533119a0804cab77aa",
+    "pixels": [
+      3543,
+      4350
+    ],
+    "dpi": [
+      499.99899999999997,
+      499.99899999999997
+    ],
+    "width_mm": 180.001,
+    "height_mm": 220.998,
+    "position": "page centered; preserve aspect ratio"
+  },
+  {
+    "page": 2,
+    "figure": "02-district-dong-disease-continuity.png",
+    "source_sha256": "b235738f9d7b1c65f0ae5e71a7cfb9931274bb626ce144735cc52a5e17931ad7",
+    "pixels": [
+      3543,
+      4350
+    ],
+    "dpi": [
+      499.99899999999997,
+      499.99899999999997
+    ],
+    "width_mm": 180.001,
+    "height_mm": 220.998,
+    "position": "page centered; preserve aspect ratio"
+  },
+  {
+    "page": 3,
+    "figure": "03-temporal-joint-profile.png",
+    "source_sha256": "795342e3f75ce53fa2a1b1feeab4aa98462c7220505274a8ce6834e4d00e69af",
+    "pixels": [
+      3550,
+      4350
+    ],
+    "dpi": [
+      499.99899999999997,
+      499.99899999999997
+    ],
+    "width_mm": 180.001,
+    "height_mm": 220.564,
+    "position": "page centered; preserve aspect ratio"
+  },
+  {
+    "page": 4,
+    "figure": "04-resident-age-profile.png",
+    "source_sha256": "6c7c74d3308bdd43bee74edeb0ce5fad598620d91cd2e0ae16b8eb0b71b2ab56",
+    "pixels": [
+      3550,
+      4350
+    ],
+    "dpi": [
+      499.99899999999997,
+      499.99899999999997
+    ],
+    "width_mm": 180.001,
+    "height_mm": 220.564,
+    "position": "page centered; preserve aspect ratio"
+  },
+  {
+    "page": 5,
+    "figure": "05-health-profile.png",
+    "source_sha256": "58ed8a26dde76e116070edaab978f86c34b85673e547ae9039a1de92013b385e",
+    "pixels": [
+      3550,
+      4350
+    ],
+    "dpi": [
+      499.99899999999997,
+      499.99899999999997
+    ],
+    "width_mm": 180.001,
+    "height_mm": 220.564,
+    "position": "page centered; preserve aspect ratio"
+  },
+  {
+    "page": 6,
+    "figure": "06-commerce-visitation-profile.png",
+    "source_sha256": "fbc8d66e0e31d53e1753264918acc1605e0c3c40a78a4a3b8b985a01d4168f0c",
+    "pixels": [
+      3550,
+      4350
+    ],
+    "dpi": [
+      499.99899999999997,
+      499.99899999999997
+    ],
+    "width_mm": 180.001,
+    "height_mm": 220.564,
+    "position": "page centered; preserve aspect ratio"
+  }
+]

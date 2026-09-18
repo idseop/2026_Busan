@@ -1,0 +1,262 @@
+[
+  {
+    "path": "annual_direction_channel_decomposition.csv",
+    "bytes": 171714,
+    "sha256": "d87eafd59fec8aff3ea6bd7defef0e020d1a5043b4cd59b0a07fe24dc4754ff7"
+  },
+  {
+    "path": "case-selection.json",
+    "bytes": 4073,
+    "sha256": "7bf5b54b6bf65e9a8f31ab583627379d205a2bafb08a782f18cc26df91f6f58a"
+  },
+  {
+    "path": "channel_decomposition.png",
+    "bytes": 73447,
+    "sha256": "3d0bb044978e301a1b60fb915d42857115fa7650aad2684f68b2009b3964b6e9"
+  },
+  {
+    "path": "channel_decomposition.svg",
+    "bytes": 78558,
+    "sha256": "6e4905d6b949692bff1e63dc40e65ffd450ea95f773ffb74c40fd63276601b48"
+  },
+  {
+    "path": "focus_channel_decomposition.csv",
+    "bytes": 1650,
+    "sha256": "3f583a22b75bc1fcbbdd0b742609695a0bf9fac73ae9e84b2fcf399b91e97c8f"
+  },
+  {
+    "path": "index.html",
+    "bytes": 19343,
+    "sha256": "b4bd81491d575b5cfe49535c3375af00a67f095358ceec74c005b6d8293c5430"
+  },
+  {
+    "path": "resolution-data.js",
+    "bytes": 390768,
+    "sha256": "c02f1a87a23b58cfb973b2430b9cbae14ffec4d94e02f22a299aac421f49fb22"
+  },
+  {
+    "path": "same_mobile_comparison.csv",
+    "bytes": 1798718,
+    "sha256": "772638f8a7e87b44a5e16939a5e91c3453b0cc454b61e3c6da2dc4616bfbd86d"
+  },
+  {
+    "path": "same_mobile_weekend.png",
+    "bytes": 168820,
+    "sha256": "f5cbf7865eaa6e5b0adb6c2c027bf5a5eba7f15082846f0ac086275fdb45a768"
+  },
+  {
+    "path": "same_mobile_weekend.svg",
+    "bytes": 122473,
+    "sha256": "b1b1366c93618427270ac82c57e8c44a4074894006fd93e96b62f6449b7aca39"
+  },
+  {
+    "path": "service-conditions.csv",
+    "bytes": 2199,
+    "sha256": "6ee015c03b26a83bf27f8c17462d84ba66a2a91ec2ef63d0947075947972607c"
+  },
+  {
+    "path": "service_conditions_comparison.png",
+    "bytes": 128974,
+    "sha256": "e156024c9502aecfe551e581cf2da4cba78a716664885160e67572a51d69b911"
+  },
+  {
+    "path": "service_conditions_comparison.svg",
+    "bytes": 137764,
+    "sha256": "e1d77ce81b39f4ed85406fbfc67161b81558acc99d1e1404e0d3cd22c2f382e9"
+  },
+  {
+    "path": "source-register.json",
+    "bytes": 19228,
+    "sha256": "c47e466351fd0cb35996c69b5b41322a6d8db06f672d768bcb4920c34bc0c640"
+  },
+  {
+    "path": "temporal_metrics.csv",
+    "bytes": 5643423,
+    "sha256": "6480f38a3e5b96e9906305d7277e6850d1c2cb3c228ebcbfc554d49ff94c8097"
+  },
+  {
+    "path": "보고서.md",
+    "bytes": 15076,
+    "sha256": "52cb7e838d467912bb43ce86c550ce7d0901cdb95a18db69980bf866288ffe49"
+  },
+  {
+    "path": "실행방법.txt",
+    "bytes": 2615,
+    "sha256": "20ca875d4c987526a7ff6854dd96ae50cfd0931a1c2fed05bac2f38adbc3a008"
+  },
+  {
+    "path": "verification\\advance-explorer-1366.png",
+    "bytes": 57992,
+    "sha256": "3065b545e7a5d8081cbb5a6cb1f222ee07de008806cb02469ef0393ef4bb62d4"
+  },
+  {
+    "path": "verification\\advance-explorer-1600.png",
+    "bytes": 68903,
+    "sha256": "5b0d202104b642b947b06752dc9b68aeec5f76b252f952483bf5a028858dba60"
+  },
+  {
+    "path": "verification\\advance-explorer-1920.png",
+    "bytes": 77313,
+    "sha256": "c34c2d65974c8fe29711eb390865fc19512cbeb065fdbe01a1e7e0b5692c33c1"
+  },
+  {
+    "path": "verification\\advance-first-1366.png",
+    "bytes": 72023,
+    "sha256": "60c1d90f103e71ab1327f61e81ff27b9e008d6728d23572127f9eaf8085df1a7"
+  },
+  {
+    "path": "verification\\advance-first-1600.png",
+    "bytes": 88438,
+    "sha256": "e156c482f88968ac069a847219ec4cdbaac6656f1e19f149c3798a3ded2128c4"
+  },
+  {
+    "path": "verification\\advance-first-1920.png",
+    "bytes": 111354,
+    "sha256": "a744e2b88e215fc1284d8da53a3ff4eb254a3cf9c9faf7bb89e0f0aa7d8dd932"
+  },
+  {
+    "path": "verification\\advance-s2.png",
+    "bytes": 55790,
+    "sha256": "1869eb4588a06c99dde496f232761b48ce179e0903fa265894f40271998c78a2"
+  },
+  {
+    "path": "verification\\advance-s4.png",
+    "bytes": 86160,
+    "sha256": "c3b4da93a337bb513f3647dc37ef1a011b62f3c993a873e2054f86290df8ec0e"
+  },
+  {
+    "path": "verification\\advance-s5.png",
+    "bytes": 95284,
+    "sha256": "b341bb4477ac730d5a8613700f2115f3150f5252a92b0fb1f199b7c08e3ba7ce"
+  },
+  {
+    "path": "verification\\advance-s8.png",
+    "bytes": 75774,
+    "sha256": "377d006882abc26001f56572f7d0b5ac968bd6b3ad471a56ec77ab7acad3b58e"
+  },
+  {
+    "path": "verification\\advance-yeonsan-services.png",
+    "bytes": 53416,
+    "sha256": "51953e3e4bad1c85b85004882a12dc0f4d206ede995ca5dafd3757644c1e4620"
+  },
+  {
+    "path": "verification\\education-independent-review.json",
+    "bytes": 3366,
+    "sha256": "9685a81d1927bd439ea3593ea24894cdce4e0fcad6e79fcc8398eb1f9c98e7b9"
+  },
+  {
+    "path": "verification\\resolution-integration-review.json",
+    "bytes": 4779,
+    "sha256": "5e4b81cf0c90853fe2abd739bbcd36170b3ca88f8fcc604598f96f0b3c80ce28"
+  },
+  {
+    "path": "verification\\resolution-package-review.json",
+    "bytes": 1273,
+    "sha256": "ed472e0c1a182e29a21051bedd38a7da36a880d43ea33cd7aa447de5a2cdcba6"
+  },
+  {
+    "path": "verification\\resolution-report-review-1600.png",
+    "bytes": 88438,
+    "sha256": "e156c482f88968ac069a847219ec4cdbaac6656f1e19f149c3798a3ded2128c4"
+  },
+  {
+    "path": "verification\\resolution-source-verification.json",
+    "bytes": 14068,
+    "sha256": "44d8ed21b4522257c9ba767bd88bd5fca7a740b58a2f377fa3ab7c93b514eedb"
+  },
+  {
+    "path": "verification\\response-independent.json",
+    "bytes": 5632,
+    "sha256": "c47710af62199943fe312dd023cadda3a8fce3bbc8a1980916a2903e098358f6"
+  },
+  {
+    "path": "verification\\selection-independent.json",
+    "bytes": 10567374,
+    "sha256": "1634ba395cb6fb851af60763c6ac19893a83d92530502d6146c3b78ddbb5ca30"
+  },
+  {
+    "path": "verification\\selection-tvd-independent.json",
+    "bytes": 154,
+    "sha256": "9f239f96c9a3414eb09c766f7ca4f2c01dec21e590cbb47d9fc59b2cc4594cb0"
+  },
+  {
+    "path": "verification\\verify_resolution_integration.py",
+    "bytes": 4044,
+    "sha256": "8b253fb37a72559188a84cf2bed92523be7fddcb25f6b04f89321538e19ba05f"
+  },
+  {
+    "path": "verification\\verify_resolution_package.py",
+    "bytes": 1869,
+    "sha256": "ff2c15c5b15b8fccd65086b143d65f9c893edbe7c19002c08b498e8914969d1e"
+  },
+  {
+    "path": "verification\\verify_resolution_sources.py",
+    "bytes": 4967,
+    "sha256": "59f597f5592e97a497980fa92f34b18d1743e5b615526f691038f97dc3ebf0ee"
+  },
+  {
+    "path": "verification\\web-validation.json",
+    "bytes": 1645,
+    "sha256": "dbd83b0458ba6ffc349c1c0335e1c89f9e34d1c31b684727643faf40d8d2b1f4"
+  },
+  {
+    "path": "verification\\독립검토.md",
+    "bytes": 3316,
+    "sha256": "4b8780fa69313469c8a1d1bd846ab07be1f2dcc3744eec85e01d990b3ab49d1e"
+  },
+  {
+    "path": "code\\scripts\\analyze_prevention_service_conditions_20260916.py",
+    "bytes": 5165,
+    "sha256": "20d96b84a106880677decfdb197031cbb04c74e530b6f2c8297f21ce05eb973f"
+  },
+  {
+    "path": "code\\scripts\\build_followup_explorer_20260916.py",
+    "bytes": 20271,
+    "sha256": "bc358404259c373c5acf1f6856da95eb646093125245bd5f6474f7f66976203f"
+  },
+  {
+    "path": "code\\scripts\\build_resolution_report_20260916.py",
+    "bytes": 19484,
+    "sha256": "6b54232c62873aeca5925ec0c4640e132f969698e53e86464d47caaf0873366a"
+  },
+  {
+    "path": "code\\scripts\\check_resolution_web_20260916.py",
+    "bytes": 4992,
+    "sha256": "cfcbfa4e0209e06690732b8da7498e7e4bedca9bb887c78f220511ca0283cb03"
+  },
+  {
+    "path": "code\\scripts\\collect_dong_services_20260916.py",
+    "bytes": 18757,
+    "sha256": "00fc7300820ef74d1c92f7e20a7f3dfaadc5c8c699befda6a6f4a64609319e96"
+  },
+  {
+    "path": "code\\scripts\\collect_resolution_evidence_20260916.py",
+    "bytes": 13315,
+    "sha256": "269e048ed6a75392c47ce3c67f1406a77b58c55ba09d1dcb69ea4c1be1e59711"
+  },
+  {
+    "path": "code\\scripts\\collect_traffic_resolution_20260916.py",
+    "bytes": 12412,
+    "sha256": "50482166a4ab9b0615ff1435896ea17fc643ccfb83a526f3f61eaf624da53c60"
+  },
+  {
+    "path": "code\\scripts\\connect_resolution_20260916.py",
+    "bytes": 1307,
+    "sha256": "385ae61a49715ec0004b08775eb82b285ef08c21d2d1f1e60ad2cc91323cc26b"
+  },
+  {
+    "path": "code\\scripts\\package_resolution_20260916.py",
+    "bytes": 7400,
+    "sha256": "a30bbf256ddc4119d51c7f910b7a3608197db8f87e6d594b740726bc7738081f"
+  },
+  {
+    "path": "code\\scripts\\plot_service_conditions_20260916.py",
+    "bytes": 2173,
+    "sha256": "5b9cc4ca890b5f60cbb0cdb8f355f4364302d8753b6dfcca708072fc7584a7d9"
+  },
+  {
+    "path": "code\\analysis\\00_공통\\analyze_selection_deepening_20260916.py",
+    "bytes": 12807,
+    "sha256": "f125e1e2e45a0b78bbcdf91414180dd3a6df9ad7ee8f5f860176dba9378cf117"
+  }
+]

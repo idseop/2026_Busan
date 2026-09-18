@@ -1,0 +1,8 @@
+# Versions used for final analysis and browser verification on Windows / Chrome
+pandas==3.0.1
+numpy==2.3.5
+matplotlib==3.11.1
+openpyxl==3.1.5
+shapely==2.1.2
+pyproj==3.8.0
+playwright==1.62.0

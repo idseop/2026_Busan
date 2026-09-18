@@ -1,0 +1,20 @@
+(() => {
+ const D=window.BUSAN_CURRENT,F=window.BUSAN_FIGURES,$=id=>document.getElementById(id),n=v=>Number(v).toLocaleString('ko-KR'),f=v=>Number(v).toFixed(1),esc=v=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ const link=(d,raw='',st='')=>'../?'+new URLSearchParams({district:d,...(raw?{dong:raw}:{}),...(st?{subtype:st}:{})});
+ const table=(heads,body)=>`<div class="table-wrap"><table class="report-table"><thead><tr>${heads.map(x=>'<th>'+x+'</th>').join('')}</tr></thead><tbody>${body}</tbody></table></div>`;
+ $('district-table').innerHTML=table(['건수 순서','구·군','5년 접수','부산 내 비중','주요 세부 유형 3개','2024 말 주민','65세 이상 비중'],D.districts.map((r,i)=>`<tr class="${i<5?'priority':''}"><td>${i+1}</td><td><a href="${link(r.district)}">${r.district} ↗</a></td><td>${n(r.countP)}</td><td>${f(r.citySharePct)}%</td><td class="cell-text">${D.guTypes.filter(x=>x.district===r.district).map(x=>`${esc(x.subtype)} ${n(x.countP)}`).join('<br>')}</td><td>${n(r.total)}</td><td>${f(r.pct_65_plus)}%</td></tr>`).join(''));
+ const keys=[['부산진구','부전동','질병외'],['부산진구','부전동','부상'],['해운대구','우동','질병'],['해운대구','좌동','질병'],['사하구','다대동','질병'],['사상구','모라동','질병'],['사상구','주례동','질병'],['북구','금곡동','질병']],hours=['00–04','04–08','08–12','12–16','16–20','20–24'];
+ $('focus-table').innerHTML=table(['구·군','신고 지역명 · 유형','5년 접수','지역 내 비중','최다 4시간대','구성비 유지¹'],keys.map(([d,raw,st])=>{const r=D.focus.find(x=>x.district===d&&x.rawDong===raw&&x.subtype===st);if(!r)throw Error('Missing focus '+raw+st);return `<tr><td>${d}</td><td><a href="${link(d,raw,st)}">${raw} · ${st} ↗</a></td><td>${n(r.countP)}</td><td>${f(r.shareRegionPct)}%</td><td>${hours[+r.hour4Peak]}시</td><td>${r.aboveRestBusan30}/30 · ${r.aboveRestDistrict30}/30</td></tr>`;}).join(''))+'<p class="muted">¹ 나머지 부산 / 같은 구의 나머지 지역보다 구성비가 높은 비교 수. 5년 × 2개 결측 조건 × 3개 처리 조건. 30개의 독립 표본이나 유의성 검정이 아닙니다.</p>';
+ function figure(item){return `<figure class="figure"><a href="${item.file}" target="_blank" rel="noopener"><img src="${item.file}" loading="lazy" alt="${esc(item.title)}"></a><figcaption>${esc(item.title.replace(/^\d+-/,''))} · 검증된 기존 그림</figcaption></figure>`;}
+ $('overview-figure').innerHTML=figure(F.figures[0]);$('time-figure').innerHTML=figure(F.figures[1]);$('health-figure').innerHTML=figure(F.figures[3]);
+ const renderGallery=(remote=false)=>{
+   const figs=remote?F.remoteFigures:F.figures;
+   $('figure-gallery').innerHTML=figs.map((x,i)=>`<div><h3>${i+1}. ${esc(x.title.replace(/^\d+[-_]/,''))}</h3>${figure(x)}</div>`).join('');
+   $('gallery-note').textContent=remote?'부산진구·중구 비교 12종 · C조건 574,662건(벌집제거 포함). 주민 대비 건수는 주민 노출 위험률이 아니며, 관서 자료는 현재 가용량이 아닙니다.':'현재 방향에 맞춘 통합 분석 9종 · P조건 555,786건 · 주민·주택·산업·보건 배경은 원인 추정과 구분합니다.';
+   document.querySelectorAll('[data-gallery]').forEach(b=>b.setAttribute('aria-pressed',String((b.dataset.gallery==='remote')===remote)));
+ };
+ $('figure-gallery').insertAdjacentHTML('beforebegin','<div class="report-nav"><button data-gallery="current">통합 분석 9종</button><button data-gallery="remote">최신 두 구 비교 12종</button></div><p id="gallery-note" class="muted"></p>');
+ document.querySelectorAll('[data-gallery]').forEach(b=>b.onclick=()=>renderGallery(b.dataset.gallery==='remote'));renderGallery();
+ $('proposal-results').innerHTML=D.proposals.filter(x=>x.id==='H1'||x.id==='H2').map(p=>`<article class="story-step"><span class="eyebrow">조건부 시범 후보 · 효과 미측정</span><h3>${p.district} ${p.rawDong}</h3><p>${esc(p.proposal)}</p><h4>시행 전 조건</h4><p>${esc(p.precondition)}</p><h4>시행 후 평가</h4><p>${esc(p.primaryMetric)}</p><p>${esc(p.secondaryMetric)}</p><h4>기대하는 변화</h4><p>${esc(p.effect)}</p><h4>수정·중단 기준</h4><p>${esc(p.stopRule)}</p><a href="${link(p.district,p.rawDong,'질병')}">지도에서 이 지역 보기 ↗</a></article>`).join('');
+ $('remote-table').innerHTML=table(['구·군','최신 두 구 보고서 C조건','벌집제거 제외','현재 주 분석 P조건'],D.crosswalk.filter(r=>['부산진구','중구'].includes(r.district)).map(r=>`<tr><td>${r.district}</td><td>${n(r.C)}</td><td>−${n(r.excludedBee)}</td><td>${n(r.P)}</td></tr>`).join(''));
+})();

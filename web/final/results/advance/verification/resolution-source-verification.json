@@ -1,0 +1,446 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "check": "previous inspection input hash",
+      "pass": true
+    },
+    {
+      "check": "19 defect rows",
+      "pass": true
+    },
+    {
+      "check": "6 onsite corrections noted",
+      "pass": true
+    },
+    {
+      "check": "13 not currently unresolved by inference",
+      "pass": true
+    },
+    {
+      "check": "zero new matches framed as search yield",
+      "pass": true
+    },
+    {
+      "check": "response snapshot gijang-current-board.html",
+      "pass": true
+    },
+    {
+      "check": "response snapshot geumjeong-current-board.html",
+      "pass": true
+    },
+    {
+      "check": "response snapshot busanjin-current-board.html",
+      "pass": true
+    },
+    {
+      "check": "response snapshot market-aed-agreement.html",
+      "pass": true
+    },
+    {
+      "check": "response snapshot sasang-aed-guidance.html",
+      "pass": true
+    },
+    {
+      "check": "response snapshot aed-v8-official-notice.html",
+      "pass": true
+    },
+    {
+      "check": "response snapshot gijang-search-시정.html",
+      "pass": true
+    },
+    {
+      "check": "response snapshot gijang-search-재점검.html",
+      "pass": true
+    },
+    {
+      "check": "response snapshot gijang-search-행정처분.html",
+      "pass": true
+    },
+    {
+      "check": "response snapshot gijang-search-조치결과.html",
+      "pass": true
+    },
+    {
+      "check": "response snapshot geumjeong-search-시정.html",
+      "pass": true
+    },
+    {
+      "check": "response snapshot geumjeong-search-재점검.html",
+      "pass": true
+    },
+    {
+      "check": "response snapshot geumjeong-search-행정처분.html",
+      "pass": true
+    },
+    {
+      "check": "response snapshot geumjeong-search-조치결과.html",
+      "pass": true
+    },
+    {
+      "check": "response snapshot busanjin-search-시정.html",
+      "pass": true
+    },
+    {
+      "check": "response snapshot busanjin-search-재점검.html",
+      "pass": true
+    },
+    {
+      "check": "response snapshot busanjin-search-행정처분.html",
+      "pass": true
+    },
+    {
+      "check": "response snapshot busanjin-search-조치결과.html",
+      "pass": true
+    },
+    {
+      "check": "response snapshot busanjin-datacenter-plan.html",
+      "pass": true
+    },
+    {
+      "check": "HWPX official original hash",
+      "pass": true
+    },
+    {
+      "check": "independent HWPX XML phrase 제8판",
+      "pass": true
+    },
+    {
+      "check": "independent HWPX XML phrase 2026. 3.",
+      "pass": true
+    },
+    {
+      "check": "independent HWPX XML phrase 장비 접근 및 사용이 가능한 시간",
+      "pass": true
+    },
+    {
+      "check": "independent HWPX XML phrase 배터리(패치) 유효기간 초과",
+      "pass": true
+    },
+    {
+      "check": "independent HWPX XML phrase 위치 정보(좌표)가 없을 경우",
+      "pass": true
+    },
+    {
+      "check": "independent HWPX XML phrase 외부표출",
+      "pass": true
+    },
+    {
+      "check": "independent HWPX XML phrase 보건소에서 정보를 수정",
+      "pass": true
+    },
+    {
+      "check": "independent HWPX XML phrase 일요일 사용 가능 주",
+      "pass": true
+    },
+    {
+      "check": "independent HWPX XML phrase 점검이력",
+      "pass": true
+    },
+    {
+      "check": "existing process acknowledged",
+      "pass": true
+    },
+    {
+      "check": "traffic snapshot bujeon-ceremony",
+      "pass": true
+    },
+    {
+      "check": "traffic snapshot bujeon-field-story",
+      "pass": true
+    },
+    {
+      "check": "traffic snapshot bujeon-finance",
+      "pass": true
+    },
+    {
+      "check": "traffic snapshot gwangan-procurement",
+      "pass": true
+    },
+    {
+      "check": "traffic snapshot gwangan-contract-list",
+      "pass": true
+    },
+    {
+      "check": "traffic snapshot sinpyeong-design",
+      "pass": true
+    },
+    {
+      "check": "traffic snapshot gwangan-public-proposal",
+      "pass": true
+    },
+    {
+      "check": "traffic snapshot nampo-cctv",
+      "pass": true
+    },
+    {
+      "check": "traffic snapshot gwangan-procurement-full",
+      "pass": true
+    },
+    {
+      "check": "traffic snapshot sinpyeong-design-full",
+      "pass": true
+    },
+    {
+      "check": "traffic snapshot gwangan-contract-search",
+      "pass": true
+    },
+    {
+      "check": "traffic snapshot gwangan-contract-detail",
+      "pass": true
+    },
+    {
+      "check": "Bujeon effect unavailable rather than not evaluated",
+      "pass": true
+    },
+    {
+      "check": "Bujeon ceremony 2026-02-05",
+      "pass": true
+    },
+    {
+      "check": "Bujeon ceremony 부전역",
+      "pass": true
+    },
+    {
+      "check": "Bujeon ceremony 제막식",
+      "pass": true
+    },
+    {
+      "check": "Bujeon finance 1,257",
+      "pass": true
+    },
+    {
+      "check": "Bujeon finance 220",
+      "pass": true
+    },
+    {
+      "check": "Bujeon finance 부전역",
+      "pass": true
+    },
+    {
+      "check": "Gwangan contract 49,625,750",
+      "pass": true
+    },
+    {
+      "check": "Gwangan contract 48,520,000",
+      "pass": true
+    },
+    {
+      "check": "Gwangan contract 1,105,750",
+      "pass": true
+    },
+    {
+      "check": "Gwangan contract 2025-09-22",
+      "pass": true
+    },
+    {
+      "check": "Gwangan contract 2025-09-23",
+      "pass": true
+    },
+    {
+      "check": "Gwangan contract 20251107",
+      "pass": true
+    },
+    {
+      "check": "Gwangan contract 2025-11-12",
+      "pass": true
+    },
+    {
+      "check": "Gwangan contract 준공금",
+      "pass": true
+    },
+    {
+      "check": "Gwangan contract 보험료",
+      "pass": true
+    },
+    {
+      "check": "Gwangan settlement arithmetic",
+      "pass": true
+    },
+    {
+      "check": "planned end not actual end",
+      "pass": true
+    },
+    {
+      "check": "Sinpyeong design 2025.02.04",
+      "pass": true
+    },
+    {
+      "check": "Sinpyeong design 100,000,000",
+      "pass": true
+    },
+    {
+      "check": "Sinpyeong design 실시설계",
+      "pass": true
+    },
+    {
+      "check": "Nampo table 2025-03-10",
+      "pass": true
+    },
+    {
+      "check": "Nampo table 09:00~21:00",
+      "pass": true
+    },
+    {
+      "check": "Nampo table 11:30~14:00",
+      "pass": true
+    },
+    {
+      "check": "Nampo table 남포사거리",
+      "pass": true
+    },
+    {
+      "check": "no unverified spatial identity bujeon-2026",
+      "pass": true
+    },
+    {
+      "check": "no unverified spatial identity gwangan-2025-payment",
+      "pass": true
+    },
+    {
+      "check": "no unverified spatial identity sinpyeong-design",
+      "pass": true
+    },
+    {
+      "check": "no unverified spatial identity nampo-operating",
+      "pass": true
+    },
+    {
+      "check": "no unverified spatial identity gwangan-citizen-proposal",
+      "pass": true
+    }
+  ],
+  "checkedSourceHashes": [
+    {
+      "file": "data\\processed\\고도화검증-20260916\\response\\gijang-current-board.html",
+      "sha256": "26ac9e27eab406182b71cf44c1c02363be6a18f150b06c7a8213304518be0c54"
+    },
+    {
+      "file": "data\\processed\\고도화검증-20260916\\response\\geumjeong-current-board.html",
+      "sha256": "3bcd651e401c118865c928e00cc85aa99d03fe0586a80fbb063e84d019c329f8"
+    },
+    {
+      "file": "data\\processed\\고도화검증-20260916\\response\\busanjin-current-board.html",
+      "sha256": "a706c8ec856435502b511337731bfdf6c9bf4de426bd6805a6aa3460f3cc15b5"
+    },
+    {
+      "file": "data\\processed\\고도화검증-20260916\\response\\market-aed-agreement.html",
+      "sha256": "f07e5ac678e25bad6f2a24e199b291881f01e8cd64c1dbddfa82d24d2bc77efd"
+    },
+    {
+      "file": "data\\processed\\고도화검증-20260916\\response\\sasang-aed-guidance.html",
+      "sha256": "0b388723ba65c62c7c7d357cda3e7704903305f3c1d336ea4169d8fcdab9844c"
+    },
+    {
+      "file": "data\\processed\\고도화검증-20260916\\response\\aed-v8-official-notice.html",
+      "sha256": "b1c041783421ee8987969d5e47cfffe98aea0285c37a5bdc66e98069f8ed83a6"
+    },
+    {
+      "file": "data\\processed\\고도화검증-20260916\\response\\gijang-search-시정.html",
+      "sha256": "e1f702b24bb7668bdc253a50efff03a29ca2198ac5928355caf36c84615c15eb"
+    },
+    {
+      "file": "data\\processed\\고도화검증-20260916\\response\\gijang-search-재점검.html",
+      "sha256": "8184dace1e5991733774addb458d037eb8eb8165f057a4b42fa0ced806b2465d"
+    },
+    {
+      "file": "data\\processed\\고도화검증-20260916\\response\\gijang-search-행정처분.html",
+      "sha256": "640aa3b3da0a28d2dbd0999930b3953d667709e176b8d9e0ccc4f4dd229720da"
+    },
+    {
+      "file": "data\\processed\\고도화검증-20260916\\response\\gijang-search-조치결과.html",
+      "sha256": "85ed1e13285be46c3e8a604bbd2692a4d9d120d8cc5a15d97d12f95a99ba189e"
+    },
+    {
+      "file": "data\\processed\\고도화검증-20260916\\response\\geumjeong-search-시정.html",
+      "sha256": "15d070cc63773b926d94ea126d1618a266793a1e49ae15db0ea2122b529a7d4f"
+    },
+    {
+      "file": "data\\processed\\고도화검증-20260916\\response\\geumjeong-search-재점검.html",
+      "sha256": "5987c6816b9e4b83f6c5a8550971b10e4d7baa117546c612f245c1dd9a842391"
+    },
+    {
+      "file": "data\\processed\\고도화검증-20260916\\response\\geumjeong-search-행정처분.html",
+      "sha256": "f4cbd56e831f0c6a4410480d8786c5b95a1dd81b2bd833b5091646b1a95d15c5"
+    },
+    {
+      "file": "data\\processed\\고도화검증-20260916\\response\\geumjeong-search-조치결과.html",
+      "sha256": "8605ba4dbf58e6b6acf0fba67587c496128d5e9e9f4e40fd6989d98f3f3bfefb"
+    },
+    {
+      "file": "data\\processed\\고도화검증-20260916\\response\\busanjin-search-시정.html",
+      "sha256": "ba1b4ca9e87d52b0f1c7a0f8fec4ee24962eb299e726084641c526817d77c9bc"
+    },
+    {
+      "file": "data\\processed\\고도화검증-20260916\\response\\busanjin-search-재점검.html",
+      "sha256": "7d1810b63d407a2aa933604dcd62cab5afccac3228c496715bbfa7ef015310f6"
+    },
+    {
+      "file": "data\\processed\\고도화검증-20260916\\response\\busanjin-search-행정처분.html",
+      "sha256": "055d1a66af734c730c6a935b8ad9662fe19db8942422fe752f5e8d53c37325d4"
+    },
+    {
+      "file": "data\\processed\\고도화검증-20260916\\response\\busanjin-search-조치결과.html",
+      "sha256": "c04a4c15ea41ad21efe934198c38f2b4509bca155113a9cd2034b8caff50af40"
+    },
+    {
+      "file": "data\\processed\\고도화검증-20260916\\response\\busanjin-datacenter-plan.html",
+      "sha256": "1532df53a018b9ea6d3b54da11fdc3a9a8483520005bdd19c816d37bb3c871bd"
+    },
+    {
+      "file": "data\\processed\\고도화검증-20260916\\traffic\\bujeon-ceremony.html",
+      "sha256": "f4356598d6d2892cd0b112fe30dffa69bd41d82970b95b67af383cc264094b68"
+    },
+    {
+      "file": "data\\processed\\고도화검증-20260916\\traffic\\bujeon-field-story.html",
+      "sha256": "47827189777d2a3c8d6d525e658890946c68e8826cdb0e44b3467fb202c04304"
+    },
+    {
+      "file": "data\\processed\\고도화검증-20260916\\traffic\\bujeon-finance.html",
+      "sha256": "66724ed925fa495d27df5bf7c6774b5a3f83cd40fd86afe0bed3dbb04015396d"
+    },
+    {
+      "file": "data\\processed\\고도화검증-20260916\\traffic\\gwangan-procurement.html",
+      "sha256": "83849e4f518c77efef8121cb53c55a923e2b4c11fbc5522bea5668bea8c05735"
+    },
+    {
+      "file": "data\\processed\\고도화검증-20260916\\traffic\\gwangan-contract-list.html",
+      "sha256": "9c2d7a94d6f24b0fa9a3075bf9a829b2df2c32aef0a96ac129e3fc8933fdcdf2"
+    },
+    {
+      "file": "data\\processed\\고도화검증-20260916\\traffic\\sinpyeong-design.html",
+      "sha256": "83849e4f518c77efef8121cb53c55a923e2b4c11fbc5522bea5668bea8c05735"
+    },
+    {
+      "file": "data\\processed\\고도화검증-20260916\\traffic\\gwangan-public-proposal.html",
+      "sha256": "05de5328731eaabc80b326f83fdadc907888eeecc9fb41f231ad801a56a418a9"
+    },
+    {
+      "file": "data\\processed\\고도화검증-20260916\\traffic\\nampo-cctv.html",
+      "sha256": "1a6c7255267b74f7ca69cca0928a13513b07ff28631c7585153e88504808d68e"
+    },
+    {
+      "file": "data\\processed\\고도화검증-20260916\\traffic\\gwangan-procurement-full.html",
+      "sha256": "e285e5feee26438bc6ecae79215cdbdfe8f8f6f823e64bedd8d8e9868f98c3ba"
+    },
+    {
+      "file": "data\\processed\\고도화검증-20260916\\traffic\\sinpyeong-design-full.html",
+      "sha256": "6bec871577a00ce623d1123fdbfbb06332cc366e7d2df3c04e1a3a755b58db4a"
+    },
+    {
+      "file": "data\\processed\\고도화검증-20260916\\traffic\\gwangan-contract-search.html",
+      "sha256": "eb2094c5662c59943c3f29a70cdc496c6a3956c1b4439ffa316ad45893919d55"
+    },
+    {
+      "file": "data\\processed\\고도화검증-20260916\\traffic\\gwangan-contract-detail.html",
+      "sha256": "3060f339e7c32a4291b89b9bd34b5882c7a4755beeebdcf339481484f2c8a9f8"
+    }
+  ],
+  "scope": "Original saved official HTML and independent HWPX XML extraction. Search failure is not proof of no action; no on-site effectiveness validation.",
+  "correctionResolved": "Bujeon quantifiable effect not assessed -> evidence not acquired",
+  "authorFiles": {
+    "data\\processed\\고도화검증-20260916\\response\\resolution-evidence.json": "26af9bc8eac438c55586e16ef5ce1049c96358fc296821fca3a9076b3f39ae6a",
+    "data\\processed\\고도화검증-20260916\\traffic\\traffic-resolution.json": "3e915a46654d150e9bf3a49050255074a3a7e3fb5d085a0cff4d650e7a4fdd1c",
+    "data\\processed\\고도화검증-20260916\\response\\aed-guideline-v8.hwpx": "9f4a60e746a450425e2268bff3af9b374b4cc783a023f0791d930e156c2975f3"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "source": {
+    "url": "https://www.data.go.kr/data/15142761/fileData.do",
+    "path": "data\\processed\\후속입증-20260916\\living\\official-hour-page.html",
+    "sha256": "96e11ed6b23d031e9242561e6b795a5c100d73a6559f38d839fa1d38b37ccaf0",
+    "definitionLocation": "데이터 한계: 주거지와 직장지가 같은 경우 주거지로 판단"
+  },
+  "clarification": "Source HTML data-limit section confirms shared residence/workplace is classified as residence. JSON metadata alone omitted it."
+}

@@ -1,0 +1,5 @@
+﻿station,rows,assessed,defect_rows,defect_remark_onsite,defect_remark_blank,defect_other_remark,all_rows_remark_blank,blank_defect_distinct_name_strings,blank_defect_distinct_address_strings,duplicate_name_groups_all,duplicate_address_groups_all,unique_physical_facilities_confirmed
+기장소방서,33,33,6,6,0,0,19,0,0,0,0,False
+동래소방서,39,39,0,0,0,0,39,0,0,1,0,False
+금정소방서,26,25,3,0,3,0,25,3,3,0,0,False
+부산진소방서,34,34,10,0,10,0,34,10,10,0,0,False

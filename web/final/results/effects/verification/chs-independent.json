@@ -1,0 +1,43 @@
+{
+  "status": "pass",
+  "method": "Direct XLSX ZIP/XML cells; independent PDF read",
+  "records": 99,
+  "checks": 1089,
+  "definitionChecks": [
+    {
+      "district": "연제구",
+      "definitionPages": {
+        "weightingAndRSE": 5,
+        "samplingAge": 30
+      },
+      "tablePage": 206
+    },
+    {
+      "district": "부산진구",
+      "definitionPages": {
+        "weightingAndRSE": 5,
+        "samplingAge": 30
+      },
+      "tablePage": 207
+    },
+    {
+      "district": "수영구",
+      "definitionPages": {
+        "weightingAndRSE": 5,
+        "samplingAge": 30
+      },
+      "tablePage": 208
+    }
+  ],
+  "highRseRows": 7,
+  "hashes": {
+    "chs-education-summary.json": "15627c686f2be202eb685ec6b3079cccb099223b46d78f3b361a9d5c7fc6d198",
+    "chs2024-cpr-education.csv": "a84d8d83f892aa3d51a1ae9b372b999e7324364c38850d26cf6c82d9fa4d213b",
+    "chs-연제구-tables.xlsx": "703eff50e445c278931df36694e3962afa7455b9aaf09363a4b1e0201ebab9f5",
+    "chs-부산진구-tables.xlsx": "9688929c67b06c4a2bba190a4744f86af0a44eabfd6b04335646f973f58463a2",
+    "chs-수영구-tables.xlsx": "e340f5ccc5b4282c5ee6e69b3d9296a05c5468c400a5dd0b0922dabccc17b759",
+    "chs-browser-연제구-1.pdf": "9955006f879d4b2f3711a56fcc3d6a6fb90015bab7168cb8f5e9a70b979a66c9",
+    "chs-browser-부산진구-1.pdf": "fcfbac48716132c0350e8e5207003b1a53d3cff398766094ca36d7ad97e3c916",
+    "chs-browser-수영구-1.pdf": "9232847a1b0c18a737437732d7e2dd3a8af1fd96dcfc46e7e84916d20aab5612"
+  }
+}
