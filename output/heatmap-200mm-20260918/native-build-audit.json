@@ -1,0 +1,49 @@
+{
+  "own_pid": 28708,
+  "existing_pids": [
+    22848
+  ],
+  "expected_pages": 1,
+  "hwp_pages_before_save": 1,
+  "native_hwp_reopened_pages": 1,
+  "native_page_text_lengths": [
+    2
+  ],
+  "hwpx_structure": {
+    "pictures": 1,
+    "image_files": 1,
+    "visible_text": "",
+    "headers": 0,
+    "footers": 0,
+    "page_numbers": 0
+  },
+  "outputs": [
+    {
+      "path": "C:\\Users\\123\\Desktop\\학교 전체 폴더\\공모전 참가 기록\\부산 공모전\\시간대별-접수비중-200mm.hwp",
+      "bytes": 316416,
+      "sha256": "2f117fa021c270e4a4f47213d86b271badc3b8bdbe90105f7b8ae97c382671e0"
+    },
+    {
+      "path": "C:\\Users\\123\\Desktop\\학교 전체 폴더\\공모전 참가 기록\\부산 공모전\\시간대별-접수비중-200mm.hwpx",
+      "bytes": 307853,
+      "sha256": "426a2cd39aa56df6bdef42164b96ebe195a7cdaee878d048d22808b55f549610"
+    }
+  ],
+  "qa_pdf_pages": 1,
+  "qa_pdf_sha256": "12d1027b11f4c356e733d9b2729ff6f979e480077f3c0d75a1e6f9489726a8b5",
+  "dimension_verification": {
+    "requested_mm": [
+      200,
+      140
+    ],
+    "hwp_units": [
+      56693,
+      39685
+    ],
+    "paper_mm": [
+      210,
+      297
+    ],
+    "exact_source_image_preserved": true
+  }
+}

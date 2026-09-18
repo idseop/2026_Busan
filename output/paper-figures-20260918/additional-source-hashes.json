@@ -1,0 +1,51 @@
+﻿[
+    {
+        "path":  "data/processed/5개년통합-지역유형-제안연결-20260917/01-16구군-5년합계와-한해제외순위.csv",
+        "currentSha256":  "39461b078607d5f4b60579c5ba4d01cd287e81be2d9247a19045dc0db86449ef",
+        "expectedSha256":  "39461b078607d5f4b60579c5ba4d01cd287e81be2d9247a19045dc0db86449ef",
+        "hashMatches":  true,
+        "manifest":  "data/processed/5개년통합-지역유형-제안연결-20260917/manifest.json"
+    },
+    {
+        "path":  "data/processed/5개년통합-지역유형-제안연결-20260917/02-전체70유형-5년합계와-한해제외순위.csv",
+        "currentSha256":  "c787cc43f5d1654bafc2cea387af07d9564372e49fffb7fcd664fb853980ee72",
+        "expectedSha256":  "c787cc43f5d1654bafc2cea387af07d9564372e49fffb7fcd664fb853980ee72",
+        "hashMatches":  true,
+        "manifest":  "data/processed/5개년통합-지역유형-제안연결-20260917/manifest.json"
+    },
+    {
+        "path":  "data/processed/5개년통합-지역유형-제안연결-20260917/03-구군별70유형-동일유형연결.csv",
+        "currentSha256":  "931ebe0ca8d0fd698eef8c4eb2f59c6dcc2d30a41030ceca617571e32841c54b",
+        "expectedSha256":  "931ebe0ca8d0fd698eef8c4eb2f59c6dcc2d30a41030ceca617571e32841c54b",
+        "hashMatches":  true,
+        "manifest":  "data/processed/5개년통합-지역유형-제안연결-20260917/manifest.json"
+    },
+    {
+        "path":  "data/processed/5개년통합-지역유형-제안연결-20260917/11-상위5구군45조합-5년시간교차집계.csv",
+        "currentSha256":  "17eb7fe58dfac5c196002bd145e07188beabf620b62ee4a9d61fb3545be14668",
+        "expectedSha256":  "17eb7fe58dfac5c196002bd145e07188beabf620b62ee4a9d61fb3545be14668",
+        "hashMatches":  true,
+        "manifest":  "data/processed/5개년통합-지역유형-제안연결-20260917/manifest.json"
+    },
+    {
+        "path":  "data/processed/신고주민연결심화-20260917/direction-connections/major-burden-commerce-20quarters.csv",
+        "currentSha256":  "c4dcc8bea5eabe4c8f6b74e45e8a01f826cf30a074596c5f5a7e413f67215dae",
+        "expectedSha256":  "c4dcc8bea5eabe4c8f6b74e45e8a01f826cf30a074596c5f5a7e413f67215dae",
+        "hashMatches":  true,
+        "manifest":  "data/processed/신고주민연결심화-20260917/direction-connections/manifest.json"
+    },
+    {
+        "path":  "data/processed/신고주민연결심화-20260917/direction-connections/major-burden-living-candidates-2023-2024.csv",
+        "currentSha256":  "e2f12e6106b453741e6c555f8077b422bc541f09bb4cf67dd457781cce239a58",
+        "expectedSha256":  "e2f12e6106b453741e6c555f8077b422bc541f09bb4cf67dd457781cce239a58",
+        "hashMatches":  true,
+        "manifest":  "data/processed/신고주민연결심화-20260917/direction-connections/manifest.json"
+    },
+    {
+        "path":  "data/processed/통합완성-20260916/context/living-hour-annual-equal-month-means.csv",
+        "currentSha256":  "d6e06f97d6cae7c337306ea6bf0ba15eff37f3b44bed059a13af12bba1ddf9b6",
+        "expectedSha256":  "d6e06f97d6cae7c337306ea6bf0ba15eff37f3b44bed059a13af12bba1ddf9b6",
+        "hashMatches":  true,
+        "manifest":  "data/processed/통합완성-20260916/verification/context-independent.json"
+    }
+]

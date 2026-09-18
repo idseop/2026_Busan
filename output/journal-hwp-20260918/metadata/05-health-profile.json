@@ -1,0 +1,261 @@
+{
+  "caption": "2024년 구 단위 건강조사 비교. a와 b는 같은 구·질환 행을 나란히 배치한 치료율 및 관리교육 이수율의 비교이며 c는 별도 분모의 연간 미충족의료율 비교다. 각 점은 가중 공표값, 가로선은 근사 95% 구간이다.",
+  "sources": [
+    {
+      "path": "data\\processed\\신고보건심화-20260917\\health-district-summary-2024.csv",
+      "sha256": "598ef82a5df75efb16e57d5b41a61dd1ef85ba8301bcd5046dea835be439893f"
+    }
+  ],
+  "year": 2024,
+  "denominators": {
+    "a_b": "30세 이상 해당 질환 진단 경험자; n은 비가중 표본 수. 치료·교육 공표값은 조사 가중비율.",
+    "c": "병의원 진료가 필요했던 응답자; n은 비가중 표본 수. 전체 주민·동·119 신고 당사자 분모가 아님."
+  },
+  "ci_definition": "기존 검증 CSV의 estimate ± 1.96×SE로 계산된 근사 95% 구간. 0–100 범위 제한. 새 검정·공식 공표 신뢰구간으로 주장하지 않음.",
+  "warnings": [
+    "a 치료율 축 85–101%, b 교육 이수율 축 0–16%, c 미충족의료율 축 0–20%로 범위가 다름.",
+    "a와 b의 차이를 미충족 수요나 같은 개인의 교육 미이수로 해석하지 않음.",
+    "교육 4개 추정치는 RSE 25% 이상으로 정밀도 주의.",
+    "구 조사값을 다대·금곡 주민 또는 신고 당사자의 건강 상태로 적용하지 않음.",
+    "2023/2024 공표표의 분모 문구 차이가 있어 2024 단면만 표시. 정책 효과나 구 간 차이의 유의성 검정은 수행하지 않음."
+  ],
+  "official_source": "https://chs.kdca.go.kr/chs/recsRoom/healthStatsMain.do",
+  "data_rows": {
+    "a_b": [
+      {
+        "district": "사하구",
+        "year": "2024",
+        "indicator": "고혈압 진단 경험자의 치료율_30",
+        "group": "전체",
+        "sex": "전체",
+        "n": "282",
+        "estimate": "94.4",
+        "se": "1.6",
+        "rse": "1.7",
+        "lower_approx95": "91.26400000000001",
+        "upper_approx95": "97.536",
+        "status": "공표값",
+        "published_value": "94.4(1.6)",
+        "source_file": "data\\processed\\신고보건심화-20260917\\sources\\chs2024-사하구.xlsx",
+        "source_excel_row": "4964",
+        "unit": "%"
+      },
+      {
+        "district": "사하구",
+        "year": "2024",
+        "indicator": "고혈압 관리교육 이수율_30",
+        "group": "전체",
+        "sex": "전체",
+        "n": "282",
+        "estimate": "4.6",
+        "se": "1.6",
+        "rse": "33.7",
+        "lower_approx95": "1.4639999999999995",
+        "upper_approx95": "7.736",
+        "status": "정밀도 주의",
+        "published_value": "4.6(1.6)",
+        "source_file": "data\\processed\\신고보건심화-20260917\\sources\\chs2024-사하구.xlsx",
+        "source_excel_row": "5030",
+        "unit": "%"
+      },
+      {
+        "district": "북구",
+        "year": "2024",
+        "indicator": "고혈압 진단 경험자의 치료율_30",
+        "group": "전체",
+        "sex": "전체",
+        "n": "243",
+        "estimate": "93.9",
+        "se": "2.3",
+        "rse": "2.5",
+        "lower_approx95": "89.39200000000001",
+        "upper_approx95": "98.408",
+        "status": "공표값",
+        "published_value": "93.9(2.3)",
+        "source_file": "data\\processed\\신고보건심화-20260917\\sources\\chs2024-북구.xlsx",
+        "source_excel_row": "4964",
+        "unit": "%"
+      },
+      {
+        "district": "북구",
+        "year": "2024",
+        "indicator": "고혈압 관리교육 이수율_30",
+        "group": "전체",
+        "sex": "전체",
+        "n": "243",
+        "estimate": "4.7",
+        "se": "1.4",
+        "rse": "29.6",
+        "lower_approx95": "1.9560000000000004",
+        "upper_approx95": "7.444",
+        "status": "정밀도 주의",
+        "published_value": "4.7(1.4)",
+        "source_file": "data\\processed\\신고보건심화-20260917\\sources\\chs2024-북구.xlsx",
+        "source_excel_row": "5030",
+        "unit": "%"
+      },
+      {
+        "district": "사하구",
+        "year": "2024",
+        "indicator": "당뇨병 진단 경험자의 치료율_30",
+        "group": "전체",
+        "sex": "전체",
+        "n": "141",
+        "estimate": "98.5",
+        "se": "1.0",
+        "rse": "1.1",
+        "lower_approx95": "96.54",
+        "upper_approx95": "100.0",
+        "status": "공표값",
+        "published_value": "98.5(1.0)",
+        "source_file": "data\\processed\\신고보건심화-20260917\\sources\\chs2024-사하구.xlsx",
+        "source_excel_row": "5516",
+        "unit": "%"
+      },
+      {
+        "district": "사하구",
+        "year": "2024",
+        "indicator": "당뇨병 관리교육 이수율_30",
+        "group": "전체",
+        "sex": "전체",
+        "n": "141",
+        "estimate": "5.5",
+        "se": "1.8",
+        "rse": "33.1",
+        "lower_approx95": "1.972",
+        "upper_approx95": "9.028",
+        "status": "정밀도 주의",
+        "published_value": "5.5(1.8)",
+        "source_file": "data\\processed\\신고보건심화-20260917\\sources\\chs2024-사하구.xlsx",
+        "source_excel_row": "5582",
+        "unit": "%"
+      },
+      {
+        "district": "북구",
+        "year": "2024",
+        "indicator": "당뇨병 진단 경험자의 치료율_30",
+        "group": "전체",
+        "sex": "전체",
+        "n": "123",
+        "estimate": "98.0",
+        "se": "1.0",
+        "rse": "1.0",
+        "lower_approx95": "96.04",
+        "upper_approx95": "99.96",
+        "status": "공표값",
+        "published_value": "98.0(1.0)",
+        "source_file": "data\\processed\\신고보건심화-20260917\\sources\\chs2024-북구.xlsx",
+        "source_excel_row": "5516",
+        "unit": "%"
+      },
+      {
+        "district": "북구",
+        "year": "2024",
+        "indicator": "당뇨병 관리교육 이수율_30",
+        "group": "전체",
+        "sex": "전체",
+        "n": "123",
+        "estimate": "8.0",
+        "se": "2.6",
+        "rse": "32.7",
+        "lower_approx95": "2.904",
+        "upper_approx95": "13.096",
+        "status": "정밀도 주의",
+        "published_value": "8.0(2.6)",
+        "source_file": "data\\processed\\신고보건심화-20260917\\sources\\chs2024-북구.xlsx",
+        "source_excel_row": "5582",
+        "unit": "%"
+      }
+    ],
+    "c": [
+      {
+        "district": "북구",
+        "year": "2024",
+        "indicator": "연간 미충족의료율(병의원)",
+        "group": "전체",
+        "sex": "전체",
+        "n": "873",
+        "estimate": "13.7",
+        "se": "1.3",
+        "rse": "9.3",
+        "lower_approx95": "11.152",
+        "upper_approx95": "16.247999999999998",
+        "status": "공표값",
+        "published_value": "13.7(1.3)",
+        "source_file": "data\\processed\\신고보건심화-20260917\\sources\\chs2024-북구.xlsx",
+        "source_excel_row": "6401",
+        "unit": "%"
+      },
+      {
+        "district": "부산진구",
+        "year": "2024",
+        "indicator": "연간 미충족의료율(병의원)",
+        "group": "전체",
+        "sex": "전체",
+        "n": "898",
+        "estimate": "9.8",
+        "se": "1.2",
+        "rse": "12.3",
+        "lower_approx95": "7.448",
+        "upper_approx95": "12.152000000000001",
+        "status": "공표값",
+        "published_value": "9.8(1.2)",
+        "source_file": "data\\processed\\효과근거확장-20260916\\context\\chs-부산진구-tables.xlsx",
+        "source_excel_row": "6956",
+        "unit": "%"
+      },
+      {
+        "district": "사하구",
+        "year": "2024",
+        "indicator": "연간 미충족의료율(병의원)",
+        "group": "전체",
+        "sex": "전체",
+        "n": "822",
+        "estimate": "4.9",
+        "se": "0.7",
+        "rse": "14.3",
+        "lower_approx95": "3.5280000000000005",
+        "upper_approx95": "6.272",
+        "status": "공표값",
+        "published_value": "4.9(0.7)",
+        "source_file": "data\\processed\\신고보건심화-20260917\\sources\\chs2024-사하구.xlsx",
+        "source_excel_row": "6401",
+        "unit": "%"
+      }
+    ]
+  },
+  "checks": {
+    "paired_rows_n_identical": true,
+    "all_rows_verified_csv": true
+  },
+  "created": "2026-09-18",
+  "figure_inches": [
+    7.1,
+    8.7
+  ],
+  "nominal_width_mm": 180.34,
+  "png_dpi": [
+    499.99899999999997,
+    499.99899999999997
+  ],
+  "size_px": [
+    3550,
+    4350
+  ],
+  "font": "Malgun Gothic",
+  "palette": [
+    "#197C80",
+    "#CA6A38",
+    "#7D6B91"
+  ],
+  "png_sha256": "58ed8a26dde76e116070edaab978f86c34b85673e547ae9039a1de92013b385e",
+  "svg_sha256": "57c2f7dfa6a6531f75d5333b384cab2fa7b9d9cb7b89b89a2c296310ec01e3f5",
+  "text_outside_canvas": [],
+  "visual_review": {
+    "status": "PASS",
+    "date": "2026-09-18",
+    "method": "범례 추가 후 최종 PNG 직접 열람",
+    "findings": "상단 실제 점·가로구간 핸들 및 근사 95% 구간 범례 확인. 패널문자·도표와 겹치지 않음."
+  },
+  "legend": "실제 errorbar 핸들: 점 + 가로 구간, 근사 95% 구간"
+}

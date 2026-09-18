@@ -1,0 +1,39 @@
+{
+  "own_pid": 26292,
+  "existing_pids": [
+    22848
+  ],
+  "expected_pages": 6,
+  "hwp_pages_before_save": 6,
+  "native_hwp_reopened_pages": 6,
+  "native_page_text_lengths": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "hwpx_structure": {
+    "pictures": 6,
+    "image_files": 6,
+    "visible_text": "",
+    "headers": 0,
+    "footers": 0,
+    "page_numbers": 0
+  },
+  "outputs": [
+    {
+      "path": "C:\\Users\\123\\Desktop\\학교 전체 폴더\\공모전 참가 기록\\부산 공모전\\2026-BigData-논문형시각화.hwp",
+      "bytes": 2951168,
+      "sha256": "6238b022388eb3ae121c113b2f07e2cb3680d94bd6c2e560206fefe57d0d6734"
+    },
+    {
+      "path": "C:\\Users\\123\\Desktop\\학교 전체 폴더\\공모전 참가 기록\\부산 공모전\\2026-BigData-논문형시각화.hwpx",
+      "bytes": 2796645,
+      "sha256": "24662884452cdadabe8663c6351eecdc286a5558220b1b2920527ced6c15c770"
+    }
+  ],
+  "qa_pdf_pages": 6,
+  "qa_pdf_sha256": "2a13dbea9d724157da22d6261f405c6a6cab39dc96665d0d1be6890c987d6759"
+}

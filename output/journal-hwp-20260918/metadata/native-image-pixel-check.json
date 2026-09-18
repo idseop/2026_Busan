@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "images": [
+    {
+      "embedded": "BinData/image1.png",
+      "matches_original_pixels": "01-city-spatial-specialization.png",
+      "size": [
+        3543,
+        4350
+      ]
+    },
+    {
+      "embedded": "BinData/image2.png",
+      "matches_original_pixels": "02-district-dong-disease-continuity.png",
+      "size": [
+        3543,
+        4350
+      ]
+    },
+    {
+      "embedded": "BinData/image3.png",
+      "matches_original_pixels": "03-temporal-joint-profile.png",
+      "size": [
+        3550,
+        4350
+      ]
+    },
+    {
+      "embedded": "BinData/image4.png",
+      "matches_original_pixels": "04-resident-age-profile.png",
+      "size": [
+        3550,
+        4350
+      ]
+    },
+    {
+      "embedded": "BinData/image5.png",
+      "matches_original_pixels": "05-health-profile.png",
+      "size": [
+        3550,
+        4350
+      ]
+    },
+    {
+      "embedded": "BinData/image6.png",
+      "matches_original_pixels": "06-commerce-visitation-profile.png",
+      "size": [
+        3550,
+        4350
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "period": "2020-01-01/2024-12-31",
+  "excludedYear": 2025,
+  "complete17Count": 704689,
+  "countP": 555786,
+  "scope": "정상 처리, 운영성 3분류와 벌집제거 제외(P); 기존 정의 유지",
+  "top5Districts": [
+    "부산진구",
+    "해운대구",
+    "사하구",
+    "사상구",
+    "북구"
+  ],
+  "top5Count": 252014,
+  "top5SharePct": 45.343711428499454,
+  "top5OrderStableAfterAnyOneYearRemoved": true,
+  "major3Count": 422067,
+  "major3SharePct": 75.94055985577182,
+  "districtTypeRows": 1120,
+  "dongTypeRows": 13580,
+  "leadingDongRows": 141,
+  "top5DongRows": 45,
+  "top5TimeSummaryRows": 540,
+  "top5TimeCellRows": 18990,
+  "timeScope": "45조합의 현재17개 조건 내 A(전체처리)와 P(정상)를 비교. 제외 전 core8의 시간분포를 재현한 것은 아님",
+  "oneYearOmissionMeaning": "기존5년 중 한 해씩 제외한 4년 합계. 독립 표본·신뢰구간·미래 검증이 아님",
+  "rankMeaning": "선택된 접수 건수순; 피해 심각성이나 종합 위험 순위가 아님",
+  "ratioRule": "5년 분자 합계 / 5년 분모 합계. 연도별 비율의 단순평균을 사용하지 않음",
+  "populationRule": "각 연말 주민 수와 비중; 5년 주민 수를 누적하지 않음",
+  "proposalMeaning": "기존 근거의 조건부 시범 2곳(금곡·다대); 효과 측정 미실시"
+}

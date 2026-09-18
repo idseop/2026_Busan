@@ -1,0 +1,50 @@
+{
+  "sources": {
+    "data/processed/5개년통합-지역유형-제안연결-20260917/11-상위5구군45조합-5년시간교차집계.csv": "17eb7fe58dfac5c196002bd145e07188beabf620b62ee4a9d61fb3545be14668",
+    "data/processed/신고주민연결심화-20260917/direction-connections/major-burden-commerce-20quarters.csv": "c4dcc8bea5eabe4c8f6b74e45e8a01f826cf30a074596c5f5a7e413f67215dae",
+    "data/processed/통합완성-20260916/context/living-hour-annual-equal-month-means.csv": "d6e06f97d6cae7c337306ea6bf0ba15eff37f3b44bed059a13af12bba1ddf9b6"
+  },
+  "figures": [
+    {
+      "figure": "03-temporal-joint-profile",
+      "period": "2020–2024",
+      "type": "구급/질병",
+      "denominators": {
+        "다대동": 4054,
+        "금곡동": 3615
+      },
+      "panels": {
+        "a_b": "168셀 공동분포 및 동일 분모의 시간·요일 주변분포; 공통 색상 범위",
+        "c": "질병접수의 시간별 구성비",
+        "d": "해당 달의 5개년 접수/해당 달의 실제 달력일수"
+      },
+      "cautions": [
+        "접수시각은 교육 적정시간이나 사고 발생시각의 증거가 아님",
+        "원문동명 집계, 행정동 임의배분 없음",
+        "추세·공동분포에 확률분포 추정이나 가짜 신뢰구간 없음"
+      ],
+      "png_sha256": "795342e3f75ce53fa2a1b1feeab4aa98462c7220505274a8ce6834e4d00e69af",
+      "text_inside_canvas": true
+    },
+    {
+      "figure": "06-commerce-visitation-profile",
+      "periods": {
+        "commerce": "2020Q1–2024Q4",
+        "visitors": "2023/2024, 각각 12개월 동일가중평균"
+      },
+      "panels": {
+        "a": "법정동 부전동 10업종: 각 분기 비중-2020Q1 비중(%p), 우측 2024Q4 비중",
+        "b_c": "부전1·2 행정동 후보별 시간당 방문인구 추정 월평균. 큰 빈 원은 각 연도 시간대 정점, 하단은 2024-2023 평균값 차이"
+      },
+      "cautions": [
+        "행정동 방문인구를 법정동 신고의 당사자수로 해석하지 않음",
+        "상가 단면 스냅숏으로 업소 패널 아님",
+        "차이 채색은 불확실성 구간이 아님",
+        "2025 제외"
+      ],
+      "png_sha256": "fbc8d66e0e31d53e1753264918acc1605e0c3c40a78a4a3b8b985a01d4168f0c",
+      "text_inside_canvas": true
+    }
+  ],
+  "status": "PASS"
+}

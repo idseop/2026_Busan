@@ -1,0 +1,224 @@
+[
+  {
+    "file": "pdf/01-기존도표-글자확대-그림만.pdf",
+    "count": 10,
+    "sha256": "085371f407fd857ae6129822a6e0c828da7962da3d1f97cffd412ba5fb58ab23",
+    "pages": [
+      {
+        "figure": "01-inclusion-flow",
+        "svg_sha256": "79188de405b5247f0aec7480367578e43c4ded45188e0b710afcbd5947373af1",
+        "pdf_size_pt": [
+          510.2362060546875,
+          379.842529296875
+        ]
+      },
+      {
+        "figure": "02-busan-type-composition",
+        "svg_sha256": "211d9004db324c8a1428ce70f101f0fa3e45f0f54e2798e93c62b6bc2a7c472c",
+        "pdf_size_pt": [
+          510.2362060546875,
+          325.9842529296875
+        ]
+      },
+      {
+        "figure": "03-district-counts-types",
+        "svg_sha256": "5e5c0c166c01bfaa8b77727c8ba90037d510f646cfe2ab364aa4ead4eb84b809",
+        "pdf_size_pt": [
+          510.2362060546875,
+          549.9212646484375
+        ]
+      },
+      {
+        "figure": "04-district-dong-disease",
+        "svg_sha256": "c7903d51efc8bf33c241276d39c9ced08958853f6acd06be4238093305eecdde",
+        "pdf_size_pt": [
+          510.2362060546875,
+          493.22833251953125
+        ]
+      },
+      {
+        "figure": "05-annual-disease-counts",
+        "svg_sha256": "a7a70f3cb2d75061a785e412781beee3a016938855cdcafac65c7d1ac397bc35",
+        "pdf_size_pt": [
+          510.2362060546875,
+          362.83465576171875
+        ]
+      },
+      {
+        "figure": "06-dong-time-patterns",
+        "svg_sha256": "db891cd5c9988258f7717e6c07cbbef8ddc332a8fc014d397819bdd2fdb4499c",
+        "pdf_size_pt": [
+          510.2362060546875,
+          428.031494140625
+        ]
+      },
+      {
+        "figure": "07-resident-age-composition",
+        "svg_sha256": "f9e81d06f0839bb1f3e0635decf3a0fee29b70f2e5f5c81cd686a6ad3dd102e9",
+        "pdf_size_pt": [
+          510.2362060546875,
+          445.03936767578125
+        ]
+      },
+      {
+        "figure": "08-health-treatment-education",
+        "svg_sha256": "3a595124ded29eb9b79477e89fabec005a6e89fd65289ac48efda2e30d9296f9",
+        "pdf_size_pt": [
+          510.2362060546875,
+          377.00787353515625
+        ]
+      },
+      {
+        "figure": "09-proposal-counselling-education-evaluation",
+        "svg_sha256": "7414fe4c6710e331e0e36fad9d7ed38478c720b54adc814bc6e7f287f7948c88",
+        "pdf_size_pt": [
+          510.2362060546875,
+          155.905517578125
+        ]
+      },
+      {
+        "figure": "10-web-exploration-cycle",
+        "svg_sha256": "e990dcb9c8f5bd14162a5348fa4b3253756504e0a66efb667bf05b2795750d58",
+        "pdf_size_pt": [
+          510.2362060546875,
+          277.7952880859375
+        ]
+      }
+    ]
+  },
+  {
+    "file": "pdf/02-논문형도표-추가포함-그림만.pdf",
+    "count": 16,
+    "sha256": "f98b5b52b2d103782abbdf0879507a507a4b0cfdcd1b72c51c0c96a740db3658",
+    "pages": [
+      {
+        "figure": "01-inclusion-flow",
+        "svg_sha256": "03ea069aa65822f4a18946da276584fb1a6310d06c922ee2725830eefb12da21",
+        "pdf_size_pt": [
+          510.2362060546875,
+          379.842529296875
+        ]
+      },
+      {
+        "figure": "02-busan-type-composition",
+        "svg_sha256": "844fd30d85f5dee865fd810f7610305d6ab8f9004149ebd2187d962213cbf241",
+        "pdf_size_pt": [
+          510.2362060546875,
+          325.9842529296875
+        ]
+      },
+      {
+        "figure": "03-district-counts-types",
+        "svg_sha256": "959c549ebe128bcbd45f68ae2619a4342db0fcf3eeb3d96f4590ff9f40a25f0c",
+        "pdf_size_pt": [
+          510.2362060546875,
+          549.9212646484375
+        ]
+      },
+      {
+        "figure": "04-district-dong-disease",
+        "svg_sha256": "fde539ba32cbe812aa4df6e5aad23a1b9a45de557824bed31f198809a121c447",
+        "pdf_size_pt": [
+          510.2362060546875,
+          493.22833251953125
+        ]
+      },
+      {
+        "figure": "05-annual-disease-counts",
+        "svg_sha256": "4590ac5d288460696091947f043645a8dcb50b73e9dc495b315f68714ad0fc96",
+        "pdf_size_pt": [
+          510.2362060546875,
+          362.83465576171875
+        ]
+      },
+      {
+        "figure": "06-dong-time-patterns",
+        "svg_sha256": "5984f276e3fb888e2787a41608d397cf59c1a2a27986f453fe35c72fa86bad6c",
+        "pdf_size_pt": [
+          510.2362060546875,
+          428.031494140625
+        ]
+      },
+      {
+        "figure": "07-resident-age-composition",
+        "svg_sha256": "32c7d5a19ed15e2c29ca45d0c232d1a011237b4730c39b61f8c333259ab1b59b",
+        "pdf_size_pt": [
+          510.2362060546875,
+          445.03936767578125
+        ]
+      },
+      {
+        "figure": "08-health-treatment-education",
+        "svg_sha256": "734ff2dd39f5cbeb94796ae2625f814384ac00b5bc168f05ee19618509ba0109",
+        "pdf_size_pt": [
+          510.2362060546875,
+          377.00787353515625
+        ]
+      },
+      {
+        "figure": "09-proposal-counselling-education-evaluation",
+        "svg_sha256": "ac419fa13d5a29b9fef914edc2d46add195630b0a89df5d8986a1132e4847485",
+        "pdf_size_pt": [
+          510.2362060546875,
+          155.905517578125
+        ]
+      },
+      {
+        "figure": "10-web-exploration-cycle",
+        "svg_sha256": "7b07ebb2477f63f456da65dc935c97a2b227ac99357c11140ab13516b584e731",
+        "pdf_size_pt": [
+          510.2362060546875,
+          277.7952880859375
+        ]
+      },
+      {
+        "figure": "11-district-type-proportions",
+        "svg_sha256": "f38092732a575b63a5c53a4b39e2a810aa27090294539b6c757b60025a87dfbe",
+        "pdf_size_pt": [
+          512.875732421875,
+          529.8836059570312
+        ]
+      },
+      {
+        "figure": "12-annual-receipts-by-type",
+        "svg_sha256": "72f514015deb0781bea99145bda592d982b663ff10ed71a5a157202cc8b645c1",
+        "pdf_size_pt": [
+          512.875732421875,
+          354.13555908203125
+        ]
+      },
+      {
+        "figure": "13-weekday-hour-disease",
+        "svg_sha256": "bdcb326c3f7502c8ae8a12e8c4c8210e9cc0f6f8fed381cc6b37d78d4f61bcb3",
+        "pdf_size_pt": [
+          512.6181030273438,
+          504.3717956542969
+        ]
+      },
+      {
+        "figure": "14-bujeon-commerce-quarterly",
+        "svg_sha256": "1280815f31f1f994832a18f82f47850e623515e94d8fe5a5e72af0527e2a0f61",
+        "pdf_size_pt": [
+          512.875732421875,
+          351.3009338378906
+        ]
+      },
+      {
+        "figure": "15-bujeon-hourly-visiting-population",
+        "svg_sha256": "ffed820e89ee4066bdce3cda09a17be8ae9886b4c5a8b09f23925cbb429fd3e5",
+        "pdf_size_pt": [
+          512.875732421875,
+          356.97021484375
+        ]
+      },
+      {
+        "figure": "16-unmet-healthcare-2024",
+        "svg_sha256": "4859d890beac0401ea850d148ba1e7bed99b1b6f913499e8d041a15d63c035cd",
+        "pdf_size_pt": [
+          510.2362060546875,
+          291.968505859375
+        ]
+      }
+    ]
+  }
+]

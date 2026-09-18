@@ -1,0 +1,152 @@
+{
+  "inputs": [
+    {
+      "key": "names",
+      "path": "data/processed/신고주민연결심화-20260917/direction-reassessment/all-194-names-70-subtypes.csv",
+      "sha256": "13fde312a467ba7f6b80d335cd7fb99394cfa08189f8ff92fdff21de63a2fab4",
+      "priorHashMatched": true
+    },
+    {
+      "key": "district",
+      "path": "data/processed/구군에서동심화연결-20260917/16구군-동일조건-전체비교.csv",
+      "sha256": "4057936a84c94646876bac72315abcd79fca0e5cb9c77cde7c73bfee47847e7c",
+      "priorHashMatched": true
+    },
+    {
+      "key": "subtypes",
+      "path": "data/processed/구군에서동심화연결-20260917/구군-전체70유형-동별기본연결.csv",
+      "sha256": "8219cc7e4d964260ee40d39043d70cd65a8187e7452cd9ba58ddbd8e6f449c47",
+      "priorHashMatched": true
+    },
+    {
+      "key": "population",
+      "path": "data/processed/신고주민연결심화-20260917/direction-reassessment/all-name-population-candidates.csv",
+      "sha256": "0fb3cd1f38086496ddbe2a5abddaa974dbc1cd1d402e2c76cda135e9ef49622f",
+      "priorHashMatched": true
+    },
+    {
+      "key": "time",
+      "path": "data/processed/신고주민연결심화-20260917/direction-connections/major-burden-time-summary.csv",
+      "sha256": "5611e5407c703547f44d9ac70492f4c3b498d2c39fbc098b471837f68761a542",
+      "priorHashMatched": true
+    },
+    {
+      "key": "timeCells",
+      "path": "data/processed/신고주민연결심화-20260917/direction-connections/major-burden-time-cells.csv",
+      "sha256": "44a63794b65ccd90524a30efd9b2bcf2206052fc3b2a2ec68a47eaaf4029ba0f",
+      "priorHashMatched": true
+    },
+    {
+      "key": "proposals",
+      "path": "data/processed/신고보건심화-20260917/regional-improvement-and-evaluation.csv",
+      "sha256": "7f2d29c6d83787c02efc26b6019269c43b4ad3e642dc3f3e3da5c22dabe5bc9f",
+      "priorHashMatched": true
+    },
+    {
+      "key": "healthLinks",
+      "path": "data/processed/신고보건심화-20260917/selected-region-evidence-links.csv",
+      "sha256": "6e92595b5b2972541eff930c23de5c72e72722641dca655a0e8b09b61813161c",
+      "priorHashMatched": true
+    },
+    {
+      "key": "timeInput2020",
+      "path": "data/processed/동대응-전체결측제외-20260915/completeness/complete_17_2020.csv.gz",
+      "sha256": "ad7a1e0f45931dce9db9d7f839c012c909144634238f945ec0a0eb55d40f8c48",
+      "priorHashMatched": true
+    },
+    {
+      "key": "timeInput2021",
+      "path": "data/processed/동대응-전체결측제외-20260915/completeness/complete_17_2021.csv.gz",
+      "sha256": "d818d952a17a46e0accdcedb8b81cc93eb3c6b7c6c801304739b3f74d7c02582",
+      "priorHashMatched": true
+    },
+    {
+      "key": "timeInput2022",
+      "path": "data/processed/동대응-전체결측제외-20260915/completeness/complete_17_2022.csv.gz",
+      "sha256": "170b720532a29eeb5815b77331ea473603fb318815882944b4f1ce695dce4514",
+      "priorHashMatched": true
+    },
+    {
+      "key": "timeInput2023",
+      "path": "data/processed/동대응-전체결측제외-20260915/completeness/complete_17_2023.csv.gz",
+      "sha256": "273c8d778052a14e9f114a4755d7a9a7df216627ab8991ce8281381e985a692f",
+      "priorHashMatched": true
+    },
+    {
+      "key": "timeInput2024",
+      "path": "data/processed/동대응-전체결측제외-20260915/completeness/complete_17_2024.csv.gz",
+      "sha256": "f16392f42d01e2b472021116f2ae0fc0a753160d83bfd51710638762857df3fe",
+      "priorHashMatched": true
+    }
+  ],
+  "outputs": [
+    {
+      "path": "data/processed/5개년통합-지역유형-제안연결-20260917/01-16구군-5년합계와-한해제외순위.csv",
+      "sha256": "39461b078607d5f4b60579c5ba4d01cd287e81be2d9247a19045dc0db86449ef"
+    },
+    {
+      "path": "data/processed/5개년통합-지역유형-제안연결-20260917/02-전체70유형-5년합계와-한해제외순위.csv",
+      "sha256": "c787cc43f5d1654bafc2cea387af07d9564372e49fffb7fcd664fb853980ee72"
+    },
+    {
+      "path": "data/processed/5개년통합-지역유형-제안연결-20260917/03-구군별70유형-동일유형연결.csv",
+      "sha256": "931ebe0ca8d0fd698eef8c4eb2f59c6dcc2d30a41030ceca617571e32841c54b"
+    },
+    {
+      "path": "data/processed/5개년통합-지역유형-제안연결-20260917/04-구군별-주요3유형.csv",
+      "sha256": "25e8ef4f19fbbd96739ac986eb8f25b252f2da5db29f46fb92b8d551a3b7f2d7"
+    },
+    {
+      "path": "data/processed/5개년통합-지역유형-제안연결-20260917/05-194지역명70유형-5년합계와-한해제외순위.csv",
+      "sha256": "179b49b6d56fe90a9f6596dab21d24d5920156ff3ea13f1dbc0763be0748d967"
+    },
+    {
+      "path": "data/processed/5개년통합-지역유형-제안연결-20260917/06-구군주요유형에서-동별상위3-연결.csv",
+      "sha256": "cd53c8b9855dfb4ee57153e170c9dacd26f35bffcfbcea66df73c4cfb2dacc0f"
+    },
+    {
+      "path": "data/processed/5개년통합-지역유형-제안연결-20260917/10-상위5구군45조합-시간요약.csv",
+      "sha256": "7a17a8eb998e9383029da75a002e34cc41ccccd489958205e03445c6cbdb20cb"
+    },
+    {
+      "path": "data/processed/5개년통합-지역유형-제안연결-20260917/11-상위5구군45조합-5년시간교차집계.csv",
+      "sha256": "17eb7fe58dfac5c196002bd145e07188beabf620b62ee4a9d61fb3545be14668"
+    },
+    {
+      "path": "data/processed/5개년통합-지역유형-제안연결-20260917/07-상위5구군-유형별동비교.csv",
+      "sha256": "5e976b3966bbc4786c33a64e9f399de742ee40a4ec14190c36c7e184174eade5"
+    },
+    {
+      "path": "data/processed/5개년통합-지역유형-제안연결-20260917/08-상위5구군-동후보-5개연말전체연령.csv",
+      "sha256": "8b22e6e01a88b3e1616198779290843f40428a72baffa59513125ad843a4c5c6"
+    },
+    {
+      "path": "data/processed/5개년통합-지역유형-제안연결-20260917/09-5년신고에서-기존대응-보완평가로.csv",
+      "sha256": "73ca2fd95c308b499f1088b0dbb46b810382f42d8988e58cd76677553af7df76"
+    },
+    {
+      "path": "data/processed/5개년통합-지역유형-제안연결-20260917/summary.json",
+      "sha256": "e5926cf22f80e51709f6079d7d74f81e6db95ec35be0445271af50a6b79f7946"
+    },
+    {
+      "path": "figures/5개년통합-지역유형-제안연결-20260917/01-5년통합-지역규모와유형.png",
+      "sha256": "5a57278d1a7b5ff944a965b743f7dbe54e6d77679561d0d3655813d2750be845"
+    },
+    {
+      "path": "figures/5개년통합-지역유형-제안연결-20260917/01-5년통합-지역규모와유형.svg",
+      "sha256": "83c3eab79d4b11ed37a5f9228d0ec8e1f6e6d4d443039f60ed4e3998206e04aa"
+    },
+    {
+      "path": "figures/5개년통합-지역유형-제안연결-20260917/02-지역유형별-5년통합시간.png",
+      "sha256": "3be9b2ce3d10abbb79bf068201ab9e6fb66babbfb755ed5f99acbd8d51d0c977"
+    },
+    {
+      "path": "figures/5개년통합-지역유형-제안연결-20260917/02-지역유형별-5년통합시간.svg",
+      "sha256": "77a558f1377c1bbec71a4cae151a75800914a763896078d338b19994130ace40"
+    }
+  ],
+  "code": {
+    "path": "analysis/00_공통/analyze_pooled_five_years_20260917.py",
+    "sha256": "cda14f4d93cafe9a04d518f0495cca293d016214c8aa39bfaf9c90b1493a99da"
+  }
+}

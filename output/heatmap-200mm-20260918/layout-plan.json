@@ -1,0 +1,27 @@
+[
+  {
+    "page": 1,
+    "figure": "01-time-heatmap-200x140mm.png",
+    "source_sha256": "ff27a114ca142bba947b597168782bba7de26b490811cf8e3461e650ec10c90f",
+    "pixels": [
+      3937,
+      2755
+    ],
+    "dpi": [
+      499.99899999999997,
+      499.99899999999997
+    ],
+    "width_mm": 200.0003,
+    "height_mm": 139.9999,
+    "position": "page centered; preserve aspect ratio",
+    "requested_width_mm": 200,
+    "requested_height_mm": 140,
+    "hwp_width_units": 56693,
+    "hwp_height_units": 39685,
+    "paper_mm": [
+      210,
+      297
+    ],
+    "side_margin_mm": 5
+  }
+]

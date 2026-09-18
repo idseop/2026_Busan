@@ -1,0 +1,6 @@
+﻿step,function,source,element,status
+01,연도·유형·처리 조건·구군/동명 검색,web/final/index.html,"year-buttons, type, subtype, scope, region-search",구현
+02,신고 구성·시간·주민 행정동 후보,web/final/index.html; web/final/assets/current-map.js,"detail-tabs, detail-content",구현
+03,분석결과·기존대응·보완안·CSV 내려받기,web/final/analysis/index.html,"context, proposals, methods, download links",구현
+04,조건 변경과 구군/동명 재비교,web/final/index.html,"type, subtype, year-buttons, list-tabs, detail-back",구현
+향후,기관 실적·API 연계,현재 구현 밖,기관 협의·추가 개발 필요,미구현
