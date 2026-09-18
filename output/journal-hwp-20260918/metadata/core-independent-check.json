@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-18",
+  "status": "PASS",
+  "scope": "Read-only independent numeric recomputation from existing validated aggregate CSVs; author script not imported or executed. No original raw119 reanalysis. No chart, code, 04/05 files edited.",
+  "checks": [
+    {
+      "check": "metadata input SHA256 matches actual sources",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "published PNG/SVG hashes match actual files",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Busan P denominator",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "01 six types selected by Busan descending receipt count",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "01 16 district rows exact source counts and order",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "01 all 96 log2 composition-ratio cells independently reproduced",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "01 log2 equal-composition zero center and reciprocal semantics",
+      "pass": true,
+      "detail": "0=equal composition; +1=2x; -1=0.5x. Not population risk."
+    },
+    {
+      "check": "01 reference boundary metadata matches display-data",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "01 neutral 2025 display geometry names cover all 16 districts",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "01 symbol area proportional and consistent size legend",
+      "pass": true,
+      "detail": "scatter s=count/300; legend marker diameter sqrt(count/300), so displayed marker area proportional to receipts. Boundaries are neutral references, not incident coordinates or historical reaggregation."
+    },
+    {
+      "check": "01 display-only projection and boundary limitation preserved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "02 Busan disease line independently reproduced",
+      "pass": true,
+      "detail": {
+        "numerator": 190682,
+        "denominator": 555786,
+        "percentage": 34.30852882224453
+      }
+    },
+    {
+      "check": "02 top5 districts x top3 disease-count raw dongs from all194 source",
+      "pass": true,
+      "detail": {
+        "districts": [
+          "부산진구",
+          "해운대구",
+          "사하구",
+          "사상구",
+          "북구"
+        ],
+        "rows": 15
+      }
+    },
+    {
+      "check": "02 all 15 dong/whole-district percentages and percentage-point differences exact",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "02 c uses whole-district reference, not restDistrictShare",
+      "pass": true,
+      "detail": "Whole-district reference includes selected dong; rest-of-district percentage is stored separately and not used for displayed c."
+    }
+  ],
+  "checked_artifacts": {
+    "01-02-core-journal-metadata.json": "dad035650e924e067a304651dc8ad74c72df204b8503072d0c4fedbf1d42ccc0",
+    "01-city-spatial-specialization-display-data.json": "9403a508d7255778a73a5d3d4d344b6495088ad42225bd324739bb5eefbc71ca",
+    "02-district-dong-disease-continuity-display-data.json": "a2cad170484c329c4d5f554aad7cc5221a7a4375ef9651804ba618cdf7b14c00"
+  },
+  "additional_independent_source": "data\\processed\\5개년통합-지역유형-제안연결-20260917\\05-194지역명70유형-5년합계와-한해제외순위.csv",
+  "note": "The map boundaries are 구·군 boundaries, not fire-service jurisdiction boundaries."
+}

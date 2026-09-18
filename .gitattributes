@@ -11,3 +11,18 @@ scripts/** -text
 docs/10-작업계획/** -text
 docs/40-분석결과/** -text
 requirements-final-delivery.txt -text
+
+web/submission/** -text
+*.hwp binary
+*.hwpx binary
+*.pptx binary
+
+# 기존 생성물의 줄바꿈과 바이너리를 보존한다
+docs/10-작업계획/** whitespace=cr-at-eol
+docs/40-분석결과/** whitespace=cr-at-eol
+analysis/00_공통/** whitespace=cr-at-eol
+scripts/** whitespace=cr-at-eol
+web/submission/** whitespace=cr-at-eol
+figures/** -text whitespace=cr-at-eol
+*.svg -whitespace
+*.pdf binary

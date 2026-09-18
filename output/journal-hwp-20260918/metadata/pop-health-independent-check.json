@@ -1,0 +1,749 @@
+{
+  "status": "PASS",
+  "date": "2026-09-18",
+  "reviewer": "core_evidence; independent of04/05author",
+  "scope": "Existing aggregate CSV and displayed data only; no raw-data reanalysis, code/image edits or new inference.",
+  "checks_count": 171,
+  "checks": [
+    {
+      "check": "04 five unique candidates",
+      "pass": true
+    },
+    {
+      "check": "금곡동 unique2024source",
+      "pass": true
+    },
+    {
+      "check": "금곡동 101age sum equalsN",
+      "pass": true
+    },
+    {
+      "check": "금곡동 21bins sum equalsN",
+      "pass": true
+    },
+    {
+      "check": "금곡동 bin0 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "금곡동 bin1 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "금곡동 bin2 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "금곡동 bin3 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "금곡동 bin4 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "금곡동 bin5 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "금곡동 bin6 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "금곡동 bin7 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "금곡동 bin8 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "금곡동 bin9 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "금곡동 bin10 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "금곡동 bin11 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "금곡동 bin12 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "금곡동 bin13 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "금곡동 bin14 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "금곡동 bin15 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "금곡동 bin16 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "금곡동 bin17 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "금곡동 bin18 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "금곡동 bin19 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "금곡동 bin20 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "금곡동 65plus direct age sum",
+      "pass": true
+    },
+    {
+      "check": "금곡동 75plus direct age sum",
+      "pass": true
+    },
+    {
+      "check": "금곡동 21bin shares sum100",
+      "pass": true
+    },
+    {
+      "check": "다대제2동 unique2024source",
+      "pass": true
+    },
+    {
+      "check": "다대제2동 101age sum equalsN",
+      "pass": true
+    },
+    {
+      "check": "다대제2동 21bins sum equalsN",
+      "pass": true
+    },
+    {
+      "check": "다대제2동 bin0 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "다대제2동 bin1 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "다대제2동 bin2 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "다대제2동 bin3 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "다대제2동 bin4 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "다대제2동 bin5 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "다대제2동 bin6 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "다대제2동 bin7 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "다대제2동 bin8 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "다대제2동 bin9 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "다대제2동 bin10 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "다대제2동 bin11 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "다대제2동 bin12 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "다대제2동 bin13 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "다대제2동 bin14 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "다대제2동 bin15 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "다대제2동 bin16 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "다대제2동 bin17 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "다대제2동 bin18 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "다대제2동 bin19 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "다대제2동 bin20 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "다대제2동 65plus direct age sum",
+      "pass": true
+    },
+    {
+      "check": "다대제2동 75plus direct age sum",
+      "pass": true
+    },
+    {
+      "check": "다대제2동 21bin shares sum100",
+      "pass": true
+    },
+    {
+      "check": "다대제1동 unique2024source",
+      "pass": true
+    },
+    {
+      "check": "다대제1동 101age sum equalsN",
+      "pass": true
+    },
+    {
+      "check": "다대제1동 21bins sum equalsN",
+      "pass": true
+    },
+    {
+      "check": "다대제1동 bin0 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "다대제1동 bin1 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "다대제1동 bin2 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "다대제1동 bin3 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "다대제1동 bin4 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "다대제1동 bin5 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "다대제1동 bin6 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "다대제1동 bin7 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "다대제1동 bin8 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "다대제1동 bin9 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "다대제1동 bin10 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "다대제1동 bin11 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "다대제1동 bin12 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "다대제1동 bin13 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "다대제1동 bin14 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "다대제1동 bin15 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "다대제1동 bin16 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "다대제1동 bin17 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "다대제1동 bin18 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "다대제1동 bin19 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "다대제1동 bin20 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "다대제1동 65plus direct age sum",
+      "pass": true
+    },
+    {
+      "check": "다대제1동 75plus direct age sum",
+      "pass": true
+    },
+    {
+      "check": "다대제1동 21bin shares sum100",
+      "pass": true
+    },
+    {
+      "check": "부전제1동 unique2024source",
+      "pass": true
+    },
+    {
+      "check": "부전제1동 101age sum equalsN",
+      "pass": true
+    },
+    {
+      "check": "부전제1동 21bins sum equalsN",
+      "pass": true
+    },
+    {
+      "check": "부전제1동 bin0 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "부전제1동 bin1 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "부전제1동 bin2 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "부전제1동 bin3 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "부전제1동 bin4 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "부전제1동 bin5 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "부전제1동 bin6 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "부전제1동 bin7 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "부전제1동 bin8 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "부전제1동 bin9 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "부전제1동 bin10 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "부전제1동 bin11 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "부전제1동 bin12 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "부전제1동 bin13 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "부전제1동 bin14 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "부전제1동 bin15 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "부전제1동 bin16 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "부전제1동 bin17 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "부전제1동 bin18 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "부전제1동 bin19 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "부전제1동 bin20 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "부전제1동 65plus direct age sum",
+      "pass": true
+    },
+    {
+      "check": "부전제1동 75plus direct age sum",
+      "pass": true
+    },
+    {
+      "check": "부전제1동 21bin shares sum100",
+      "pass": true
+    },
+    {
+      "check": "부전제2동 unique2024source",
+      "pass": true
+    },
+    {
+      "check": "부전제2동 101age sum equalsN",
+      "pass": true
+    },
+    {
+      "check": "부전제2동 21bins sum equalsN",
+      "pass": true
+    },
+    {
+      "check": "부전제2동 bin0 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "부전제2동 bin1 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "부전제2동 bin2 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "부전제2동 bin3 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "부전제2동 bin4 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "부전제2동 bin5 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "부전제2동 bin6 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "부전제2동 bin7 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "부전제2동 bin8 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "부전제2동 bin9 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "부전제2동 bin10 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "부전제2동 bin11 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "부전제2동 bin12 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "부전제2동 bin13 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "부전제2동 bin14 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "부전제2동 bin15 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "부전제2동 bin16 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "부전제2동 bin17 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "부전제2동 bin18 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "부전제2동 bin19 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "부전제2동 bin20 rawages count percent",
+      "pass": true
+    },
+    {
+      "check": "부전제2동 65plus direct age sum",
+      "pass": true
+    },
+    {
+      "check": "부전제2동 75plus direct age sum",
+      "pass": true
+    },
+    {
+      "check": "부전제2동 21bin shares sum100",
+      "pass": true
+    },
+    {
+      "check": "05-health-paired-source.csv rowcount",
+      "pass": true
+    },
+    {
+      "check": "사하구고혈압 진단 경험자의 치료율_30 all copied fields identical",
+      "pass": true
+    },
+    {
+      "check": "사하구고혈압 진단 경험자의 치료율_30 approximate95 formula",
+      "pass": true
+    },
+    {
+      "check": "사하구고혈압 진단 경험자의 치료율_30 2024 overall weighted estimate n nonweighted",
+      "pass": true
+    },
+    {
+      "check": "사하구고혈압 관리교육 이수율_30 all copied fields identical",
+      "pass": true
+    },
+    {
+      "check": "사하구고혈압 관리교육 이수율_30 approximate95 formula",
+      "pass": true
+    },
+    {
+      "check": "사하구고혈압 관리교육 이수율_30 2024 overall weighted estimate n nonweighted",
+      "pass": true
+    },
+    {
+      "check": "북구고혈압 진단 경험자의 치료율_30 all copied fields identical",
+      "pass": true
+    },
+    {
+      "check": "북구고혈압 진단 경험자의 치료율_30 approximate95 formula",
+      "pass": true
+    },
+    {
+      "check": "북구고혈압 진단 경험자의 치료율_30 2024 overall weighted estimate n nonweighted",
+      "pass": true
+    },
+    {
+      "check": "북구고혈압 관리교육 이수율_30 all copied fields identical",
+      "pass": true
+    },
+    {
+      "check": "북구고혈압 관리교육 이수율_30 approximate95 formula",
+      "pass": true
+    },
+    {
+      "check": "북구고혈압 관리교육 이수율_30 2024 overall weighted estimate n nonweighted",
+      "pass": true
+    },
+    {
+      "check": "사하구당뇨병 진단 경험자의 치료율_30 all copied fields identical",
+      "pass": true
+    },
+    {
+      "check": "사하구당뇨병 진단 경험자의 치료율_30 approximate95 formula",
+      "pass": true
+    },
+    {
+      "check": "사하구당뇨병 진단 경험자의 치료율_30 2024 overall weighted estimate n nonweighted",
+      "pass": true
+    },
+    {
+      "check": "사하구당뇨병 관리교육 이수율_30 all copied fields identical",
+      "pass": true
+    },
+    {
+      "check": "사하구당뇨병 관리교육 이수율_30 approximate95 formula",
+      "pass": true
+    },
+    {
+      "check": "사하구당뇨병 관리교육 이수율_30 2024 overall weighted estimate n nonweighted",
+      "pass": true
+    },
+    {
+      "check": "북구당뇨병 진단 경험자의 치료율_30 all copied fields identical",
+      "pass": true
+    },
+    {
+      "check": "북구당뇨병 진단 경험자의 치료율_30 approximate95 formula",
+      "pass": true
+    },
+    {
+      "check": "북구당뇨병 진단 경험자의 치료율_30 2024 overall weighted estimate n nonweighted",
+      "pass": true
+    },
+    {
+      "check": "북구당뇨병 관리교육 이수율_30 all copied fields identical",
+      "pass": true
+    },
+    {
+      "check": "북구당뇨병 관리교육 이수율_30 approximate95 formula",
+      "pass": true
+    },
+    {
+      "check": "북구당뇨병 관리교육 이수율_30 2024 overall weighted estimate n nonweighted",
+      "pass": true
+    },
+    {
+      "check": "05-health-unmet-source.csv rowcount",
+      "pass": true
+    },
+    {
+      "check": "북구연간 미충족의료율(병의원) all copied fields identical",
+      "pass": true
+    },
+    {
+      "check": "북구연간 미충족의료율(병의원) approximate95 formula",
+      "pass": true
+    },
+    {
+      "check": "북구연간 미충족의료율(병의원) 2024 overall weighted estimate n nonweighted",
+      "pass": true
+    },
+    {
+      "check": "부산진구연간 미충족의료율(병의원) all copied fields identical",
+      "pass": true
+    },
+    {
+      "check": "부산진구연간 미충족의료율(병의원) approximate95 formula",
+      "pass": true
+    },
+    {
+      "check": "부산진구연간 미충족의료율(병의원) 2024 overall weighted estimate n nonweighted",
+      "pass": true
+    },
+    {
+      "check": "사하구연간 미충족의료율(병의원) all copied fields identical",
+      "pass": true
+    },
+    {
+      "check": "사하구연간 미충족의료율(병의원) approximate95 formula",
+      "pass": true
+    },
+    {
+      "check": "사하구연간 미충족의료율(병의원) 2024 overall weighted estimate n nonweighted",
+      "pass": true
+    }
+  ],
+  "resident_direct_sums": [
+    {
+      "candidate": "금곡동",
+      "N": 34752,
+      "N65plus": 10209,
+      "N75plus": 4308,
+      "pct65plus": 29.376726519337016,
+      "pct75plus": 12.396408839779005
+    },
+    {
+      "candidate": "다대제2동",
+      "N": 25091,
+      "N65plus": 6779,
+      "N75plus": 2501,
+      "pct65plus": 27.017655733131402,
+      "pct75plus": 9.967717508269898
+    },
+    {
+      "candidate": "다대제1동",
+      "N": 35576,
+      "N65plus": 8277,
+      "N75plus": 3090,
+      "pct65plus": 23.265684731279514,
+      "pct75plus": 8.685630762311671
+    },
+    {
+      "candidate": "부전제1동",
+      "N": 14234,
+      "N65plus": 2677,
+      "N75plus": 1037,
+      "pct65plus": 18.807081635520582,
+      "pct75plus": 7.285373050442602
+    },
+    {
+      "candidate": "부전제2동",
+      "N": 12202,
+      "N65plus": 1599,
+      "N75plus": 547,
+      "pct65plus": 13.104409113260122,
+      "pct75plus": 4.482871660383544
+    }
+  ],
+  "source_and_display_sha256": {
+    "data/processed/5개년통합-지역유형-제안연결-20260917/08-상위5구군-동후보-5개연말전체연령.csv": "8b22e6e01a88b3e1616198779290843f40428a72baffa59513125ad843a4c5c6",
+    "output/journal-hwp-20260918/metadata/04-resident-age-bins.csv": "0c3f6ff69f67de82d8bc02e54e8dfc1420299d983d133c212d17b8d7629dc808",
+    "output/journal-hwp-20260918/metadata/04-resident-age-summary.csv": "fff9675d3a189fb5cc7c0599113736c51c030a08a5fba9d6c9aa84767415ce96",
+    "data/processed/신고보건심화-20260917/health-district-summary-2024.csv": "598ef82a5df75efb16e57d5b41a61dd1ef85ba8301bcd5046dea835be439893f",
+    "output/journal-hwp-20260918/metadata/05-health-paired-source.csv": "75d7bcf6f611bdff7457885dc407893ee3991ebc0870b2fb35d08724ccfd520c",
+    "output/journal-hwp-20260918/metadata/05-health-unmet-source.csv": "10b2a8ee0a9c38af14ccd33891066fd9292ee97c2e357acd4a25cc4a64ee6bda"
+  },
+  "notes": [
+    "04 age100 is100plus; 75plus subset65plus, not separate additive groups.",
+    "04 candidate administrative residents are not119 patient ages or a forced allocation of rawDong.",
+    "05a/b disease diagnosis denominators differ from05c medical-need denominator; no treatment minuseducation unmet-demand inference.",
+    "05 CI is existing estimate ±1.96SE clipped0–100, not official published CI or significance result."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "verifiedInputs": 13,
+  "guCount": 16,
+  "subtypeCount": 70,
+  "dongSubtypeCount": 13580,
+  "totalP": 555786,
+  "top5Count": 252014,
+  "top5OrderStableIn5Omissions": true,
+  "top5DongComparisonRows": 45,
+  "timeSummaryRows": 540,
+  "timeCellRows": 18990,
+  "timeCountsIndependentlyRecountedFrom5PreprocessedFiles": true,
+  "populationSnapshots": 195,
+  "full101AgeTotalsMatch": true,
+  "proposalsAreConditionalNotMeasuredEffects": true,
+  "method": "Separate csv/collections aggregation and tie-preserving rank reconstruction",
+  "scope": "New aggregation and joins; unchanged prior quality checks reused after checksum matching"
+}

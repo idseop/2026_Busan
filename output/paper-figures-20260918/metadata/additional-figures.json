@@ -1,0 +1,250 @@
+{
+  "sources": {
+    "data/processed/5개년통합-지역유형-제안연결-20260917/01-16구군-5년합계와-한해제외순위.csv": "39461b078607d5f4b60579c5ba4d01cd287e81be2d9247a19045dc0db86449ef",
+    "data/processed/5개년통합-지역유형-제안연결-20260917/02-전체70유형-5년합계와-한해제외순위.csv": "c787cc43f5d1654bafc2cea387af07d9564372e49fffb7fcd664fb853980ee72",
+    "data/processed/5개년통합-지역유형-제안연결-20260917/03-구군별70유형-동일유형연결.csv": "931ebe0ca8d0fd698eef8c4eb2f59c6dcc2d30a41030ceca617571e32841c54b",
+    "data/processed/5개년통합-지역유형-제안연결-20260917/11-상위5구군45조합-5년시간교차집계.csv": "17eb7fe58dfac5c196002bd145e07188beabf620b62ee4a9d61fb3545be14668",
+    "data/processed/신고주민연결심화-20260917/direction-connections/major-burden-commerce-20quarters.csv": "c4dcc8bea5eabe4c8f6b74e45e8a01f826cf30a074596c5f5a7e413f67215dae",
+    "data/processed/통합완성-20260916/context/living-hour-annual-equal-month-means.csv": "d6e06f97d6cae7c337306ea6bf0ba15eff37f3b44bed059a13af12bba1ddf9b6",
+    "data/processed/신고주민연결심화-20260917/direction-connections/major-burden-living-candidates-2023-2024.csv": "e2f12e6106b453741e6c555f8077b422bc541f09bb4cf67dd457781cce239a58"
+  },
+  "checks": [
+    {
+      "name": "district total P",
+      "pass": true
+    },
+    {
+      "name": "all district type totals",
+      "pass": true
+    },
+    {
+      "name": "11-district-type-proportions has no figure title",
+      "pass": true
+    },
+    {
+      "name": "11-district-type-proportions has no prose annotation",
+      "pass": true
+    },
+    {
+      "name": "질병 annual sum",
+      "pass": true
+    },
+    {
+      "name": "질병외 annual sum",
+      "pass": true
+    },
+    {
+      "name": "부상 annual sum",
+      "pass": true
+    },
+    {
+      "name": "12-annual-receipts-by-type has no figure title",
+      "pass": true
+    },
+    {
+      "name": "12-annual-receipts-by-type has no prose annotation",
+      "pass": true
+    },
+    {
+      "name": "다대동 weekdayHour cells",
+      "pass": true
+    },
+    {
+      "name": "다대동 weekdayHour count",
+      "pass": true
+    },
+    {
+      "name": "다대동 weekdayHour shares",
+      "pass": true
+    },
+    {
+      "name": "금곡동 weekdayHour cells",
+      "pass": true
+    },
+    {
+      "name": "금곡동 weekdayHour count",
+      "pass": true
+    },
+    {
+      "name": "금곡동 weekdayHour shares",
+      "pass": true
+    },
+    {
+      "name": "13-weekday-hour-disease has no figure title",
+      "pass": true
+    },
+    {
+      "name": "13-weekday-hour-disease has no prose annotation",
+      "pass": true
+    },
+    {
+      "name": "Bujeon commerce 20 quarters per category",
+      "pass": true
+    },
+    {
+      "name": "commerce definition unchanged in selected rows",
+      "pass": true
+    },
+    {
+      "name": "commerce share denominator",
+      "pass": true
+    },
+    {
+      "name": "14-bujeon-commerce-quarterly has no figure title",
+      "pass": true
+    },
+    {
+      "name": "14-bujeon-commerce-quarterly has no prose annotation",
+      "pass": true
+    },
+    {
+      "name": "living selected 96 rows",
+      "pass": true
+    },
+    {
+      "name": "부전1동2023 summary matches",
+      "pass": true
+    },
+    {
+      "name": "부전1동2024 summary matches",
+      "pass": true
+    },
+    {
+      "name": "부전2동2023 summary matches",
+      "pass": true
+    },
+    {
+      "name": "부전2동2024 summary matches",
+      "pass": true
+    },
+    {
+      "name": "15-bujeon-hourly-visiting-population has no figure title",
+      "pass": true
+    },
+    {
+      "name": "15-bujeon-hourly-visiting-population has no prose annotation",
+      "pass": true
+    }
+  ],
+  "figures": [
+    {
+      "id": "11-district-type-proportions",
+      "caption_outside_figure": "2020~2024년 주 분석 555,786건을 구·군 내 유형 비중으로 재표현했다. 구·군은 총건수순이며 위험도순이 아니다.",
+      "sources": [
+        "data/processed/5개년통합-지역유형-제안연결-20260917/01-16구군-5년합계와-한해제외순위.csv",
+        "data/processed/5개년통합-지역유형-제안연결-20260917/03-구군별70유형-동일유형연결.csv"
+      ],
+      "denominator": "각 구·군의 주 분석 전체 접수",
+      "font_sizes": [
+        12.5,
+        14.0
+      ],
+      "visible_labels": [
+        "구·군 내 접수 비중 (%)",
+        "질병",
+        "질병외",
+        "부상",
+        "나머지 유형"
+      ]
+    },
+    {
+      "id": "12-annual-receipts-by-type",
+      "caption_outside_figure": "주 분석 조건의 2020~2024년 연도별 접수다. 결측 제외와 접수경로 구성의 영향을 받으므로 부산 전체 사고·환자 수의 변화로 확대하지 않는다.",
+      "sources": [
+        "data/processed/5개년통합-지역유형-제안연결-20260917/02-전체70유형-5년합계와-한해제외순위.csv"
+      ],
+      "denominator": "각 연도, 선택 17항목 완전 기재·정상·업무성 기록·벌집제거 제외 접수",
+      "font_sizes": [
+        12.5,
+        14.0
+      ],
+      "visible_labels": [
+        "연도",
+        "접수 건수 (건)",
+        "질병",
+        "질병외",
+        "부상"
+      ]
+    },
+    {
+      "id": "13-weekday-hour-disease",
+      "caption_outside_figure": "2020~2024년 다대·금곡 질병 접수의 요일×시각 구성이다. 두 패널에 동일 색상 척도를 적용했다. 신고 시각은 예방교육의 적정 운영시간을 뜻하지 않는다.",
+      "sources": [
+        "data/processed/5개년통합-지역유형-제안연결-20260917/11-상위5구군45조합-5년시간교차집계.csv"
+      ],
+      "denominator": "다대동 질병 4,054건 / 금곡동 질병 3,615건, 각각 전체 168셀 합계 100%",
+      "font_sizes": [
+        13.0,
+        14.0
+      ],
+      "visible_labels": [
+        "시간 (시)",
+        "다대동 · 질병",
+        "월",
+        "화",
+        "수",
+        "목",
+        "금",
+        "토",
+        "일",
+        "시간 (시)",
+        "금곡동 · 질병",
+        "월",
+        "화",
+        "수",
+        "목",
+        "금",
+        "토",
+        "일",
+        "접수 비중 (%)"
+      ]
+    },
+    {
+      "id": "14-bujeon-commerce-quarterly",
+      "caption_outside_figure": "2020~2024년 분기별 부전동 음식·소매 상가 비중이다. 각 분기 상가 명부의 스냅숏 비중이며 실제 방문자나 특정 사고 원인의 측정값이 아니다. 선그래프 세로축은 29~36%로 표시했으므로 0% 기준 높이로 비교하지 않는다.",
+      "sources": [
+        "data/processed/신고주민연결심화-20260917/direction-connections/major-burden-commerce-20quarters.csv"
+      ],
+      "denominator": "각 분기 부전동 전체 상가 수",
+      "font_sizes": [
+        12.5,
+        13.0,
+        14.0
+      ],
+      "visible_labels": [
+        "연도·분기",
+        "2020\n1분기",
+        "2021\n1분기",
+        "2022\n1분기",
+        "2023\n1분기",
+        "2024\n1분기",
+        "2024\n4분기",
+        "부전동 업종 구성비 (%)",
+        "음식",
+        "소매"
+      ]
+    },
+    {
+      "id": "15-bujeon-hourly-visiting-population",
+      "caption_outside_figure": "2023·2024년 각 12개월의 시간별 평균방문인구를 월 동일 가중 평균한 값이다. 행정동 후보인 부전1·2동을 별도로 표시했으며 신고자·실인원·연간 방문자 수로 해석하지 않는다. 2025년 행은 제외했다.",
+      "sources": [
+        "data/processed/통합완성-20260916/context/living-hour-annual-equal-month-means.csv",
+        "data/processed/신고주민연결심화-20260917/direction-connections/major-burden-living-candidates-2023-2024.csv"
+      ],
+      "denominator": "해당 연도의 12개 월별 시간대 평균방문인구 추정값의 산술평균",
+      "font_sizes": [
+        12.5,
+        14.0
+      ],
+      "visible_labels": [
+        "시간 (시)",
+        "방문인구 추정값 (명)",
+        "부전1동 · 2023",
+        "부전1동 · 2024",
+        "부전2동 · 2023",
+        "부전2동 · 2024"
+      ]
+    }
+  ],
+  "status": "PASS"
+}

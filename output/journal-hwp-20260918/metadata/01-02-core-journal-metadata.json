@@ -1,0 +1,654 @@
+{
+  "date": "2026-09-18",
+  "creator": "core_evidence",
+  "size_mm": [
+    180,
+    221
+  ],
+  "png_dpi": 500,
+  "fonts": {
+    "tick": 11,
+    "label": 12,
+    "value": 11,
+    "panel": 13
+  },
+  "palette": {
+    "teal": "#197C80",
+    "orange": "#CA6A38",
+    "purple": "#7D6B91",
+    "dadae": "#197C80",
+    "geumgok": "#CA6A38"
+  },
+  "sources": {
+    "data/processed/5개년통합-지역유형-제안연결-20260917/01-16구군-5년합계와-한해제외순위.csv": "39461b078607d5f4b60579c5ba4d01cd287e81be2d9247a19045dc0db86449ef",
+    "data/processed/5개년통합-지역유형-제안연결-20260917/02-전체70유형-5년합계와-한해제외순위.csv": "c787cc43f5d1654bafc2cea387af07d9564372e49fffb7fcd664fb853980ee72",
+    "data/processed/5개년통합-지역유형-제안연결-20260917/03-구군별70유형-동일유형연결.csv": "931ebe0ca8d0fd698eef8c4eb2f59c6dcc2d30a41030ceca617571e32841c54b",
+    "data/processed/5개년통합-지역유형-제안연결-20260917/07-상위5구군-유형별동비교.csv": "5e976b3966bbc4786c33a64e9f399de742ee40a4ec14190c36c7e184174eade5",
+    "web/data/busan-districts.geojson": "77e802daae8f1d833ab1290ce8a423e99bed2cfcc953ef7c31c8ef9a022bff9f"
+  },
+  "checks": [
+    {
+      "check": "16 district total P",
+      "pass": true
+    },
+    {
+      "check": "70 type total P",
+      "pass": true
+    },
+    {
+      "check": "denom 부산진구질병",
+      "pass": true
+    },
+    {
+      "check": "denom 부산진구질병외",
+      "pass": true
+    },
+    {
+      "check": "denom 부산진구부상",
+      "pass": true
+    },
+    {
+      "check": "denom 부산진구교통사고",
+      "pass": true
+    },
+    {
+      "check": "denom 부산진구화재확인출동",
+      "pass": true
+    },
+    {
+      "check": "denom 부산진구심정지",
+      "pass": true
+    },
+    {
+      "check": "denom 해운대구질병",
+      "pass": true
+    },
+    {
+      "check": "denom 해운대구질병외",
+      "pass": true
+    },
+    {
+      "check": "denom 해운대구부상",
+      "pass": true
+    },
+    {
+      "check": "denom 해운대구교통사고",
+      "pass": true
+    },
+    {
+      "check": "denom 해운대구화재확인출동",
+      "pass": true
+    },
+    {
+      "check": "denom 해운대구심정지",
+      "pass": true
+    },
+    {
+      "check": "denom 사하구질병",
+      "pass": true
+    },
+    {
+      "check": "denom 사하구질병외",
+      "pass": true
+    },
+    {
+      "check": "denom 사하구부상",
+      "pass": true
+    },
+    {
+      "check": "denom 사하구교통사고",
+      "pass": true
+    },
+    {
+      "check": "denom 사하구화재확인출동",
+      "pass": true
+    },
+    {
+      "check": "denom 사하구심정지",
+      "pass": true
+    },
+    {
+      "check": "denom 사상구질병",
+      "pass": true
+    },
+    {
+      "check": "denom 사상구질병외",
+      "pass": true
+    },
+    {
+      "check": "denom 사상구부상",
+      "pass": true
+    },
+    {
+      "check": "denom 사상구교통사고",
+      "pass": true
+    },
+    {
+      "check": "denom 사상구화재확인출동",
+      "pass": true
+    },
+    {
+      "check": "denom 사상구심정지",
+      "pass": true
+    },
+    {
+      "check": "denom 북구질병",
+      "pass": true
+    },
+    {
+      "check": "denom 북구질병외",
+      "pass": true
+    },
+    {
+      "check": "denom 북구부상",
+      "pass": true
+    },
+    {
+      "check": "denom 북구교통사고",
+      "pass": true
+    },
+    {
+      "check": "denom 북구화재확인출동",
+      "pass": true
+    },
+    {
+      "check": "denom 북구심정지",
+      "pass": true
+    },
+    {
+      "check": "denom 동래구질병",
+      "pass": true
+    },
+    {
+      "check": "denom 동래구질병외",
+      "pass": true
+    },
+    {
+      "check": "denom 동래구부상",
+      "pass": true
+    },
+    {
+      "check": "denom 동래구교통사고",
+      "pass": true
+    },
+    {
+      "check": "denom 동래구화재확인출동",
+      "pass": true
+    },
+    {
+      "check": "denom 동래구심정지",
+      "pass": true
+    },
+    {
+      "check": "denom 금정구질병",
+      "pass": true
+    },
+    {
+      "check": "denom 금정구질병외",
+      "pass": true
+    },
+    {
+      "check": "denom 금정구부상",
+      "pass": true
+    },
+    {
+      "check": "denom 금정구교통사고",
+      "pass": true
+    },
+    {
+      "check": "denom 금정구화재확인출동",
+      "pass": true
+    },
+    {
+      "check": "denom 금정구심정지",
+      "pass": true
+    },
+    {
+      "check": "denom 남구질병",
+      "pass": true
+    },
+    {
+      "check": "denom 남구질병외",
+      "pass": true
+    },
+    {
+      "check": "denom 남구부상",
+      "pass": true
+    },
+    {
+      "check": "denom 남구교통사고",
+      "pass": true
+    },
+    {
+      "check": "denom 남구화재확인출동",
+      "pass": true
+    },
+    {
+      "check": "denom 남구심정지",
+      "pass": true
+    },
+    {
+      "check": "denom 수영구질병",
+      "pass": true
+    },
+    {
+      "check": "denom 수영구질병외",
+      "pass": true
+    },
+    {
+      "check": "denom 수영구부상",
+      "pass": true
+    },
+    {
+      "check": "denom 수영구교통사고",
+      "pass": true
+    },
+    {
+      "check": "denom 수영구화재확인출동",
+      "pass": true
+    },
+    {
+      "check": "denom 수영구심정지",
+      "pass": true
+    },
+    {
+      "check": "denom 연제구질병",
+      "pass": true
+    },
+    {
+      "check": "denom 연제구질병외",
+      "pass": true
+    },
+    {
+      "check": "denom 연제구부상",
+      "pass": true
+    },
+    {
+      "check": "denom 연제구교통사고",
+      "pass": true
+    },
+    {
+      "check": "denom 연제구화재확인출동",
+      "pass": true
+    },
+    {
+      "check": "denom 연제구심정지",
+      "pass": true
+    },
+    {
+      "check": "denom 기장군질병",
+      "pass": true
+    },
+    {
+      "check": "denom 기장군질병외",
+      "pass": true
+    },
+    {
+      "check": "denom 기장군부상",
+      "pass": true
+    },
+    {
+      "check": "denom 기장군교통사고",
+      "pass": true
+    },
+    {
+      "check": "denom 기장군화재확인출동",
+      "pass": true
+    },
+    {
+      "check": "denom 기장군심정지",
+      "pass": true
+    },
+    {
+      "check": "denom 강서구질병",
+      "pass": true
+    },
+    {
+      "check": "denom 강서구질병외",
+      "pass": true
+    },
+    {
+      "check": "denom 강서구부상",
+      "pass": true
+    },
+    {
+      "check": "denom 강서구교통사고",
+      "pass": true
+    },
+    {
+      "check": "denom 강서구화재확인출동",
+      "pass": true
+    },
+    {
+      "check": "denom 강서구심정지",
+      "pass": true
+    },
+    {
+      "check": "denom 영도구질병",
+      "pass": true
+    },
+    {
+      "check": "denom 영도구질병외",
+      "pass": true
+    },
+    {
+      "check": "denom 영도구부상",
+      "pass": true
+    },
+    {
+      "check": "denom 영도구교통사고",
+      "pass": true
+    },
+    {
+      "check": "denom 영도구화재확인출동",
+      "pass": true
+    },
+    {
+      "check": "denom 영도구심정지",
+      "pass": true
+    },
+    {
+      "check": "denom 서구질병",
+      "pass": true
+    },
+    {
+      "check": "denom 서구질병외",
+      "pass": true
+    },
+    {
+      "check": "denom 서구부상",
+      "pass": true
+    },
+    {
+      "check": "denom 서구교통사고",
+      "pass": true
+    },
+    {
+      "check": "denom 서구화재확인출동",
+      "pass": true
+    },
+    {
+      "check": "denom 서구심정지",
+      "pass": true
+    },
+    {
+      "check": "denom 동구질병",
+      "pass": true
+    },
+    {
+      "check": "denom 동구질병외",
+      "pass": true
+    },
+    {
+      "check": "denom 동구부상",
+      "pass": true
+    },
+    {
+      "check": "denom 동구교통사고",
+      "pass": true
+    },
+    {
+      "check": "denom 동구화재확인출동",
+      "pass": true
+    },
+    {
+      "check": "denom 동구심정지",
+      "pass": true
+    },
+    {
+      "check": "denom 중구질병",
+      "pass": true
+    },
+    {
+      "check": "denom 중구질병외",
+      "pass": true
+    },
+    {
+      "check": "denom 중구부상",
+      "pass": true
+    },
+    {
+      "check": "denom 중구교통사고",
+      "pass": true
+    },
+    {
+      "check": "denom 중구화재확인출동",
+      "pass": true
+    },
+    {
+      "check": "denom 중구심정지",
+      "pass": true
+    },
+    {
+      "check": "map CRS explicit",
+      "pass": true
+    },
+    {
+      "check": "map district exact match",
+      "pass": true
+    },
+    {
+      "check": "map geometries valid",
+      "pass": true
+    },
+    {
+      "check": "01-city-spatial-specialization no titles",
+      "pass": true
+    },
+    {
+      "check": "01-city-spatial-specialization figure labels only",
+      "pass": true
+    },
+    {
+      "check": "15 selected disease dongs",
+      "pass": true
+    },
+    {
+      "check": "dong share 부산진구부전동",
+      "pass": true
+    },
+    {
+      "check": "rest district 부전동",
+      "pass": true
+    },
+    {
+      "check": "dong share 부산진구개금동",
+      "pass": true
+    },
+    {
+      "check": "rest district 개금동",
+      "pass": true
+    },
+    {
+      "check": "dong share 부산진구전포동",
+      "pass": true
+    },
+    {
+      "check": "rest district 전포동",
+      "pass": true
+    },
+    {
+      "check": "dong share 해운대구우동",
+      "pass": true
+    },
+    {
+      "check": "rest district 우동",
+      "pass": true
+    },
+    {
+      "check": "dong share 해운대구좌동",
+      "pass": true
+    },
+    {
+      "check": "rest district 좌동",
+      "pass": true
+    },
+    {
+      "check": "dong share 해운대구반여동",
+      "pass": true
+    },
+    {
+      "check": "rest district 반여동",
+      "pass": true
+    },
+    {
+      "check": "dong share 사하구다대동",
+      "pass": true
+    },
+    {
+      "check": "rest district 다대동",
+      "pass": true
+    },
+    {
+      "check": "dong share 사하구괴정동",
+      "pass": true
+    },
+    {
+      "check": "rest district 괴정동",
+      "pass": true
+    },
+    {
+      "check": "dong share 사하구하단동",
+      "pass": true
+    },
+    {
+      "check": "rest district 하단동",
+      "pass": true
+    },
+    {
+      "check": "dong share 사상구모라동",
+      "pass": true
+    },
+    {
+      "check": "rest district 모라동",
+      "pass": true
+    },
+    {
+      "check": "dong share 사상구괘법동",
+      "pass": true
+    },
+    {
+      "check": "rest district 괘법동",
+      "pass": true
+    },
+    {
+      "check": "dong share 사상구주례동",
+      "pass": true
+    },
+    {
+      "check": "rest district 주례동",
+      "pass": true
+    },
+    {
+      "check": "dong share 북구금곡동",
+      "pass": true
+    },
+    {
+      "check": "rest district 금곡동",
+      "pass": true
+    },
+    {
+      "check": "dong share 북구구포동",
+      "pass": true
+    },
+    {
+      "check": "rest district 구포동",
+      "pass": true
+    },
+    {
+      "check": "dong share 북구화명동",
+      "pass": true
+    },
+    {
+      "check": "rest district 화명동",
+      "pass": true
+    },
+    {
+      "check": "02-district-dong-disease-continuity no titles",
+      "pass": true
+    },
+    {
+      "check": "02-district-dong-disease-continuity figure labels only",
+      "pass": true
+    }
+  ],
+  "figures": [
+    {
+      "id": "01-city-spatial-specialization",
+      "display_data": "metadata/01-city-spatial-specialization-display-data.json",
+      "transformation": {
+        "scope": "2020–2024 P: selected17 complete, normal processing, exclude business records and bee removal; 555786 receipts",
+        "a": "2025-06-30 neutral reference district boundaries, EPSG4326 converted by spherical Web Mercator formula to EPSG3857 for display only. Symbol AREA proportional to count at representative point; not receipt location. Historical district boundaries differ (2020 Geumjeong/Haeundae change), so no choropleth or historical boundary reaggregation. No distance/area analysis.",
+        "b": "district receipt counts, descending; not risk ranking",
+        "c": "six types selected by Busan total counts; log2((district subtype count / district all receipts)/(Busan subtype count/555786)); 0=equal composition, +1=2x, -1=0.5x; descriptive composition, not relative individual risk",
+        "uncertainty": "No inferential interval or significance test. Counts are records, not unique patients."
+      },
+      "files": {
+        "png": {
+          "path": "figures/01-city-spatial-specialization.png",
+          "sha256": "9d275a19d5c2ca3423ed93be910b1f2ada1e7ca7149e6e533119a0804cab77aa"
+        },
+        "svg": {
+          "path": "figures/01-city-spatial-specialization.svg",
+          "sha256": "3d743d396f220282f9cba8436233d396b77714b6c2f77f6396ed2008c66b6aa9"
+        }
+      },
+      "png_size_px": [
+        3543,
+        4350
+      ],
+      "png_dpi": [
+        499.99899999999997,
+        499.99899999999997
+      ]
+    },
+    {
+      "id": "02-district-dong-disease-continuity",
+      "display_data": "metadata/02-district-dong-disease-continuity-display-data.json",
+      "transformation": {
+        "scope": "2020–2024 P; disease only. 15 raw-name dongs: the existing selected top3 disease-count dongs within each top5 total-count district, not all Busan dongs.",
+        "a": "x=dong disease receipt count; y=dong disease count/dong all P receipt count*100; reference line=city disease count/city all P count*100",
+        "b": "open point=district disease count/district all P count*100; filled point=dong share; district reference includes the displayed dong",
+        "c": "dong percentage minus its whole-district percentage, percentage points; descriptive paired comparison, not a statistical effect or significance test",
+        "spatial_unit": "rawDong is report raw place-name unit; no redistribution to administrative dong population candidates",
+        "uncertainty": "No confidence intervals. Cases selected from existing analysis; cannot infer all-dong distribution, patients, causation or service gap."
+      },
+      "files": {
+        "png": {
+          "path": "figures/02-district-dong-disease-continuity.png",
+          "sha256": "b235738f9d7b1c65f0ae5e71a7cfb9931274bb626ce144735cc52a5e17931ad7"
+        },
+        "svg": {
+          "path": "figures/02-district-dong-disease-continuity.svg",
+          "sha256": "dee23f320b9567c1bd9c0e0cc526e7cc4c310b58816ab78772ff6e46fecadd35"
+        }
+      },
+      "png_size_px": [
+        3543,
+        4350
+      ],
+      "png_dpi": [
+        499.99899999999997,
+        499.99899999999997
+      ]
+    }
+  ],
+  "status": "PASS",
+  "visual_review": {
+    "status": "PASS",
+    "pngs_opened": 2,
+    "iterations": 4,
+    "verified": [
+      "지도 중립 경계와 원면적 비례 기호",
+      "지도 2·4·6만 건 크기 범례",
+      "구명 겹침 수정",
+      "산점도 라벨 위치 조정",
+      "숫자와 축·범례 잘림 없음",
+      "최종색 다대 청록/금곡 주황",
+      "PNG500dpi·180×221mm 설정",
+      "독립 검토의 괘법동·괴정동 라벨 근접 지적: 괴정동 라벨 상단 이동"
+    ],
+    "notes": "표시용 현재 경계. 모든 동 분포·위험도·정책효과로 해석하지 않는다."
+  },
+  "builder_sha256": "5c4b21ada6079c5e15ebfb63db574dd09af808afda2859e13ab0a10979c56514"
+}

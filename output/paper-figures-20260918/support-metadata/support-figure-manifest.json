@@ -1,0 +1,177 @@
+{
+  "date": "2026-09-18",
+  "width_mm": 180,
+  "png_dpi": 450,
+  "font": "Malgun Gothic",
+  "font_sizes_pt": {
+    "tick": 13,
+    "axis": 14,
+    "legend": 12.5,
+    "value": 12.5,
+    "diagram_node": 13
+  },
+  "palettes": {
+    "A": {
+      "folder": "01-clean-original",
+      "blue": "#168B8A",
+      "dark": "#17324D",
+      "orange": "#E89335"
+    },
+    "B": {
+      "folder": "02-paper-style",
+      "blue": "#376C8A",
+      "dark": "#333333",
+      "orange": "#B97937"
+    }
+  },
+  "sources": [
+    {
+      "path": "data\\processed\\신고보건심화-20260917\\health-district-summary-2024.csv",
+      "sha256": "598ef82a5df75efb16e57d5b41a61dd1ef85ba8301bcd5046dea835be439893f"
+    },
+    {
+      "path": "data\\processed\\신고보건심화-20260917\\health-same-indicators-2023-2024.csv",
+      "sha256": "b9f2ea0cb69489317b058b5762b4687e0c98334f72dcb55cf81e434d8c3ce873"
+    },
+    {
+      "path": "data\\processed\\신고보건심화-20260917\\regional-improvement-and-evaluation.csv",
+      "sha256": "7f2d29c6d83787c02efc26b6019269c43b4ad3e642dc3f3e3da5c22dabe5bc9f"
+    },
+    {
+      "path": "web\\final\\index.html",
+      "sha256": "29fb921a9b030be5890eb9128b6bbb3cd48d2be2196a8b333707a06cc91142a8"
+    },
+    {
+      "path": "web\\final\\assets\\current-map.js",
+      "sha256": "b9ca9c12540eff660c2e9f67cbb9a4399c512413783c43a7d9069632220c8842"
+    },
+    {
+      "path": "web\\final\\analysis\\index.html",
+      "sha256": "d013c71f0ed1beddbb631045edc94e073a84433773b33c40f51d99a9e3c29fa5"
+    }
+  ],
+  "figures": [
+    {
+      "style": "A",
+      "stem": "08-health-treatment-education",
+      "png": "01-clean-original\\08-health-treatment-education.png",
+      "svg": "01-clean-original\\08-health-treatment-education.svg",
+      "size_px": [
+        3188,
+        2356
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "width_mm": 180,
+      "outside_text": [],
+      "png_sha256": "7d1a2073c9448a6b6ba8060491ba5928fdd70321ea2737394ddb0e26c50c1af1"
+    },
+    {
+      "style": "B",
+      "stem": "08-health-treatment-education",
+      "png": "02-paper-style\\08-health-treatment-education.png",
+      "svg": "02-paper-style\\08-health-treatment-education.svg",
+      "size_px": [
+        3188,
+        2356
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "width_mm": 180,
+      "outside_text": [],
+      "png_sha256": "39f1255575d1d0f20e92c34ae44225004bf114509d221be8e7b26079c63a95c1"
+    },
+    {
+      "style": "A",
+      "stem": "09-proposal-counselling-education-evaluation",
+      "png": "01-clean-original\\09-proposal-counselling-education-evaluation.png",
+      "svg": "01-clean-original\\09-proposal-counselling-education-evaluation.svg",
+      "size_px": [
+        3188,
+        974
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "width_mm": 180,
+      "outside_text": [],
+      "png_sha256": "00c86c5aa246d542e06c4abf97a7920c6dca48f02557445d9515b90c434784f4"
+    },
+    {
+      "style": "A",
+      "stem": "10-web-exploration-cycle",
+      "png": "01-clean-original\\10-web-exploration-cycle.png",
+      "svg": "01-clean-original\\10-web-exploration-cycle.svg",
+      "size_px": [
+        3188,
+        1736
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "width_mm": 180,
+      "outside_text": [],
+      "png_sha256": "dec464d202c7f9e75115d7c61ab716a78c4ff6dff3b27bf9cf5e6dc7e9e7b8cd"
+    },
+    {
+      "style": "B",
+      "stem": "09-proposal-counselling-education-evaluation",
+      "png": "02-paper-style\\09-proposal-counselling-education-evaluation.png",
+      "svg": "02-paper-style\\09-proposal-counselling-education-evaluation.svg",
+      "size_px": [
+        3188,
+        974
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "width_mm": 180,
+      "outside_text": [],
+      "png_sha256": "26b629acd84c8730b8ed82eb0940a9df866a1916fd986430259014790d331d8a"
+    },
+    {
+      "style": "B",
+      "stem": "10-web-exploration-cycle",
+      "png": "02-paper-style\\10-web-exploration-cycle.png",
+      "svg": "02-paper-style\\10-web-exploration-cycle.svg",
+      "size_px": [
+        3188,
+        1736
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "width_mm": 180,
+      "outside_text": [],
+      "png_sha256": "39261987f002506ae6114d0fb716a229505212f9a8b652fd0e7406a041d7dbd6"
+    },
+    {
+      "style": "B",
+      "stem": "16-unmet-healthcare-2024",
+      "png": "02-paper-style\\16-unmet-healthcare-2024.png",
+      "svg": "02-paper-style\\16-unmet-healthcare-2024.svg",
+      "size_px": [
+        3188,
+        1824
+      ],
+      "dpi": [
+        450.0118,
+        450.0118
+      ],
+      "width_mm": 180,
+      "outside_text": [],
+      "png_sha256": "9fa3d7d69d70887222de31ab33123138a9aa4e1e1f5d176fa776f0690ecf9b2d"
+    }
+  ],
+  "health_rows_exact": true,
+  "unmet_rows_exact": true,
+  "pdf_created": false
+}

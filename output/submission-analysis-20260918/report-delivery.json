@@ -1,0 +1,50 @@
+[
+  {
+    "path": "docs/40-분석결과/부산-119-5개년통합-우선지역과제안연결-20260918.md",
+    "sha256": "6936ae651b59a534988d5bee15b9d10d101322aba5e7bdecb20f5626234999dc"
+  },
+  {
+    "path": "scripts/write_pooled_five_year_report_20260918.py",
+    "sha256": "8d151a10a58949dbc8f543d70657be5b4fa5439cfb49dce73fc2767b0a6eff11"
+  },
+  {
+    "path": "analysis/00_공통/verify_pooled_five_years_20260917.py",
+    "sha256": "a6788cf7ada6b2ca41fc3d5a5d7a9361b0cc63cba3876ef045e1b4f4f770a4af"
+  },
+  {
+    "path": "data/processed/5개년통합-지역유형-제안연결-20260917/manifest.json",
+    "sha256": "571823355f07d0d989b0a10388cab86ca47fb367d5b5ba827d0123d281341d57"
+  },
+  {
+    "path": "data/processed/5개년통합-지역유형-제안연결-20260917/verification.json",
+    "sha256": "edea5b96207b374c6c049438895efa09c20e6d6b7f17f45e5b129b1927ccd967"
+  },
+  {
+    "path": "data/processed/5개년통합-지역유형-제안연결-20260917/sources/haeundae-disease-service.html",
+    "sha256": "e6988912f36c18bd8e99d6821f7fd7023a56018772d2fd66dd0fe6f30f8cf56f"
+  },
+  {
+    "path": "data/processed/5개년통합-지역유형-제안연결-20260917/sources/haeundae-disease-service.txt",
+    "sha256": "01a95469e43a96a41866e55f930aa93b46571a505dc0d7d362e28d71d80f3562"
+  },
+  {
+    "path": "data/processed/5개년통합-지역유형-제안연결-20260917/sources/manifest.json",
+    "sha256": "be7b6df28b646aa9751b634db20016e0a29c3cf1b4b18278b1fe8ebb8ca669e9"
+  },
+  {
+    "path": "data/processed/5개년통합-지역유형-제안연결-20260917/sources/mora3-outreach-2024.html",
+    "sha256": "267b7c948da6dbc43fcd5cec94d5b03b4742368c7115354ebdf27963a981f2d2"
+  },
+  {
+    "path": "data/processed/5개년통합-지역유형-제안연결-20260917/sources/mora3-outreach-2024.txt",
+    "sha256": "c3b2f5011a93885f095d64f40336358e16ee86770efb765d082b9dbad7ec9977"
+  },
+  {
+    "path": "data/processed/5개년통합-지역유형-제안연결-20260917/sources/sasang-centres.html",
+    "sha256": "13486e2b0050a42d4e8745ea41f415b1ca5ca7edbd5d7249e4886817a1d76c1d"
+  },
+  {
+    "path": "data/processed/5개년통합-지역유형-제안연결-20260917/sources/sasang-centres.txt",
+    "sha256": "cf4c78d1501e3e2f05644f093c54afde5a1c5a39fd1c2458698bedb34610a80d"
+  }
+]

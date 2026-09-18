@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "deliverable": {
+    "path": "C:\\Users\\123\\Desktop\\학교 전체 폴더\\공모전 참가 기록\\부산 공모전\\2026-BigData-논문형시각화.hwp",
+    "bytes": 2951168,
+    "sha256": "6238b022388eb3ae121c113b2f07e2cb3680d94bd6c2e560206fefe57d0d6734"
+  },
+  "pages": 6,
+  "pictures": 6,
+  "text_paragraphs": 0,
+  "zip_created": false,
+  "independent_data_checks": [
+    "metadata/core-independent-check.json",
+    "metadata/pop-health-independent-check.json",
+    "metadata/native-image-pixel-check.json"
+  ]
+}

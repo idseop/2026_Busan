@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "deliveryHashes": 12,
+  "relativeReportLinks": 3,
+  "districtCountsInReport": 16,
+  "residentTableFollowsDistrictCountOrder": true,
+  "nightIntervalClarified": "20:00 <= time < next day 08:00",
+  "visualReview": "Two PNG files opened and inspected; titles, labels, axes and legends legible",
+  "compiledCodeFiles": 3,
+  "planSha256": "1c9e089c96d6b3b7c35825a40ede0de5c870e34a3035482209b9312671147de0",
+  "reportSha256": "6936ae651b59a534988d5bee15b9d10d101322aba5e7bdecb20f5626234999dc"
+}
