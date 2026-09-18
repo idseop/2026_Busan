@@ -2,9 +2,6 @@
 (()=>{
  const enhance=()=>{
   const panel=document.getElementById('left-panel');
-  const search=panel?.querySelector('.search-wrap');
-  const years=panel?.querySelector('.left-year-filter');
-  if(search&&years&&search.nextElementSibling!==years)search.after(years);
   const shortcuts=panel?.querySelector('.deep-shortcuts');
   if(shortcuts&&!shortcuts.closest('.case-disclosure')){
    const disclosure=document.createElement('details');
@@ -13,6 +10,12 @@
    summary.textContent='분석 사례 둘러보기';
    shortcuts.before(disclosure);disclosure.append(summary,shortcuts);
   }
+  const disclosure=panel?.querySelector('.case-disclosure');
+  const regionList=panel?.querySelector('.region-list');
+  if(disclosure&&regionList&&regionList.nextElementSibling!==disclosure)regionList.after(disclosure);
+  const fireControl=panel?.querySelector('.fire-station-control');
+  const footer=panel?.querySelector('.left-footer');
+  if(fireControl&&footer&&footer.previousElementSibling!==fireControl)footer.before(fireControl);
  };
  window.addEventListener('DOMContentLoaded',()=>{
   enhance();

@@ -14,11 +14,11 @@ window.BUSAN_CREATE_MAP=({element,features,onSelect})=>{
  style.sources.outside={type:'geojson',data:window.BUSAN_OUTSIDE_MASK};
  const boundaryLayers=[
   {id:'district-fill',type:'fill',source:'busan',paint:{'fill-color':'#80b7a0','fill-opacity':.035}},
-  {id:'district-line',type:'line',source:'busan',paint:{'line-color':'#668b87','line-width':1.1,'line-opacity':.8}},
   {id:'district-selected',type:'fill',source:'busan',filter:['==',['get','name'],''],paint:{'fill-color':'#168b86','fill-opacity':.12}},
-  {id:'district-selected-line',type:'line',source:'busan',filter:['==',['get','name'],''],paint:{'line-color':'#087c91','line-width':2.5}},
   {id:'explicit-height-buildings',type:'fill-extrusion',source:'heightBuildings',minzoom:13,layout:{visibility:'none'},paint:{'fill-extrusion-color':'#83a7ad','fill-extrusion-height':['get','height'],'fill-extrusion-base':0,'fill-extrusion-opacity':.94,'fill-extrusion-vertical-gradient':true}},
-  {id:'outside-busan',type:'fill',source:'outside',paint:{'fill-color':'#eaf2f5','fill-opacity':1}}
+  {id:'outside-busan',type:'fill',source:'outside',paint:{'fill-color':'#eaf2f5','fill-opacity':1}},
+  {id:'district-line',type:'line',source:'busan',paint:{'line-color':'#668b87','line-width':1.1,'line-opacity':.8}},
+  {id:'district-selected-line',type:'line',source:'busan',filter:['==',['get','name'],''],paint:{'line-color':'#087c91','line-width':2.5}}
  ];
  style.layers.push(...boundaryLayers);
  // A tight viewport bound would crop this tall city on wide PC screens.
@@ -37,7 +37,7 @@ window.BUSAN_CREATE_MAP=({element,features,onSelect})=>{
  function showFocus(value){
   clearFocus();focusPin={...value};const e=document.createElement('div');e.className='scene-focus-pin';
   const dot=document.createElement('span');dot.className='scene-focus-dot';dot.setAttribute('aria-hidden','true');
-  const text=document.createElement('span');text.textContent=value.name+' · '+(value.kind==='background'?'배경 지역':'선택 구·군');
+  const text=document.createElement('span');text.textContent=value.kind==='background'?value.name+' · 배경 지역':value.name;
   e.append(dot,text);e.setAttribute('role','status');
   focusMarker=new maplibregl.Marker({element:e,anchor:'left',offset:[-6,0],pitchAlignment:'viewport',rotationAlignment:'viewport'}).setLngLat([value.lng,value.lat]).addTo(map);labels();
  }

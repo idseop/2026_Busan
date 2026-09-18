@@ -5,7 +5,8 @@
     const control = document.createElement('section');
     control.className='fire-station-control';
     control.innerHTML='<button type="button" class="fire-station-toggle" aria-pressed="true" disabled><span class="fire-station-icon" aria-hidden="true">119</span><span class="fire-station-caption"><strong>소방관서 위치</strong><span class="fire-station-count">불러오는 중…</span></span><span class="fire-station-state">표시 중</span></button><small>같은 위치의 관서는 함께 표시합니다.</small>';
-    document.querySelector('.filter-grid').after(control);
+    const footer=document.querySelector('.left-footer');
+    if(footer)footer.before(control);else document.querySelector('.filter-grid').after(control);
     const toggle=control.querySelector('button'), count=control.querySelector('.fire-station-count');
     const markers=[];
     const popups=[];

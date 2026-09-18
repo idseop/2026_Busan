@@ -47,7 +47,7 @@
   const gradient=total?`conic-gradient(${stops.join(',')})`:'#e5ecef',top=[...items].sort((a,b)=>b.count-a.count)[0];
   const label=items.map(x=>`${x.name} ${n(x.count)}건 ${pct(x.count,total)}`).join(', ');
   const section=document.createElement('section');section.dataset.extension='result';section.className='region-summary';
-  section.innerHTML=`<div class="region-summary-heading"><div><span class="summary-eyebrow">공통 기초통계</span><h3>신고 대분류 구성</h3></div><strong>${n(total)}<small>건</small></strong></div><p class="summary-context">${esc(m.period)} · ${esc(scopeNames[c.scope])} · 모든 신고 유형</p><div class="type-donut-layout"><div class="type-donut" role="img" aria-label="${esc(label||'신고 기록 없음')}" style="--donut:${gradient}"><span><b>${n(total)}</b><small>전체</small></span></div><div class="type-donut-legend">${items.map(x=>`<div><i style="background:${x.color}"></i><span>${esc(x.name)}</span><b>${pct(x.count,total)}</b><small>${n(x.count)}건</small></div>`).join('')}</div></div><p class="summary-takeaway">${total?`가장 큰 비중은 <b>${esc(top.name)} ${pct(top.count,total)}</b>입니다.`:'선택 조건에서 확인된 신고 기록이 없습니다.'}</p><p class="source-date">같은 기간·처리조건에서 대분류가 확인된 분석용 기록의 구성입니다. 실제 사건·출동·환자 수나 주민당 발생률이 아닙니다.</p>`;
+  section.innerHTML=`<div class="region-summary-heading"><div><span class="summary-period">${esc(m.period)}</span><h3>신고 유형별 현황</h3></div><strong>${n(total)}<small>건</small></strong></div><div class="type-donut-layout"><div class="type-donut" role="img" aria-label="${esc(label||'신고 기록 없음')}" style="--donut:${gradient}"><span><b>${n(total)}</b><small>전체</small></span></div><div class="type-donut-legend">${items.map(x=>`<div><i style="background:${x.color}"></i><span>${esc(x.name)}</span><b>${pct(x.count,total)}</b><small>${n(x.count)}건</small></div>`).join('')}</div></div><p class="summary-takeaway">${total?`가장 큰 비중은 <b>${esc(top.name)} ${pct(top.count,total)}</b>입니다.`:'선택 조건에서 확인된 신고 기록이 없습니다.'}</p><p class="source-date">같은 기간·처리조건에서 신고 유형이 확인된 분석용 기록의 구성입니다. 실제 사건·출동·환자 수나 주민당 발생률이 아닙니다.</p>`;
   return section;
  }
  function overview(c,m){
@@ -86,7 +86,8 @@
   const dialog=document.getElementById('analysis-dialog');if(document.getElementById('analysis-open')?.tagName==='BUTTON')document.getElementById('analysis-open').onclick=()=>dialog.showModal();document.getElementById('analysis-close').onclick=()=>dialog.close();
   const shortcuts=document.createElement('section');shortcuts.className='deep-shortcuts';shortcuts.setAttribute('aria-label','심층 분석 사례');
   shortcuts.innerHTML=`<h2>사례 지역 찾기</h2><div>${finalCases().map(item=>`<button data-deep-shortcut="${esc(item.id)}">${esc(item.rawDong)}<span>${esc(item.subtype==='일반화재(주택)'?'주택 화재':item.subtype)}</span></button>`).join('')}</div>`;
-  document.querySelector('.list-tabs').before(shortcuts);
+  const regionList=document.querySelector('.region-list');
+  if(regionList)regionList.after(shortcuts);else document.querySelector('.list-tabs').before(shortcuts);
   shortcuts.querySelectorAll('button').forEach(button=>button.onclick=()=>{
    const item=finalCases().find(x=>x.id===button.dataset.deepShortcut);
    const district=document.getElementById('district'),type=document.getElementById('type'),search=document.getElementById('region-search');
